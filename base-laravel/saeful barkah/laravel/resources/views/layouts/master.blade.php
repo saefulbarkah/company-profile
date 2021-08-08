@@ -21,6 +21,7 @@
         <!-- footer Start -->
         @include('layouts.footer')
         {{-- end footer --}}
+        sadasd
 
     </div>
     {{-- end content --}}
