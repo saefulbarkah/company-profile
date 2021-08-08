@@ -8,7 +8,7 @@
             <div class="row">
                 <div class="col-md-12">
                     <div class="block text-center">
-                        <span class="text-white">Our services</span>
+                        <span class="text-white">Layanan kami</span>
                         <h1 class="text-capitalize mb-4 text-lg">Apa yang kita lakukan</h1>
                         <ul class="list-inline">
                             <li class="list-inline-item"><a href="index.html" class="text-white">Home</a></li>

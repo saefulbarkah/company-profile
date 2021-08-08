@@ -7,12 +7,12 @@
             <div class="row">
                 <div class="col-md-12">
                     <div class="block text-center">
-                        <span class="text-white">Contact Us</span>
-                        <h1 class="text-capitalize mb-4 text-lg">Get in Touch</h1>
+                        <span class="text-white">Hubungi kami</span>
+                        <h1 class="text-capitalize mb-4 text-lg">Segera hubungi kami</h1>
                         <ul class="list-inline">
                             <li class="list-inline-item"><a href="index.html" class="text-white">Home</a></li>
                             <li class="list-inline-item"><span class="text-white">/</span></li>
-                            <li class="list-inline-item"><a href="#" class="text-white-50">Contact Us</a></li>
+                            <li class="list-inline-item"><a href="#" class="text-white-50">Hubungi kami</a></li>
                         </ul>
                     </div>
                 </div>
@@ -23,7 +23,7 @@
     <section class="contact-form-wrap section">
         <div class="container">
             <div class="row">
-                <div class="col-lg-6 col-md-12 col-sm-12">
+                {{-- <div class="col-lg-6 col-md-12 col-sm-12">
                     <form class="" method="POST" action="{{ url('send-email') }}">
                         @csrf
                         <!-- form message -->
@@ -51,22 +51,22 @@
                         </div>
                         <button class="btn btn-main" name="submit" type="submit">Kirim pesan</button>
                     </form>
-                </div>
+                </div> --}}
 
-                <div class="col-lg-5 col-sm-12">
-                    <div class="contact-content pl-lg-5 mt-5 mt-lg-0">
-                        <span class="text-muted">We are Professionals</span>
-                        <h2 class="mb-5 mt-2">Don’t Hesitate to contact with us for any kind of information</h2>
+                <div class="col-lg-12 col-sm-12">
+                    <div class="contact-content pl-lg-12 mt-5 mt-lg-0">
+                        <span class="text-muted">Kami Profesional</span>
+                        <h2 class="mb-5 mt-2">Jangan Ragu untuk menghubungi kami untuk segala jenis informasi</h2>
 
                         <ul class="address-block list-unstyled">
                             <li>
-                                <i class="ti-direction mr-3"></i>North Main Street,Brooklyn Australia
+                                <i class="ti-direction mr-3"></i>Alamat : Kp Bojong, Kec katapang, kab bandung
                             </li>
                             <li>
-                                <i class="ti-email mr-3"></i>Email: contact@mail.com
+                                <i class="ti-email mr-3"></i>Email  : contoh@mail.com
                             </li>
                             <li>
-                                <i class="ti-mobile mr-3"></i>Phone:+88 01672 506 744
+                                <i class="ti-mobile mr-3"></i>Telepon : +88 01672 506 744
                             </li>
                         </ul>
 

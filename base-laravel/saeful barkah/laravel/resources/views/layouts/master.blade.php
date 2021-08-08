@@ -1,8 +1,11 @@
 <!doctype html>
 <html lang="en">
-{{-- head --}}
-@include('layouts.head')
-{{-- end head --}}
+
+    {{-- head --}}
+    <head>
+        @include('layouts.head')
+    </head>
+    {{-- end head --}}
 
 <body>
 
