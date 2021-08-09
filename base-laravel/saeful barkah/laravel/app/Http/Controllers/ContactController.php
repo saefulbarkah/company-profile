@@ -2,14 +2,12 @@
 
 namespace App\Http\Controllers;
 
-class PagesController extends Controller
+use Illuminate\Http\Request;
+
+class ContactController extends Controller
 {
-
-
-
     public function contact()
     {
         return view('pages.contact');
     }
-
 }
