@@ -1,8 +1,8 @@
 @extends('layouts.master')
 
-@section('title', 'Genetic | Portofolio')
 @section('content')
 
+<!-- Portfolio -->
 <div class="portfolio-container section-container">
     <div class="container">
         <div class="row">

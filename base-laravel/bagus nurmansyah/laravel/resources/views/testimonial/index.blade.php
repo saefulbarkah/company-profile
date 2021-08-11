@@ -1,3 +1,8 @@
+@extends('layouts.master')
+
+@section('content')
+
+<!-- Testimonials -->
 <div class="testimonials-container section-container section-container-gray">
     <div class="container">
         <div class="row">
@@ -57,3 +62,5 @@
         </div>
     </div>
 </div>
+
+@endsection

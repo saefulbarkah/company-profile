@@ -3,6 +3,7 @@
 @section('title', 'Hubungi kami')
 @section('content')
 
+<!-- Contact us -->
 <div class="contact-container section-container section-container-gray">
     <div class="container">
         <div class="row">

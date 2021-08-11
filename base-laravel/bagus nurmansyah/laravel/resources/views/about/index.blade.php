@@ -3,33 +3,55 @@
 @section('title', 'Genetic | Tentang kami')
 @section('content')
 
-<div class="what-we-do-container section-container">
+<!-- The team -->
+<div class="team-container section-container">
     <div class="container">
         <div class="row">
-            <div class="col-sm-12 what-we-do section-description wow fadeIn">
-                <h2>What we do</h2>
+            <div class="col-sm-12 team section-description wow fadeIn">
+                <h2>The team</h2>
                 <div class="divider-1 wow fadeInUp"><span></span></div>
                 <p>
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
-                    labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.
+                    Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut
+                    aliquip ex ea commodo consequat. Ut wisi enim ad minim veniam, quis nostrud.
                 </p>
             </div>
         </div>
         <div class="row">
-            <div class="col-sm-4 what-we-do-box wow fadeInUp">
-                <div class="what-we-do-box-icon"><i class="fa fa-pencil"></i></div>
-                <h3>Web design</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore.</p>
+            <div class="col-sm-4 team-box wow fadeInUp">
+                <div class="team-photo">
+                    <img src="assets/img/about/1.jpg" alt="" data-at2x="assets/img/about/1.jpg">
+                </div>
+                <h3>John Doe</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod.</p>
+                <div class="team-social">
+                    <a href="#"><i class="fa fa-facebook"></i></a>
+                    <a href="#"><i class="fa fa-dribbble"></i></a>
+                    <a href="#"><i class="fa fa-twitter"></i></a>
+                </div>
             </div>
-            <div class="col-sm-4 what-we-do-box wow fadeInDown">
-                <div class="what-we-do-box-icon"><i class="fa fa-gears"></i></div>
-                <h3>Development</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore.</p>
+            <div class="col-sm-4 team-box wow fadeInDown">
+                <div class="team-photo">
+                    <img src="assets/img/about/2.jpg" alt="" data-at2x="assets/img/about/2.jpg">
+                </div>
+                <h3>Tim Brown</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod.</p>
+                <div class="team-social">
+                    <a href="#"><i class="fa fa-facebook"></i></a>
+                    <a href="#"><i class="fa fa-dribbble"></i></a>
+                    <a href="#"><i class="fa fa-twitter"></i></a>
+                </div>
             </div>
-            <div class="col-sm-4 what-we-do-box wow fadeInUp">
-                <div class="what-we-do-box-icon"><i class="fa fa-twitter"></i></div>
-                <h3>Social media</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore.</p>
+            <div class="col-sm-4 team-box wow fadeInUp">
+                <div class="team-photo">
+                    <img src="assets/img/about/3.jpg" alt="" data-at2x="assets/img/about/3.jpg">
+                </div>
+                <h3>Sarah Red</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod.</p>
+                <div class="team-social">
+                    <a href="#"><i class="fa fa-facebook"></i></a>
+                    <a href="#"><i class="fa fa-dribbble"></i></a>
+                    <a href="#"><i class="fa fa-twitter"></i></a>
+                </div>
             </div>
         </div>
     </div>

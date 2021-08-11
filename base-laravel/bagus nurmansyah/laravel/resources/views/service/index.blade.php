@@ -1,8 +1,8 @@
 @extends('layouts.master')
 
-@section('title', 'Genetic | Layanan')
 @section('content')
 
+<!-- What we do -->
 <div class="what-we-do-container section-container">
     <div class="container">
         <div class="row">

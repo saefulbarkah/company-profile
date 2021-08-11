@@ -1,5 +1,6 @@
+<!-- Top menu -->
 <nav>
-    <a class="scroll-link" href="#top-content">Top</a>
+    <a class="scroll-link" href="#top-content">Home</a>
     <a class="scroll-link" href="#what-we-do">Services</a>
     <a class="scroll-link" href="#process">Process</a>
     <a class="scroll-link" href="#portfolio">Portfolio</a>
