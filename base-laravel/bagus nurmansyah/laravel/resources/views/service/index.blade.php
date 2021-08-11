@@ -3,7 +3,7 @@
 @section('content')
 
 <!-- What we do -->
-<div class="what-we-do-container section-container">
+<div class="services-container section-container">
     <div class="container">
         <div class="row">
             <div class="col-sm-12 what-we-do section-description wow fadeIn">
