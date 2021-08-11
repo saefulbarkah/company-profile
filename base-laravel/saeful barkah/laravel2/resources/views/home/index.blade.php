@@ -16,7 +16,7 @@
                         amet, consectetur adipisicing elit. Quod, <br> veritatis tempore nostrum id
                         officia quaerat eum corrupti, <br> ipsa aliquam velit.</p>
                     <a data-duration-in=".3" data-animation-in="fadeInUp" data-delay-in=".8" class="btn btn-main"
-                        href="service.html">Jelajahi Kami</a>
+                        href="{{ route('services') }}">Jelajahi kami</a>
                 </div>
             </div>
         </div>
@@ -36,7 +36,7 @@
                         <br> Elemen & cukup letakkan di Kanvas kami.
                     </p>
                     <a data-duration-in=".3" data-animation-in="fadeInDown" data-delay-in=".8" class="btn btn-main"
-                        href="service.html">Explore Us</a>
+                        href="{{ route('services') }}">Jelajahi kami</a>
                 </div>
             </div>
         </div>
@@ -140,7 +140,7 @@
                     <li>Etiam porta sem multipage evint landing magna mollis euismod a pharetra augue.</li>
                     <li>Aenean quam. Pellentesque ornare sem laca quam venenatis vestibulum.</li>
                 </ul>
-                <a href="#" class="btn btn-main mt-20">Learn More</a>
+                <a href="#" class="btn btn-main mt-20">Pelajari lebih lanjut</a>
             </div>
         </div>
         <!-- End row -->
@@ -185,7 +185,7 @@
                 </div>
             </div>
             <!-- first count item -->
-            <div class="col-md-3 col-sm-6 col-xs-6 text-center ">
+            <div class="col-md-4 col-sm-6 col-xs-6 text-center ">
                 <div class="counters-item">
                     <i class="tf-ion-ios-alarm-outline"></i>
                     <div>
@@ -197,7 +197,7 @@
             <!-- end first count item -->
 
             <!-- second count item -->
-            <div class="col-md-3 col-sm-6 col-xs-6 text-center ">
+            <div class="col-md-4 col-sm-6 col-xs-6 text-center ">
                 <div class="counters-item">
                     <i class="tf-ion-ios-analytics-outline"></i>
                     <div>
@@ -209,7 +209,7 @@
             <!-- end second count item -->
 
             <!-- third count item -->
-            <div class="col-md-3 col-sm-6 col-xs-6 text-center ">
+            <div class="col-md-4 col-sm-6 col-xs-6 text-center ">
                 <div class="counters-item">
                     <i class="tf-ion-ios-compose-outline"></i>
                     <div>
@@ -220,18 +220,6 @@
                 </div>
             </div>
             <!-- end third count item -->
-
-            <!-- fourth count item -->
-            <div class="col-md-3 col-sm-6 col-xs-6 text-center ">
-                <div class="counters-item kill-border">
-                    <i class="tf-ion-ios-bolt-outline"></i>
-                    <div>
-                        <span class="counter" data-count="250">0</span>
-                    </div>
-                    <h3>Cups of Coffee</h3>
-                </div>
-            </div>
-            <!-- end fourth count item -->
         </div>
         <!-- end row -->
     </div>
@@ -330,84 +318,4 @@
 </section>
 <!-- End Section -->
 
-
-
-
-
-<!--Start Blog Section-->
-<section class="blog" id="blog">
-    <div class="container">
-        <div class="row">
-
-            <!-- section title -->
-            <div class="col-12">
-                <div class="title text-center ">
-                    <h2> Latest <span class="color">Posts</span></h2>
-                    <div class="border"></div>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ducimus facere accusamus, reprehenderit
-                        libero
-                        inventore nam.</p>
-                </div>
-            </div>
-            <!-- /section title -->
-            <!-- single blog post -->
-            <article class="col-md-4 col-sm-6 col-xs-12 clearfix ">
-                <div class="post-item">
-                    <div class="media-wrapper">
-                        <img src="{{ asset('_template/images/blog/post-1.jpg') }}" alt="amazing caves coverimage"
-                            class="img-fluid">
-                    </div>
-
-                    <div class="content">
-                        <h3><a href="single-post.html">Reasons to Smile</a></h3>
-                        <p>Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad
-                            squid. 3 wolf
-                            moon officia aute, non skateboard dolor brunch.</p>
-                        <a class="btn btn-main" href="single-post.html">Read more</a>
-                    </div>
-                </div>
-            </article>
-            <!-- /single blog post -->
-
-            <!-- single blog post -->
-            <article class="col-md-4 col-sm-6 col-xs-12 ">
-                <div class="post-item">
-                    <div class="media-wrapper">
-                        <img src="{{ asset('_template/images/blog/post-2.jpg') }}" alt="amazing caves coverimage"
-                            class="img-fluid">
-                    </div>
-
-                    <div class="content">
-                        <h3><a href="single-post.html">A Few Moments</a></h3>
-                        <p>Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad
-                            squid. 3 wolf
-                            moon officia aute, non skateboard dolor brunch.</p>
-                        <a class="btn btn-main" href="single-post.html">Read more</a>
-                    </div>
-                </div>
-            </article>
-            <!-- end single blog post -->
-
-            <!-- single blog post -->
-            <article class="col-md-4 col-sm-6 col-xs-12 ">
-                <div class="post-item">
-                    <div class="media-wrapper">
-                        <img src="{{ asset('_template/images/blog/post-3.jpg') }}" alt="amazing caves coverimage"
-                            class="img-fluid">
-                    </div>
-
-                    <div class="content">
-                        <h3><a href="single-post.html">Hints for Life</a></h3>
-                        <p>Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad
-                            squid. 3 wolf
-                            moon officia aute, non skateboard dolor brunch.</p>
-                        <a class="btn btn-main" href="single-post.html">Read more</a>
-                    </div>
-                </div>
-            </article>
-            <!-- end single blog post -->
-        </div> <!-- end row -->
-    </div> <!-- end container -->
-</section>
-<!-- end section -->
 @endsection
