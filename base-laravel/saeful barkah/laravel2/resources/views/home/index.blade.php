@@ -77,7 +77,7 @@
                     <div class="col-md-6 col-sm-6 col-xs-12">
                         <div class="service-item">
                             <i class="tf-ion-ios-briefcase-outline"></i>
-                            <h4>Marketing Ideas</h4>
+                            <h4>Ide Pemasaran</h4>
                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce vitae risus nec dui
                                 venenatis.</p>
                         </div>
@@ -85,7 +85,7 @@
                     <div class="col-md-6 col-sm-6 col-xs-12">
                         <div class="service-item">
                             <i class="tf-ion-ios-email-outline"></i>
-                            <h4>Mail Support</h4>
+                            <h4>Dukungan Surat</h4>
                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce vitae risus nec dui
                                 venenatis.</p>
                         </div>
@@ -93,7 +93,7 @@
                     <div class="col-md-6 col-sm-6 col-xs-12">
                         <div class="service-item">
                             <i class="tf-ion-ios-locked-outline"></i>
-                            <h4>Secure System</h4>
+                            <h4>Sistem Aman</h4>
                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce vitae risus nec dui
                                 venenatis.</p>
                         </div>
