@@ -4,6 +4,7 @@
 @section('content')
 
 <!-- The team -->
+<section class="about">
 <div class="team-container section-container">
     <div class="container">
         <div class="row">
@@ -56,5 +57,6 @@
         </div>
     </div>
 </div>
+</section>
 
 @endsection

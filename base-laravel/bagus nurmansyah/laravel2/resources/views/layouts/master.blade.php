@@ -1,5 +1,5 @@
-<!doctype html>
-<html lang="en">
+<!DOCTYPE html>
+<html class="no-js">
 
     {{-- head --}}
     <head>
@@ -10,12 +10,12 @@
 <body>
 
     {{-- Navbar --}}
-    @include('layouts.navbar')
+    @include('layouts.top-bar')
     {{-- end navbar --}}
 
 
     {{-- content --}}
-    <div class="main-wrapper ">
+    <div class="main-wrapper">
         @yield('content')
 
         <!-- footer Start -->

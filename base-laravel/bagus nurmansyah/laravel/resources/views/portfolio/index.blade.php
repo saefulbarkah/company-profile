@@ -3,6 +3,7 @@
 @section('content')
 
 <!-- Portfolio -->
+<section class="portfolio">
 <div class="portfolio-container section-container">
     <div class="container">
         <div class="row">
@@ -125,5 +126,6 @@
         </div>
     </div>
 </div>
+</section>
 
 @endsection
