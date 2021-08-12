@@ -11,7 +11,7 @@
                             <h2>Contact</h2>
                             <ol class="breadcrumb list-inline text-center">
                                 <li class="list-inline-item">
-                                    <a href="index.html">
+                                    <a href="{{ url('/') }}">
                                         <i class="ion-ios-home"></i>
                                         Home  &nbsp; &nbsp;/
                                     </a>
@@ -115,29 +115,5 @@
         </div>
     </div>
 </section>
-
-
-
-
-            <!--
-            ==================================================
-            Call To Action Section Start
-            ================================================== -->
-            <section id="call-to-action">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-md-12">
-                            <div class="block">
-                                <h2 class="title wow fadeInDown" data-wow-delay=".3s" data-wow-duration="500ms">SO WHAT YOU THINK ?</h1>
-                                <p class="wow fadeInDown" data-wow-delay=".5s" data-wow-duration="500ms">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis,<br>possimus commodi, fugiat magnam temporibus vero magni recusandae? Dolore, maxime praesentium.</p>
-                                <a href="contact.html" class="btn btn-default btn-contact wow fadeInDown" data-wow-delay=".7s" data-wow-duration="500ms">Contact With Me</a>
-                            </div>
-                        </div>
-
-                    </div>
-                </div>
-            </section>
-
-        </section>
 
 @endsection

@@ -3,11 +3,33 @@
 @section('content')
 
 <section class="about">
+
+    <section class="global-page-header">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="block">
+                        <h2>About Company</h2>
+                        <ol class="breadcrumb list-inline text-center">
+                            <li class="list-inline-item">
+                                <a href="{{ url('/') }}">
+                                    <i class="ion-ios-home"></i>
+                                    Home  &nbsp; &nbsp;/
+                                </a>
+                            </li>
+                            <li class="active list-inline-item">About</li>
+                        </ol>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
 <section class="company-description">
     <div class="container">
         <div class="row">
             <div class="col-md-6 wow fadeInLeft" data-wow-delay=".3s" >
-                <img src="images/about/about-company.jpg" alt="" class="img-fluid">
+                <img src="{{ asset('assets/images/about/about-company.jpg')}}" alt="" class="img-fluid">
             </div>
             <div class="col-md-6">
                 <div class="block">
@@ -81,7 +103,7 @@
             <div class="col-md-3 col-sm-6">
                 <div class="team-member wow fadeInLeft" data-wow-duration="500ms" data-wow-delay=".3s">
                     <div class="team-img">
-                        <img src="images/team/team-1.jpg" class="team-pic" alt="">
+                        <img src="{{ asset('assets/images/team/team-1.jpg')}}" class="team-pic" alt="">
                     </div>
                     <h3 class="team_name">Jonathon Andrew</h3>
                     <p class="team_designation">CEO, Project Manager</p>
@@ -97,7 +119,7 @@
             <div class="col-md-3 col-sm-6">
                 <div class="team-member wow fadeInLeft" data-wow-duration="500ms" data-wow-delay=".5s">
                     <div class="team-img">
-                        <img src="images/team/team-2.jpg" class="team-pic" alt="">
+                        <img src="{{ asset('assets/images/team/team-2.jpg')}}" class="team-pic" alt="">
                     </div>
                     <h3 class="team_name">Jesmin Martina</h3>
                     <p class="team_designation">CEO, Project Manager</p>
@@ -113,7 +135,7 @@
             <div class="col-md-3 col-sm-6">
                 <div class="team-member wow fadeInLeft" data-wow-duration="500ms" data-wow-delay=".7s">
                     <div class="team-img">
-                        <img src="images/team/team-3.jpg" class="team-pic" alt="">
+                        <img src="{{ asset('assets/images/team/team-3.jpg')}}" class="team-pic" alt="">
                     </div>
                     <h3 class="team_name">Deu John</h3>
                     <p class="team_designation">CEO, Project Manager</p>
@@ -129,7 +151,7 @@
             <div class="col-md-3 col-sm-6">
                 <div class="team-member wow fadeInLeft" data-wow-duration="500ms" data-wow-delay=".9s">
                     <div class="team-img">
-                        <img src="images/team/team-4.jpg" class="team-pic" alt="">
+                        <img src="{{ asset('assets/images/team/team-4.jpg')}}" class="team-pic" alt="">
                     </div>
                     <h3 class="team_name">Anderson Martin</h3>
                     <p class="team_designation">CEO, Project Manager</p>
@@ -159,43 +181,21 @@
                 <p class="subtitle-des text-center wow fadeInUp animated" data-wow-duration="500ms" data-wow-delay=".5s">Lorem
                     ipsum dolor sit amet, consectetur adipisicing elit. Labore, error.</p>
                 <div id="clients-logo" class="clients-logo-slider">
-                    <img class="img-fluid mx-2" src="images/clients/logo-1.jpg" alt="">
-                    <img class="img-fluid mx-2" src="images/clients/logo-2.jpg" alt="">
-                    <img class="img-fluid mx-2" src="images/clients/logo-3.jpg" alt="">
-                    <img class="img-fluid mx-2" src="images/clients/logo-4.jpg" alt="">
-                    <img class="img-fluid mx-2" src="images/clients/logo-5.jpg" alt="">
-                    <img class="img-fluid mx-2" src="images/clients/logo-1.jpg" alt="">
-                    <img class="img-fluid mx-2" src="images/clients/logo-2.jpg" alt="">
-                    <img class="img-fluid mx-2" src="images/clients/logo-3.jpg" alt="">
-                    <img class="img-fluid mx-2" src="images/clients/logo-4.jpg" alt="">
-                    <img class="img-fluid mx-2" src="images/clients/logo-5.jpg" alt="">
+                    <img class="img-fluid mx-2" src="{{ asset('assets/images/clients/logo-1.jpg')}}" alt="">
+                    <img class="img-fluid mx-2" src="{{ asset('assets/images/clients/logo-2.jpg')}}" alt="">
+                    <img class="img-fluid mx-2" src="{{ asset('assets/images/clients/logo-3.jpg')}}" alt="">
+                    <img class="img-fluid mx-2" src="{{ asset('assets/images/clients/logo-4.jpg')}}" alt="">
+                    <img class="img-fluid mx-2" src="{{ asset('assets/images/clients/logo-5.jpg')}}" alt="">
+                    <img class="img-fluid mx-2" src="{{ asset('assets/images/clients/logo-1.jpg')}}" alt="">
+                    <img class="img-fluid mx-2" src="{{ asset('assets/images/clients/logo-2.jpg')}}" alt="">
+                    <img class="img-fluid mx-2" src="{{ asset('assets/images/clients/logo-3.jpg')}}" alt="">
+                    <img class="img-fluid mx-2" src="{{ asset('assets/images/clients/logo-4.jpg')}}" alt="">
+                    <img class="img-fluid mx-2" src="{{ asset('assets/images/clients/logo-5.jpg')}}" alt="">
                 </div>
             </div>
         </div>
     </div>
 </section>
-
-
-
-
-
-            <!--
-            ==================================================
-            Call To Action Section Start
-            ================================================== -->
-            <section id="call-to-action">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-md-12">
-                            <div class="block">
-                                <h2 class="title wow fadeInDown" data-wow-delay=".3s" data-wow-duration="500ms">SO WHAT YOU THINK ?</h1>
-                                <p class="wow fadeInDown" data-wow-delay=".5s" data-wow-duration="500ms">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis,<br>possimus commodi, fugiat magnam temporibus vero magni recusandae? Dolore, maxime praesentium.</p>
-                                <a href="contact.html" class="btn btn-default btn-contact wow fadeInDown" data-wow-delay=".7s" data-wow-duration="500ms">Contact With Me</a>
-                            </div>
-                        </div>
-
-                    </div>
-                </div>
-            </section>
 </section>
+
 @endsection

@@ -2,71 +2,11 @@
 @section('title', 'Genetic Wear')
 @section('content')
 
-<section class="home">
-<section class="top-bar animated-header">
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-12">
-                <nav class="navbar navbar-expand-lg navbar-light bg-light">
-                    <a class="navbar-brand" href="index.html">
-                        <img src="images/logo.png" alt="logo">
-                    </a>
-                    <button class="navbar-toggler" type="button" data-toggle="collapse"
-                        data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-                        aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
-
-                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                        <ul class="navbar-nav ml-auto">
-                            <li class="nav-item">
-                                <a class="nav-link" href="index.html">Home
-                                    <span class="sr-only">(current)</span>
-                                </a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="about.html">About</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="service.html">Service</a>
-                            </li>
-                            <li class="nav-item dropdown">
-                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
-                                    data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                    Pages
-                                </a>
-                                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                    <a class="dropdown-item" href="404.html">404 Page</a>
-                                    <a class="dropdown-item" href="gallery.html">Gallery</a>
-                                    <a class="dropdown-item" href="single-post.html">Single Post</a>
-                                </div>
-                            </li>
-                            <li class="nav-item dropdown">
-                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
-                                    data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                    Blog
-                                </a>
-                                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                    <a class="dropdown-item" href="blog-fullwidth.html">Blog Full</a>
-                                    <a class="dropdown-item" href="blog-left-sidebar.html">Blog Left sidebar</a>
-                                    <a class="dropdown-item" href="blog-right-sidebar.html">Blog Right sidebar</a>
-                                </div>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="contact.html">Contact</a>
-                            </li>
-                        </ul>
-                    </div>
-                </nav>
-            </div>
-        </div>
-    </div>
-</section>
-
 <!--
 ==================================================
 Slider Section Start
 ================================================== -->
+<section class="home">
 <section id="hero-area">
     <div class="container">
         <div class="row">
@@ -76,11 +16,11 @@ Slider Section Start
                     <!-- Slider -->
                     <section class="cd-intro">
                         <h1 class="wow fadeInUp animated cd-headline slide" data-wow-delay=".4s">
-                            <span>HI, MY NAME IS JONATHON &amp; I AM A</span><br>
+                            <span>HI, MY NAME IS BAGOESYAH &amp; I AM A</span><br>
                             <span class="cd-words-wrapper">
                                 <b class="is-visible">DESIGNER</b>
                                 <b>DEVELOPER</b>
-                                <b>FATHER</b>
+                                <b>STUDENT</b>
                             </span>
                         </h1>
                     </section> <!-- cd-intro -->
@@ -125,7 +65,7 @@ About Section Start
             </div>
             <div class="col-md-6 col-sm-6">
                 <div class="block wow fadeInRight" data-wow-delay=".3s" data-wow-duration="500ms">
-                    <img src="images/about/about.jpg" alt="">
+                    <img src="{{ asset('assets/images/about/about.jpg')}}" alt="">
                 </div>
             </div>
         </div>
@@ -152,11 +92,11 @@ Portfolio Section Start
                 <figure class="wow fadeInLeft animated portfolio-item" data-wow-duration="500ms"
                     data-wow-delay="0ms">
                     <div class="img-wrapper">
-                        <img src="images/portfolio/item-1.jpg" class="img-fluid" alt="this is a title">
+                        <img src="{{ asset('assets/images/portfolio/item-1.jpg')}}" class="img-fluid" alt="this is a title">
                         <div class="overlay">
                             <div class="buttons">
-                                <a rel="gallery" class="fancybox" href="images/portfolio/item-1.jpg">Demo</a>
-                                <a target="_blank" href="single-portfolio.html">Details</a>
+                                <a rel="gallery" class="fancybox" href="{{ asset('assets/images/portfolio/item-1.jpg')}}">Demo</a>
+                                <a target="_blank" href="{{ url('portfolio') }}">Details</a>
                             </div>
                         </div>
                     </div>
@@ -175,11 +115,11 @@ Portfolio Section Start
             <div class="col-md-4 col-sm-6">
                 <figure class="wow fadeInLeft animated" data-wow-duration="500ms" data-wow-delay="300ms">
                     <div class="img-wrapper">
-                        <img src="images/portfolio/item-2.jpg" class="img-fluid" alt="this is a title">
+                        <img src="{{ asset('assets/images/portfolio/item-2.jpg')}}" class="img-fluid" alt="this is a title">
                         <div class="overlay">
                             <div class="buttons">
-                                <a rel="gallery" class="fancybox" href="images/portfolio/item-2.jpg">Demo</a>
-                                <a target="_blank" href="single-portfolio.html">Details</a>
+                                <a rel="gallery" class="fancybox" href="{{ asset('assets/images/portfolio/item-2.jpg')}}">Demo</a>
+                                <a target="_blank" href="{{ url('portfolio') }}">Details</a>
                             </div>
                         </div>
                     </div>
@@ -198,11 +138,11 @@ Portfolio Section Start
             <div class="col-md-4 col-sm-6">
                 <figure class="wow fadeInLeft animated" data-wow-duration="500ms" data-wow-delay="300ms">
                     <div class="img-wrapper">
-                        <img src="images/portfolio/item-3.jpg" class="img-fluid" alt="">
+                        <img src="{{ asset('assets/images/portfolio/item-3.jpg')}}" class="img-fluid" alt="">
                         <div class="overlay">
                             <div class="buttons">
-                                <a rel="gallery" class="fancybox" href="images/portfolio/item-3.jpg">Demo</a>
-                                <a target="_blank" href="single-portfolio.html">Details</a>
+                                <a rel="gallery" class="fancybox" href="{{ asset('assets/images/portfolio/item-3.jpg')}}">Demo</a>
+                                <a target="_blank" href="{{ url('portfolio') }}">Details</a>
                             </div>
                         </div>
                     </div>
@@ -221,11 +161,11 @@ Portfolio Section Start
             <div class="col-md-4 col-sm-6">
                 <figure class="wow fadeInLeft animated" data-wow-duration="500ms" data-wow-delay="600ms">
                     <div class="img-wrapper">
-                        <img src="images/portfolio/item-4.jpg" class="img-fluid" alt="">
+                        <img src="{{ asset('assets/images/portfolio/item-4.jpg')}}" class="img-fluid" alt="">
                         <div class="overlay">
                             <div class="buttons">
-                                <a rel="gallery" class="fancybox" href="images/portfolio/item-4.jpg">Demo</a>
-                                <a target="_blank" href="single-portfolio.html">Details</a>
+                                <a rel="gallery" class="fancybox" href="{{ asset('assets/images/portfolio/item-4.jpg')}}">Demo</a>
+                                <a target="_blank" href="{{ url('portfolio') }}">Details</a>
                             </div>
                         </div>
                     </div>
@@ -244,11 +184,11 @@ Portfolio Section Start
             <div class="col-md-4 col-sm-6">
                 <figure class="wow fadeInLeft animated" data-wow-duration="500ms" data-wow-delay="900ms">
                     <div class="img-wrapper">
-                        <img src="images/portfolio/item-5.jpg" class="img-fluid" alt="">
+                        <img src="{{ asset('assets/images/portfolio/item-5.jpg')}}" class="img-fluid" alt="">
                         <div class="overlay">
                             <div class="buttons">
-                                <a rel="gallery" class="fancybox" href="images/portfolio/item-5.jpg">Demo</a>
-                                <a target="_blank" href="single-portfolio.html">Details</a>
+                                <a rel="gallery" class="fancybox" href="{{ asset('assets/images/portfolio/item-5.jpg')}}">Demo</a>
+                                <a target="_blank" href="{{ url('portfolio') }}">Details</a>
                             </div>
                         </div>
                     </div>
@@ -267,11 +207,11 @@ Portfolio Section Start
             <div class="col-md-4 col-sm-6">
                 <figure class="wow fadeInLeft animated" data-wow-duration="500ms" data-wow-delay="1200ms">
                     <div class="img-wrapper">
-                        <img src="images/portfolio/item-6.jpg" class="img-fluid" alt="">
+                        <img src="{{ asset('assets/images/portfolio/item-6.jpg')}}" class="img-fluid" alt="">
                         <div class="overlay">
                             <div class="buttons">
-                                <a rel="gallery" class="fancybox" href="images/portfolio/item-6.jpg">Demo</a>
-                                <a target="_blank" href="single-portfolio.html">Details</a>
+                                <a rel="gallery" class="fancybox" href="{{ asset('assets/images/portfolio/item-6.jpg')}}">Demo</a>
+                                <a target="_blank" href="{{ url('portfolio') }}">Details</a>
                             </div>
                         </div>
                     </div>
@@ -386,28 +326,4 @@ Portfolio Section Start
     </div>
 </section> <!-- /#feature -->
 
-
-<!--
-        ==================================================
-        Call To Action Section Start
-        ================================================== -->
-<section id="call-to-action">
-    <div class="container">
-        <div class="row">
-            <div class="col-md-12">
-                <div class="block">
-                    <h2 class="title wow fadeInDown" data-wow-delay=".3s" data-wow-duration="500ms">SO WHAT YOU
-                        THINK ?</h1>
-                        <p class="wow fadeInDown" data-wow-delay=".5s" data-wow-duration="500ms">Lorem ipsum dolor
-                            sit amet, consectetur adipisicing elit. Nobis,<br>possimus commodi, fugiat magnam
-                            temporibus vero magni recusandae? Dolore, maxime praesentium.</p>
-                        <a href="contact.html" class="btn btn-default btn-contact wow fadeInDown"
-                            data-wow-delay=".7s" data-wow-duration="500ms">Contact With Me</a>
-                    </div>
-                </div>
-
-            </div>
-        </div>
-    </section>
-</section>
 @endsection

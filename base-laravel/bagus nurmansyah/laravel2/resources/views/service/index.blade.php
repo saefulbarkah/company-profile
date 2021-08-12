@@ -3,64 +3,6 @@
 @section('content')
 
 <section class="service">
-<section class="top-bar animated-header">
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-12">
-                <nav class="navbar navbar-expand-lg navbar-light bg-light">
-                    <a class="navbar-brand" href="index.html">
-                        <img src="../images/logo.png" alt="logo">
-                    </a>
-                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-                        aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
-
-                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                        <ul class="navbar-nav ml-auto">
-                            <li class="nav-item">
-                                <a class="nav-link" href="index.html">Home
-                                    <span class="sr-only">(current)</span>
-                                </a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="about.html">About</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="service.html">Service</a>
-                            </li>
-                            <li class="nav-item dropdown">
-                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true"
-                                    aria-expanded="false">
-                                    Pages
-                                </a>
-                                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                    <a class="dropdown-item" href="404.html">404 Page</a>
-                                    <a class="dropdown-item" href="gallery.html">Gallery</a>
-                                    <a class="dropdown-item" href="single-post.html">Single Post</a>
-                                </div>
-                            </li>
-                            <li class="nav-item dropdown">
-                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true"
-                                    aria-expanded="false">
-                                    Blog
-                                </a>
-                                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                    <a class="dropdown-item" href="blog-fullwidth.html">Blog Full</a>
-                                    <a class="dropdown-item" href="blog-left-sidebar.html">Blog Left sidebar</a>
-                                    <a class="dropdown-item" href="blog-right-sidebar.html">Blog Right sidebar</a>
-                                </div>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="contact.html">Contact</a>
-                            </li>
-                        </ul>
-                    </div>
-                </nav>
-            </div>
-        </div>
-    </div>
-</section>
 
         <!--
         ==================================================
@@ -74,7 +16,7 @@
                             <h2>Service</h2>
                             <ol class="breadcrumb list-inline text-center">
                                 <li class="list-inline-item">
-                                    <a href="index.html">
+                                    <a href="{{ url('/') }}">
                                         <i class="ion-ios-home"></i>
                                         Home  &nbsp; &nbsp;/
                                     </a>
@@ -144,7 +86,7 @@
             </div>
             <div class="col-lg-6 order-1 order-lg-2">
                 <div class="block">
-                    <img class="img-fluid" src="images/team.jpg" alt="">
+                    <img class="img-fluid" src="{{ asset('assets/images/team.jpg')}}" alt="">
                 </div>
             </div>
         </div>
@@ -169,10 +111,10 @@
             <div class="col-md-3 col-sm-6">
                 <figure class="wow fadeInLeft animated portfolio-item" data-wow-duration="500ms" data-wow-delay="0ms">
                     <div class="img-wrapper">
-                        <img src="images/portfolio/item-1.jpg" class="img-fluid" alt="this is a title">
+                        <img src="{{ asset('assets/images/portfolio/item-1.jpg')}}" class="img-fluid" alt="this is a title">
                         <div class="overlay">
                             <div class="buttons">
-                                <a rel="gallery" class="fancybox" href="images/portfolio/item-1.jpg">Demo</a>
+                                <a rel="gallery" class="fancybox" href="{{ asset('assets/images/portfolio/item-1.jpg')}}">Demo</a>
                                 <a target="_blank" href="">Details</a>
                             </div>
                         </div>
@@ -193,10 +135,10 @@
             <div class="col-md-3 col-sm-6">
                 <figure class="wow fadeInLeft animated" data-wow-duration="500ms" data-wow-delay="300ms">
                     <div class="img-wrapper">
-                        <img src="images/portfolio/item-2.jpg" class="img-fluid" alt="this is a title">
+                        <img src="{{ asset('assets/images/portfolio/item-2.jpg')}}" class="img-fluid" alt="this is a title">
                         <div class="overlay">
                             <div class="buttons">
-                                <a rel="gallery" class="fancybox" href="images/portfolio/item-2.jpg">Demo</a>
+                                <a rel="gallery" class="fancybox" href="{{ asset('assets/images/portfolio/item-2.jpg')}}">Demo</a>
                                 <a target="_blank" href="">Details</a>
                             </div>
                         </div>
@@ -217,10 +159,10 @@
             <div class="col-md-3 col-sm-6">
                 <figure class="wow fadeInLeft animated" data-wow-duration="500ms" data-wow-delay="300ms">
                     <div class="img-wrapper">
-                        <img src="images/portfolio/item-3.jpg" class="img-fluid" alt="">
+                        <img src="{{ asset('assets/images/portfolio/item-3.jpg')}}" class="img-fluid" alt="">
                         <div class="overlay">
                             <div class="buttons">
-                                <a rel="gallery" class="fancybox" href="images/portfolio/item-3.jpg">Demo</a>
+                                <a rel="gallery" class="fancybox" href="{{ asset('assets/images/portfolio/item-3.jpg')}}">Demo</a>
                                 <a target="_blank" href="">Details</a>
                             </div>
                         </div>
@@ -241,10 +183,10 @@
             <div class="col-md-3 col-sm-6">
                 <figure class="wow fadeInLeft animated" data-wow-duration="500ms" data-wow-delay="600ms">
                     <div class="img-wrapper">
-                        <img src="images/portfolio/item-4.jpg" class="img-fluid" alt="">
+                        <img src="{{ asset('assets/images/portfolio/item-4.jpg')}}" class="img-fluid" alt="">
                         <div class="overlay">
                             <div class="buttons">
-                                <a rel="gallery" class="fancybox" href="images/portfolio/item-4.jpg">Demo</a>
+                                <a rel="gallery" class="fancybox" href="{{ asset('assets/images/portfolio/item-4.jpg')}}">Demo</a>
                                 <a target="_blank" href="">Details</a>
                             </div>
                         </div>
@@ -278,40 +220,20 @@
                 <p class="subtitle-des text-center wow fadeInUp animated" data-wow-duration="500ms" data-wow-delay=".5s">Lorem
                     ipsum dolor sit amet, consectetur adipisicing elit. Labore, error.</p>
                 <div id="clients-logo" class="clients-logo-slider">
-                    <img class="img-fluid mx-2" src="images/clients/logo-1.jpg" alt="">
-                    <img class="img-fluid mx-2" src="images/clients/logo-2.jpg" alt="">
-                    <img class="img-fluid mx-2" src="images/clients/logo-3.jpg" alt="">
-                    <img class="img-fluid mx-2" src="images/clients/logo-4.jpg" alt="">
-                    <img class="img-fluid mx-2" src="images/clients/logo-5.jpg" alt="">
-                    <img class="img-fluid mx-2" src="images/clients/logo-1.jpg" alt="">
-                    <img class="img-fluid mx-2" src="images/clients/logo-2.jpg" alt="">
-                    <img class="img-fluid mx-2" src="images/clients/logo-3.jpg" alt="">
-                    <img class="img-fluid mx-2" src="images/clients/logo-4.jpg" alt="">
-                    <img class="img-fluid mx-2" src="images/clients/logo-5.jpg" alt="">
+                    <img class="img-fluid mx-2" src="{{ asset('assets/images/clients/logo-1.jpg')}}" alt="">
+                    <img class="img-fluid mx-2" src="{{ asset('assets/images/clients/logo-2.jpg')}}" alt="">
+                    <img class="img-fluid mx-2" src="{{ asset('assets/images/clients/logo-3.jpg')}}" alt="">
+                    <img class="img-fluid mx-2" src="{{ asset('assets/images/clients/logo-4.jpg')}}" alt="">
+                    <img class="img-fluid mx-2" src="{{ asset('assets/images/clients/logo-5.jpg')}}" alt="">
+                    <img class="img-fluid mx-2" src="{{ asset('assets/images/clients/logo-1.jpg')}}" alt="">
+                    <img class="img-fluid mx-2" src="{{ asset('assets/images/clients/logo-2.jpg')}}" alt="">
+                    <img class="img-fluid mx-2" src="{{ asset('assets/images/clients/logo-3.jpg')}}" alt="">
+                    <img class="img-fluid mx-2" src="{{ asset('assets/images/clients/logo-4.jpg')}}" alt="">
+                    <img class="img-fluid mx-2" src="{{ asset('assets/images/clients/logo-5.jpg')}}" alt="">
                 </div>
             </div>
         </div>
     </div>
 </section>
-
-            <!--
-            ==================================================
-            Call To Action Section Start
-            ================================================== -->
-            <section id="call-to-action">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-md-12">
-                            <div class="block">
-                                <h2 class="title wow fadeInDown" data-wow-delay=".3s" data-wow-duration="500ms">SO WHAT YOU THINK ?</h1>
-                                <p class="wow fadeInDown" data-wow-delay=".5s" data-wow-duration="500ms">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis,<br>possimus commodi, fugiat magnam temporibus vero magni recusandae? Dolore, maxime praesentium.</p>
-                                <a href="contact.html" class="btn btn-default btn-contact wow fadeInDown" data-wow-delay=".7s" data-wow-duration="500ms">Contact With Me</a>
-                            </div>
-                        </div>
-
-                    </div>
-                </div>
-            </section>
-        </section>
 
 @endsection

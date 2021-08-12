@@ -30,7 +30,7 @@
             <div class="col-lg-12">
                 <div class="work-single-image">
                     <!-- Work Single Image -->
-                    <img class="img-fluid w-100" src="images/portfolio/post-1.jpg" alt="work-single-image">
+                    <img class="img-fluid w-100" src="{{ asset('assets/images/portfolio/post-1.jpg')}}" alt="work-single-image">
                 </div>
             </div>
         </div>
@@ -98,11 +98,11 @@
             <div class="col-md-3 col-sm-6">
                 <figure class="wow fadeInLeft animated portfolio-item animated" data-wow-duration="300ms" data-wow-delay="0ms" style="visibility: visible; animation-duration: 300ms; -webkit-animation-duration: 300ms; animation-delay: 0ms; -webkit-animation-delay: 0ms; animation-name: fadeInLeft; -webkit-animation-name: fadeInLeft;">
                     <div class="img-wrapper">
-                        <img src="images/portfolio/item-1.jpg" class="img-fluid" alt="portfolio items">
+                        <img src="{{ asset('assets/images/portfolio/item-1.jpg')}}" class="img-fluid" alt="portfolio items">
                         <div class="overlay">
                             <div class="buttons">
-                                <a rel="gallery" title="Proin imperdiet augue et magna interdum hendrerit" class="fancybox" href="images/portfolio/item-1.jpg">Demo</a>
-                                <a target="_blank" href="single-portfolio.html">Details</a>
+                                <a rel="gallery" title="Proin imperdiet augue et magna interdum hendrerit" class="fancybox" href="{{ asset('assets/images/portfolio/item-1.jpg')}}">Demo</a>
+                                <a target="_blank" href="{{ url('portfolio') }}">Details</a>
                             </div>
                         </div>
                     </div>
@@ -122,11 +122,11 @@
             <div class="col-md-3 col-sm-6">
                 <figure class="wow fadeInLeft animated animated" data-wow-duration="300ms" data-wow-delay="300ms" style="visibility: visible; animation-duration: 300ms; -webkit-animation-duration: 300ms; animation-delay: 300ms; -webkit-animation-delay: 300ms; animation-name: fadeInLeft; -webkit-animation-name: fadeInLeft;">
                     <div class="img-wrapper">
-                        <img src="images/portfolio/item-2.jpg" class="img-fluid" alt="portfolio items">
+                        <img src="{{ asset('assets/images/portfolio/item-2.jpg')}}" class="img-fluid" alt="portfolio items">
                         <div class="overlay">
                             <div class="buttons">
-                                <a rel="gallery" title="Proin imperdiet augue et magna interdum hendrerit" class="fancybox" href="images/portfolio/item-2.jpg">Demo</a>
-                                <a target="_blank"  href="single-portfolio.html">Details</a>
+                                <a rel="gallery" title="Proin imperdiet augue et magna interdum hendrerit" class="fancybox" href="{{ asset('assets/images/portfolio/item-2.jpg')}}">Demo</a>
+                                <a target="_blank"  href="{{ url('portfolio') }}">Details</a>
                             </div>
                         </div>
                     </div>
@@ -146,11 +146,11 @@
             <div class="col-md-3 col-sm-6">
                 <figure class="wow fadeInLeft animated animated" data-wow-duration="300ms" data-wow-delay="300ms" style="visibility: visible; animation-duration: 300ms; -webkit-animation-duration: 300ms; animation-delay: 300ms; -webkit-animation-delay: 300ms; animation-name: fadeInLeft; -webkit-animation-name: fadeInLeft;">
                     <div class="img-wrapper">
-                        <img src="images/portfolio/item-3.jpg" class="img-fluid" alt="">
+                        <img src="{{ asset('assets/images/portfolio/item-3.jpg')}}" class="img-fluid" alt="">
                         <div class="overlay">
                             <div class="buttons">
-                                <a rel="gallery" title="Proin imperdiet augue et magna interdum hendrerit" class="fancybox" href="images/portfolio/item-3.jpg">Demo</a>
-                                <a target="_blank" href="single-portfolio.html">Details</a>
+                                <a rel="gallery" title="Proin imperdiet augue et magna interdum hendrerit" class="fancybox" href="{{ asset('assets/images/portfolio/item-3.jpg')}}">Demo</a>
+                                <a target="_blank" href="{{ url('portfolio') }}">Details</a>
                             </div>
                         </div>
                     </div>
@@ -170,11 +170,11 @@
             <div class="col-md-3 col-sm-6">
                 <figure class="wow fadeInLeft animated animated" data-wow-duration="300ms" data-wow-delay="600ms" style="visibility: visible; animation-duration: 300ms; -webkit-animation-duration: 300ms; animation-delay: 600ms; -webkit-animation-delay: 600ms; animation-name: fadeInLeft; -webkit-animation-name: fadeInLeft;">
                     <div class="img-wrapper">
-                        <img src="images/portfolio/item-4.jpg" class="img-fluid" alt="">
+                        <img src="{{ asset('assets/images/portfolio/item-4.jpg')}}" class="img-fluid" alt="">
                         <div class="overlay">
                             <div class="buttons">
-                                <a rel="gallery" title="Proin imperdiet augue et magna interdum hendrerit" class="fancybox" href="images/portfolio/item-4.jpg">Demo</a>
-                                <a target="_blank" href="single-portfolio.html">Details</a>
+                                <a rel="gallery" title="Proin imperdiet augue et magna interdum hendrerit" class="fancybox" href="{{ asset('assets/images/portfolio/item-4.jpg')}}">Demo</a>
+                                <a target="_blank" href="{{ url('portfolio') }}">Details</a>
                             </div>
                         </div>
                     </div>
@@ -193,25 +193,5 @@
         </div>
     </div>
 </section>
-
-             <!--
-            ==================================================
-            Call To Action Section Start
-            ================================================== -->
-            <section id="call-to-action">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-md-12">
-                            <div class="block">
-                                <h2 class="title wow fadeInDown" data-wow-delay=".3s" data-wow-duration="500ms">SO WHAT YOU THINK ?</h1>
-                                <p class="wow fadeInDown" data-wow-delay=".5s" data-wow-duration="500ms">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis,<br>possimus commodi, fugiat magnam temporibus vero magni recusandae? Dolore, maxime praesentium.</p>
-                                <a href="contact.html" class="btn btn-default btn-contact wow fadeInDown" data-wow-delay=".7s" data-wow-duration="500ms">Contact With Me</a>
-                            </div>
-                        </div>
-
-                    </div>
-                </div>
-            </section>
-        </section>
 
 @endsection

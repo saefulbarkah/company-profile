@@ -1,6 +1,20 @@
 <!DOCTYPE html>
 <html class="no-js">
 
+    <!-- Basic Page Needs
+     ================================================== -->
+     <meta charset="utf-8">
+     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+     <link rel="icon" href="favicon.ico">
+     <title>Timer Agency Template</title>
+     <meta name="description" content="">
+     <meta name="keywords" content="">
+     <meta name="author" content="">
+     <!-- Mobile Specific Metas
+     ================================================== -->
+     <meta name="format-detection" content="telephone=no">
+     <meta name="viewport" content="width=device-width, initial-scale=1">
+
     {{-- head --}}
     <head>
         @include('layouts.head')
