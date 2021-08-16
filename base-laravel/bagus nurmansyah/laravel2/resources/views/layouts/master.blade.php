@@ -17,7 +17,24 @@
 
     {{-- head --}}
     <head>
-        @include('layouts.head')
+        <!-- Template CSS Files
+        ================================================== -->
+    <!-- Twitter Bootstrs CSS -->
+    <link rel="stylesheet" href=" {{ asset('assets/plugins/bootstrap/bootstrap.min.css')}} ">
+    <!-- Ionicons Fonts Css -->
+    <link rel="stylesheet" href=" {{ asset('assets/plugins/ionicons/ionicons.min.css')}} ">
+    <!-- animate css -->
+    <link rel="stylesheet" href=" {{ asset('assets/plugins/animate-css/animate.css')}} ">
+    <!-- Hero area slider css-->
+    <link rel="stylesheet" href=" {{ asset('assets/plugins/slider/slider.css')}} ">
+    <!-- slick slider -->
+    <link rel="stylesheet" href=" {{ asset('assets/plugins/slick/slick.css')}} ">
+    <!-- Fancybox -->
+    <link rel="stylesheet" href=" {{ asset('assets/plugins/facncybox/jquery.fancybox.css')}} ">
+    <!-- hover -->
+    <link rel="stylesheet" href=" {{ asset('assets/plugins/hover/hover-min.css')}} ">
+    <!-- template main css file -->
+    <link rel="stylesheet" href=" {{ asset('assets/css/style.css')}} ">
     </head>
     {{-- end head --}}
 
@@ -40,8 +57,27 @@
     {{-- end content --}}
 
     {{-- javascripts --}}
-    @include('layouts.js')
+    <!-- Template Javascript Files
+	================================================== -->
+    <!-- jquery -->
+    <script src="{{ asset('assets/plugins/jQurey/jquery.min.js')}}"></script>
+    <!-- Form Validation -->
+    <script src="{{ asset('assets/plugins/form-validation/jquery.form.js')}}"></script>
+    <script src="{{ asset('assets/plugins/form-validation/jquery.validate.min.js')}}"></script>
+    <!-- slick slider -->
+    <script src="{{ asset('assets/plugins/slick/slick.min.js')}}"></script>
+    <!-- bootstrap js -->
+    <script src="{{ asset('assets/plugins/bootstrap/bootstrap.min.js')}}"></script>
+    <!-- wow js -->
+    <script src="{{ asset('assets/plugins/wow-js/wow.min.js')}}"></script>
+    <!-- slider js -->
+    <script src="{{ asset('assets/plugins/slider/slider.js')}}"></script>
+    <!-- Fancybox -->
+    <script src="{{ asset('assets/plugins/facncybox/jquery.fancybox.js')}}"></script>
+    <!-- template main js -->
+    <script src="{{ asset('assets/js/main.js')}}"></script>
     {{-- end javascripts --}}
+
 </body>
 
 </html>
