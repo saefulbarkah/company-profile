@@ -24,3 +24,7 @@ Route::get('/portfolio','PortfolioController@portfolio')->name('portfolio');
 Route::get('/contact','ContactController@contact')->name('contact');
 Route::post('/contact','ContactController@postContact');
 Route::get('/pricing','PricingController@pricing')->name('pricing');
+
+Auth::routes();
+
+Route::get('/home', 'HomeController@index')->name('home');
