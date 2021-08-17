@@ -29,6 +29,7 @@
     <link rel="stylesheet" href="{{ asset('_template/plugins/slick/slick.css') }}">
     <!-- Main Stylesheet -->
     <link rel="stylesheet" href="{{ asset('_template/css/style.css') }}">
+
 </head>
 {{-- head --}}
 
