@@ -72,7 +72,6 @@ About Section Start
     </div>
 </section> <!-- /#about -->
 
-
 <!--
 ==================================================
 Portfolio Section Start
