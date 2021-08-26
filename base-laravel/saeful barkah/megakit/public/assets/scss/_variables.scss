@@ -1,11 +1,31 @@
-$light: #fff;
-$primary-color: rgb(247, 87, 87);
-// $primary-color: #13b1cd;
-$secondary-color: #f5f8f9;
-$event-color: #c54041;
-$law-color: #b99769;
-$black: #242424;
-$border-color:#dedede;
-$primary-font:'Montserrat', sans-serif;
-$secondary-font:'Poppins', sans-serif;
-$extra-font:'Hind', serif;
+/*font Variables*/
+$rob: 'Roboto', sans-serif;
+$hee: 'Heebo', sans-serif;  
+
+
+/*Color Variables*/
+$baseColor: #faba00; 
+$dip: #222222;
+$pfont: #777777; 
+
+
+/*=================== fonts ====================*/
+@import url('https://fonts.googleapis.com/css?family=Heebo:300,400,500,700|Roboto:300,400,500,700');
+
+// Mixins
+@mixin transition($property: all, $duration: 300ms, $animate: linear, $delay:0s){
+    transition: $property $duration $animate $delay; 
+}
+
+// Placeholder Mixins
+
+@mixin placeholder {
+  &.placeholder { @content; }
+  &:-moz-placeholder { @content; }
+  &::-moz-placeholder { @content; }
+  &::-webkit-input-placeholder { @content; }
+}
+
+
+
+

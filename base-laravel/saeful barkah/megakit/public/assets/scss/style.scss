@@ -1,38 +1,93 @@
-@import 'variables.scss';
+/*----------------------------------------------------
+@File: Default Styles
+@Author: Rocky Ahmed
+@URL: http://wethemez.com
+Author E-mail: rockybd1995@gmail.com
 
-@import 'mixins.scss';
+This file contains the styling for the actual theme, this
+is the file you need to edit to change the look of the
+theme.
+---------------------------------------------------- */
 
-@import 'media-query.scss';
+/*=====================================================================
+@Template Name: HostHub Construction 
+@Author: Rocky Ahmed
+@Developed By: Rocky Ahmed
+@Developer URL: http://rocky.wethemez.com
+Author E-mail: rockybd1995@gmail.com
 
-@import 'typography.scss';
+@Default Styles
 
-@import 'common.scss';
+Table of Content:
+01/ Variables
+02/ predefin
+03/ header
+04/ button
+05/ banner
+06/ breadcrumb
+07/ about
+08/ team
+09/ project 
+10/ price 
+11/ team 
+12/ blog 
+13/ video  
+14/ features  
+15/ career  
+16/ contact 
+17/ footer
 
-@import 'main.scss';
+=====================================================================*/ 
 
-@import 'templates/header.scss';
+/*----------------------------------------------------*/
+@import "variables";
+/*---------------------------------------------------- */ 
 
-@import 'templates/navigation.scss';
-@import 'templates/backgrounds.scss';
+/*----------------------------------------------------*/
+@import "predefine";
+/*---------------------------------------------------- */
 
-@import 'templates/slider.scss';
-@import 'templates/intro.scss';
-@import 'templates/about.scss';
-@import 'templates/counter.scss';
-@import 'templates/team.scss';
+/*----------------------------------------------------*/
+@import "header";
+/*---------------------------------------------------- */
 
-@import 'templates/service.scss';
-@import 'templates/cta.scss';
-@import 'templates/review.scss';
-@import 'templates/pricing.scss';
-@import 'templates/portfolio.scss';
-@import 'templates/contact.scss';
-@import 'templates/blog.scss';
-@import 'templates/single-post.scss';
-@import 'templates/blog-sidebar.scss';
+/*----------------------------------------------------*/
+@import "breadcrumb";
+/*---------------------------------------------------- */
 
-@import 'templates/footer.scss';
-@import 'templates/responsive.scss';
+/*----------------------------------------------------*/
+@import "blog";
+/*---------------------------------------------------- */
+
+/*----------------------------------------------------*/
+@import "contact";
+/*---------------------------------------------------- */ 
+
+/*----------------------------------------------------*/
+@import "elements";
+/*---------------------------------------------------- */
+
+/*----------------------------------------------------*/
+@import "button";
+/*---------------------------------------------------- */
+
+/*----------------------------------------------------*/
+@import "feature";
+/*---------------------------------------------------- */
+
+/*----------------------------------------------------*/
+@import "projects";
+/*---------------------------------------------------- */
+
+/*----------------------------------------------------*/
+@import "clients";
+/*---------------------------------------------------- */
+
+/*----------------------------------------------------*/
+@import "footer";
+/*---------------------------------------------------- */
+
+
 
 
 
