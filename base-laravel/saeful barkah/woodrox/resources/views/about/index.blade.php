@@ -34,7 +34,7 @@
                 </div>
             </div>
             <div class="col-lg-6">
-                <img class="img-fluid" src="img/about-1.jpg" alt="">
+                <img class="img-fluid" src="{{ asset('assets/img/about-1.jpg' ) }}" alt="">
             </div>
         </div>
     </div>
@@ -45,28 +45,28 @@
 <section class="projects_area">
     <div class="row m0">
         <div class="projects_item wd_18">
-            <img src="img/projects/projects-1.jpg" alt="">
+            <img src="{{ asset('assets/img/projects/projects-1.jpg' ) }}" alt="">
             <div class="hover">
                 <h4>Alex Complex for esidence</h4>
                 <p>LCD screens are uniquely modern in style, and the liquid crystals that make them work have allowed humanity to create  slimmer.</p>
             </div>
         </div>
         <div class="projects_item wd_18">
-            <img src="img/projects/projects-2.jpg" alt="">
+            <img src="{{ asset('assets/img/projects/projects-2.jpg' ) }}" alt="">
             <div class="hover">
                 <h4>Alex Complex for esidence</h4>
                 <p>LCD screens are uniquely modern in style, and the liquid crystals that make them work have allowed humanity to create  slimmer.</p>
             </div>
         </div>
         <div class="projects_item wd_44">
-            <img src="img/projects/projects-3.jpg" alt="">
+            <img src="{{ asset('assets/img/projects/projects-3.jpg' ) }}" alt="">
             <div class="hover">
                 <h4>Alex Complex for esidence</h4>
                 <p>LCD screens are uniquely modern in style, and the liquid crystals that make them work have allowed humanity to create  slimmer.</p>
             </div>
         </div>
         <div class="projects_item wd_18">
-            <img src="img/projects/projects-4.jpg" alt="">
+            <img src="{{ asset('assets/img/projects/projects-4.jpg' ) }}" alt="">
             <div class="hover">
                 <h4>Alex Complex for esidence</h4>
                 <p>LCD screens are uniquely modern in style, and the liquid crystals that make them work have allowed humanity to create  slimmer.</p>
@@ -130,19 +130,19 @@
     <div class="container">
         <div class="clients_slider owl-carousel">
             <div class="item">
-                <img src="img/clients-logo/c-logo-1.png" alt="">
+                <img src="{{ asset('assets/img/clients-logo/c-logo-1.png' ) }}" alt="">
             </div>
             <div class="item">
-                <img src="img/clients-logo/c-logo-2.png" alt="">
+                <img src="{{ asset('assets/img/clients-logo/c-logo-2.png' ) }}" alt="">
             </div>
             <div class="item">
-                <img src="img/clients-logo/c-logo-3.png" alt="">
+                <img src="{{ asset('assets/img/clients-logo/c-logo-3.png' ) }}" alt="">
             </div>
             <div class="item">
-                <img src="img/clients-logo/c-logo-4.png" alt="">
+                <img src="{{ asset('assets/img/clients-logo/c-logo-4.png' ) }}" alt="">
             </div>
             <div class="item">
-                <img src="img/clients-logo/c-logo-5.png" alt="">
+                <img src="{{ asset('assets/img/clients-logo/c-logo-5.png' ) }}" alt="">
             </div>
         </div>
     </div>
