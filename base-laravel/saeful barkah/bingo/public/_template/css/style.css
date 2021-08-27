@@ -5,6 +5,32 @@ body {
   -webkit-font-smoothing: antialiased;
 }
 
+.map-responsive{
+
+    overflow:hidden;
+
+    padding-bottom:56.25%;
+
+    position:relative;
+
+    height:0;
+
+}
+
+.map-responsive iframe{
+
+    left:0;
+
+    top:0;
+
+    height:300px;
+
+    width:100%;
+
+    position:absolute;
+
+}
+
 p {
   font-family: "Source Sans Pro", sans-serif;
   color: #848484;
