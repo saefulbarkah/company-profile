@@ -19,7 +19,7 @@
         <div class="row">
 
             <!-- section title -->
-            <div class="col-12">
+            <div class="col-sm-12">
                 <div class="title text-center">
                     <h2>Kontak kami</h2>
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptate facilis eveniet maiores ab
@@ -60,31 +60,10 @@
                 </div>
                 <!--/. End Footer Social Links -->
             </div>
-            <!-- / End Contact Details -->
-
-            <!-- Contact Form -->
-            <div class="contact-form col-md-6 ">
-                <form method="POST" role="form" action="{{ url('contact') }}">
-                    @csrf
-                    <div class="form-group">
-                        <input type="email" placeholder="Email..." class="form-control" name="email" id="email">
-                    </div>
-
-                    <div class="form-group">
-                        <input type="subject" placeholder="Subjek..." class="form-control" name="subject" id="subject">
-                    </div>
-
-                    <div class="form-group">
-                        <textarea rows="6" placeholder="Pesan...." class="form-control" name="message"
-                            id="message"></textarea>
-                    </div>
-                    <div id="cf-submit">
-                        <input type="submit" id="contact-submit" class="btn btn-transparent" value="Submit">
-                    </div>
-                </form>
+            <div class="contact-details col-md-6 ">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d588.6679504933044!2d107.57418209530506!3d-7.001020950017788!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e68eead56b8f89f%3A0x3fc9157f74855daf!2sGenetic%20Wear%20Workshop!5e0!3m2!1sid!2sid!4v1630035982778!5m2!1sid!2sid" width="600" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
             </div>
-            <!-- ./End Contact Form -->
-
+            <!-- / End Contact Details -->
         </div> <!-- end row -->
     </div> <!-- end container -->
 </section>
