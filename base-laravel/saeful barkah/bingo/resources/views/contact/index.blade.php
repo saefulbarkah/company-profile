@@ -19,43 +19,38 @@
         <div class="row">
 
             <!-- section title -->
-            <div class="col-sm-12">
+            {{-- <div class="col-sm-12">
                 <div class="title text-center">
                     <h2>Kontak kami</h2>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptate facilis eveniet maiores ab
-                        maxime nam ut numquam molestiae quaerat incidunt?</p>
+                    <p></p>
                     <div class="border"></div>
                 </div>
-            </div>
+            </div> --}}
             <!-- /section title -->
 
             <!-- Contact Details -->
             <div class="contact-details col-md-6 ">
                 <h3>Detail Kontak</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam, vero, provident, eum eligendi
-                    blanditiis ex explicabo vitae nostrum facilis asperiores dolorem illo officiis ratione vel fugiat
-                    dicta laboriosam labore adipisci.</p>
+                <p></p>
                 <ul class="contact-short-info">
                     <li>
                         <i class="tf-ion-ios-home"></i>
-                        <span>Kab bandung</span>
+                        <span> Jl. Katapang Andir No.503, Sangkanhurip, Kec. Katapang, Bandung, 40921</span>
                     </li>
                     <li>
                         <i class="tf-ion-android-phone-portrait"></i>
-                        <span>Phone: +831-8001-2053</span>
+                        <span>Phone: 081221337876</span>
                     </li>
                     <li>
                         <i class="tf-ion-android-mail"></i>
-                        <span>Email: saefulbarkah650@gmail.com</span>
+                        <span>Email: genetic.wear@gmail.com</span>
                     </li>
                 </ul>
                 <!-- Footer Social Links -->
                 <div class="social-icon">
                     <ul>
                         <li><a href="#"><i class="tf-ion-social-facebook"></i></a></li>
-                        <li><a href="#"><i class="tf-ion-social-twitter"></i></a></li>
-                        <li><a href="#"><i class="tf-ion-social-dribbble-outline"></i></a></li>
-                        <li><a href="#"><i class="tf-ion-social-linkedin-outline"></i></a></li>
+                        <li><a href="https://www.instagram.com/gntcwr/" target="_blank" ><i class="tf-ion-social-instagram"></i></a></li>
                     </ul>
                 </div>
                 <!--/. End Footer Social Links -->
@@ -68,5 +63,4 @@
     </div> <!-- end container -->
 </section>
 <!-- end section -->
-
 @endsection
