@@ -1,67 +1,45 @@
-<footer class="footer section">
+<footer class="footer_area p_120">
     <div class="container">
-        <div class="row">
-            {{-- <div class="col-lg-3 col-md-6 col-sm-6">
-                <div class="widget">
-                    <h4 class="text-capitalize mb-4">Company</h4>
-                    <ul class="list-unstyled footer-menu lh-35">
-                        <li><a href="#">Terms & Conditions</a></li>
-                        <li><a href="#">Privacy Policy</a></li>
-                        <li><a href="#">Support</a></li>
-                        <li><a href="#">FAQ</a></li>
-                    </ul>
-                </div>
-            </div> --}}
-            <div class="col-lg-3 col-md-6 col-sm-6">
-                <div class="widget">
-                    <h4 class="text-capitalize mb-4">Menu</h4>
-                    <ul class="list-unstyled footer-menu lh-35">
-                        <li><a href="{{ url('about') }}">Tentang kami</a></li>
-                        <li><a href="{{ url('service') }}">Layanan</a></li>
-                        <li><a href="{{ url('portfolio') }}">Portofolio</a></li>
-                        <li><a href="{{ url('contact') }}">Kontak</a></li>
-                    </ul>
-                </div>
-            </div>
-            <div class="col-lg-3 col-md-6 col-sm-6">
-                <div class="widget">
-                    <h4 class="text-capitalize mb-4">Berlangganan Kami</h4>
-                    <p>Berlangganan untuk mendapatkan artikel dan sumber berita terbaru </p>
-                    <form action="#" class="sub-form">
-                        <input type="text" class="form-control mb-3" placeholder="Berlangganan sekarang">
-                        <a href="#" class="btn btn-main btn-small">Berlangganan</a>
-                    </form>
-                </div>
-            </div>
-
-            <div class="col-lg-3 ml-auto col-sm-6">
-                <div class="widget">
-                    <div class="logo mb-4">
-                        <h3>Genetic<span> wear.</span></h3>
+        <div class="row footer_inner">
+            <div class="col-lg-5 col-sm-6">
+                <aside class="f_widget ab_widget">
+                    <div class="f_title">
+                        <h3>About Me</h3>
                     </div>
-                    <h6><a href="tel:+23-345-67890">Support@geneticwear.com</a></h6>
-                    <a href="mailto:support@gmail.com"><span class="text-color h4">+62-831-8001-2053</span></a>
-                </div>
+                    <p>Do you want to be even more successful? Learn to love learning and growth. The more effort you put into improving your skills,</p>
+                    <p></p>
+                </aside>
             </div>
-        </div>
-
-        <div class="footer-btm pt-4">
-            <div class="row">
-                <div class="col-lg-6">
-                    <div class="copyright">
-                        &copy; Copyright Reserved to <span class="text-color">Geneticwear.</span></a>
+            <div class="col-lg-5 col-sm-6">
+                <aside class="f_widget news_widget">
+                    <div class="f_title">
+                        <h3>Newsletter</h3>
                     </div>
-                </div>
-                <div class="col-lg-6 text-left text-lg-right">
-                    <ul class="list-inline footer-socials">
-                        <li class="list-inline-item"><a href="https://www.facebook.com/themefisher"><i
-                                    class="ti-facebook mr-2"></i>Facebook</a></li>
-                        <li class="list-inline-item"><a href="https://twitter.com/themefisher"><i
-                                    class="ti-twitter mr-2"></i>Twitter</a></li>
-                        <li class="list-inline-item"><a href="https://www.pinterest.com/themefisher/"><i
-                                    class="ti-linkedin mr-2 "></i>Linkedin</a></li>
+                    <p>Stay updated with our latest trends</p>
+                    <div id="mc_embed_signup">
+                        <form target="_blank" action="https://spondonit.us12.list-manage.com/subscribe/post?u=1462626880ade1ac87bd9c93a&amp;id=92a4423d01" method="get" class="subscribe_form relative">
+                            <div class="input-group d-flex flex-row">
+                                <input name="EMAIL" placeholder="Enter email address" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Email Address '" required="" type="email">
+                                <button class="btn sub-btn"><span class="lnr lnr-arrow-right"></span></button>
+                            </div>
+                            <div class="mt-10 info"></div>
+                        </form>
+                    </div>
+                </aside>
+            </div>
+            <div class="col-lg-2">
+                <aside class="f_widget social_widget">
+                    <div class="f_title">
+                        <h3>Follow Me</h3>
+                    </div>
+                    <p>Let us be social</p>
+                    <ul class="list">
+                        <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                        <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                        <li><a href="#"><i class="fa fa-dribbble"></i></a></li>
+                        <li><a href="#"><i class="fa fa-behance"></i></a></li>
                     </ul>
-                </div>
+                </aside>
             </div>
         </div>
     </div>
