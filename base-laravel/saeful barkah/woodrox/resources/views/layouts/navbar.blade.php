@@ -1,51 +1,56 @@
-<header class="navigation">
-    <div class="header-top ">
+<header class="header_area">
+    <div class="top_menu">
         <div class="container">
-            <div class="row justify-content-between align-items-center">
-                <div class="col-lg-2 col-md-4">
-                    <div class="header-top-socials text-center text-lg-left text-md-left">
-                        <a href="#"><i class="ti-facebook"></i></a>
-                        <a href="#"><i class="ti-twitter"></i></a>
-                        <a href="#"><i class="ti-github"></i></a>
-                    </div>
+            <div class="top_inner">
+                <div class="float-left">
+                    <a href="#">Visit Us</a>
+                    <a href="#">Online Support</a>
                 </div>
-                <div class="col-lg-10 col-md-8 text-center text-lg-right text-md-right">
-                    <div class="header-top-info">
-                        <a href="tel:+23-345-67890">Hubungi kami : <span>+62 831-8001-2053</span></a>
-                        <a href="mailto:support@gmail.com"><i
-                                class="fa fa-envelope mr-2"></i><span>saefulbarkah650@gmail.com</span></a>
-                    </div>
+                <div class="float-right">
+                    <ul class="list header_socila">
+                        <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                        <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                        <li><a href="#"><i class="fa fa-dribbble"></i></a></li>
+                        <li><a href="#"><i class="fa fa-behance"></i></a></li>
+                    </ul>
                 </div>
             </div>
         </div>
     </div>
-    <nav class="navbar navbar-expand-lg  py-4" id="navbar">
-        <div class="container">
-            <a class="navbar-brand" href="index.html">
-                Genetic<span> Wear</span>
-            </a>
-
-            <button class="navbar-toggler collapsed" type="button" data-toggle="collapse"
-                data-target="#navbarsExample09" aria-controls="navbarsExample09" aria-expanded="false"
-                aria-label="Toggle navigation">
-                <span class="fa fa-bars"></span>
-            </button>
-
-            <div class="collapse navbar-collapse text-center" id="navbarsExample09">
-                <ul class="navbar-nav ml-auto">
-                    <li class="nav-item active">
-                        <a class="nav-link" href="{{ url('/') }}">Beranda <span
-                                class="sr-only">(current)</span></a>
-                    </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link" href="{{ url('about') }}" aria-haspopup="true"
-                            aria-expanded="false">Tentang kami</a>
-                    </li>
-                    <li class="nav-item"><a class="nav-link" href="{{ url('service') }}">Layanan</a></li>
-                    <li class="nav-item"><a class="nav-link" href="{{ url('portfolio') }}">portofolio</a></li>
-                    <li class="nav-item"><a class="nav-link" href="{{ url('contact') }}">Kontak</a></li>
-                </ul>
-            </div>
-        </div>
-    </nav>
+ <div class="main_menu" id="mainNav">
+     <nav class="navbar navbar-expand-lg navbar-light">
+         <div class="container">
+             <!-- Brand and toggle get grouped for better mobile display -->
+             <a class="navbar-brand logo_h" href="index.html"><img src="img/logo.png" alt=""><img src="img/logo-2.png" alt=""></a>
+             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                 <span class="icon-bar"></span>
+                 <span class="icon-bar"></span>
+                 <span class="icon-bar"></span>
+             </button>
+             <!-- Collect the nav links, forms, and other content for toggling -->
+             <div class="collapse navbar-collapse offset" id="navbarSupportedContent">
+                 <ul class="nav navbar-nav menu_nav ml-auto">
+                     <li class="nav-item active"><a class="nav-link" href="index.html">Home</a></li>
+                     <li class="nav-item"><a class="nav-link" href="about-us.html">About</a></li>
+                     <li class="nav-item submenu dropdown">
+                         <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Pages</a>
+                         <ul class="dropdown-menu">
+                             <li class="nav-item"><a class="nav-link" href="projects.html">Project</a></li>
+                             <li class="nav-item"><a class="nav-link" href="project-details.html">Project Details</a></li>
+                             <li class="nav-item"><a class="nav-link" href="elements.html">Elements</a></li>
+                         </ul>
+                     </li>
+                     <li class="nav-item submenu dropdown">
+                         <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Blog</a>
+                         <ul class="dropdown-menu">
+                             <li class="nav-item"><a class="nav-link" href="blog.html">Blog</a></li>
+                             <li class="nav-item"><a class="nav-link" href="single-blog.html">Blog Details</a></li>
+                         </ul>
+                     </li>
+                     <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+                 </ul>
+             </div>
+         </div>
+     </nav>
+ </div>
 </header>
