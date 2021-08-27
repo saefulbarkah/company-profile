@@ -2,375 +2,152 @@
 
 @section('title', 'Genetic | Tentang kami')
 @section('content')
-    <section class="page-title bg-1">
+
+<!--================Home Banner Area =================-->
+<section class="banner_area">
+    <div class="banner_inner d-flex align-items-center">
+        <div class="overlay bg-parallax" data-stellar-ratio="0.9" data-stellar-vertical-offset="0" data-background=""></div>
         <div class="container">
-            <div class="row">
-                <div class="col-md-12">
-                    <div class="block text-center">
-                        <span class="text-white">Tentang Kami</span>
-                        <h1 class="text-capitalize mb-4 text-lg">Perusahaan Kita</h1>
-                        <ul class="list-inline">
-                            <li class="list-inline-item"><a href="index.html" class="text-white">Home</a></li>
-                            <li class="list-inline-item"><span class="text-white">/</span></li>
-                            <li class="list-inline-item"><a href="#" class="text-white-50">Tentang kami</a></li>
-                        </ul>
-                    </div>
+            <div class="banner_content text-center">
+                <h2>About Us</h2>
+                <div class="page_link">
+                    <a href="index.html">Home</a>
+                    <a href="about-us.html">About Us</a>
                 </div>
             </div>
         </div>
-    </section>
+    </div>
+</section>
+<!--================End Home Banner Area =================-->
 
-
-    <!-- Section About Start -->
-    <section class="section about-2 position-relative">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-6 col-md-6">
-                    <div class="about-item pr-3 mb-5 mb-lg-0">
-                        <span class="h6 text-color">Siapa Kami</span>
-                        <h2 class="mt-3 mb-4 position-relative content-title">Kami adalah tim dinamis dari orang-orang
-                            kreatif</h2>
-                        <p class="mb-5">Kami menyediakan layanan konsultasi di bidang IFRS dan pelaporan manajemen, membantu
-                            perusahaan mencapai level tertinggi mereka. Kami mengoptimalkan proses bisnis, membuatnya lebih
-                            mudah.</p>
-                        <a href="#" class="btn btn-main btn-round-full">Memulai</a>
-                    </div>
+<!--================About Area =================-->
+<section class="about_area p_120">
+    <div class="container">
+        <div class="about_inner row">
+            <div class="col-lg-6">
+                <div class="about_left_text">
+                    <h6>Brand new app to blow your mind</h6>
+                    <h3>We’ve made a life <br />that will change you</h3>
+                    <h5>We are here to listen from you deliver exellence</h5>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod temp or incididunt ut labore et dolore magna aliqua. Ut enim ad minim.</p>
+                    <a class="main_btn" href="#">Get Started Now</a>
                 </div>
-                <div class="col-lg-6 col-md-6">
-                    <div class="about-item-img">
-                        <img src="{{ asset('assets/images/about/home-7.jpg') }}" alt="" class="img-fluid">
-                    </div>
+            </div>
+            <div class="col-lg-6">
+                <img class="img-fluid" src="img/about-1.jpg" alt="">
+            </div>
+        </div>
+    </div>
+</section>
+<!--================End About Area =================-->
+
+<!--================Projects Area =================-->
+<section class="projects_area">
+    <div class="row m0">
+        <div class="projects_item wd_18">
+            <img src="img/projects/projects-1.jpg" alt="">
+            <div class="hover">
+                <h4>Alex Complex for esidence</h4>
+                <p>LCD screens are uniquely modern in style, and the liquid crystals that make them work have allowed humanity to create  slimmer.</p>
+            </div>
+        </div>
+        <div class="projects_item wd_18">
+            <img src="img/projects/projects-2.jpg" alt="">
+            <div class="hover">
+                <h4>Alex Complex for esidence</h4>
+                <p>LCD screens are uniquely modern in style, and the liquid crystals that make them work have allowed humanity to create  slimmer.</p>
+            </div>
+        </div>
+        <div class="projects_item wd_44">
+            <img src="img/projects/projects-3.jpg" alt="">
+            <div class="hover">
+                <h4>Alex Complex for esidence</h4>
+                <p>LCD screens are uniquely modern in style, and the liquid crystals that make them work have allowed humanity to create  slimmer.</p>
+            </div>
+        </div>
+        <div class="projects_item wd_18">
+            <img src="img/projects/projects-4.jpg" alt="">
+            <div class="hover">
+                <h4>Alex Complex for esidence</h4>
+                <p>LCD screens are uniquely modern in style, and the liquid crystals that make them work have allowed humanity to create  slimmer.</p>
+            </div>
+        </div>
+    </div>
+</section>
+<!--================End Projects Area =================-->
+
+<!--================Feature Area =================-->
+<section class="feature_area p_120">
+    <div class="container">
+        <div class="main_title">
+            <h2>Some Features that Made us Unique</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.</p>
+        </div>
+        <div class="row feature_inner">
+            <div class="col-lg-4 col-md-6">
+                <div class="feature_item">
+                    <h4><i class="lnr lnr-user"></i>Expert Technicians</h4>
+                    <p>Usage of the Internet is becoming more common due to rapid advancement of technology and power.</p>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6">
+                <div class="feature_item">
+                    <h4><i class="lnr lnr-license"></i>Professional Service</h4>
+                    <p>Usage of the Internet is becoming more common due to rapid advancement of technology and power.</p>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6">
+                <div class="feature_item">
+                    <h4><i class="lnr lnr-phone"></i>Great Support</h4>
+                    <p>Usage of the Internet is becoming more common due to rapid advancement of technology and power.</p>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6">
+                <div class="feature_item">
+                    <h4><i class="lnr lnr-rocket"></i>Technical Skills</h4>
+                    <p>Usage of the Internet is becoming more common due to rapid advancement of technology and power.</p>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6">
+                <div class="feature_item">
+                    <h4><i class="lnr lnr-diamond"></i>Highly Recomended</h4>
+                    <p>Usage of the Internet is becoming more common due to rapid advancement of technology and power.</p>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6">
+                <div class="feature_item">
+                    <h4><i class="lnr lnr-bubble"></i>Positive Reviews</h4>
+                    <p>Usage of the Internet is becoming more common due to rapid advancement of technology and power.</p>
                 </div>
             </div>
         </div>
-    </section>
+    </div>
+</section>
+<!--================End Feature Area =================-->
 
-    <!-- Section About End -->
-
-    <section class="about-info section pt-0">
-        <div class="container">
-            <div class="row justify-content-center">
-                <div class="col-lg-4 col-md-6 col-sm-6">
-                    <div class="about-info-item mb-4 mb-lg-0">
-                        <h3 class="mb-3"><span class="text-color mr-2 text-md ">01.</span>Misi Kita</h3>
-                        <p>llum similique ducimus accusamus laudantium praesentium, impedit quaerat, itaque maxime sunt
-                            deleniti voluptas distinctio .</p>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 col-sm-6">
-                    <div class="about-info-item mb-4 mb-lg-0">
-                        <h3 class="mb-3"><span class="text-color mr-2 text-md">02.</span>Visi</h3>
-                        <p>llum similique ducimus accusamus laudantium praesentium, impedit quaerat, itaque maxime sunt
-                            deleniti voluptas distinctio .</p>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 col-sm-6">
-                    <div class="about-info-item mb-4 mb-lg-0">
-                        <h3 class="mb-3"><span class="text-color mr-2 text-md">03.</span>Pendekatan kita</h3>
-                        <p>llum similique ducimus accusamus laudantium praesentium, impedit quaerat, itaque maxime sunt
-                            deleniti voluptas distinctio .</p>
-                    </div>
-                </div>
+<!--================Clients Logo Area =================-->
+<section class="clients_logo_area p_120">
+    <div class="container">
+        <div class="clients_slider owl-carousel">
+            <div class="item">
+                <img src="img/clients-logo/c-logo-1.png" alt="">
+            </div>
+            <div class="item">
+                <img src="img/clients-logo/c-logo-2.png" alt="">
+            </div>
+            <div class="item">
+                <img src="img/clients-logo/c-logo-3.png" alt="">
+            </div>
+            <div class="item">
+                <img src="img/clients-logo/c-logo-4.png" alt="">
+            </div>
+            <div class="item">
+                <img src="img/clients-logo/c-logo-5.png" alt="">
             </div>
         </div>
-    </section>
-
-    <!-- section Counter Start -->
-    <section class="section counter bg-counter">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-6 col-md-6 col-sm-6">
-                    <div class="counter-item text-center mb-5 mb-lg-0">
-                        <i class="ti-check color-one text-md"></i>
-                        <h3 class="mt-2 mb-0 text-white"><span class="counter-stat font-weight-bold">20</span> +</h3>
-                        <p class="text-white-50">Proyek Selesai</p>
-                    </div>
-                </div>
-                <div class="col-lg-6 col-md-6 col-sm-6">
-                    <div class="counter-item text-center mb-5 mb-lg-0">
-                        <i class="ti-flag color-one text-md"></i>
-                        <h3 class="mt-2 mb-0 text-white"><span class="counter-stat font-weight-bold">1 </span>M+ </h3>
-                        <p class="text-white-50">Pengguna</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- section Counter End  -->
-    <!--  Section Services Start -->
-    <section class="section team">
-        <div class="container">
-            <div class="row justify-content-center">
-                <div class="col-lg-7 text-center">
-                    <div class="section-title">
-                        <span class="h6 text-color">Tim kami</span>
-                        <h2 class="mt-3 content-title">Anggota Tim Ahli untuk mendapatkan layanan terbaik</h2>
-                    </div>
-                </div>
-            </div>
-
-            <div class="row justify-content-center">
-                <div class="col-lg-4 col-md-6 col-sm-6">
-                    <div class="team-item-wrap mb-5">
-                        <div class="team-item position-relative">
-                            <img src="{{ asset('assets/images/team/team-1.jpg') }}" alt="" class="img-fluid w-100">
-                            <div class="team-img-hover">
-                                <ul class="team-social list-inline">
-                                    <li class="list-inline-item">
-                                        <a href="#" class="facebook"><i class="fab fa-facebook-f"
-                                                aria-hidden="true"></i></a>
-                                    </li>
-                                    <li class="list-inline-item">
-                                        <a href="#" class="twitter"><i class="fab fa-twitter" aria-hidden="true"></i></a>
-                                    </li>
-                                    <li class="list-inline-item">
-                                        <a href="#" class="instagram"><i class="fab fa-instagram"
-                                                aria-hidden="true"></i></a>
-                                    </li>
-                                    <li class="list-inline-item">
-                                        <a href="#" class="linkedin"><i class="fab fa-linkedin-in"
-                                                aria-hidden="true"></i></a>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-                        <div class="team-item-content">
-                            <h4 class="mt-3 mb-0 text-capitalize">Justin hammer</h4>
-                            <p>Digital Marketer</p>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-lg-4 col-md-6 col-sm-6">
-                    <div class="team-item-wrap mb-5">
-                        <div class="team-item position-relative">
-                            <img src="{{ asset('assets/images/team/team-2.jpg') }}" alt="" class="img-fluid w-100">
-                            <div class="team-img-hover">
-                                <ul class="team-social list-inline">
-                                    <li class="list-inline-item">
-                                        <a href="#" class="facebook"><i class="fab fa-facebook-f"
-                                                aria-hidden="true"></i></a>
-                                    </li>
-                                    <li class="list-inline-item">
-                                        <a href="#" class="twitter"><i class="fab fa-twitter" aria-hidden="true"></i></a>
-                                    </li>
-                                    <li class="list-inline-item">
-                                        <a href="#" class="instagram"><i class="fab fa-instagram"
-                                                aria-hidden="true"></i></a>
-                                    </li>
-                                    <li class="list-inline-item">
-                                        <a href="#" class="linkedin"><i class="fab fa-linkedin-in"
-                                                aria-hidden="true"></i></a>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-                        <div class="team-item-content">
-                            <h4 class="mt-3 mb-0 text-capitalize">Jason roy</h4>
-                            <p>UI/UX Designer</p>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-lg-4 col-md-6 col-sm-6">
-                    <div class="team-item-wrap mb-5 ">
-                        <div class="team-item position-relative">
-                            <img src="{{ asset('assets/images/team/team-3.jpg') }}" alt="" class="img-fluid w-100">
-                            <div class="team-img-hover">
-                                <ul class="team-social list-inline">
-                                    <li class="list-inline-item">
-                                        <a href="#" class="facebook"><i class="fab fa-facebook-f"
-                                                aria-hidden="true"></i></a>
-                                    </li>
-                                    <li class="list-inline-item">
-                                        <a href="#" class="twitter"><i class="fab fa-twitter" aria-hidden="true"></i></a>
-                                    </li>
-                                    <li class="list-inline-item">
-                                        <a href="#" class="instagram"><i class="fab fa-instagram"
-                                                aria-hidden="true"></i></a>
-                                    </li>
-                                    <li class="list-inline-item">
-                                        <a href="#" class="linkedin"><i class="fab fa-linkedin-in"
-                                                aria-hidden="true"></i></a>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-                        <div class="team-item-content">
-                            <h4 class="mt-3 mb-0 text-capitalize">Henry oswald</h4>
-                            <p>Developer</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 col-sm-6">
-                    <div class="team-item-wrap mb-5 mb-lg-0">
-                        <div class="team-item position-relative">
-                            <img src="{{ asset('assets/images/team/team-4.jpg') }}" alt="" class="img-fluid w-100">
-                            <div class="team-img-hover">
-                                <ul class="team-social list-inline">
-                                    <li class="list-inline-item">
-                                        <a href="#" class="facebook"><i class="fab fa-facebook-f"
-                                                aria-hidden="true"></i></a>
-                                    </li>
-                                    <li class="list-inline-item">
-                                        <a href="#" class="twitter"><i class="fab fa-twitter" aria-hidden="true"></i></a>
-                                    </li>
-                                    <li class="list-inline-item">
-                                        <a href="#" class="instagram"><i class="fab fa-instagram"
-                                                aria-hidden="true"></i></a>
-                                    </li>
-                                    <li class="list-inline-item">
-                                        <a href="#" class="linkedin"><i class="fab fa-linkedin-in"
-                                                aria-hidden="true"></i></a>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-                        <div class="team-item-content">
-                            <h4 class="mt-3 mb-0 text-capitalize">David Williams</h4>
-                            <p>Senior Marketer</p>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-lg-4 col-md-6 col-sm-6">
-                    <div class="team-item-wrap mb-5 mb-lg-0">
-                        <div class="team-item position-relative">
-                            <img src="{{ asset('assets/images/team/team-6.jpg') }}" alt="" class="img-fluid w-100">
-                            <div class="team-img-hover">
-                                <ul class="team-social list-inline">
-                                    <li class="list-inline-item">
-                                        <a href="#" class="facebook"><i class="fab fa-facebook-f"
-                                                aria-hidden="true"></i></a>
-                                    </li>
-                                    <li class="list-inline-item">
-                                        <a href="#" class="twitter"><i class="fab fa-twitter" aria-hidden="true"></i></a>
-                                    </li>
-                                    <li class="list-inline-item">
-                                        <a href="#" class="instagram"><i class="fab fa-instagram"
-                                                aria-hidden="true"></i></a>
-                                    </li>
-                                    <li class="list-inline-item">
-                                        <a href="#" class="linkedin"><i class="fab fa-linkedin-in"
-                                                aria-hidden="true"></i></a>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-                        <div class="team-item-content">
-                            <h4 class="mt-3 mb-0 text-capitalize">Peter Odin</h4>
-                            <p>App Developer</p>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-lg-4 col-md-6 col-sm-6">
-                    <div class="team-item-wrap mb-5 mb-lg-0 ">
-                        <div class="team-item position-relative">
-                            <img src="{{ asset('assets/images/team/team-5.jpg') }}" alt="" class="img-fluid w-100">
-                            <div class="team-img-hover">
-                                <ul class="team-social list-inline">
-                                    <li class="list-inline-item">
-                                        <a href="#" class="facebook"><i class="fab fa-facebook-f"
-                                                aria-hidden="true"></i></a>
-                                    </li>
-                                    <li class="list-inline-item">
-                                        <a href="#" class="twitter"><i class="fab fa-twitter" aria-hidden="true"></i></a>
-                                    </li>
-                                    <li class="list-inline-item">
-                                        <a href="#" class="instagram"><i class="fab fa-instagram"
-                                                aria-hidden="true"></i></a>
-                                    </li>
-                                    <li class="list-inline-item">
-                                        <a href="#" class="linkedin"><i class="fab fa-linkedin-in"
-                                                aria-hidden="true"></i></a>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-                        <div class="team-item-content">
-                            <h4 class="mt-3 mb-0 text-capitalize">David Spensor</h4>
-                            <p>Project Manager</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!--  Section Services End -->
-
-
-    <!-- Section Testimonial Start -->
-    <section class="section testimonial bg-gray">
-        <div class="container">
-            <div class="row justify-content-center">
-                <div class="col-lg-7 text-center">
-                    <div class="section-title">
-                        <span class="h6 text-color">Clients testimonial</span>
-                        <h2 class="mt-3 content-title">Periksa apa yang di katakan klien kami</h2>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <div class="container">
-            <div class="testimonial-wrap">
-                <div class="testimonial-item position-relative">
-                    <i class="ti-quote-left text-color"></i>
-
-                    <div class="testimonial-item-content">
-                        <p class="testimonial-text">Quam maiores perspiciatis temporibus odio reiciendis error alias debitis
-                            atque consequuntur natus iusto recusandae numquam corrupti facilis blanditiis.</p>
-
-                        <div class="testimonial-author">
-                            <h5 class="mb-0 text-capitalize">Thomas Johnson</h5>
-                            <p>Excutive Director,themefisher</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="testimonial-item position-relative">
-                    <i class="ti-quote-left text-color"></i>
-
-                    <div class="testimonial-item-content">
-                        <p class="testimonial-text">Consectetur adipisicing elit. Quam maiores perspiciatis temporibus odio
-                            reiciendis error alias debitis atque consequuntur natus iusto recusandae .</p>
-
-                        <div class="testimonial-author">
-                            <h5 class="mb-0 text-capitalize">Mickel hussy</h5>
-                            <p>Excutive Director,themefisher</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="testimonial-item position-relative">
-                    <i class="ti-quote-left text-color"></i>
-
-                    <div class="testimonial-item-content">
-                        <p class="testimonial-text">Quam maiores perspiciatis temporibus odio reiciendis error alias debitis
-                            atque consequuntur natus iusto recusandae numquam corrupti.</p>
-
-                        <div class="testimonial-author">
-                            <h5 class="mb-0 text-capitalize">James Watson</h5>
-                            <p>Excutive Director,themefisher</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="testimonial-item position-relative">
-                    <i class="ti-quote-left text-color"></i>
-
-                    <div class="testimonial-item-content">
-                        <p class="testimonial-text">Consectetur adipisicing elit. Quam maiores perspiciatis temporibus odio
-                            reiciendis error alias debitis atque consequuntur natus iusto recusandae .</p>
-
-                        <div class="testimonial-author">
-                            <h5 class="mb-0 text-capitalize">Mickel hussy</h5>
-                            <p>Excutive Director,themefisher</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- Section Testimonial End -->
+    </div>
+</section>
+<!--================End Clients Logo Area =================-->
 
 
 @endsection
