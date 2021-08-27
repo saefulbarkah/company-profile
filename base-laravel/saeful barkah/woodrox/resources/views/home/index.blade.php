@@ -1,231 +1,254 @@
 @extends('layouts.master')
 @section('title', 'Genetic Wear')
 @section('content')
-    <!-- Slider Start -->
-    <section class="slider">
+<section class="home_banner_area">
+    <div class="banner_inner">
         <div class="container">
             <div class="row">
-                <div class="col-lg-9 col-md-10">
-                    <div class="block">
-                        <span class="d-block mb-3 text-white text-capitalize">
-                            Persiapkan masa depan yang baru</span>
-                        <h1 class="animated fadeInUp mb-5">Pekerjaan kami adalah <br>presentasi kami <br>kemampuan.
-                        </h1>
-                        <a href="#" target="_blank" class="btn btn-main animated fadeInUp btn-round-full">Memulai<i
-                                class="btn-icon fa fa-angle-right ml-2"></i></a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Section Intro Start -->
-    <section class="section intro">
-        <div class="container">
-            <div class="row ">
                 <div class="col-lg-8">
-                    <div class="section-title">
-                        <span class="h6 text-color ">Kami adalah orang-orang yang kreatif & ahli</span>
-                        <h2 class="mt-3 content-title">Kami bekerja dengan bisnis & memberikan solusi kepada klien dengan
-                            masalah bisnis mereka</h2>
+                    <div class="banner_content">
+                        <h2>Precise concept design <br />for stylish living</h2>
+                        <p>If you are looking at blank cassettes on the web, you may be very confused at the difference in price. You may see some for as low as $.17 each.</p>
+                        <a class="banner_btn" href="#">Get Started</a>
                     </div>
                 </div>
-            </div>
-            <div class="row justify-content-center">
-                <div class="col-lg-4 col-md-6 col-12">
-                    <div class="intro-item mb-5 mb-lg-0">
-                        <i class="ti-desktop color-one"></i>
-                        <h4 class="mt-4 mb-3">Desain Modern & Responsif</h4>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odit, ducimus.</p>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6">
-                    <div class="intro-item mb-5 mb-lg-0">
-                        <i class="ti-medall color-one"></i>
-                        <h4 class="mt-4 mb-3">Perusahaan berlisensi yang diberikan</h4>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odit, ducimus.</p>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6">
-                    <div class="intro-item">
-                        <i class="ti-layers-alt color-one"></i>
-                        <h4 class="mt-4 mb-3">Bangun situs web Anda secara Profesional</h4>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odit, ducimus.</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- Section Intro END -->
-
-    <!-- Section About Start -->
-    <section class="section about position-relative">
-        <div class="bg-about"></div>
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-6 offset-lg-6 offset-md-0">
-                    <div class="about-item ">
-                        <span class="h6 text-color">Siapa kami ?</span>
-                        <h2 class="mt-3 mb-4 position-relative content-title">Kami adalah tim dinamis dari orang-orang
-                            kreatif</h2>
-                        <div class="about-content">
-                            <h4 class="mb-3 position-relative">Kami adalah Solusi Sempurna</h4>
-                            <p class="mb-5">Kami menyediakan layanan konsultasi di bidang IFRS dan pelaporan manajemen,
-                                membantu perusahaan untuk mencapai tingkat tertinggi mereka. Kami mengoptimalkan proses
-                                bisnis, menjadikannya
-                                lebih mudah.</p>
-
-                            <a href="#" class="btn btn-main btn-round-full">Memulai</a>
+                <div class="col-lg-4">
+                    <div class="home_right_box">
+                        <div class="home_item">
+                            <i class="flaticon-sofa"></i>
+                        </div>
+                        <div class="home_item">
+                            <i class="flaticon-bed"></i>
+                        </div>
+                        <div class="home_item">
+                            <i class="flaticon-computer"></i>
+                        </div>
+                        <div class="home_item">
+                            <i class="flaticon-mirror"></i>
+                        </div>
+                        <div class="home_item">
+                            <i class="flaticon-closet"></i>
+                        </div>
+                        <div class="home_item">
+                            <i class="flaticon-kitchen"></i>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-    </section>
-    <!-- Section About End -->
+    </div>
+</section>
 
-    <!-- section Counter Start -->
-    <section class="section counter">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-6 col-md-6 col-sm-6">
-                    <div class="counter-item text-center mb-5 mb-lg-0">
-                        <h3 class="mb-0"><span class="counter-stat font-weight-bold">20</span> +</h3>
-                        <p class="text-muted">Proyek selesai</p>
-                    </div>
+<section class="furniture_area p_120">
+    <div class="container">
+        <div class="main_title">
+            <h2>Most Popular Furnitures</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.</p>
+        </div>
+        <div class="furniture_inner row">
+            <div class="col-lg-4">
+                <div class="furniture_item">
+                    <img class="img-fluid" src="img/furniture/furniture-1.jpg" alt="">
+                    <h4>Green Butter Sofa</h4>
+                    <p>Sony laptops are among the most well known laptops on today’s market. Sony is a name that.</p>
                 </div>
-                <div class="col-lg-6 col-md-6 col-sm-6">
-                    <div class="counter-item text-center mb-5 mb-lg-0">
-                        <h3 class="mb-0"><span class="counter-stat font-weight-bold">1 </span>M </h3>
-                        <p class="text-muted">Pengguna</p>
-                    </div>
+            </div>
+            <div class="col-lg-4">
+                <div class="furniture_item">
+                    <img class="img-fluid" src="img/furniture/furniture-2.jpg" alt="">
+                    <h4>Green Butter Sofa</h4>
+                    <p>Sony laptops are among the most well known laptops on today’s market. Sony is a name that.</p>
+                </div>
+            </div>
+            <div class="col-lg-4">
+                <div class="furniture_item">
+                    <img class="img-fluid" src="img/furniture/furniture-3.jpg" alt="">
+                    <h4>Green Butter Sofa</h4>
+                    <p>Sony laptops are among the most well known laptops on today’s market. Sony is a name that.</p>
                 </div>
             </div>
         </div>
-    </section>
-    <!-- section Counter End  -->
+    </div>
+</section>
 
-    <!--  Section Services Start -->
-    <section class="section service border-top">
-        <div class="container">
-            <div class="row justify-content-center">
-                <div class="col-lg-7 text-center">
-                    <div class="section-title">
-                        <span class="h6 text-color">Pelayanan kami</span>
-                        <h2 class="mt-3 content-title ">Kami menyediakan berbagai layanan kreatif</h2>
-                    </div>
-                </div>
-            </div>
+        <!--================Projects Area =================-->
+        <section class="projects_area">
+        	<div class="row m0">
+        		<div class="projects_item wd_18">
+					<img src="img/projects/projects-1.jpg" alt="">
+					<div class="hover">
+						<h4>Alex Complex for esidence</h4>
+						<p>LCD screens are uniquely modern in style, and the liquid crystals that make them work have allowed humanity to create  slimmer.</p>
+					</div>
+				</div>
+				<div class="projects_item wd_18">
+					<img src="img/projects/projects-2.jpg" alt="">
+					<div class="hover">
+						<h4>Alex Complex for esidence</h4>
+						<p>LCD screens are uniquely modern in style, and the liquid crystals that make them work have allowed humanity to create  slimmer.</p>
+					</div>
+				</div>
+				<div class="projects_item wd_44">
+					<img src="img/projects/projects-3.jpg" alt="">
+					<div class="hover">
+						<h4>Alex Complex for esidence</h4>
+						<p>LCD screens are uniquely modern in style, and the liquid crystals that make them work have allowed humanity to create  slimmer.</p>
+					</div>
+				</div>
+				<div class="projects_item wd_18">
+					<img src="img/projects/projects-4.jpg" alt="">
+					<div class="hover">
+						<h4>Alex Complex for esidence</h4>
+						<p>LCD screens are uniquely modern in style, and the liquid crystals that make them work have allowed humanity to create  slimmer.</p>
+					</div>
+				</div>
+        	</div>
+        </section>
+        <!--================End Projects Area =================-->
 
-            <div class="row justify-content-center">
-                <div class="col-lg-6 col-md-6 col-sm-6">
-                    <div class="service-item mb-5">
-                        <i class="ti-desktop"></i>
-                        <h4 class="mb-3">Pengembangan website.</h4>
-                        <p>Agensi digital tidak hadir untuk menggantikan tim internal Anda, kami di sini untuk bermitra</p>
-                    </div>
-                </div>
+        <!--================Feature Area =================-->
+        <section class="feature_area p_120">
+        	<div class="container">
+        		<div class="main_title">
+        			<h2>Some Features that Made us Unique</h2>
+        			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.</p>
+        		</div>
+        		<div class="row feature_inner">
+        			<div class="col-lg-4 col-md-6">
+        				<div class="feature_item">
+        					<h4><i class="lnr lnr-user"></i>Expert Technicians</h4>
+        					<p>Usage of the Internet is becoming more common due to rapid advancement of technology and power.</p>
+        				</div>
+        			</div>
+        			<div class="col-lg-4 col-md-6">
+        				<div class="feature_item">
+        					<h4><i class="lnr lnr-license"></i>Professional Service</h4>
+        					<p>Usage of the Internet is becoming more common due to rapid advancement of technology and power.</p>
+        				</div>
+        			</div>
+        			<div class="col-lg-4 col-md-6">
+        				<div class="feature_item">
+        					<h4><i class="lnr lnr-phone"></i>Great Support</h4>
+        					<p>Usage of the Internet is becoming more common due to rapid advancement of technology and power.</p>
+        				</div>
+        			</div>
+        			<div class="col-lg-4 col-md-6">
+        				<div class="feature_item">
+        					<h4><i class="lnr lnr-rocket"></i>Technical Skills</h4>
+        					<p>Usage of the Internet is becoming more common due to rapid advancement of technology and power.</p>
+        				</div>
+        			</div>
+        			<div class="col-lg-4 col-md-6">
+        				<div class="feature_item">
+        					<h4><i class="lnr lnr-diamond"></i>Highly Recomended</h4>
+        					<p>Usage of the Internet is becoming more common due to rapid advancement of technology and power.</p>
+        				</div>
+        			</div>
+        			<div class="col-lg-4 col-md-6">
+        				<div class="feature_item">
+        					<h4><i class="lnr lnr-bubble"></i>Positive Reviews</h4>
+        					<p>Usage of the Internet is becoming more common due to rapid advancement of technology and power.</p>
+        				</div>
+        			</div>
+        		</div>
+        	</div>
+        </section>
+        <!--================End Feature Area =================-->
 
-                <div class="col-lg-6 col-md-6 col-sm-6">
-                    <div class="service-item mb-5">
-                        <i class="ti-layers"></i>
-                        <h4 class="mb-3">Desain antarmuka.</h4>
-                        <p>Agensi digital tidak hadir untuk menggantikan tim internal Anda, kami di sini untuk bermitra</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!--  Section Services End -->
+        <!--================Impress Area =================-->
+        <section class="impress_area p_120">
+        	<div class="container">
+        		<div class="impress_inner text-center">
+					<h2>Looking for a <br />quality and affordable Furniture?</h2>
+					<p>inappropriate behavior is often laughed off as “boys will be boys,” women face higher conduct standards especially in the workplace.</p>
+					<a class="main_btn" href="#">Read Details</a>
+        		</div>
+        	</div>
+        </section>
+        <!--================End Impress Area =================-->
 
-    {{-- <!-- Section Cta Start -->
-    <section class="section cta">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-5">
-                    <div class="cta-item  bg-white p-5 rounded">
-                        <span class="h6 text-color">We create for you</span>
-                        <h2 class="mt-2 mb-4">Entrust Your Project to Our Best Team of Professionals</h2>
-                        <p class="lead mb-4">Have any project on mind? For immidiate support :</p>
-                        <h3><i class="ti-mobile mr-3 text-color"></i>+23 876 65 455</h3>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!--  Section Cta End--> --}}
+        <!--================Our Blog Area =================-->
+        <section class="our_blog_area p_120">
+        	<div class="container">
+        		<div class="main_title">
+        			<h2>Recent Posts from our blog</h2>
+        			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.</p>
+        		</div>
+        		<div class="blog_inner row">
+        			<div class="col-lg-4">
+        				<div class="o_blog_item">
+        					<div class="blog_img">
+        						<img class="img-fluid" src="img/our-blog/our-blog-1.jpg" alt="">
+        					</div>
+        					<div class="blog_text">
+        						<div class="blog_cat">
+        							<a class="active" href="#">Travel</a>
+        							<a href="#">Life style</a>
+        						</div>
+        						<a href="#"><h4>Low Cost Advertising</h4></a>
+        						<p>Acres of Diamonds… you’ve read the famous story, or at least had it related to you A farmer.</p>
+        						<a class="date" href="#">31st January, 2018</a>
+        					</div>
+        				</div>
+        			</div>
+        			<div class="col-lg-4">
+        				<div class="o_blog_item">
+        					<div class="blog_img">
+        						<img class="img-fluid" src="img/our-blog/our-blog-2.jpg" alt="">
+        					</div>
+        					<div class="blog_text">
+        						<div class="blog_cat">
+        							<a class="active" href="#">Travel</a>
+        							<a href="#">Life style</a>
+        						</div>
+        						<a href="#"><h4>Low Cost Advertising</h4></a>
+        						<p>Acres of Diamonds… you’ve read the famous story, or at least had it related to you A farmer.</p>
+        						<a class="date" href="#">31st January, 2018</a>
+        					</div>
+        				</div>
+        			</div>
+        			<div class="col-lg-4">
+        				<div class="o_blog_item">
+        					<div class="blog_img">
+        						<img class="img-fluid" src="img/our-blog/our-blog-3.jpg" alt="">
+        					</div>
+        					<div class="blog_text">
+        						<div class="blog_cat">
+        							<a class="active" href="#">Travel</a>
+        							<a href="#">Life style</a>
+        						</div>
+        						<a href="#"><h4>Low Cost Advertising</h4></a>
+        						<p>Acres of Diamonds… you’ve read the famous story, or at least had it related to you A farmer.</p>
+        						<a class="date" href="#">31st January, 2018</a>
+        					</div>
+        				</div>
+        			</div>
+        		</div>
+        	</div>
+        </section>
+        <!--================End Our Blog Area =================-->
 
-    <!-- Section Testimonial Start -->
-    <section class="section testimonial">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-7 ">
-                    <div class="section-title">
-                        <span class="h6 text-color">Testimoni klien</span>
-                        <h2 class="mt-3 content-title">Periksa apa yang klien kami katakan tentang kami</h2>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <div class="container">
-            <div class="row testimonial-wrap">
-                <div class="testimonial-item position-relative">
-                    <i class="ti-quote-left text-color"></i>
-
-                    <div class="testimonial-item-content">
-                        <p class="testimonial-text">Quam maiores perspiciatis temporibus odio reiciendis error alias debitis
-                            atque consequuntur natus iusto recusandae numquam corrupti facilis blanditiis.</p>
-
-                        <div class="testimonial-author">
-                            <h5 class="mb-0 text-capitalize">Thomas Johnson</h5>
-                            <p>Excutive Director,themefisher</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="testimonial-item position-relative">
-                    <i class="ti-quote-left text-color"></i>
-
-                    <div class="testimonial-item-content">
-                        <p class="testimonial-text">Consectetur adipisicing elit. Quam maiores perspiciatis temporibus odio
-                            reiciendis error alias debitis atque consequuntur natus iusto recusandae .</p>
-
-                        <div class="testimonial-author">
-                            <h5 class="mb-0 text-capitalize">Mickel hussy</h5>
-                            <p>Excutive Director,themefisher</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="testimonial-item position-relative">
-                    <i class="ti-quote-left text-color"></i>
-
-                    <div class="testimonial-item-content">
-                        <p class="testimonial-text">Quam maiores perspiciatis temporibus odio reiciendis error alias debitis
-                            atque consequuntur natus iusto recusandae numquam corrupti.</p>
-
-                        <div class="testimonial-author">
-                            <h5 class="mb-0 text-capitalize">James Watson</h5>
-                            <p>Excutive Director,themefisher</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="testimonial-item position-relative">
-                    <i class="ti-quote-left text-color"></i>
-
-                    <div class="testimonial-item-content">
-                        <p class="testimonial-text">Consectetur adipisicing elit. Quam maiores perspiciatis temporibus odio
-                            reiciendis error alias debitis atque consequuntur natus iusto recusandae .</p>
-
-                        <div class="testimonial-author">
-                            <h5 class="mb-0 text-capitalize">Mickel hussy</h5>
-                            <p>Excutive Director,themefisher</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- Section Testimonial End -->
-
-    </section>
+        <!--================Clients Logo Area =================-->
+        <section class="clients_logo_area p_120">
+        	<div class="container">
+        		<div class="clients_slider owl-carousel">
+        			<div class="item">
+        				<img src="img/clients-logo/c-logo-1.png" alt="">
+        			</div>
+        			<div class="item">
+        				<img src="img/clients-logo/c-logo-2.png" alt="">
+        			</div>
+        			<div class="item">
+        				<img src="img/clients-logo/c-logo-3.png" alt="">
+        			</div>
+        			<div class="item">
+        				<img src="img/clients-logo/c-logo-4.png" alt="">
+        			</div>
+        			<div class="item">
+        				<img src="img/clients-logo/c-logo-5.png" alt="">
+        			</div>
+        		</div>
+        	</div>
+        </section>
+        <!--================End Clients Logo Area =================-->
 @endsection
