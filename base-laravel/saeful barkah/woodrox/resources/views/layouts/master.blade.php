@@ -1,63 +1,53 @@
 <!doctype html>
 <html lang="en">
+    <head>
+        <!-- Required meta tags -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <link rel="icon" href="img/favicon.png" type="image/png">
+        <title>Woodrox Furniture</title>
+        <!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="{{ asset('assets/css/bootstrap.css') }}">
+        <link rel="stylesheet" href="{{ asset('assets/vendors/linericon/style.css') }}">
+        <link rel="stylesheet" href="{{ asset('assets/css/font-awesome.min.css') }}">
+        <link rel="stylesheet" href="{{ asset('assets/vendors/owl-carousel/owl.carousel.min.css') }}">
+        <link rel="stylesheet" href="{{ asset('assets/vendors/lightbox/simpleLightbox.css') }}">
+        <link rel="stylesheet" href="{{ asset('assets/vendors/nice-select/css/nice-select.css') }}">
+        <link rel="stylesheet" href="{{ asset('assets/vendors/animate-css/animate.css') }}">
+        <link rel="stylesheet" href="{{ asset('assets/vendors/flaticon/flaticon.css') }}">
+        <!-- main css -->
+        <link rel="stylesheet" href="{{ asset('assets/css/style.css') }}">
+        <link rel="stylesheet" href="{{ asset('assets/css/responsive.css') }}">
+    </head>
+    <body>
 
-{{-- head --}}
+        {{-- navbar --}}
+        @include('layouts.navbar')
+        {{-- end navbar --}}
 
-<head>
-    <title> @yield('title')</title>
-
-    <!-- bootstrap.min css -->
-    <link rel="stylesheet" href="{{ asset('assets/plugins/bootstrap/css/bootstrap.min.css') }}">
-    <!-- Icon Font Css -->
-    <link rel="stylesheet" href="{{ asset('assets/plugins/themify/css/themify-icons.css') }}">
-    <link rel="stylesheet" href="{{ asset('assets/plugins/fontawesome/css/all.css') }}">
-    <link rel="stylesheet" href="{{ asset('assets/plugins/magnific-popup/dist/magnific-popup.css') }}">
-    <!-- Owl Carousel CSS -->
-    <link rel="stylesheet" href="{{ asset('assets/plugins/slick-carousel/slick/slick.css') }}">
-    <link rel="stylesheet" href="{{ asset('assets/plugins/slick-carousel/slick/slick-theme.css') }}">
-
-    <!-- Main Stylesheet -->
-    <link rel="stylesheet" href="{{ asset('assets/css/style.css') }}">
-
-</head>
-
-{{-- end head --}}
-
-<body>
-
-    {{-- Navbar --}}
-    @include('layouts.navbar')
-    {{-- end navbar --}}
-
-
-    {{-- content --}}
-    <div class="main-wrapper ">
+        {{-- content --}}
         @yield('content')
+        {{-- end content --}}
 
-        <!-- footer Start -->
+
+        {{-- footer --}}
         @include('layouts.footer')
         {{-- end footer --}}
 
-    </div>
-    {{-- end content --}}
 
-    {{-- javascripts --}}
-
-    <script src="{{ asset('assets/plugins/jquery/jquery.js') }}"></script>
-    <script src="{{ asset('assets/js/contact.js') }}"></script>
-    <!-- Bootstrap 4.3.1 -->
-    <script src="{{ asset('assets/plugins/bootstrap/js/popper.js') }}"></script>
-    <script src="{{ asset('assets/plugins/bootstrap/js/bootstrap.min.js') }}"></script>
-    <!--  Magnific Popup-->
-    <script src="{{ asset('assets/plugins/magnific-popup/dist/jquery.magnific-popup.min.js') }}"></script>
-    <!-- Slick Slider -->
-    <script src="{{ asset('assets/plugins/slick-carousel/slick/slick.min.js') }}"></script>
-    <!-- Counterup -->
-    <script src="{{ asset('assets/plugins/counterup/jquery.waypoints.min.js') }}"></script>
-    <script src="{{ asset('assets/plugins/counterup/jquery.counterup.min.js') }}"></script>
-    <script src="{{ asset('assets/js/script.js') }}"></script>
-
-    {{-- end javascripts --}}
-</body>
-
+        <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+        <script src="{{ asset('assets/js/jquery-3.2.1.min.js') }}"></script>
+        <script src="{{ asset('assets/js/popper.js') }}"></script>
+        <script src="{{ asset('assets/js/bootstrap.min.js') }}"></script>
+        <script src="{{ asset('assets/js/stellar.js') }}"></script>
+        <script src="{{ asset('assets/vendors/lightbox/simpleLightbox.min.js') }}"></script>
+        <script src="{{ asset('assets/vendors/nice-select/js/jquery.nice-select.min.js') }}"></script>
+        <script src="{{ asset('assets/vendors/isotope/imagesloaded.pkgd.min.js') }}"></script>
+        <script src="{{ asset('assets/vendors/isotope/isotope-min.js') }}"></script>
+        <script src="{{ asset('assets/vendors/owl-carousel/owl.carousel.min.js') }}"></script>
+        <script src="{{ asset('assets/js/jquery.ajaxchimp.min.js') }}"></script>
+        <script src="{{ asset('assets/vendors/counter-up/jquery.waypoints.min.js') }}"></script>
+        <script src="{{ asset('assets/vendors/counter-up/jquery.counterup.min.js') }}"></script>
+        <script src="{{  asset('assets/js/theme.js') }}"></script>
+    </body>
 </html>
