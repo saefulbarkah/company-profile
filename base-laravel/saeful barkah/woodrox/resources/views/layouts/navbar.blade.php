@@ -14,7 +14,7 @@
                  <ul class="nav navbar-nav menu_nav ml-auto">
                      <li class="nav-item active"><a class="nav-link" href="{{ url('/') }}">Home</a></li>
                      <li class="nav-item"><a class="nav-link" href="{{ url('/about') }}">About</a></li>
-                     <li class="nav-item"><a class="nav-link" href="{{ url('/layanan') }}">Layanan</a></li>
+                     <li class="nav-item"><a class="nav-link" href="{{ url('/service') }}">Layanan</a></li>
                      <li class="nav-item"><a class="nav-link" href="{{ url('/contact') }}">Kontak</a></li>
                  </ul>
              </div>
