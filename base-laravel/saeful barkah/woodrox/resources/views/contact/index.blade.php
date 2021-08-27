@@ -22,7 +22,7 @@
         <!--================Contact Area =================-->
         <section class="contact_area p_120">
             <div class="container">
-                <div class="row justify-content-center">
+                <div class="row">
                     <div class="col-sm-6">
                         <div class="contact_info">
                             <div class="info_item">
@@ -43,6 +43,7 @@
                         </div>
                     </div>
                     <div class="col-sm-6">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d588.6679504933044!2d107.57418209530506!3d-7.001020950017788!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e68eead56b8f89f%3A0x3fc9157f74855daf!2sGenetic%20Wear%20Workshop!5e0!3m2!1sid!2sid!4v1630035982778!5m2!1sid!2sid" width="100%" height="250" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
                     </div>
                 </div>
             </div>
