@@ -1,22 +1,4 @@
 <header class="header_area">
-    <div class="top_menu">
-        <div class="container">
-            <div class="top_inner">
-                <div class="float-left">
-                    <a href="#">Visit Us</a>
-                    <a href="#">Online Support</a>
-                </div>
-                <div class="float-right">
-                    <ul class="list header_socila">
-                        <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                        <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                        <li><a href="#"><i class="fa fa-dribbble"></i></a></li>
-                        <li><a href="#"><i class="fa fa-behance"></i></a></li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-    </div>
  <div class="main_menu" id="mainNav">
      <nav class="navbar navbar-expand-lg navbar-light">
          <div class="container">
