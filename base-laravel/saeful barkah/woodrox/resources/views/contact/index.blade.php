@@ -2,88 +2,50 @@
 
 @section('title', 'Hubungi kami')
 @section('content')
-    <section class="page-title bg-1">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-12">
-                    <div class="block text-center">
-                        <span class="text-white">Hubungi kami</span>
-                        <h1 class="text-capitalize mb-4 text-lg">Segera hubungi kami</h1>
-                        <ul class="list-inline">
-                            <li class="list-inline-item"><a href="index.html" class="text-white">Home</a></li>
-                            <li class="list-inline-item"><span class="text-white">/</span></li>
-                            <li class="list-inline-item"><a href="#" class="text-white-50">Hubungi kami</a></li>
-                        </ul>
-                    </div>
-                </div>
+        <!--================Home Banner Area =================-->
+        <section class="banner_area">
+            <div class="banner_inner d-flex align-items-center">
+            	<div class="overlay bg-parallax" data-stellar-ratio="0.9" data-stellar-vertical-offset="0" data-background=""></div>
+				<div class="container">
+					<div class="banner_content text-center">
+						<h2>CONTACT US</h2>
+						<div class="page_link">
+							<a href="index.html">Home</a>
+							<a href="contact.html">CONTACT US</a>
+						</div>
+					</div>
+				</div>
             </div>
-        </div>
-    </section>
-    <!-- contact form start -->
-    <section class="contact-form-wrap section">
-        <div class="container">
-            <div class="row">
-                {{-- <div class="col-lg-6 col-md-12 col-sm-12">
-                    <form class="" method="POST" action="{{ url('send-email') }}">
-                        @csrf
-                        <!-- form message -->
-                        <div class="row">
-                            <div class="col-12">
-                                <div class="alert alert-success contact__msg" style="display: none" role="alert">
-                                    Your message was sent successfully.
-                                </div>
+        </section>
+        <!--================End Home Banner Area =================-->
+
+        <!--================Contact Area =================-->
+        <section class="contact_area p_120">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-sm-6">
+                        <div class="contact_info">
+                            <div class="info_item">
+                                <i class="lnr lnr-home"></i>
+                                <h6>California, United States</h6>
+                                <p>Santa monica bullevard</p>
+                            </div>
+                            <div class="info_item">
+                                <i class="lnr lnr-phone-handset"></i>
+                                <h6><a href="#">00 (440) 9865 562</a></h6>
+                                <p>Mon to Fri 9am to 6 pm</p>
+                            </div>
+                            <div class="info_item">
+                                <i class="lnr lnr-envelope"></i>
+                                <h6><a href="#">support@colorlib.com</a></h6>
+                                <p>Send us your query anytime!</p>
                             </div>
                         </div>
-                        <!-- end message -->
-                        <span class="text-color">Kirim pesan</span>
-                        <h3 class="text-md mb-4">Formulir Kontak</h3>
-                        <div class="form-group">
-                            <input name="name" type="text" class="form-control" placeholder="Nama lengkap">
-                        </div>
-                        <div class="form-group">
-                            <input name="email" type="email" class="form-control" placeholder="Alamat email">
-                        </div>
-                        <div class="form-group">
-                            <input name="subject" type="text" class="form-control" placeholder="Subject">
-                        </div>
-                        <div class="form-group-2 mb-4">
-                            <textarea name="content" class="form-control" rows="4" placeholder="pesan anda..."></textarea>
-                        </div>
-                        <button class="btn btn-main" name="submit" type="submit">Kirim pesan</button>
-                    </form>
-                </div> --}}
-
-                <div class="col-lg-12 col-sm-12">
-                    <div class="contact-content pl-lg-12 mt-5 mt-lg-0">
-                        <span class="text-muted">Kami Profesional</span>
-                        <h2 class="mb-5 mt-2">Jangan Ragu untuk menghubungi kami untuk segala jenis informasi</h2>
-
-                        <ul class="address-block list-unstyled">
-                            <li>
-                                <i class="ti-direction mr-3"></i>Alamat : Kp Bojong, Kec katapang, kab bandung
-                            </li>
-                            <li>
-                                <i class="ti-email mr-3"></i>Email  : contoh@mail.com
-                            </li>
-                            <li>
-                                <i class="ti-mobile mr-3"></i>Telepon : +88 01672 506 744
-                            </li>
-                        </ul>
-
-                        <ul class="social-icons list-inline mt-5">
-                            <li class="list-inline-item">
-                                <a href="http://www.themefisher.com"><i class="fab fa-facebook-f"></i></a>
-                            </li>
-                            <li class="list-inline-item">
-                                <a href="http://www.themefisher.com"><i class="fab fa-twitter"></i></a>
-                            </li>
-                            <li class="list-inline-item">
-                                <a href="http://www.themefisher.com"><i class="fab fa-linkedin-in"></i></a>
-                            </li>
-                        </ul>
+                    </div>
+                    <div class="col-sm-6">
                     </div>
                 </div>
             </div>
-        </div>
-    </section>
+        </section>
+        <!--================Contact Area =================-->
 @endsection
