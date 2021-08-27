@@ -8,7 +8,7 @@
     <div class="container">
         <div class="row">
             <div class="col-md-12 text-center">
-                <h2>pelayanan kami</h2>
+                <h2>Pelayanan Kami</h2>
             </div>
         </div>
     </div>
@@ -23,11 +23,8 @@
             <!-- section title -->
             <div class="col-12">
                 <div class="title text-center">
-                    <h2>pelayanan kami</h2>
-                    <p>Vestibulum nisl tortor, consectetur quis imperdiet bibendum, laoreet sed arcu. Sed condimentum
-                        iaculis ex,
-                        in faucibus lorem accumsan non. Donec mattis tincidunt metus. Morbi sed tortor a risus luctus
-                        dignissim.</p>
+                    <h2>Layanan</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus, perferendis delectus aliquid, ea, eligendi rem nesciunt dicta optio adipisci repellat ipsum tempore tenetur maiores harum est ut sed voluptatem enim.</p>
                     <div class="border"></div>
                 </div>
             </div>
