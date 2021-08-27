@@ -18,17 +18,17 @@
     <!-- CSS
   ================================================== -->
     <!-- Themefisher Icon font -->
-    <link rel="stylesheet" href="{{ asset('_template/plugins/themefisher-font/style.css') }}">
+    <link rel="stylesheet" href="{{ asset('assets/plugins/themefisher-font/style.css') }}">
     <!-- bootstrap.min css -->
-    <link rel="stylesheet" href="{{ asset('_template/plugins/bootstrap/css/bootstrap.min.css') }}">
+    <link rel="stylesheet" href="{{ asset('assets/plugins/bootstrap/css/bootstrap.min.css') }}">
     <!-- Lightbox.min css -->
-    <link rel="stylesheet" href="{{ asset('_template/plugins/lightbox2/dist/css/lightbox.min.css') }}">
+    <link rel="stylesheet" href="{{ asset('assets/plugins/lightbox2/dist/css/lightbox.min.css') }}">
     <!-- animation css -->
-    <link rel="stylesheet" href="{{ asset('_template/plugins/animate/animate.css') }}">
+    <link rel="stylesheet" href="{{ asset('assets/plugins/animate/animate.css') }}">
     <!-- Slick Carousel -->
-    <link rel="stylesheet" href="{{ asset('_template/plugins/slick/slick.css') }}">
+    <link rel="stylesheet" href="{{ asset('assets/plugins/slick/slick.css') }}">
     <!-- Main Stylesheet -->
-    <link rel="stylesheet" href="{{ asset('_template/css/style.css') }}">
+    <link rel="stylesheet" href="{{ asset('assets/css/style.css') }}">
 
 </head>
 {{-- head --}}
@@ -74,27 +74,27 @@
     Essential Scripts
     =====================================-->
     <!-- Main jQuery -->
-    <script src="{{ asset('_template/plugins/jquery/jquery.min.js') }}"></script>
+    <script src="{{ asset('assets/plugins/jquery/jquery.min.js') }}"></script>
 
     <!-- Form Validation -->
-    <script src="{{ asset('_template/plugins/form-validation/jquery.form.js') }}"></script>
-    <script src="{{ asset('_template/plugins/form-validation/jquery.validate.min.js') }}"></script>
+    <script src="{{ asset('assets/plugins/form-validation/jquery.form.js') }}"></script>
+    <script src="{{ asset('assets/plugins/form-validation/jquery.validate.min.js') }}"></script>
 
     <!-- Bootstrap4 -->
-    <script src="{{ asset('_template/plugins/bootstrap/js/bootstrap.min.js') }}"></script>
+    <script src="{{ asset('assets/plugins/bootstrap/js/bootstrap.min.js') }}"></script>
     <!-- Parallax -->
-    <script src="{{ asset('_template/plugins/parallax/jquery.parallax-1.1.3.js') }}"></script>
+    <script src="{{ asset('assets/plugins/parallax/jquery.parallax-1.1.3.js') }}"></script>
     <!-- lightbox -->
-    <script src="{{ asset('_template/plugins/lightbox2/dist/js/lightbox.min.js') }}"></script>
+    <script src="{{ asset('assets/plugins/lightbox2/dist/js/lightbox.min.js') }}"></script>
     <!-- Owl Carousel -->
-    <script src="{{ asset('_template/plugins/slick/slick.min.js') }}"></script>
+    <script src="{{ asset('assets/plugins/slick/slick.min.js') }}"></script>
     <!-- filter -->
-    <script src="{{ asset('_template/plugins/filterizr/jquery.filterizr.min.js') }}"></script>
+    <script src="{{ asset('assets/plugins/filterizr/jquery.filterizr.min.js') }}"></script>
     <!-- Smooth Scroll js -->
-    <script src="{{ asset('_template/plugins/smooth-scroll/smooth-scroll.min.js') }}"></script>
+    <script src="{{ asset('assets/plugins/smooth-scroll/smooth-scroll.min.js') }}"></script>
 
     <!-- Custom js -->
-    <script src="{{ asset('_template/js/script.js') }}"></script>
+    <script src="{{ asset('assets/js/script.js') }}"></script>
 
 </body>
 
