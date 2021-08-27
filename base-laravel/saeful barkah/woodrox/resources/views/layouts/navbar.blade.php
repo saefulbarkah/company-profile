@@ -14,6 +14,7 @@
                  <ul class="nav navbar-nav menu_nav ml-auto">
                      <li class="nav-item active"><a class="nav-link" href="{{ url('/') }}">Home</a></li>
                      <li class="nav-item"><a class="nav-link" href="{{ url('/about') }}">About</a></li>
+                     <li class="nav-item"><a class="nav-link" href="{{ url('/layanan') }}">Layanan</a></li>
                      <li class="nav-item submenu dropdown">
                          <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Pages</a>
                          <ul class="dropdown-menu">
