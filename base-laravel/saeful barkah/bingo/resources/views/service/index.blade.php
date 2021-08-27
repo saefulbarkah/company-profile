@@ -184,16 +184,16 @@
         {{-- <div class="row">
             <div class="col-md-12">
                 <div id="clients-slider" class="clients-logo-slider">
-                    <img src="{{asset ('_template/images/client-logo/logo1.png" alt="">
-                    <img src="{{asset ('_template/images/client-logo/logo-2.png" alt="">
-                    <img src="{{asset ('_template/images/client-logo/logo-3.png" alt="">
-                    <img src="{{asset ('_template/images/client-logo/logo-4.png" alt="">
-                    <img src="{{asset ('_template/images/client-logo/logo-5.png" alt="">
-                    <img src="{{asset ('_template/images/client-logo/logo1.png" alt="">
-                    <img src="{{asset ('_template/images/client-logo/logo-2.png" alt="">
-                    <img src="{{asset ('_template/images/client-logo/logo-3.png" alt="">
-                    <img src="{{asset ('_template/images/client-logo/logo-4.png" alt="">
-                    <img src="{{asset ('_template/images/client-logo/logo-5.png" alt="">
+                    <img src="{{asset ('assets/images/client-logo/logo1.png" alt="">
+                    <img src="{{asset ('assets/images/client-logo/logo-2.png" alt="">
+                    <img src="{{asset ('assets/images/client-logo/logo-3.png" alt="">
+                    <img src="{{asset ('assets/images/client-logo/logo-4.png" alt="">
+                    <img src="{{asset ('assets/images/client-logo/logo-5.png" alt="">
+                    <img src="{{asset ('assets/images/client-logo/logo1.png" alt="">
+                    <img src="{{asset ('assets/images/client-logo/logo-2.png" alt="">
+                    <img src="{{asset ('assets/images/client-logo/logo-3.png" alt="">
+                    <img src="{{asset ('assets/images/client-logo/logo-4.png" alt="">
+                    <img src="{{asset ('assets/images/client-logo/logo-5.png" alt="">
                 </div>
 
             </div>
@@ -291,7 +291,7 @@
                         <!-- /client info -->
                         <!-- client photo -->
                         <div class="client-thumb">
-                            <img src="{{ asset('_template/images/client-logo/clients-1.jpg') }}" class="img-fluid"
+                            <img src="{{ asset('assets/images/client-logo/clients-1.jpg') }}" class="img-fluid"
                                 alt="">
                         </div>
                         <div class="client-meta">
@@ -315,7 +315,7 @@
                         <!-- /client info -->
                         <!-- client photo -->
                         <div class="client-thumb">
-                            <img src="{{ asset('_template/images/client-logo/clients-2.jpg') }}" class="img-fluid"
+                            <img src="{{ asset('assets/images/client-logo/clients-2.jpg') }}" class="img-fluid"
                                 alt="">
                         </div>
                         <div class="client-meta">
@@ -339,7 +339,7 @@
                         <!-- /client info -->
                         <!-- client photo -->
                         <div class="client-thumb">
-                            <img src="{{ asset('_template/images/client-logo/clients-3.jpg') }}" class="img-fluid"
+                            <img src="{{ asset('assets/images/client-logo/clients-3.jpg') }}" class="img-fluid"
                                 alt="">
                         </div>
                         <div class="client-meta">

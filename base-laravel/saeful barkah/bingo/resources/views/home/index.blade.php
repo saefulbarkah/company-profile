@@ -62,7 +62,7 @@
             </div>
 
             <div class="col-md-4 text-center">
-                <img src="{{ asset('_template/images/about/member.jpg') }}" class="inline-block" alt="">
+                <img src="{{ asset('assets/images/about/member.jpg') }}" class="inline-block" alt="">
             </div>
             <div class="col-md-8">
                 <div class="row text-center">
@@ -128,7 +128,7 @@
             <!-- /section title -->
 
             <div class="col-md-6">
-                <img src="{{ asset('_template/images/about/about-2.png') }}" class="img-fluid" alt="">
+                <img src="{{ asset('assets/images/about/about-2.png') }}" class="img-fluid" alt="">
             </div>
             <div class="col-md-6">
                 <ul class="checklist">
@@ -250,7 +250,7 @@
                         <!-- /client info -->
                         <!-- client photo -->
                         <div class="client-thumb">
-                            <img src="{{ asset('_template/images/client-logo/clients-1.jpg') }}" class="img-fluid"
+                            <img src="{{ asset('assets/images/client-logo/clients-1.jpg') }}" class="img-fluid"
                                 alt="">
                         </div>
                         <div class="client-meta">
@@ -274,7 +274,7 @@
                         <!-- /client info -->
                         <!-- client photo -->
                         <div class="client-thumb">
-                            <img src="{{ asset('_template/images/client-logo/clients-2.jpg') }}" class="img-fluid"
+                            <img src="{{ asset('assets/images/client-logo/clients-2.jpg') }}" class="img-fluid"
                                 alt="">
                         </div>
                         <div class="client-meta">
@@ -298,7 +298,7 @@
                         <!-- /client info -->
                         <!-- client photo -->
                         <div class="client-thumb">
-                            <img src="{{ asset('_template/images/client-logo/clients-3.jpg') }}" class="img-fluid"
+                            <img src="{{ asset('assets/images/client-logo/clients-3.jpg') }}" class="img-fluid"
                                 alt="">
                         </div>
                         <div class="client-meta">

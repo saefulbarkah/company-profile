@@ -33,7 +33,7 @@
                     molestias aut, aperiam!</p>
             </div>
             <div class="col-md-6">
-                <img class="img-fluid" src="{{ asset('_template/images/company/company-image.jpg') }}" alt="">
+                <img class="img-fluid" src="{{ asset('assets/images/company/company-image.jpg') }}" alt="">
             </div>
         </div>
     </div>
@@ -52,7 +52,7 @@
                     assumenda vel, quia earum voluptatem blanditiis vero accusantium saepe aliquid nulla nemo accusamus,
                     culpa inventore! Culpa nemo aspernatur tenetur, at quam aliquid reprehenderit obcaecati dicta illum
                     mollitia, perferendis hic, beatae voluptates? Ex labore, obcaecati harum nam.</p>
-                <img src="{{ asset('_template/images/company/company-image-2.jpg') }}" alt="" class="img-fluid mt-30">
+                <img src="{{ asset('assets/images/company/company-image-2.jpg') }}" alt="" class="img-fluid mt-30">
             </div>
             <div class="col-md-6">
                 <h3>Visi kami</h3>
@@ -60,7 +60,7 @@
                     assumenda vel, quia earum voluptatem blanditiis vero accusantium saepe aliquid nulla nemo accusamus,
                     culpa inventore! Culpa nemo aspernatur tenetur, at quam aliquid reprehenderit obcaecati dicta illum
                     mollitia, perferendis hic, beatae voluptates? Ex labore, obcaecati harum nam.</p>
-                <img src="{{ asset('_template/images/company/company-image-3.jpg') }}" alt="" class="img-fluid mt-30">
+                <img src="{{ asset('assets/images/company/company-image-3.jpg') }}" alt="" class="img-fluid mt-30">
             </div>
         </div>
     </div>
@@ -131,18 +131,18 @@
             <div class="row">
                 <div class="col-md-12 col-sm-12">
                     <div class="company-gallery">
-                        <img src="{{ asset('_template/images/company/gallery-1.jpg') }}" alt="">
-                        <img src="{{ asset('_template/images/company/gallery-2.jpg') }}" alt="">
-                        <img src="{{ asset('_template/images/company/gallery-3.jpg') }}" alt="">
-                        <img src="{{ asset('_template/images/company/gallery-4.jpg') }}" alt="">
-                        <img src="{{ asset('_template/images/company/gallery-5.jpg') }}" alt="">
-                        <img src="{{ asset('_template/images/company/gallery-5.jpg') }}" alt="">
-                        <img src="{{ asset('_template/images/company/gallery-1.jpg') }}" alt="">
-                        <img src="{{ asset('_template/images/company/gallery-2.jpg') }}" alt="">
-                        <img src="{{ asset('_template/images/company/gallery-3.jpg') }}" alt="">
-                        <img src="{{ asset('_template/images/company/gallery-4.jpg') }}" alt="">
-                        <img src="{{ asset('_template/images/company/gallery-5.jpg') }}" alt="">
-                        <img src="{{ asset('_template/images/company/gallery-5.jpg') }}" alt="">
+                        <img src="{{ asset('assets/images/company/gallery-1.jpg') }}" alt="">
+                        <img src="{{ asset('assets/images/company/gallery-2.jpg') }}" alt="">
+                        <img src="{{ asset('assets/images/company/gallery-3.jpg') }}" alt="">
+                        <img src="{{ asset('assets/images/company/gallery-4.jpg') }}" alt="">
+                        <img src="{{ asset('assets/images/company/gallery-5.jpg') }}" alt="">
+                        <img src="{{ asset('assets/images/company/gallery-5.jpg') }}" alt="">
+                        <img src="{{ asset('assets/images/company/gallery-1.jpg') }}" alt="">
+                        <img src="{{ asset('assets/images/company/gallery-2.jpg') }}" alt="">
+                        <img src="{{ asset('assets/images/company/gallery-3.jpg') }}" alt="">
+                        <img src="{{ asset('assets/images/company/gallery-4.jpg') }}" alt="">
+                        <img src="{{ asset('assets/images/company/gallery-5.jpg') }}" alt="">
+                        <img src="{{ asset('assets/images/company/gallery-5.jpg') }}" alt="">
                     </div>
                 </div>
             </div>
@@ -174,7 +174,7 @@
                 <div class="team-member text-center">
                     <div class="member-photo">
                         <!-- member photo -->
-                        <img class="img-fluid" src="{{ asset('_template/images/team/member-1.jpg') }}" alt="Meghna">
+                        <img class="img-fluid" src="{{ asset('assets/images/team/member-1.jpg') }}" alt="Meghna">
                         <!-- /member photo -->
 
                         <!-- member social profile -->
@@ -207,7 +207,7 @@
                 <div class="team-member text-center">
                     <div class="member-photo">
                         <!-- member photo -->
-                        <img class="img-fluid" src="{{ asset('_template/images/team/member-2.jpg') }}" alt="Meghna">
+                        <img class="img-fluid" src="{{ asset('assets/images/team/member-2.jpg') }}" alt="Meghna">
                         <!-- /member photo -->
 
                         <!-- member social profile -->
@@ -239,7 +239,7 @@
                 <div class="team-member text-center">
                     <div class="member-photo">
                         <!-- member photo -->
-                        <img class="img-fluid" src="{{ asset('_template/images/team/member-3.jpg') }}" alt="Meghna">
+                        <img class="img-fluid" src="{{ asset('assets/images/team/member-3.jpg') }}" alt="Meghna">
                         <!-- /member photo -->
 
                         <!-- member social profile -->

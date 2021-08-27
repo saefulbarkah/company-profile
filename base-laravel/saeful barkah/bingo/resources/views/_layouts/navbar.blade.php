@@ -5,8 +5,8 @@
         <nav class="navbar navbar-expand-lg navbar-light">
             <!-- logo -->
             <a class="navbar-brand logo" href="index.html">
-                <img class="logo-default" src="{{ asset('_template/images/logo.png') }}" alt="logo" />
-                <img class="logo-white" src="{{ asset('_template/images/logo-white.png') }}" alt="logo" />
+                <img class="logo-default" src="{{ asset('assets/images/logo.png') }}" alt="logo" />
+                <img class="logo-white" src="{{ asset('assets/images/logo-white.png') }}" alt="logo" />
             </a>
             <!-- /logo -->
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navigation"

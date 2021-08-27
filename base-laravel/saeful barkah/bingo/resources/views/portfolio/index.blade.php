@@ -37,11 +37,11 @@
                 <div class="row filtr-container">
                     <div class="col-md-3 col-sm-6 col-xs-6 filtr-item " data-category="mix, portofolio">
                         <div class="portfolio-block">
-                            <img class="img-fluid" src=" {{ asset('_template/images/portfolio/portfolio-1.jpg') }}"
+                            <img class="img-fluid" src=" {{ asset('assets/images/portfolio/portfolio-1.jpg') }}"
                                 alt="">
                             <div class="caption">
                                 <a class="search-icon"
-                                    href=" {{ asset('_template/images/portfolio/portfolio-1.jpg') }}"
+                                    href=" {{ asset('assets/images/portfolio/portfolio-1.jpg') }}"
                                     data-lightbox="image-1">
                                     <i class="tf-ion-ios-search-strong"></i>
                                 </a>
@@ -51,11 +51,11 @@
                     </div>
                     <div class="col-md-3 col-sm-6 col-xs-6 filtr-item " data-category="mix, portofolio">
                         <div class="portfolio-block">
-                            <img class="img-fluid" src=" {{ asset('_template/images/portfolio/portfolio-2.jpg') }}"
+                            <img class="img-fluid" src=" {{ asset('assets/images/portfolio/portfolio-2.jpg') }}"
                                 alt="">
                             <div class="caption">
                                 <a class="search-icon"
-                                    href=" {{ asset('_template/images/portfolio/portfolio-2.jpg') }}"
+                                    href=" {{ asset('assets/images/portfolio/portfolio-2.jpg') }}"
                                     data-lightbox="image-1">
                                     <i class="tf-ion-ios-search-strong"></i>
                                 </a>
@@ -65,11 +65,11 @@
                     </div>
                     <div class="col-md-3 col-sm-6 col-xs-6 filtr-item " data-category="mix, dokumentasi">
                         <div class="portfolio-block">
-                            <img class="img-fluid" src=" {{ asset('_template/images/portfolio/portfolio-3.jpg') }}"
+                            <img class="img-fluid" src=" {{ asset('assets/images/portfolio/portfolio-3.jpg') }}"
                                 alt="">
                             <div class="caption">
                                 <a class="search-icon"
-                                    href=" {{ asset('_template/images/portfolio/portfolio-3.jpg') }}"
+                                    href=" {{ asset('assets/images/portfolio/portfolio-3.jpg') }}"
                                     data-lightbox="image-1">
                                     <i class="tf-ion-ios-search-strong"></i>
                                 </a>
@@ -104,7 +104,7 @@
                         <!-- /client info -->
                         <!-- client photo -->
                         <div class="client-thumb">
-                            <img src=" {{ asset('_template/images/client-logo/clients-1.jpg') }}" class="img-fluid"
+                            <img src=" {{ asset('assets/images/client-logo/clients-1.jpg') }}" class="img-fluid"
                                 alt="">
                         </div>
                         <div class="client-meta">
@@ -128,7 +128,7 @@
                         <!-- /client info -->
                         <!-- client photo -->
                         <div class="client-thumb">
-                            <img src=" {{ asset('_template/images/client-logo/clients-2.jpg') }}" class="img-fluid"
+                            <img src=" {{ asset('assets/images/client-logo/clients-2.jpg') }}" class="img-fluid"
                                 alt="">
                         </div>
                         <div class="client-meta">
@@ -152,7 +152,7 @@
                         <!-- /client info -->
                         <!-- client photo -->
                         <div class="client-thumb">
-                            <img src=" {{ asset('_template/images/client-logo/clients-3.jpg') }}" class="img-fluid"
+                            <img src=" {{ asset('assets/images/client-logo/clients-3.jpg') }}" class="img-fluid"
                                 alt="">
                         </div>
                         <div class="client-meta">
