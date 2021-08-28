@@ -5,7 +5,7 @@
         <nav id="navbar" class="navbar order-last order-lg-0">
             <ul>
                 <li><a class="nav-link scrollto active" href="{{ url('/') }}">Home</a></li>
-                <li><a class="nav-link scrollto" href="{{ url('/about') }}">About</a></li>
+                <li><a class="nav-link scrollto" href="{{ url('/about') }}">Tentang</a></li>
                 <li><a class="nav-link scrollto" href="{{ url('service') }}">Layanan</a></li>
                 <li><a class="nav-link scrollto " href="{{ url('portfolio') }}">Portofolio</a></li>
                 <li><a class="nav-link scrollto" href="{{ url('contact') }}">kontak</a></li>
