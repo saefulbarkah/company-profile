@@ -8,7 +8,7 @@
                 <li><a class="nav-link scrollto" href="{{ url('/about') }}">About</a></li>
                 <li><a class="nav-link scrollto" href="{{ url('service') }}">Layanan</a></li>
                 <li><a class="nav-link scrollto " href="{{ url('portfolio') }}">Portofolio</a></li>
-                <li><a class="nav-link scrollto" href="#contact">Contact</a></li>
+                <li><a class="nav-link scrollto" href="{{ url('contact') }}">kontak</a></li>
             </ul>
             <i class="bi bi-list mobile-nav-toggle"></i>
         </nav>
