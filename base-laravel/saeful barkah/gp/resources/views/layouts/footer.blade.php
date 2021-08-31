@@ -21,13 +21,14 @@
                     </div>
                 </div>
                 <div class="col-lg-4 footer-links">
-                    <h4>Layanan Kamis</h4>
+                    <h4>Layanan</h4>
                     <ul>
-                        <li><i class="bx bx-chevron-right"></i> <a href="#">Web Design</a></li>
-                        <li><i class="bx bx-chevron-right"></i> <a href="#">Web Development</a></li>
-                        <li><i class="bx bx-chevron-right"></i> <a href="#">Product Management</a></li>
-                        <li><i class="bx bx-chevron-right"></i> <a href="#">Marketing</a></li>
-                        <li><i class="bx bx-chevron-right"></i> <a href="#">Graphic Design</a></li>
+                        <li><i class="bx bx-chevron-right"></i> <a href="#">Jersey</a></li>
+                        <li><i class="bx bx-chevron-right"></i> <a href="#">T-shirt sablon</a></li>
+                        <li><i class="bx bx-chevron-right"></i> <a href="#">Kemeja</a></li>
+                        <li><i class="bx bx-chevron-right"></i> <a href="#">Jaket</a></li>
+                        <li><i class="bx bx-chevron-right"></i> <a href="#">Makloon Sublime Printing</a></li>
+                        <li><i class="bx bx-chevron-right"></i> <a href="#">Makloon Press Sublime</a></li>
                     </ul>
                 </div>
                 <div class="col-lg-4 footer-links">
