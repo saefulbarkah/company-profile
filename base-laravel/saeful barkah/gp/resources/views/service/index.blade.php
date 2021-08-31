@@ -33,7 +33,8 @@
             <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-lg-0" data-aos="zoom-in"
                 data-aos-delay="300">
                 <div class="icon-box">
-                    <div class="icon"><i class="fas fa-tshirt"></i></div>
+                    <div class="icon"><img src="{{ asset('assets/icon/shirt.png') }}" alt="" class="img-fluid"
+                            width="40px"></div>
                     <h4><a href="">Kemeja</a></h4>
                     <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia</p>
                 </div>
@@ -42,7 +43,7 @@
             <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4" data-aos="zoom-in" data-aos-delay="100">
                 <div class="icon-box">
                     <div class="icon">
-                        <img src="{{ asset('assets/icon/jacket.png') }}" alt="" class="img-fluid" width="40px">
+                        <img src="{{ asset('assets/icon/hoodie.png') }}" alt="" class="img-fluid" width="40px">
                     </div>
                     <h4><a href="">Jaket</a></h4>
                     <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis</p>
