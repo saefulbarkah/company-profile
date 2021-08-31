@@ -6,7 +6,8 @@
         <nav id="navbar" class="navbar order-last order-lg-0">
             <ul>
                 <li>
-                    <a class="nav-link scrollto {{ Request::is('/') ? 'active' : '' }}" href="{{ url('/') }}">Home</a>
+                    <a class="nav-link scrollto {{ Request::is('/') ? 'active' : '' }}"
+                        href="{{ url('/') }}">Beranda</a>
                 </li>
                 <li>
                     <a class="nav-link scrollto {{ Request::is('about') ? 'active' : '' }}"
