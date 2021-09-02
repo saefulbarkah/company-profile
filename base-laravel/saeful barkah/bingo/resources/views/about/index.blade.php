@@ -37,35 +37,6 @@
 {{-- about end --}}
 
 
-{{-- promo video --}}
-<section class="promo-video section-sm">
-    <div class="container">
-        <div class="row">
-            <!-- section title -->
-            <div class="col-12">
-                <div class="title text-center">
-                    <h2>Video Promo Kami</h2>
-                    <p>Vestibulum nisl tortor, consectetur quis imperdiet bibendum, laoreet sed arcu.Sed condimentum
-                        iaculis ex,
-                        in faucibus lorem accumsan non. Donec mattis tincidunt metus. Morbi sed tortor a risus luctus
-                        dignissim.</p>
-                    <div class="border"></div>
-                </div>
-            </div>
-            <!-- /section title -->
-            <div class="col-md-8 mx-auto">
-                <iframe width="100%" height="400" src="https://www.youtube.com/embed/BD5bJLSMBw0"
-                    title="YouTube video player" frameborder="0"
-                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                    allowfullscreen></iframe>
-            </div>
-        </div>
-    </div>
-</section>
-{{-- end promo video --}}
-
-
-
 <!--Start Call To Action -->
 <section class="call-to-action-2 section">
     <div class="container">
