@@ -1,6 +1,17 @@
 @extends('_layouts.master')
-
 @section('title', 'Portofolio')
+@push('item-css')
+<style>
+    .item:hover {
+        filter: brightness(50%);
+    }
+
+    .item {
+        transition: .5s ease-in-out;
+    }
+</style>
+@endpush
+
 @section('content')
 {{-- Single page header --}}
 <section class="single-page-header">
@@ -16,71 +27,68 @@
 
 <!-- Start Portfolio Section -->
 <section class="portfolio section-sm" id="portfolio">
+
     <div class="container-fluid">
         <div class="row ">
             <div class="col-lg-12">
 
                 <!-- section title -->
                 <div class="title text-center">
-                    <h2>Pekerjaan kami</h2>
-                    <p> </p>
+                    <h2>Our Works</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Porro, veritatis. Lorem ipsum dolor sit
+                        amet,
+                        consectetur adipisicing elit. Minima, vitae? </p>
                     <div class="border"></div>
                 </div>
                 <!-- /section title -->
 
-                <div class="portfolio-filter">
-                    <button type="button" data-filter="all">All</button>
-                    <button type="button" data-filter="portofolio">portofolio</button>
-                    <button type="button" data-filter="dokumentasi">dokumentasi</button>
-                </div>
-
-                <div class="row filtr-container">
-                    <div class="col-md-3 col-sm-6 col-xs-6 filtr-item " data-category="mix, portofolio">
-                        <div class="portfolio-block">
-                            <img class="img-fluid" src=" {{ asset('assets/images/portfolio/portfolio-1.jpg') }}"
-                                alt="">
-                            <div class="caption">
-                                <a class="search-icon"
-                                    href=" {{ asset('assets/images/portfolio/portfolio-1.jpg') }}"
-                                    data-lightbox="image-1">
-                                    <i class="tf-ion-ios-search-strong"></i>
-                                </a>
-                                <h4><a href="">AirBnB Postcard</a></h4>
-                            </div>
-                        </div>
+                <div class="row">
+                    <div class="item col-md-3 mb-4" data-category="mix, hijau">
+                        <a href="{{ asset('assets/images/portfolio/baju-hijau-depan.jpg') }}" class="search-item"
+                            data-fancybox="galery1">
+                            <img src="{{ asset('assets/images/portfolio/baju-hijau-depan.jpg') }}" class="img-fluid"
+                                alt="" width="100%" height="100%">
+                        </a>
                     </div>
-                    <div class="col-md-3 col-sm-6 col-xs-6 filtr-item " data-category="mix, portofolio">
-                        <div class="portfolio-block">
-                            <img class="img-fluid" src=" {{ asset('assets/images/portfolio/portfolio-2.jpg') }}"
-                                alt="">
-                            <div class="caption">
-                                <a class="search-icon"
-                                    href=" {{ asset('assets/images/portfolio/portfolio-2.jpg') }}"
-                                    data-lightbox="image-1">
-                                    <i class="tf-ion-ios-search-strong"></i>
-                                </a>
-                                <h4><a href="">AirBnB Postcard</a></h4>
-                            </div>
-                        </div>
+                    <div class="item col-md-3 mb-4" data-category="mix, hijau">
+                        <a href="{{ asset('assets/images/portfolio/baju-hijau-depan.jpg') }}" class="search-item"
+                            data-fancybox="galery1">
+                            <img src="{{ asset('assets/images/portfolio/baju-hijau-depan.jpg') }}" class="img-fluid"
+                                alt="" width="100%" height="100%">
+                        </a>
                     </div>
-                    <div class="col-md-3 col-sm-6 col-xs-6 filtr-item " data-category="mix, dokumentasi">
-                        <div class="portfolio-block">
-                            <img class="img-fluid" src=" {{ asset('assets/images/portfolio/portfolio-3.jpg') }}"
-                                alt="">
-                            <div class="caption">
-                                <a class="search-icon"
-                                    href=" {{ asset('assets/images/portfolio/portfolio-3.jpg') }}"
-                                    data-lightbox="image-1">
-                                    <i class="tf-ion-ios-search-strong"></i>
-                                </a>
-                                <h4><a href="">AirBnB Postcard</a></h4>
-                            </div>
-                        </div>
+                    <div class="item col-md-3 mb-4" data-category="mix, hijau">
+                        <a href="{{ asset('assets/images/portfolio/baju-merah-depan.jpg') }}" class="search-item"
+                            data-fancybox="galery1">
+                            <img src="{{ asset('assets/images/portfolio/baju-merah-depan.jpg') }}" class="img-fluid"
+                                alt="" width="100%" height="100%">
+                        </a>
+                    </div>
+                    <div class="item col-md-3 mb-4" data-category="mix, hijau">
+                        <a href="{{ asset('assets/images/portfolio/baju-merah-belakang.jpg') }}" class="search-item"
+                            data-fancybox="galery1">
+                            <img src="{{ asset('assets/images/portfolio/baju-merah-belakang.jpg') }}" class="img-fluid"
+                                alt="" width="100%" height="100%">
+                        </a>
+                    </div>
+                    <div class="item col-md-3 mb-4" data-category="mix, hijau">
+                        <a href="{{ asset('assets/images/portfolio/baju-orange-depan.jpg') }}" class="search-item"
+                            data-fancybox="galery1">
+                            <img src="{{ asset('assets/images/portfolio/baju-orange-depan.jpg') }}" class="img-fluid"
+                                alt="" width="100%" height="100%">
+                        </a>
+                    </div>
+                    <div class="item col-md-3 mb-4" data-category="mix, hijau">
+                        <a href="{{ asset('assets/images/portfolio/baju-orange-belakang.jpg') }}" class="search-item"
+                            data-fancybox="galery1">
+                            <img src="{{ asset('assets/images/portfolio/baju-orange-belakang.jpg') }}" class="img-fluid"
+                                alt="" width="100%" height="100%">
+                        </a>
                     </div>
                 </div>
-            </div> <!-- /end col-lg-12 -->
-        </div> <!-- end row -->
-    </div> <!-- end container -->
+                <!-- /end col-lg-12 -->
+            </div> <!-- end row -->
+        </div> <!-- end container -->
 </section>
 <!-- End section -->
 
@@ -104,7 +112,7 @@
                         <!-- /client info -->
                         <!-- client photo -->
                         <div class="client-thumb">
-                            <img src=" {{ asset('assets/images/client-logo/clients-1.jpg') }}" class="img-fluid"
+                            <img src=" {{ asset('assets/images/client-logo/clients-1.jpg') }}') }}" class="img-fluid"
                                 alt="">
                         </div>
                         <div class="client-meta">
@@ -120,15 +128,17 @@
                         <i class="tf-ion-chatbubbles"></i>
                         <!-- client info -->
                         <div class="client-details">
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum nulla, soluta dolorum. Eos
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum nulla, soluta dolorum.
+                                Eos
                                 earum, magni asperiores, unde corporis labore, enim, voluptatum officiis voluptates
-                                alias natus. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia, officia.
+                                alias natus. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia,
+                                officia.
                                 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod, quia?</p>
                         </div>
                         <!-- /client info -->
                         <!-- client photo -->
                         <div class="client-thumb">
-                            <img src=" {{ asset('assets/images/client-logo/clients-2.jpg') }}" class="img-fluid"
+                            <img src=" {{ asset('assets/images/client-logo/clients-2.jpg') }}') }}" class="img-fluid"
                                 alt="">
                         </div>
                         <div class="client-meta">
@@ -144,15 +154,17 @@
                         <i class="tf-ion-chatbubbles"></i>
                         <!-- client info -->
                         <div class="client-details">
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum nulla, soluta dolorum. Eos
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum nulla, soluta dolorum.
+                                Eos
                                 earum, magni asperiores, unde corporis labore, enim, voluptatum officiis voluptates
-                                alias natus. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia, officia.
+                                alias natus. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia,
+                                officia.
                                 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod, quia?</p>
                         </div>
                         <!-- /client info -->
                         <!-- client photo -->
                         <div class="client-thumb">
-                            <img src=" {{ asset('assets/images/client-logo/clients-3.jpg') }}" class="img-fluid"
+                            <img src=" {{ asset('assets/images/client-logo/clients-3.jpg') }}') }}" class="img-fluid"
                                 alt="">
                         </div>
                         <div class="client-meta">
