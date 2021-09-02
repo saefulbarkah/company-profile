@@ -53,44 +53,6 @@
 <!-- End section -->
 
 
-
-{{-- galery --}}
-{{-- <section class="section grallery">
-        <div class="container-fluid">
-            <div class="row">
-                <div class="col-md-12">
-                    <div class="title text-center">
-                        <h2>Galeri</h2>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore numquam esse vitae recusandae
-                            qui aspernatur, blanditiis, laboriosam dignissimos dolore facere provident ex? Porro,
-                            praesentium consectetur tempore. Nulla, error eius dolorem.</p>
-                    </div>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-md-12 col-sm-12">
-                    <div class="company-gallery">
-                        <img src="{{ asset('assets/images/company/gallery-1.jpg') }}" alt="">
-<img src="{{ asset('assets/images/company/gallery-2.jpg') }}" alt="">
-<img src="{{ asset('assets/images/company/gallery-3.jpg') }}" alt="">
-<img src="{{ asset('assets/images/company/gallery-4.jpg') }}" alt="">
-<img src="{{ asset('assets/images/company/gallery-5.jpg') }}" alt="">
-<img src="{{ asset('assets/images/company/gallery-5.jpg') }}" alt="">
-<img src="{{ asset('assets/images/company/gallery-1.jpg') }}" alt="">
-<img src="{{ asset('assets/images/company/gallery-2.jpg') }}" alt="">
-<img src="{{ asset('assets/images/company/gallery-3.jpg') }}" alt="">
-<img src="{{ asset('assets/images/company/gallery-4.jpg') }}" alt="">
-<img src="{{ asset('assets/images/company/gallery-5.jpg') }}" alt="">
-<img src="{{ asset('assets/images/company/gallery-5.jpg') }}" alt="">
-</div>
-</div>
-</div>
-</div>
-</section> --}}
-{{-- end galery --}}
-
-
-
 <!-- Start Our Team -->
 <section class="team" id="team">
     <div class="container">
