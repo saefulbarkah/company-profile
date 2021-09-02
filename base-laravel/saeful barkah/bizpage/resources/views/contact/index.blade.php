@@ -1,5 +1,5 @@
 @extends('layouts.master')
-
+@section('title','Genetic | Kontak')
 @section('content')
 <!-- ======= Contact Section ======= -->
 <section id="contact" class="section-bg">

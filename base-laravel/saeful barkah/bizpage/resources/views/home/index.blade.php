@@ -1,5 +1,6 @@
 @extends('layouts.master')
 
+@section('title','Genetic | Beranda')
 @section('content')
 <!-- ======= About Us Section ======= -->
 <section id="about">
