@@ -1,5 +1,5 @@
 @extends('layouts.master')
-@section('title', 'blog')
+@section('title', 'portofolio')
 @section('content')
 
 <section class="portfolio">
@@ -8,12 +8,12 @@
         <div class="row">
             <div class="col-md-12">
                 <div class="block">
-                    <h2>Big Headline for Portfolio Project</h2>
+                    <h2>Judul Besar untuk Proyek Portofolio</h2>
                     <div class="portfolio-meta">
                         <span>Dec 11, 2020</span>|
-                        <span> Category: typography</span>|
+                        <span> Kategori: konveksi</span>|
                         <span> website:
-                            <a href="http://www.themefisher.com">Themefisher</a>
+                            <a href="#">Genetic wear</a>
                         </span>
                     </div>
                 </div>
@@ -89,7 +89,7 @@
 
 <section class="works works-fit">
     <div class="container">
-        <h2 class="subtitle">Some Of Our Features Works</h2>
+        <h2 class="subtitle">Beberapa hasil kerja kami</h2>
         <p class="subtitle-des">
             Aliquam lobortis. Maecenas vestibulum mollis diam. Pellentesque auctor neque nec urna. Nulla sit amet est. Aenean posuere
             <br> tortor sed cursus feugiat, nunc augue blandit nunc, eu sollicitudin urna dolor sagittis lacus.
@@ -102,18 +102,18 @@
                         <div class="overlay">
                             <div class="buttons">
                                 <a rel="gallery" title="Proin imperdiet augue et magna interdum hendrerit" class="fancybox" href="{{ asset('assets/images/portfolio/item-1.jpg')}}">Demo</a>
-                                <a target="_blank" href="{{ url('portfolio') }}">Details</a>
+                                <a target="_blank" href="{{ url('portfolio') }}">rincian</a>
                             </div>
                         </div>
                     </div>
                     <figcaption>
                         <h4>
                             <a href="#">
-                                Dew Drop
+                                T-shirt sablon
                             </a>
                         </h4>
                         <p>
-                            Redesigne UI Concept
+                            Lorem ipsum dolor sit.
                         </p>
                     </figcaption>
                 </figure>
@@ -126,14 +126,14 @@
                         <div class="overlay">
                             <div class="buttons">
                                 <a rel="gallery" title="Proin imperdiet augue et magna interdum hendrerit" class="fancybox" href="{{ asset('assets/images/portfolio/item-2.jpg')}}">Demo</a>
-                                <a target="_blank"  href="{{ url('portfolio') }}">Details</a>
+                                <a target="_blank"  href="{{ url('portfolio') }}">rincian</a>
                             </div>
                         </div>
                     </div>
                     <figcaption>
                         <h4>
                             <a href="#">
-                                Bottle Mockup
+                                T-shirt sablon
                             </a>
                         </h4>
                         <p>
@@ -150,14 +150,14 @@
                         <div class="overlay">
                             <div class="buttons">
                                 <a rel="gallery" title="Proin imperdiet augue et magna interdum hendrerit" class="fancybox" href="{{ asset('assets/images/portfolio/item-3.jpg')}}">Demo</a>
-                                <a target="_blank" href="{{ url('portfolio') }}">Details</a>
+                                <a target="_blank" href="{{ url('portfolio') }}">rincian</a>
                             </div>
                         </div>
                     </div>
                     <figcaption>
                         <h4>
                             <a href="#">
-                                Table Design
+                                T-shirt sablon
                             </a>
                         </h4>
                         <p>
@@ -174,14 +174,14 @@
                         <div class="overlay">
                             <div class="buttons">
                                 <a rel="gallery" title="Proin imperdiet augue et magna interdum hendrerit" class="fancybox" href="{{ asset('assets/images/portfolio/item-4.jpg')}}">Demo</a>
-                                <a target="_blank" href="{{ url('portfolio') }}">Details</a>
+                                <a target="_blank" href="{{ url('portfolio') }}">rincian</a>
                             </div>
                         </div>
                     </div>
                     <figcaption>
                         <h4>
                             <a href="#">
-                                Make Up elements
+                                T-shirt sablon
                             </a>
                         </h4>
                         <p>

@@ -1,5 +1,5 @@
 @extends('layouts.master')
-@section('title', 'about')
+@section('title', 'tentang')
 @section('content')
 
 <section class="about">
@@ -9,15 +9,15 @@
             <div class="row">
                 <div class="col-md-12">
                     <div class="block">
-                        <h2>About Company</h2>
+                        <h2>Tentang perusahaan</h2>
                         <ol class="breadcrumb list-inline text-center">
                             <li class="list-inline-item">
                                 <a href="{{ url('/') }}">
                                     <i class="ion-ios-home"></i>
-                                    Home  &nbsp; &nbsp;/
+                                    Beranda  &nbsp; &nbsp;/
                                 </a>
                             </li>
-                            <li class="active list-inline-item">About</li>
+                            <li class="active list-inline-item">tentang</li>
                         </ol>
                     </div>
                 </div>
@@ -33,7 +33,7 @@
             </div>
             <div class="col-md-6">
                 <div class="block">
-                    <h3 class="subtitle wow fadeInUp" data-wow-delay=".3s" data-wow-duration="500ms">Why We are Different</h3>
+                    <h3 class="subtitle wow fadeInUp" data-wow-delay=".3s" data-wow-duration="500ms">Mengapa Kita Berbeda</h3>
                     <p  class="wow fadeInUp" data-wow-delay=".5s" data-wow-duration="500ms">
                         Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequun. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                     </p>
@@ -58,7 +58,7 @@
             <div class="col-lg-4 px-0">
                 <div class="block about-feature-1 wow fadeInDown" data-wow-duration="500ms" data-wow-delay=".3s">
                     <h2>
-                    Why Choose Us
+                        Mengapa Memilih Kami
                     </h2>
                     <p>
                         Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas.
@@ -68,7 +68,7 @@
             <div class="col-lg-4 px-0">
                 <div class="block about-feature-2 wow fadeInDown" data-wow-duration="500ms" data-wow-delay=".5s">
                     <h2 class="item_title">
-                    What You Get
+                        Apa yang kau dapatkan
                     </h2>
                     <p>
                         Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas.
@@ -78,7 +78,7 @@
             <div class="col-lg-4 px-0">
                 <div class="block about-feature-3 wow fadeInDown" data-wow-duration="500ms" data-wow-delay=".7s">
                     <h2 class="item_title">
-                    Meet The Energy
+                    pilihan tepat
                     </h2>
                     <p>
                         Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas.
@@ -98,7 +98,7 @@
     <div class="container">
         <div class="row">
             <div class="col-lg-12">
-                <h2 class="subtitle text-center">Meet The Team</h2>
+                <h2 class="subtitle text-center">Tim kami</h2>
             </div>
             <div class="col-md-3 col-sm-6">
                 <div class="team-member wow fadeInLeft" data-wow-duration="500ms" data-wow-delay=".3s">
@@ -176,8 +176,7 @@
     <div class="container">
         <div class="row">
             <div class="col-md-12">
-                <h2 class="subtitle text-center wow fadeInUp animated" data-wow-duration="500ms" data-wow-delay=".3s">Our
-                    Happy Clinets</h2>
+                <h2 class="subtitle text-center wow fadeInUp animated" data-wow-duration="500ms" data-wow-delay=".3s">Klien Kami yang Bahagia</h2>
                 <p class="subtitle-des text-center wow fadeInUp animated" data-wow-duration="500ms" data-wow-delay=".5s">Lorem
                     ipsum dolor sit amet, consectetur adipisicing elit. Labore, error.</p>
                 <div id="clients-logo" class="clients-logo-slider">
