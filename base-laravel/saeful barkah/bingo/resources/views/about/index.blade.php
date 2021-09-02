@@ -37,34 +37,6 @@
 {{-- about end --}}
 
 
-
-{{-- company mission --}}
-<section class="company-mission section-sm bg-gray">
-    <div class="container">
-        <div class="row">
-            <div class="col-md-6">
-                <h3>Misi kami</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere in suscipit voluptatum totam dolores
-                    assumenda vel, quia earum voluptatem blanditiis vero accusantium saepe aliquid nulla nemo accusamus,
-                    culpa inventore! Culpa nemo aspernatur tenetur, at quam aliquid reprehenderit obcaecati dicta illum
-                    mollitia, perferendis hic, beatae voluptates? Ex labore, obcaecati harum nam.</p>
-                <img src="{{ asset('assets/images/company/company-image-2.jpg') }}" alt="" class="img-fluid mt-30">
-            </div>
-            <div class="col-md-6">
-                <h3>Visi kami</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere in suscipit voluptatum totam dolores
-                    assumenda vel, quia earum voluptatem blanditiis vero accusantium saepe aliquid nulla nemo accusamus,
-                    culpa inventore! Culpa nemo aspernatur tenetur, at quam aliquid reprehenderit obcaecati dicta illum
-                    mollitia, perferendis hic, beatae voluptates? Ex labore, obcaecati harum nam.</p>
-                <img src="{{ asset('assets/images/company/company-image-3.jpg') }}" alt="" class="img-fluid mt-30">
-            </div>
-        </div>
-    </div>
-</section>
-{{-- company mission --}}
-
-
-
 {{-- promo video --}}
 <section class="promo-video section-sm">
     <div class="container">
@@ -128,22 +100,22 @@
                 <div class="col-md-12 col-sm-12">
                     <div class="company-gallery">
                         <img src="{{ asset('assets/images/company/gallery-1.jpg') }}" alt="">
-                        <img src="{{ asset('assets/images/company/gallery-2.jpg') }}" alt="">
-                        <img src="{{ asset('assets/images/company/gallery-3.jpg') }}" alt="">
-                        <img src="{{ asset('assets/images/company/gallery-4.jpg') }}" alt="">
-                        <img src="{{ asset('assets/images/company/gallery-5.jpg') }}" alt="">
-                        <img src="{{ asset('assets/images/company/gallery-5.jpg') }}" alt="">
-                        <img src="{{ asset('assets/images/company/gallery-1.jpg') }}" alt="">
-                        <img src="{{ asset('assets/images/company/gallery-2.jpg') }}" alt="">
-                        <img src="{{ asset('assets/images/company/gallery-3.jpg') }}" alt="">
-                        <img src="{{ asset('assets/images/company/gallery-4.jpg') }}" alt="">
-                        <img src="{{ asset('assets/images/company/gallery-5.jpg') }}" alt="">
-                        <img src="{{ asset('assets/images/company/gallery-5.jpg') }}" alt="">
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section> --}}
+<img src="{{ asset('assets/images/company/gallery-2.jpg') }}" alt="">
+<img src="{{ asset('assets/images/company/gallery-3.jpg') }}" alt="">
+<img src="{{ asset('assets/images/company/gallery-4.jpg') }}" alt="">
+<img src="{{ asset('assets/images/company/gallery-5.jpg') }}" alt="">
+<img src="{{ asset('assets/images/company/gallery-5.jpg') }}" alt="">
+<img src="{{ asset('assets/images/company/gallery-1.jpg') }}" alt="">
+<img src="{{ asset('assets/images/company/gallery-2.jpg') }}" alt="">
+<img src="{{ asset('assets/images/company/gallery-3.jpg') }}" alt="">
+<img src="{{ asset('assets/images/company/gallery-4.jpg') }}" alt="">
+<img src="{{ asset('assets/images/company/gallery-5.jpg') }}" alt="">
+<img src="{{ asset('assets/images/company/gallery-5.jpg') }}" alt="">
+</div>
+</div>
+</div>
+</div>
+</section> --}}
 {{-- end galery --}}
 
 
