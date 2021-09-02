@@ -1,6 +1,8 @@
 @extends('layouts.master')
 
 @section('title','Genetic | Beranda')
+@section('title-pages','Genetic Wear')
+@section('subtitle-pages','konveksi & sablon')
 @section('content')
 <!-- ======= About Us Section ======= -->
 <section id="about">

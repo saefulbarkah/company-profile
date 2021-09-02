@@ -54,8 +54,8 @@
                     <div class="carousel-item active" style="background-image: url(assets/img/hero-carousel/1.jpg)">
                         <div class="carousel-container">
                             <div class="container">
-                                <h2 class="animate__animated animate__fadeInDown">Genetik Wear</h2>
-                                <p class="animate__animated animate__fadeInUp">Konveksi & Sablon</p>
+                                <h2 class="animate__animated animate__fadeInDown">@yield('title-pages')</h2>
+                                <p class="animate__animated animate__fadeInUp">@yield('subtitle-pages')</p>
                             </div>
                         </div>
                     </div>

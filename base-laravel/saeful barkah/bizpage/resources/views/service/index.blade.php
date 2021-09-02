@@ -1,5 +1,7 @@
 @extends('layouts.master')
 @section('title','Genetic | Layanan')
+@section('title-pages','Genetic Wear')
+@section('subtitle-pages','Layanan')
 @section('content')
 <!-- ======= Featured Services Section Section ======= -->
 <!-- ======= Services Section ======= -->
