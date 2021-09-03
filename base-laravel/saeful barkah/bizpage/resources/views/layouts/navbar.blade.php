@@ -6,11 +6,16 @@
 
         <nav id="navbar" class="navbar">
             <ul>
-                <li><a class="nav-link scrollto active" href="{{ url('/') }}">Beranda</a></li>
-                <li><a class="nav-link scrollto" href="{{ url('about') }}">Tentang Kami</a></li>
-                <li><a class="nav-link scrollto" href="{{ url('service') }}">Layanan</a></li>
-                <li><a class="nav-link scrollto " href="{{ url('portfolio') }}">Portofolio</a></li>
-                <li><a class="nav-link scrollto" href="{{ url('contact') }}">Kontak</a></li>
+                <li><a class="nav-link scrollto {{  Request::is('/') ? 'active' : ' ' }}"
+                        href="{{ url('/') }}">Beranda</a></li>
+                <li><a class="nav-link scrollto {{  Request::is('about') ? 'active' : ' ' }}"
+                        href="{{ url('about') }}">Tentang Kami</a></li>
+                <li><a class="nav-link scrollto {{  Request::is('service') ? 'active' : ' ' }}"
+                        href="{{ url('service') }}">Layanan</a></li>
+                <li><a class="nav-link scrollto {{  Request::is('portfolio') ? 'active' : ' ' }}"
+                        href="{{ url('portfolio') }}">Portofolio</a></li>
+                <li><a class="nav-link scrollto {{  Request::is('contact') ? 'active' : ' ' }}"
+                        href="{{ url('contact') }}">Kontak</a></li>
             </ul>
             <i class="bi bi-list mobile-nav-toggle"></i>
         </nav><!-- .navbar -->
