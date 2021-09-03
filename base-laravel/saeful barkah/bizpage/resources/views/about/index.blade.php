@@ -9,9 +9,12 @@
 
         <header class="section-header">
             <h3>Tentang Kami</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
-                dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
-                ex ea commodo consequat.</p>
+            <p>Genetic Wear merupakan sebuah perusahaan konveksi yang memiliki layanan Design, pembuatan
+                (T-shirt,Jersey,kemeja,jaket) dan Makloon Sublime printing beserta Makloon Press Sublime. Genetic Waer
+                mulai di dirikan pada tahun 2008 dengan penyedia layanan konveksi seiring perkembangan waktu pada tahun
+                2010 perusahaan Genetic Wear mulai bergerak ke sebuah layanan baru yaitu sablon. Terus berlanjut Genetic
+                Wear mulai mengadakan sebuah layanan baru dengan alat teknologi terbaru yaitu Sublime. Genetic Wear juga
+                bergerak di bidang vandor jersey, T-shirt sablon, kemeja, dan juga makloon sublime printing.</p>
         </header>
     </div>
 </section>
@@ -22,10 +25,9 @@
     <div class="container" data-aos="fade-right">
         <div class="section-header">
             <h3>Tim kami</h3>
-            <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque</p>
         </div>
 
-        <div class="row">
+        <div class="row justify-content-center">
 
             <div class="col-lg-3 col-md-6">
                 <div class="member" data-aos="fade-up" data-aos-delay="100">
@@ -52,42 +54,6 @@
                         <div class="member-info-content">
                             <h4>Sarah Jhonson</h4>
                             <span>Product Manager</span>
-                            <div class="social">
-                                <a href=""><i class="bi bi-twitter"></i></a>
-                                <a href=""><i class="bi bi-facebook"></i></a>
-                                <a href=""><i class="bi bi-instagram"></i></a>
-                                <a href=""><i class="bi bi-linkedin"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="col-lg-3 col-md-6">
-                <div class="member" data-aos="fade-up" data-aos-delay="300">
-                    <img src="assets/img/team-3.jpg" class="img-fluid" alt="">
-                    <div class="member-info">
-                        <div class="member-info-content">
-                            <h4>William Anderson</h4>
-                            <span>CTO</span>
-                            <div class="social">
-                                <a href=""><i class="bi bi-twitter"></i></a>
-                                <a href=""><i class="bi bi-facebook"></i></a>
-                                <a href=""><i class="bi bi-instagram"></i></a>
-                                <a href=""><i class="bi bi-linkedin"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="col-lg-3 col-md-6">
-                <div class="member" data-aos="fade-up" data-aos-delay="400">
-                    <img src="assets/img/team-4.jpg" class="img-fluid" alt="">
-                    <div class="member-info">
-                        <div class="member-info-content">
-                            <h4>Amanda Jepson</h4>
-                            <span>Accountant</span>
                             <div class="social">
                                 <a href=""><i class="bi bi-twitter"></i></a>
                                 <a href=""><i class="bi bi-facebook"></i></a>
