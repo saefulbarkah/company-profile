@@ -1,418 +1,295 @@
 @extends('layouts.master')
-@section('title', 'about')
+@section('title', 'tentang')
 @section('content')
 
+<section id="about" class="about">
+    <!-- NAVBAR
+    ================================================= -->
+    <nav class="navbar navbar-expand-lg navbar-dark trans-navigation fixed-top navbar-togglable">
+        <div class="container">
+            <a class="navbar-brand" href="{{ url('/') }}">
+                <h3>Genetic Wear</h3>
+            </a>
+            <!-- Toggler -->
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="fa fa-bars"></span>
+            </button>
 
-	<section class="hero-wrap hero-wrap-2 degree-right" style="background-image: url({{ asset('assets/images/bg_2.jpg')}});" data-stellar-background-ratio="0.5">
-		<div class="overlay"></div>
-		<div class="container">
-			<div class="row no-gutters slider-text js-fullheight align-items-end">
-				<div class="col-md-9 ftco-animate pb-5 mb-5">
-					<p class="breadcrumbs"><span class="mr-2"><a href="index.html">Home <i class="fa fa-chevron-right"></i></a></span> <span>About us <i class="fa fa-chevron-right"></i></span></p>
-					<h1 class="mb-3 bread">About Us</h1>
-				</div>
-			</div>
-		</div>
-	</section>
+            <!-- Collapse -->
+            <div class="collapse navbar-collapse" id="navbarCollapse">
+                <!-- Links -->
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item ">
+                        <a href="{{ url('/') }}" class="nav-link js-scroll-trigger">
+                            Beranda
+                        </a>
+                    </li>
+                    <li class="nav-item ">
+                        <a href="{{ url('about') }}" class="nav-link js-scroll-trigger">
+                            Tentang
+                        </a>
+                    </li>
+                    <li class="nav-item ">
+                        <a href="{{ url('service') }}" class="nav-link js-scroll-trigger">
+                            Layanan
+                        </a>
+                    </li>
+                    <li class="nav-item ">
+                        <a href="{{ url('portfolio') }}" class="nav-link js-scroll-trigger">
+                            Portofolio
+                        </a>
+                    </li>
+                    <li class="nav-item ">
+                        <a href="{{ url('contact') }}" class="nav-link">
+                            Kontak
+                        </a>
+                    </li>
+                </ul>
+            </div> <!-- / .navbar-collapse -->
+        </div> <!-- / .container -->
+    </nav>
 
-	<section class="ftco-section">
-		<div class="container">
-			<div class="row justify-content-center no-gutters">
-				<div class="col-md-12 heading-section text-center ftco-animate mb-5">
-					<h2 class="mb-2">About us</h2>
-				</div>
-			</div>
-			<div class="row">
-				<div class="col-md d-flex align-items-stretch ftco-animate">
-					<div class="media block-6 w-100 services d-block text-center">
-						<div class="icon d-flex justify-content-center align-items-center"><span class="flaticon-vector"></span></div>
-						<div class="media-body py-md-4">
-							<h3>UI/UX Design</h3>
-						</div>
-					</div>
-				</div>
-				<div class="col-md d-flex align-items-stretch ftco-animate">
-					<div class="media block-6 w-100 services d-block text-center">
-						<div class="icon d-flex justify-content-center align-items-center"><span class="flaticon-web-programming"></span></div>
-						<div class="media-body py-md-4">
-							<h3>Web Development</h3>
-						</div>
-					</div>
-				</div>
-				<div class="col-md d-flex align-items-stretch ftco-animate">
-					<div class="media block-6 w-100 services d-block text-center">
-						<div class="icon d-flex justify-content-center align-items-center"><span class="flaticon-layer"></span></div>
-						<div class="media-body py-md-4">
-							<h3>Product Design</h3>
-						</div>
-					</div>
-				</div>
-				<div class="col-md d-flex align-items-stretch ftco-animate">
-					<div class="media block-6 w-100 services d-block text-center">
-						<div class="icon d-flex justify-content-center align-items-center"><span class="flaticon-coding"></span></div>
-						<div class="media-body py-md-4">
-							<h3>Mobile Apps</h3>
-						</div>
-					</div>
-				</div>
-				<div class="col-md d-flex align-items-stretch ftco-animate">
-					<div class="media block-6 w-100 services d-block text-center">
-						<div class="icon d-flex justify-content-center align-items-center"><span class="flaticon-zoom"></span></div>
-						<div class="media-body py-md-4">
-							<h3>SEO</h3>
-						</div>
-					</div>
-				</div>
-			</div>
-			<div class="row wrap-about py-5">
-				<div class="col-md-8">
-					<div class="row">
-						<div class="col-md-6 order-md-last ftco-animate d-flex">
-							<div class="img w-100" style="background-image: url({{ asset('assets/images/about.jpg')}});"></div>
-						</div>
-						<div class="col-md-6 ftco-animate">
-							<div class="text text-md-right">
-								<h3>Welcome to AVO A Personal Porfolio Web Agency</h3>
-								<p>Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean. A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.</p>
-							</div>
-						</div>
-					</div>
-				</div>
-				<div class="col-md-4 ftco-animate">
-					<div class="text">
-						<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean. A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.</p>
-						<p><a href="#" class="btn btn-primary">View all projects</a></p>
-					</div>
-				</div>
-			</div>
-			<div class="row pt-5">
-				<div class="col-md-4">
-					<div class="services-2 d-flex ftco-animate">
-						<span>01</span>
-						<div class="text">
-							<h3>Search Engine Optimization</h3>
-							<p>Far far away, behind the word mountains</p>
-						</div>
-					</div>
-				</div>
-				<div class="col-md-4">
-					<div class="services-2 d-flex ftco-animate">
-						<span>02</span>
-						<div class="text">
-							<h3>Search Engine Optimization</h3>
-							<p>Far far away, behind the word mountains</p>
-						</div>
-					</div>
-				</div>
-				<div class="col-md-4">
-					<div class="services-2 d-flex ftco-animate">
-						<span>03</span>
-						<div class="text">
-							<h3>Search Engine Optimization</h3>
-							<p>Far far away, behind the word mountains</p>
-						</div>
-					</div>
-				</div>
-			</div>
-
-			<div class="row pt-5">
-				<div class="col-md-12">
-					<div class="intro p-md-4 py-md-5 p-2 rounded img" style="background-image: url({{ asset('assets/images/bg_1.jpg')}});">
-						<div class="col-md-6 ftco-animate">
-							<span>Get Started</span>
-							<h2>Fill in the brief and get the project estimate</h2>
-							<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
-							<p><a href="#" class="btn btn-primary">Get started</a></p>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</section>
-
-	<section class="ftco-section bg-light">
-		<div class="container">
-			<div class="row justify-content-center no-gutters">
-				<div class="col-md-12 heading-section text-center ftco-animate mb-5">
-					<h2 class="mb-2">Expert Team</h2>
-				</div>
-			</div>
-			<div class="row">
-				<div class="col-sm-6 col-md-6 col-lg-3 ftco-animate">
-					<div class="staff">
-						<div class="img-wrap d-flex align-items-stretch justify-content-end">
-							<div class="img align-self-stretch" style="background-image: url({{ asset('assets/images/team-1.jpg')}});">
-								<ul class="ftco-social">
-									<li class="ftco-animate d-flex"><a href="#" class="d-flex align-items-center justify-content-center"><span class="fa fa-twitter"></span></a></li>
-									<li class="ftco-animate d-flex"><a href="#" class="d-flex align-items-center justify-content-center"><span class="fa fa-facebook"></span></a></li>
-									<li class="ftco-animate d-flex"><a href="#" class="d-flex align-items-center justify-content-center"><span class="fa fa-google"></span></a></li>
-									<li class="ftco-animate d-flex"><a href="#" class="d-flex align-items-center justify-content-center"><span class="fa fa-instagram"></span></a></li>
-								</ul>
-							</div>
-						</div>
-						<div class="text d-flex align-items-center pt-3">
-							<div class="desc">
-								<h3 class="mb-2">John <br>Wilson</h3>
-								<span class="position mb-4">Web Designer</span>
-							</div>
-						</div>
-					</div>
-				</div>
-				<div class="col-sm-6 col-md-6 col-lg-3 ftco-animate">
-					<div class="staff">
-						<div class="img-wrap d-flex align-items-stretch justify-content-end">
-							<div class="img align-self-stretch" style="background-image: url({{ asset('assets/images/team-2.jpg')}});">
-								<ul class="ftco-social">
-									<li class="ftco-animate d-flex"><a href="#" class="d-flex align-items-center justify-content-center"><span class="fa fa-twitter"></span></a></li>
-									<li class="ftco-animate d-flex"><a href="#" class="d-flex align-items-center justify-content-center"><span class="fa fa-facebook"></span></a></li>
-									<li class="ftco-animate d-flex"><a href="#" class="d-flex align-items-center justify-content-center"><span class="fa fa-google"></span></a></li>
-									<li class="ftco-animate d-flex"><a href="#" class="d-flex align-items-center justify-content-center"><span class="fa fa-instagram"></span></a></li>
-								</ul>
-							</div>
-						</div>
-						<div class="text d-flex align-items-center pt-3">
-							<div class="desc">
-								<h3 class="mb-2">Robert <br>Wills</h3>
-								<span class="position mb-4">Web Developer</span>
-							</div>
-						</div>
-					</div>
-				</div>
-				<div class="col-sm-6 col-md-6 col-lg-3 ftco-animate">
-					<div class="staff">
-						<div class="img-wrap d-flex align-items-stretch justify-content-end">
-							<div class="img align-self-stretch" style="background-image: url({{ asset('assets/images/team-3.jpg')}});">
-								<ul class="ftco-social">
-									<li class="ftco-animate d-flex"><a href="#" class="d-flex align-items-center justify-content-center"><span class="fa fa-twitter"></span></a></li>
-									<li class="ftco-animate d-flex"><a href="#" class="d-flex align-items-center justify-content-center"><span class="fa fa-facebook"></span></a></li>
-									<li class="ftco-animate d-flex"><a href="#" class="d-flex align-items-center justify-content-center"><span class="fa fa-google"></span></a></li>
-									<li class="ftco-animate d-flex"><a href="#" class="d-flex align-items-center justify-content-center"><span class="fa fa-instagram"></span></a></li>
-								</ul>
-							</div>
-						</div>
-						<div class="text d-flex align-items-center pt-3">
-							<div class="desc">
-								<h3 class="mb-2">Mike <br>Smith</h3>
-								<span class="position mb-4">Graphic Designer</span>
-							</div>
-						</div>
-					</div>
-				</div>
-				<div class="col-sm-6 col-md-6 col-lg-3 ftco-animate">
-					<div class="staff">
-						<div class="img-wrap d-flex align-items-stretch justify-content-end">
-							<div class="img align-self-stretch" style="background-image: url({{ asset('assets/images/team-4.jpg')}});">
-								<ul class="ftco-social">
-									<li class="ftco-animate d-flex"><a href="#" class="d-flex align-items-center justify-content-center"><span class="fa fa-twitter"></span></a></li>
-									<li class="ftco-animate d-flex"><a href="#" class="d-flex align-items-center justify-content-center"><span class="fa fa-facebook"></span></a></li>
-									<li class="ftco-animate d-flex"><a href="#" class="d-flex align-items-center justify-content-center"><span class="fa fa-google"></span></a></li>
-									<li class="ftco-animate d-flex"><a href="#" class="d-flex align-items-center justify-content-center"><span class="fa fa-instagram"></span></a></li>
-								</ul>
-							</div>
-						</div>
-						<div class="text d-flex align-items-center pt-3">
-							<div class="desc">
-								<h3 class="mb-2">Adrian <br>Henderson</h3>
-								<span class="position mb-4">System Analyst</span>
-							</div>
-						</div>
-					</div>
-				</div>
-
-				<div class="col-sm-6 col-md-6 col-lg-3 ftco-animate">
-					<div class="staff">
-						<div class="img-wrap d-flex align-items-stretch justify-content-end">
-							<div class="img align-self-stretch" style="background-image: url({{ asset('assets/images/team-5.jpg')}});">
-								<ul class="ftco-social">
-									<li class="ftco-animate d-flex"><a href="#" class="d-flex align-items-center justify-content-center"><span class="fa fa-twitter"></span></a></li>
-									<li class="ftco-animate d-flex"><a href="#" class="d-flex align-items-center justify-content-center"><span class="fa fa-facebook"></span></a></li>
-									<li class="ftco-animate d-flex"><a href="#" class="d-flex align-items-center justify-content-center"><span class="fa fa-google"></span></a></li>
-									<li class="ftco-animate d-flex"><a href="#" class="d-flex align-items-center justify-content-center"><span class="fa fa-instagram"></span></a></li>
-								</ul>
-							</div>
-						</div>
-						<div class="text d-flex align-items-center pt-3">
-							<div class="desc">
-								<h3 class="mb-2">John <br>Wilson</h3>
-								<span class="position mb-4">Web Programmer</span>
-							</div>
-						</div>
-					</div>
-				</div>
-				<div class="col-sm-6 col-md-6 col-lg-3 ftco-animate">
-					<div class="staff">
-						<div class="img-wrap d-flex align-items-stretch justify-content-end">
-							<div class="img align-self-stretch" style="background-image: url({{ asset('assets/images/team-6.jpg')}});">
-								<ul class="ftco-social">
-									<li class="ftco-animate d-flex"><a href="#" class="d-flex align-items-center justify-content-center"><span class="fa fa-twitter"></span></a></li>
-									<li class="ftco-animate d-flex"><a href="#" class="d-flex align-items-center justify-content-center"><span class="fa fa-facebook"></span></a></li>
-									<li class="ftco-animate d-flex"><a href="#" class="d-flex align-items-center justify-content-center"><span class="fa fa-google"></span></a></li>
-									<li class="ftco-animate d-flex"><a href="#" class="d-flex align-items-center justify-content-center"><span class="fa fa-instagram"></span></a></li>
-								</ul>
-							</div>
-						</div>
-						<div class="text d-flex align-items-center pt-3">
-							<div class="desc">
-								<h3 class="mb-2">Robert <br>Wills</h3>
-								<span class="position mb-4">Web Designer</span>
-							</div>
-						</div>
-					</div>
-				</div>
-				<div class="col-sm-6 col-md-6 col-lg-3 ftco-animate">
-					<div class="staff">
-						<div class="img-wrap d-flex align-items-stretch justify-content-end">
-							<div class="img align-self-stretch" style="background-image: url({{ asset('assets/images/team-7.jpg')}});">
-								<ul class="ftco-social">
-									<li class="ftco-animate d-flex"><a href="#" class="d-flex align-items-center justify-content-center"><span class="fa fa-twitter"></span></a></li>
-									<li class="ftco-animate d-flex"><a href="#" class="d-flex align-items-center justify-content-center"><span class="fa fa-facebook"></span></a></li>
-									<li class="ftco-animate d-flex"><a href="#" class="d-flex align-items-center justify-content-center"><span class="fa fa-google"></span></a></li>
-									<li class="ftco-animate d-flex"><a href="#" class="d-flex align-items-center justify-content-center"><span class="fa fa-instagram"></span></a></li>
-								</ul>
-							</div>
-						</div>
-						<div class="text d-flex align-items-center pt-3">
-							<div class="desc">
-								<h3 class="mb-2">Mike <br>Smith</h3>
-								<span class="position mb-4">Graphic Designer</span>
-							</div>
-						</div>
-					</div>
-				</div>
-				<div class="col-sm-6 col-md-6 col-lg-3 ftco-animate">
-					<div class="staff">
-						<div class="img-wrap d-flex align-items-stretch justify-content-end">
-							<div class="img align-self-stretch" style="background-image: url({{ asset('assets/images/team-8.jpg')}});">
-								<ul class="ftco-social">
-									<li class="ftco-animate d-flex"><a href="#" class="d-flex align-items-center justify-content-center"><span class="fa fa-twitter"></span></a></li>
-									<li class="ftco-animate d-flex"><a href="#" class="d-flex align-items-center justify-content-center"><span class="fa fa-facebook"></span></a></li>
-									<li class="ftco-animate d-flex"><a href="#" class="d-flex align-items-center justify-content-center"><span class="fa fa-google"></span></a></li>
-									<li class="ftco-animate d-flex"><a href="#" class="d-flex align-items-center justify-content-center"><span class="fa fa-instagram"></span></a></li>
-								</ul>
-							</div>
-						</div>
-						<div class="text d-flex align-items-center pt-3">
-							<div class="desc">
-								<h3 class="mb-2">Adrian <br>Henderson</h3>
-								<span class="position mb-4">SEO</span>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-		<div class="degree-left"></div>
-	</section>
-
-	<section class="ftco-section testimony-section">
-		<div class="container">
-			<div class="row justify-content-center mb-5">
-				<div class="col-md-8 text-center heading-section ftco-animate">
-					<h2 class="mb-3">Clients Says About Us?</h2>
-				</div>
-			</div>
-			<div class="row ftco-animate mb-4">
-				<div class="col-md-12">
-					<div class="carousel-testimony owl-carousel">
-						<div class="item">
-							<div class="testimony-wrap py-4">
-								<div class="text">
-									<span class="fa fa-quote-left"></span>
-									<p class="mb-4">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
-									<div class="d-flex align-items-center">
-										<div class="user-img" style="background-image: url({{ asset('assets/images/person_1.jpg')}})"></div>
-										<div class="pl-3">
-											<p class="name">Roger Scott</p>
-											<span class="position">Marketing Manager</span>
-										</div>
-									</div>
-								</div>
-							</div>
-						</div>
-						<div class="item">
-							<div class="testimony-wrap py-4">
-								<div class="text">
-									<span class="fa fa-quote-left"></span>
-									<p class="mb-4">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
-									<div class="d-flex align-items-center">
-										<div class="user-img" style="background-image: url({{ asset('assets/images/person_2.jpg')}})"></div>
-										<div class="pl-3">
-											<p class="name">Roger Scott</p>
-											<span class="position">Marketing Manager</span>
-										</div>
-									</div>
-								</div>
-							</div>
-						</div>
-						<div class="item">
-							<div class="testimony-wrap py-4">
-								<div class="text">
-									<span class="fa fa-quote-left"></span>
-									<p class="mb-4">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
-									<div class="d-flex align-items-center">
-										<div class="user-img" style="background-image: url({{ asset('assets/images/person_3.jpg')}})"></div>
-										<div class="pl-3">
-											<p class="name">Roger Scott</p>
-											<span class="position">Marketing Manager</span>
-										</div>
-									</div>
-								</div>
-							</div>
-						</div>
-						<div class="item">
-							<div class="testimony-wrap py-4">
-								<div class="text">
-									<span class="fa fa-quote-left"></span>
-									<p class="mb-4">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
-									<div class="d-flex align-items-center">
-										<div class="user-img" style="background-image: url({{ asset('assets/images/person_1.jpg')}})"></div>
-										<div class="pl-3">
-											<p class="name">Roger Scott</p>
-											<span class="position">Marketing Manager</span>
-										</div>
-									</div>
-								</div>
-							</div>
-						</div>
-						<div class="item">
-							<div class="testimony-wrap py-4">
-								<div class="text">
-									<span class="fa fa-quote-left"></span>
-									<p class="mb-4">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
-									<div class="d-flex align-items-center">
-										<div class="user-img" style="background-image: url({{ asset('assets/images/person_2.jpg')}})"></div>
-										<div class="pl-3">
-											<p class="name">Roger Scott</p>
-											<span class="position">Marketing Manager</span>
-										</div>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</section>
-
-		<!-- loader -->
-		<div id="ftco-loader" class="show fullscreen"><svg class="circular" width="48px" height="48px"><circle class="path-bg" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke="#eeeeee"/><circle class="path" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke-miterlimit="10" stroke="#F96D00"/></svg></div>
+   <!-- HERO
+    ================================================== -->
+    <section class="page-banner-area page-about">
+        <div class="overlay"></div>
+        <!-- Content -->
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-9 col-md-12 col-12 text-center">
+                    <div class="page-banner-content">
+                        <h1 class="display-4 font-weight-bold">Tentang kami</h1>
+                        <p>Kami ingin berbicara tentang bagaimana kami dapat membantu Anda.</p>
+                    </div>
+                </div>
+            </div> <!-- / .row -->
+        </div> <!-- / .container -->
+    </section>
 
 
-		<script src="{{ asset('assets/js/jquery.min.js')}}"></script>
-		<script src="{{ asset('assets/js/jquery-migrate-3.0.1.min.js')}}"></script>
-		<script src="{{ asset('assets/js/popper.min.js')}}"></script>
-		<script src="{{ asset('assets/js/bootstrap.min.js')}}"></script>
-		<script src="{{ asset('assets/js/jquery.easing.1.3.js')}}"></script>
-		<script src="{{ asset('assets/js/jquery.waypoints.min.js')}}"></script>
-		<script src="{{ asset('assets/js/jquery.stellar.min.js')}}"></script>
-		<script src="{{ asset('assets/js/owl.carousel.min.js')}}"></script>
-		<script src="{{ asset('assets/js/jquery.magnific-popup.min.js')}}"></script>
-		<script src="{{ asset('assets/js/jquery.animateNumber.min.js')}}"></script>
-		<script src="{{ asset('assets/js/scrollax.min.js')}}"></script>
-		<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBVWaKrjvy3MaE7SQ74_uJiULgl1JY0H2s&sensor=false"></script>
-		<script src="{{ asset('assets/js/google-map.js')}}"></script>
-		<script src="{{ asset('assets/js/main.js')}}"></script>
 
+<!-- ======= About Section ======= -->
+<section id="about" class="about">
+    <div class="container" data-aos="fade-up">
+        <div class="section-title">
+            <h2>Tentang</h2>
+            <p>Tentang kami</p>
+        </div>
+        <div class="row">
+            <div class="col-lg-6 order-1 order-lg-2" data-aos="fade-left" data-aos-delay="100">
+                <img src="assets/images/about.jpg" class="img-fluid" alt="">
+            </div>
+            <div class="col-lg-6 pt-4 pt-lg-0 order-2 order-lg-1 content" data-aos="fade-right" data-aos-delay="100">
+                <h3>Genetic Wear</h3>
+                <p class="fst-italic">
+                    Genetic Wear merupakan sebuah perusahaan konveksi yang memiliki layanan Design, pembuatan
+                    (T-shirt,Jersey,kemeja,jaket) dan Makloon Sublime printing beserta Makloon Press Sublime. Genetic
+                    Waer mulai di dirikan pada tahun 2008 dengan penyedia layanan konveksi seiring perkembangan waktu
+                    pada tahun 2010 perusahaan Genetic Wear mulai bergerak ke sebuah layanan baru yaitu sablon. Terus
+                    berlanjut Genetic Wear mulai mengadakan sebuah layanan baru dengan alat teknologi terbaru yaitu
+                    Sublime. Genetic Wear juga bergerak di bidang :
+
+                </p>
+                <ul>
+                    <li><i class="ri-check-double-line"></i>
+                        vandor jersey
+                    </li>
+                    <li><i class="ri-check-double-line"></i>
+                        T-shirt sablon
+                    </li>
+                    <li><i class="ri-check-double-line"></i>
+                        kemeja</li>
+                    </li>
+                    <li><i class="ri-check-double-line"></i>
+                        makloon sublime printing
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+    </div>
+</section>
+<!-- End About Section -->
+
+
+<section class="section" id="projects-wrap">
+        <div class="overlay"></div>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="section-heading">
+                        <h1 class="text-white">We are trying to deliver 100% quality product and success their business to achieve ultimate goal.</h1>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <p class="lead text-white">We are providing best service since 1990 to present , committed to best service delivery.Nullam metus enim, placerat in lacus vel, porttitor egestas libero. Etiam ex risus, feugiat eget accumsan eu, sagittis eu urna. In eget ultrices metus. Nunc accumsan </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" class="section-bottom">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-4 col-md-6 col-sm-6 mb-5">
+                    <div class="single-project">
+                        <img src="{{ asset('assets/images/projects/p-1.jpg')}}" alt="" class="img-fluid">
+                        <div class="project-content">
+                            <h4>Project: onepage</h4>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate eligendi consequuntur veniam quod</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-6 mb-5">
+                    <div class="single-project">
+                        <img src="{{ asset('assets/images/projects/p-4.jpg')}}" alt="" class="img-fluid">
+                        <div class="project-content">
+                            <h4>Project: business</h4>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate eligendi consequuntur veniam quod</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-8 ">
+                    <div class="single-project">
+                        <img src="{{ asset('assets/images/projects/p-3.jpg')}}" alt="" class="img-fluid">
+                        <div class="project-content">
+                            <h4>Project : Marketing</h4>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate eligendi consequuntur veniam quod</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row py-4">
+                <div class="col-lg-7 col-md-12 col-sm-12 ">
+                    <div class="single-project">
+                        <img src="{{ asset('assets/images/bg/banner_bg.jpg')}}" alt="" class="img-fluid">
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-12 col-sm-12 ">
+                    <div class="project-content-block">
+                        <h4>Do you know who we are?</h4>
+                        <h2>More than just service your products...</h2>
+                        <p>Explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and we will give you a complete account of the system.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+<section class="section" id="section-testimonial">
+        <div class="container">
+           <div class="row align-items-center">
+                <div class="col-lg-4 col-sm-12 col-md-12">
+                    <div class="section-heading testimonial-heading">
+                        <h1>What they say <br>about us</h1>
+                        <p>Numquam doloribus impedit at consectetur molestiae tempora ratione possimus in veniam aperiam, eum consequuntur, unde. Earum ullam molestiae suscipit saepe sunt recusandae.</p>
+                    </div>
+                </div>
+                <div class="col-lg-8 col-sm-12 col-md-12">
+                    <div class="row">
+                        <div class="col-lg-6">
+                            <div class="test-inner ">
+                               <div class="test-author-thumb d-flex">
+                                   <img src="{{ asset('assets/images/client/test-1.jpg')}}" alt="Testimonial author" class="img-fluid">
+                                   <div class="test-author-info">
+                                       <h4>Will Barrow</h4>
+                                       <h6>Sunrise Paradise Hotel</h6>
+                                   </div>
+                               </div>
+
+                                Quas ut distinctio tenetur animi nihil rem, amet dolorum totam. Ab repudiandae tempore qui fugiat amet ipsa id omnis ipsam, laudantium! Dolorem.
+
+                                <i class="fa fa-quote-right"></i>
+                            </div>
+                        </div>
+                        <div class="col-lg-6">
+                            <div class="test-inner ">
+                               <div class="test-author-thumb d-flex">
+                                   <img src="{{ asset('assets/images/client/test-2.jpg')}}" alt="Testimonial author" class="img-fluid">
+                                   <div class="test-author-info">
+                                       <h4>Will Barrow</h4>
+                                       <h6>Sunrise Paradise Hotel</h6>
+                                   </div>
+                               </div>
+
+                                Quas ut distinctio tenetur animi nihil rem, amet dolorum totam. Ab repudiandae tempore qui fugiat amet ipsa id omnis ipsam, laudantium! Dolorem.
+
+                                <i class="fa fa-quote-right"></i>
+                            </div>
+                        </div>
+                    </div>
+
+                     <div class="row">
+                        <div class="col-lg-6">
+                            <div class="test-inner ">
+                               <div class="test-author-thumb d-flex">
+                                   <img src="{{ asset('assets/images/client/test-3.jpg')}}" alt="Testimonial author" class="img-fluid">
+                                   <div class="test-author-info">
+                                       <h4>Will Barrow</h4>
+                                       <h6>Sunrise Paradise Hotel</h6>
+                                   </div>
+                               </div>
+
+                                Quas ut distinctio tenetur animi nihil rem, amet dolorum totam. Ab repudiandae tempore qui fugiat amet ipsa id omnis ipsam, laudantium! Dolorem.
+
+                                <i class="fa fa-quote-right"></i>
+                            </div>
+                        </div>
+                        <div class="col-lg-6">
+                            <div class="test-inner ">
+                               <div class="test-author-thumb d-flex">
+                                   <img src="{{ asset('assets/images/client/test-4.jpg')}}" alt="Testimonial author" class="img-fluid">
+                                   <div class="test-author-info">
+                                       <h4>Will Barrow</h4>
+                                       <h6>Sunrise Paradise Hotel</h6>
+                                   </div>
+                               </div>
+
+                                Quas ut distinctio tenetur animi nihil rem, amet dolorum totam. Ab repudiandae tempore qui fugiat amet ipsa id omnis ipsam, laudantium! Dolorem.
+
+                                <i class="fa fa-quote-right"></i>
+                            </div>
+                        </div>
+                    </div>
+
+                     <div class="row">
+                        <div class="col-lg-6">
+                            <div class="test-inner">
+                               <div class="test-author-thumb d-flex">
+                                   <img src="{{ asset('assets/images/client/test-5.jpg')}}" alt="Testimonial author" class="img-fluid">
+                                   <div class="test-author-info">
+                                       <h4>Will Barrow</h4>
+                                       <h6>Sunrise Paradise Hotel</h6>
+                                   </div>
+                               </div>
+
+                                Quas ut distinctio tenetur animi nihil rem, amet dolorum totam. Ab repudiandae tempore qui fugiat amet ipsa id omnis ipsam, laudantium! Dolorem.
+
+                                <i class="fa fa-quote-right"></i>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-6">
+                            <div class="test-inner">
+                               <div class="test-author-thumb d-flex">
+                                   <img src="{{ asset('assets/images/client/test-6.jpg')}}" alt="Testimonial author" class="img-fluid">
+                                   <div class="test-author-info">
+                                       <h4>Will Barrow</h4>
+                                       <h6>Sunrise Paradise Hotel</h6>
+                                   </div>
+                               </div>
+
+                                Quas ut distinctio tenetur animi nihil rem, amet dolorum totam. Ab repudiandae tempore qui fugiat amet ipsa id omnis ipsam, laudantium! Dolorem.
+
+                                <i class="fa fa-quote-right"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
 @endsection

@@ -84,7 +84,7 @@ About Section Start
                 <div class="media wow fadeInUp animated" data-wow-duration="500ms" data-wow-delay="300ms">
                     <div class="media-left">
                         <div class="icon">
-                            <i class="fas fa-shopping-cart"></i>
+                            <i class="#"></i>
                         </div>
                     </div>
                     <div class="media-body">
@@ -97,7 +97,7 @@ About Section Start
                 <div class="media wow fadeInDown animated" data-wow-duration="500ms" data-wow-delay="600ms">
                     <div class="media-left">
                         <div class="icon">
-                            <i class="fas fa-tshirt"></i>
+                            <i class="#"></i>
                         </div>
                     </div>
                     <div class="media-body">

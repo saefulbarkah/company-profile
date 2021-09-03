@@ -1,69 +1,113 @@
-<footer class="ftco-footer ftco-section">
+<footer class="section " id="footer">
+    <div class="overlay footer-overlay"></div>
+    <!--Content -->
     <div class="container">
-        <div class="row mb-5">
-            <div class="col-md">
-                <div class="ftco-footer-widget mb-4">
-                    <h2 class="ftco-heading-2">avo</h2>
-                    <p>Far far away, behind the word mountains, far from the countries.</p>
-                    <ul class="ftco-footer-social list-unstyled mt-5">
-                        <li class="ftco-animate"><a href="#"><span class="fa fa-twitter"></span></a></li>
-                        <li class="ftco-animate"><a href="#"><span class="fa fa-facebook"></span></a></li>
-                        <li class="ftco-animate"><a href="#"><span class="fa fa-instagram"></span></a></li>
-                    </ul>
+        <div class="row justify-content-start">
+            <div class="col-lg-4 col-sm-12">
+                <div class="footer-widget">
+                    <!-- Brand -->
+                    <a href="#" class="footer-brand text-white">
+                        Genetic Wear
+                    </a>
+                    <p>Genetic merupakan penyedia layanan konveksi dan sablon yang berada di Jl.Katapang Andir No.503, kabupaten Bandung, Jawa Barat 40921</p>
                 </div>
             </div>
-            <div class="col-md">
-                <div class="ftco-footer-widget mb-4 ml-md-4">
-                    <h2 class="ftco-heading-2">Community</h2>
-                    <ul class="list-unstyled">
-                        <li><a href="#"><span class="fa fa-chevron-right mr-2"></span>Projects</a></li>
-                        <li><a href="#"><span class="fa fa-chevron-right mr-2"></span>Team</a></li>
-                        <li><a href="#"><span class="fa fa-chevron-right mr-2"></span>Reviews</a></li>
-                        <li><a href="#"><span class="fa fa-chevron-right mr-2"></span>FAQs</a></li>
-                    </ul>
-                </div>
-            </div>
-            <div class="col-md">
-                <div class="ftco-footer-widget mb-4 ml-md-4">
-                    <h2 class="ftco-heading-2">About Us</h2>
-                    <ul class="list-unstyled">
-                        <li><a href="#"><span class="fa fa-chevron-right mr-2"></span>Our Story</a></li>
-                        <li><a href="#"><span class="fa fa-chevron-right mr-2"></span>Meet the team</a></li>
-                        <li><a href="#"><span class="fa fa-chevron-right mr-2"></span>Careers</a></li>
-                    </ul>
-                </div>
-            </div>
-            <div class="col-md">
-                <div class="ftco-footer-widget mb-4">
-                    <h2 class="ftco-heading-2">Company</h2>
-                    <ul class="list-unstyled">
-                        <li><a href="#"><span class="fa fa-chevron-right mr-2"></span>About Us</a></li>
-                        <li><a href="#"><span class="fa fa-chevron-right mr-2"></span>Press</a></li>
-                        <li><a href="#"><span class="fa fa-chevron-right mr-2"></span>Contact</a></li>
-                        <li><a href="#"><span class="fa fa-chevron-right mr-2"></span>Careers</a></li>
-                    </ul>
-                </div>
-            </div>
-            <div class="col-md">
-                <div class="ftco-footer-widget mb-4">
-                    <h2 class="ftco-heading-2">Have a Questions?</h2>
-                    <div class="block-23 mb-3">
-                        <ul>
-                            <li><span class="icon fa fa-map"></span><span class="text">203 Fake St. Mountain View, San Francisco, California, USA</span></li>
-                            <li><a href="#"><span class="icon fa fa-phone"></span><span class="text">+2 392 3929 210</span></a></li>
-                            <li><a href="#"><span class="icon fa fa-envelope pr-4"></span><span class="text">info@yourdomain.com</span></a></li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-md-12 text-center">
 
-                <p><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-                    Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="fa fa-heart" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
-                    <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></p>
+            <div class="col-lg-3 ml-lg-auto col-sm-12">
+                <div class="footer-widget">
+                    <h3>Account</h3>
+                    <!-- Links -->
+                    <ul class="footer-links ">
+                        <li>
+                            <a href="#">
+                                Terms and conditions
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                Privacy policy
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                Affiliate services
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                Help and support
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                Frequently Asked Question
+                            </a>
+                        </li>
+                    </ul>
                 </div>
             </div>
-        </div>
-    </footer>
+
+            <div class="col-lg-2 col-sm-6">
+                <div class="footer-widget">
+                    <h3>Tentang</h3>
+                    <!-- Links -->
+                    <ul class="footer-links ">
+                        <li>
+                            <a href="{{ url('service') }}">
+                                Layanan
+                            </a>
+                        </li>
+                        <li>
+                            <a href="{{ url('about') }}">
+                                Tentang Kami
+                            </a>
+                        </li>
+                        <li>
+                            <a href="{{ url('portfolio') }}">
+                                Portofolio
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="{{ url('contact') }}">
+                                Kontak
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="col-lg-2 col-sm-6">
+                <div class="footer-widget">
+                    <h3>Social Media</h3>
+                    <!-- Links -->
+                    <ul class="list-unstyled footer-links">
+                        <li><a href="#"><i class="fab fa-facebook-f"></i>Facebook</a></li>
+                        <li>
+                        <a href="#"><i class="fab fa-twitter"></i>Twitter
+                        </a></li>
+                        <li><a href="#"><i class="fab fa-pinterest-p"></i>Pinterest
+                        </a></li>
+                        <li><a href="#"><i class="fab fa-linkedin"></i>linkedin
+                        </a></li>
+                        <li><a href="#"><i class="fab fa-youtube"></i>YouTube
+                        </a></li>
+                    </ul>
+                </div>
+            </div>
+        </div> <!-- / .row -->
+
+
+        <div class="row text-right pt-5">
+            <div class="col-lg-12">
+                <!-- Copyright -->
+                <p class="footer-copy ">
+                    &copy; Copyright <span class="current-year">Genetic Wear</span> All rights reserved.
+                </p>
+            </div>
+        </div> <!-- / .row -->
+    </div> <!-- / .container -->
+</footer>
+
+
+
