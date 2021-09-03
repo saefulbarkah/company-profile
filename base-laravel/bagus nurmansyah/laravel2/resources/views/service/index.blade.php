@@ -58,7 +58,7 @@
                         </div>
                         <div class="col-md-6">
                             <div class="block wow fadeInUp animated" data-wow-duration="400ms" data-wow-delay="800ms">
-                                <i class="ion-ios-pint-outline"></i>
+                                <i class="ion-ios-paper-outline"></i>
                                 <h4>makloon Sublime Printing</h4>
                                 <p>Veritatis eligendi, dignissimos. Porta fermentum mus aute pulvinar earum minus
                                     platea massa feugiat rutrum urna facilisi ipsameum.</p>
