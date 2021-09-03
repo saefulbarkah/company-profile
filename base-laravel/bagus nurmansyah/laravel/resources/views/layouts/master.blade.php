@@ -14,6 +14,10 @@
   {{-- font awesome --}}
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
   integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+  <!-- Google Fonts -->
+<link
+href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i"
+rel="stylesheet">
 
   <!-- bootstrap.min css -->
   <link rel="stylesheet" href="{{ asset('assets/plugins/bootstrap/css/bootstrap.min.css')}}">
@@ -34,16 +38,11 @@
 </head>
 
 <body>
-    <!-- LOADER TEMPLATE -->
+<!-- LOADER TEMPLATE -->
 <div id="page-loader">
     <div class="loader-icon fa fa-spin colored-border"></div>
 </div>
-    <!-- /LOADER TEMPLATE -->
-
-    {{-- Navbar --}}
-    @include('layouts.top-bar')
-    {{-- end navbar --}}
-
+<!-- /LOADER TEMPLATE -->
 
     {{-- content --}}
     <div class="main-wrapper">
@@ -54,10 +53,8 @@
         {{-- end footer --}}
 
     </div>
-    <!--
-    Essential Scripts
-    =====================================-->
 
+    <!--Essential Scripts-->
 
     <!-- Main jQuery -->
     <script src="{{ asset('assets/plugins/jquery/jquery.min.js')}}"></script>

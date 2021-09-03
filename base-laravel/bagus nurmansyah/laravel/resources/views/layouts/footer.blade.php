@@ -7,9 +7,9 @@
                 <div class="footer-widget">
                     <!-- Brand -->
                     <a href="#" class="footer-brand text-white">
-                        Rapoo
+                        Genetic Wear
                     </a>
-                    <p>Each theme featured at the Bootstrap marketplace has been reviewed by Bootstrap's creators.Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                    <p>Genetic merupakan penyedia layanan konveksi dan sablon yang berada di Jl.Katapang Andir No.503, kabupaten Bandung, Jawa Barat 40921</p>
                 </div>
             </div>
 
@@ -47,36 +47,30 @@
                 </div>
             </div>
 
-
             <div class="col-lg-2 col-sm-6">
                 <div class="footer-widget">
-                    <h3>About</h3>
+                    <h3>Tentang</h3>
                     <!-- Links -->
                     <ul class="footer-links ">
                         <li>
-                            <a href="#">
-                                Services
+                            <a href="{{ url('service') }}">
+                                Layanan
                             </a>
                         </li>
                         <li>
-                            <a href="#">
-                                About Us
+                            <a href="{{ url('about') }}">
+                                Tentang Kami
                             </a>
                         </li>
                         <li>
-                            <a href="#">
-                                Pricing
-                            </a>
-                        </li>
-                        <li>
-                            <a href="#">
-                                Products Shop
+                            <a href="{{ url('portfolio') }}">
+                                Portofolio
                             </a>
                         </li>
 
                         <li>
-                            <a href="#">
-                                Contact
+                            <a href="{{ url('contact') }}">
+                                Kontak
                             </a>
                         </li>
                     </ul>
@@ -85,7 +79,7 @@
 
             <div class="col-lg-2 col-sm-6">
                 <div class="footer-widget">
-                    <h3>Socials</h3>
+                    <h3>Social Media</h3>
                     <!-- Links -->
                     <ul class="list-unstyled footer-links">
                         <li><a href="#"><i class="fab fa-facebook-f"></i>Facebook</a></li>
@@ -108,7 +102,7 @@
             <div class="col-lg-12">
                 <!-- Copyright -->
                 <p class="footer-copy ">
-                    &copy; Copyright <span class="current-year">Themefisher</span> All rights reserved.
+                    &copy; Copyright <span class="current-year">Genetic Wear</span> All rights reserved.
                 </p>
             </div>
         </div> <!-- / .row -->
@@ -116,8 +110,4 @@
 </footer>
 
 
-<!--  Page Scroll to Top  -->
 
-<a class="scroll-to-top js-scroll-trigger" href="#top-header">
-    <i class="fa fa-angle-up"></i>
-</a>

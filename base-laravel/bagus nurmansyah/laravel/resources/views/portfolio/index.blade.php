@@ -2,6 +2,53 @@
 @section('title', 'portofolio')
 @section('content')
 
+<section id="portfolio" class="portfolio">
+        <!-- NAVBAR
+    ================================================= -->
+    <nav class="navbar navbar-expand-lg navbar-dark trans-navigation fixed-top navbar-togglable">
+        <div class="container">
+            <a class="navbar-brand" href="{{ url('/') }}">
+                <h3>Genetic Wear</h3>
+            </a>
+            <!-- Toggler -->
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="fa fa-bars"></span>
+            </button>
+
+            <!-- Collapse -->
+            <div class="collapse navbar-collapse" id="navbarCollapse">
+                <!-- Links -->
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item ">
+                        <a href="{{ url('/') }}" class="nav-link js-scroll-trigger">
+                            Beranda
+                        </a>
+                    </li>
+                    <li class="nav-item ">
+                        <a href="{{ url('about') }}" class="nav-link js-scroll-trigger">
+                            Tentang
+                        </a>
+                    </li>
+                    <li class="nav-item ">
+                        <a href="{{ url('service') }}" class="nav-link js-scroll-trigger">
+                            Layanan
+                        </a>
+                    </li>
+                    <li class="nav-item ">
+                        <a href="{{ url('portfolio') }}" class="nav-link js-scroll-trigger">
+                            Portofolio
+                        </a>
+                    </li>
+                    <li class="nav-item ">
+                        <a href="{{ url('contact') }}" class="nav-link">
+                            Kontak
+                        </a>
+                    </li>
+                </ul>
+            </div> <!-- / .navbar-collapse -->
+        </div> <!-- / .container -->
+    </nav>
+
 <!-- HERO
 ================================================== -->
 <section class="page-banner-area page-project">
@@ -11,63 +58,13 @@
         <div class="row justify-content-center">
             <div class="col-lg-9 col-md-12 col-12 text-center">
                 <div class="page-banner-content">
-                    <h1 class="display-4 font-weight-bold">We create your brand</h1>
-                    <p>We'd love to talk about how we can help you.</p>
+                    <h1 class="display-4 font-weight-bold">Kami Membuat Brand Anda</h1>
+                    <p>Kami ingin berbicara tentang bagaimana kami dapat membantu Anda.</p>
                 </div>
             </div>
         </div> <!-- / .row -->
     </div> <!-- / .container -->
 </section>
-
-
-<section class="section" id="process">
-        <div class="container">
-            <div class="row justify-content-center">
-                <div class="col-md-8 col-lg-6 text-center">
-                    <div class="section-heading">
-                        <!-- Heading -->
-                        <h2 class="section-title">
-                            Our Working process
-                        </h2>
-
-                        <!-- Subheading -->
-                        <p>
-                            Rapoo can be used to create anything from a small marketing page to a sophisticated website.
-                        </p>
-
-                    </div>
-                </div>
-            </div> <!-- / .row -->
-
-            <div class="row justify-content-center">
-                <div class="col-lg-4 col-sm-6 col-md-6">
-                    <div class="process-block">
-                        <img src="{{ asset('assets/images/process/process-1.jpg')}}" alt="" class="img-fluid">
-
-                        <h3>Project Research</h3>
-                        <p>Nihil facere delectus eaque aut possimus nobis laudantium reprehenderit.</p>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-sm-6 col-md-6">
-                    <div class="process-block">
-                        <img src="{{ asset('assets/images/process/process-2.jpg')}}" alt="" class="img-fluid">
-
-                        <h3>Project demostration</h3>
-                        <p>Nihil facere delectus eaque aut possimus nobis laudantium reprehenderit.</p>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-sm-6 col-md-6">
-                    <div class="process-block">
-                        <img src="{{ asset('assets/images/process/process-3.jpg')}}" alt="" class="img-fluid">
-
-                        <h3>Development & delivery</h3>
-                        <p>Nihil facere delectus eaque aut possimus nobis laudantium reprehenderit.</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
 
  <section id="work-wrap">
             <div class="container">
@@ -161,5 +158,6 @@
                 </div>
             </div>
         </section>
+    </section>
 
 @endsection

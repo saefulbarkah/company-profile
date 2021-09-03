@@ -2,6 +2,53 @@
 @section('title', 'layanan')
 @section('content')
 
+<section id="service" class="service">
+        <!-- NAVBAR
+    ================================================= -->
+    <nav class="navbar navbar-expand-lg navbar-dark trans-navigation fixed-top navbar-togglable">
+        <div class="container">
+            <a class="navbar-brand" href="{{ url('/') }}">
+                <h3>Genetic Wear</h3>
+            </a>
+            <!-- Toggler -->
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="fa fa-bars"></span>
+            </button>
+
+            <!-- Collapse -->
+            <div class="collapse navbar-collapse" id="navbarCollapse">
+                <!-- Links -->
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item ">
+                        <a href="{{ url('/') }}" class="nav-link js-scroll-trigger">
+                            Beranda
+                        </a>
+                    </li>
+                    <li class="nav-item ">
+                        <a href="{{ url('about') }}" class="nav-link js-scroll-trigger">
+                            Tentang
+                        </a>
+                    </li>
+                    <li class="nav-item ">
+                        <a href="{{ url('service') }}" class="nav-link js-scroll-trigger">
+                            Layanan
+                        </a>
+                    </li>
+                    <li class="nav-item ">
+                        <a href="{{ url('portfolio') }}" class="nav-link js-scroll-trigger">
+                            Portofolio
+                        </a>
+                    </li>
+                    <li class="nav-item ">
+                        <a href="{{ url('contact') }}" class="nav-link">
+                            Kontak
+                        </a>
+                    </li>
+                </ul>
+            </div> <!-- / .navbar-collapse -->
+        </div> <!-- / .container -->
+    </nav>
+
    <!-- HERO
     ================================================== -->
     <section class="page-banner-area page-service">
@@ -11,8 +58,8 @@
             <div class="row justify-content-center">
                 <div class="col-lg-9 col-md-12 col-12 text-center">
                     <div class="page-banner-content">
-                        <h1 class="display-4 font-weight-bold">Web & Cloud services</h1>
-                        <p>We'd love to talk about how we can help you.</p>
+                        <h1 class="display-4 font-weight-bold">Konveksi & Sablon</h1>
+                        <p>Kami ingin berbicara tentang bagaimana kami dapat membantu Anda.</p>
                     </div>
                 </div>
             </div> <!-- / .row -->
@@ -226,5 +273,6 @@
             </div>
         </div>
     </section>
+</section>
 
 @endsection
