@@ -28,12 +28,6 @@
     <!-- Template Main CSS File -->
     <link href="{{asset('assets/css/style.css') }}" rel="stylesheet">
 
-    <!-- =======================================================
-  * Template Name: BizPage - v5.3.0
-  * Template URL: https://bootstrapmade.com/bizpage-bootstrap-business-template/
-  * Author: BootstrapMade.com
-  * License: https://bootstrapmade.com/license/
-  ======================================================== -->
 </head>
 
 <body>
