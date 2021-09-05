@@ -26,7 +26,7 @@
 <hr />
 <div class="card shadow">
     <div class="card-body">
-        <a href="" class="btn btn-primary"><i class='bx bx-cloud-upload'></i>Upload</a>
+        <a href="{{ url('admin/create/portfolio') }}" class="btn btn-primary"><i class='bx bx-cloud-upload'></i>Upload</a>
     </div>
 </div>
 <hr />
@@ -38,14 +38,12 @@
                     <tr>
                         <th>Images</th>
                         <th>Name</th>
-                        <th>Description</th>
                         <th>Portfolio Tag</th>
                         <th>Action</th>
                     </tr>
                 </thead>
                 <tbody>
                     <tr>
-                        <td>saa</td>
                         <td>saa</td>
                         <td>saa</td>
                         <td>saa</td>

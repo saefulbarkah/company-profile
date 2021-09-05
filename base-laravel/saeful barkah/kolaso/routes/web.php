@@ -22,5 +22,12 @@ Route::get('/contact','ContactController@contact');
 
 Auth::routes();
 
-Route::get('admin/dashboard', 'DashboardController@dashboard')->name('home');
-Route::get('admin/list-portfolio', 'PortfolioController@listPortfolio');
+
+Route::middleware(['auth'])->group(function () {
+    Route::get('admin/dashboard', 'DashboardController@dashboard')->name('home');
+
+    // portfolio
+    Route::get('admin/list-portfolio', 'PortfolioController@listPortfolio');
+    Route::get('admin/create/portfolio','PortfolioController@create');
+    Route::get('admin/list-tag-portfolio','PortfolioController@listPortfolio');
+});

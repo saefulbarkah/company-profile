@@ -15,4 +15,14 @@ class PortfolioController extends Controller
     {
         return view('admin.portfolio.list-portfolio');
     }
+
+    public function create()
+    {
+        return view('admin.portfolio.add-portfolio');
+    }
+
+    public function listTag()
+    {
+        return view('admin.portfolio.list-tag');
+    }
 }
