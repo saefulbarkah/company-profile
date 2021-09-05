@@ -10,4 +10,9 @@ class PortfolioController extends Controller
     {
         return view('pages.portfolio');
     }
+
+    public function listPortfolio()
+    {
+        return view('admin.portfolio.list-portfolio');
+    }
 }

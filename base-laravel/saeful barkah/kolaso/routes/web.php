@@ -23,3 +23,4 @@ Route::get('/contact','ContactController@contact');
 Auth::routes();
 
 Route::get('admin/dashboard', 'DashboardController@dashboard')->name('home');
+Route::get('admin/list-portfolio', 'PortfolioController@listPortfolio');

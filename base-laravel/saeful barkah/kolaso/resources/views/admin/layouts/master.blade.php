@@ -24,6 +24,9 @@
 	<link rel="stylesheet" href="{{ asset('assets2/css/semi-dark.css') }}" />
 	<link rel="stylesheet" href="{{ asset('assets2/css/header-colors.css') }}" />
 	<title>Rocker - Bootstrap 5 Admin Dashboard Template</title>
+
+    {{-- styles --}}
+    @stack('styles')
 </head>
 
 <body>
@@ -444,6 +447,9 @@
 	<script src="{{ asset('assets2/plugins/perfect-scrollbar/js/perfect-scrollbar.js') }}"></script>
 	<!--app JS-->
 	<script src="{{ asset('assets2/js/app.js') }}"></script>
+
+    {{-- styles --}}
+    @stack('scripts')
 </body>
 
 </html>
