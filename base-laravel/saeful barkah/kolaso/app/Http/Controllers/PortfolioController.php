@@ -2,7 +2,9 @@
 
 namespace App\Http\Controllers;
 
+use App\PortfolioTag;
 use Illuminate\Http\Request;
+use App\Portfolio;
 
 class PortfolioController extends Controller
 {
@@ -13,16 +15,29 @@ class PortfolioController extends Controller
 
     public function listPortfolio()
     {
-        return view('admin.portfolio.list-portfolio');
+        $porfolio = Portfolio::all();
+        $tag = PortfolioTag::all();
+        return view('admin.portfolio.list-portfolio', compact('tag'));
     }
 
-    public function create()
+    public function portfolioPost(Request $request)
     {
-        return view('admin.portfolio.add-portfolio');
+        dd($request->all());
     }
 
-    public function listTag()
+    public function listTagPortfolio()
     {
-        return view('admin.portfolio.list-tag');
+        $data = PortfolioTag::all();
+        return view('admin.portfolio.list-tag', compact('data'));
+    }
+
+    public function listTagPost(Request $request)
+    {
+        // dd($request->all());
+        $create = new PortfolioTag();
+        $create->name = $request->name;
+        $create->save();
+
+        return redirect()->back();
     }
 }
