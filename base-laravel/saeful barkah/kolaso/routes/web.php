@@ -19,3 +19,7 @@ Route::get('/about', 'AboutController@about');
 Route::get('/service','ServiceController@service');
 Route::get('/portfolio','PortfolioController@portfolio');
 Route::get('/contact','ContactController@contact');
+
+Auth::routes();
+
+Route::get('/home', 'HomeController@index')->name('home');
