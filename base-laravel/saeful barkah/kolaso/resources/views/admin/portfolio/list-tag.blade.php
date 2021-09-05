@@ -13,13 +13,15 @@
 
 
 {{-- content --}}
+
+
 <div class="row">
     <div class="col">
         <div class="card">
             <div class="card-body">
                 <a href="{{ url('admin/list-portfolio') }}" class="btn btn-warning">
                     <i class="fa fa-images"></i>
-                    List portfolio
+                    Portfolio
                 </a>
                 <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#modal-default">
                     <i class="fa fa-plus"></i>
@@ -66,7 +68,7 @@
                     <thead>
                         <tr>
                             <th>No</th>
-                            <th>Name</th>
+                            <th>Nama</th>
                             <th>Action</th>
                         </tr>
                     </thead>

@@ -14,6 +14,7 @@
     <!-- Theme style -->
     <link rel="stylesheet" href="{{ asset('assets2/dist/css/adminlte.min.css') }}">
     @stack('styles')
+    @toastr_css
 </head>
 
 <body class="hold-transition sidebar-mini">
@@ -147,6 +148,9 @@
     <script src="{{ asset('assets2/dist/js/demo.js') }}"></script>
 
     @stack('scripts')
+    @jquery
+    @toastr_js
+    @toastr_render
 </body>
 
 </html>

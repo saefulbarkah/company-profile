@@ -34,10 +34,13 @@ class PortfolioController extends Controller
     public function listTagPost(Request $request)
     {
         // dd($request->all());
+        $request->validate([
+            'name' => 'required'
+        ]);
         $create = new PortfolioTag();
         $create->name = $request->name;
         $create->save();
-
+        toastr()->success('Data berhasil di tambahkan');
         return redirect()->back();
     }
 }
