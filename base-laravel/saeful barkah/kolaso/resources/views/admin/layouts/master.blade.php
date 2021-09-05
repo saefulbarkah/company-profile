@@ -84,6 +84,18 @@
                                 </li>
                             </ul>
                         </li>
+                        <li class="nav-item">
+                            <a href="{{ url('admin/dashboard') }}" class="nav-link" href="#"
+                                onclick="event.preventDefault();document.getElementById('logout-form').submit();">
+                                <i class="fas fa-tachometer-alt nav-icon"></i>
+                                <p>Logout</p>
+
+                                <form id="logout-form" action="{{ route('logout') }}" method="POST"
+                                    style="display: none;">
+                                    {{ csrf_field() }}
+                                </form>
+                            </a>
+                        </li>
                     </ul>
                 </nav>
                 <!-- /.sidebar-menu -->
