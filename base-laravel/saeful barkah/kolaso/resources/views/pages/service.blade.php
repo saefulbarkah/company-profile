@@ -44,7 +44,7 @@
                     </div>
                     <div class="feature--content">
                         <h4>Full order</h4>
-                        <p>Sablon dengan cara desain bebas</p>
+                        <p></p>
                     </div>
                     {{-- <div class="feature--more">
                         <a href="#"><i class="fa fa-long-arrow-right"></i><span>More</span></a>
@@ -58,7 +58,7 @@
                     </div>
                     <div class="feature--content">
                         <h4>Sablon jacket</h4>
-                        <p>Sablon dengan cara desain bebas</p>
+                        <p></p>
                     </div>
                     {{-- <div class="feature--more">
                         <a href="#"><i class="fa fa-long-arrow-right"></i><span>More</span></a>
@@ -72,7 +72,7 @@
                     </div>
                     <div class="feature--content">
                         <h4>Sablon kemeja</h4>
-                        <p>Sablon dengan cara desain bebas</p>
+                        <p></p>
                     </div>
                     {{-- <div class="feature--more">
                         <a href="#"><i class="fa fa-long-arrow-right"></i><span>More</span></a>
@@ -86,7 +86,7 @@
                     </div>
                     <div class="feature--content">
                         <h4>Sablon Kaos</h4>
-                        <p>Layanan yang memberikan gambar pada pakaian, sehingga pakain terlihat lebih menarik</p>
+                        <p></p>
                     </div>
                     {{-- <div class="feature--more">
                         <a href="#"><i class="fa fa-long-arrow-right"></i><span>More</span></a>
@@ -100,18 +100,28 @@
                             width="100px"></img>
                     </div>
                     <div class="feature--content">
-                        <h4>Sablon Kaos</h4>
-                        <p>Layanan yang memberikan gambar pada pakaian, sehingga pakain terlihat lebih menarik</p>
+                        <h4>makloon Sublime Press</h4>
+                        <p></p>
                     </div>
                     {{-- <div class="feature--more">
                         <a href="#"><i class="fa fa-long-arrow-right"></i><span>More</span></a>
                     </div> --}}
                 </div>
             </div>
-        </div>
-        <div class="row">
-            <div class="col-sm-12 col-md-12 col-lg-12 text-center">
-                <a href="#" class="btn btn--underlined">Explore features</a>
+            <div class="col-sm-12 col-md-4 col-lg-4">
+                <div class="feature-panel">
+                    <div class="feature--icon">
+                        <img src="{{ asset('assets/images/icon/printing.png') }}" class="img-fluid"
+                            width="100px"></img>
+                    </div>
+                    <div class="feature--content">
+                        <h4>makloon Sublime Printing</h4>
+                        <p></p>
+                    </div>
+                    {{-- <div class="feature--more">
+                        <a href="#"><i class="fa fa-long-arrow-right"></i><span>More</span></a>
+                    </div> --}}
+                </div>
             </div>
         </div>
     </div>
