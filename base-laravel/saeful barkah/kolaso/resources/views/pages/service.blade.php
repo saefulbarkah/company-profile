@@ -57,7 +57,7 @@
                         <img src="{{ asset('assets/images/icon/hoodie.png') }}" class="img-fluid" width="100px"></img>
                     </div>
                     <div class="feature--content">
-                        <h4>Sablon jacket</h4>
+                        <h4>jacket</h4>
                         <p></p>
                     </div>
                     {{-- <div class="feature--more">
@@ -71,7 +71,7 @@
                         <img src="{{ asset('assets/images/icon/cloth.png') }}" class="img-fluid" width="100px"></img>
                     </div>
                     <div class="feature--content">
-                        <h4>Sablon kemeja</h4>
+                        <h4>kemeja</h4>
                         <p></p>
                     </div>
                     {{-- <div class="feature--more">
