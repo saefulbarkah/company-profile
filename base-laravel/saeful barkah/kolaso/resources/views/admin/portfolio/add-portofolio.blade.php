@@ -32,14 +32,14 @@
                     <div class="form-group row">
                         <label for="basic-input" class="col-sm-3 col-form-label">Nama Item</label>
                         <div class="col-sm-9">
-                            <input type="text" name="name" id="basic-input" class="form-control" required>
+                            <input type="text" name="name" id="basic-input" class="form-control">
                         </div>
                     </div>
 
                     <div class="form-group row">
                         <label for="basic-select" class="col-sm-3 col-form-label">jenis Item</label>
                         <div class="col-sm-9">
-                            <select class="form-control" name="item_id" id="basic-select" required>
+                            <select class="form-control" name="item_id" id="basic-select">
                                 <option value="" disabled selected>-- Pilih Jenis Item --</option>
                                 @foreach ($item as $data)
                                 <option value="{{ $data->id }}">{{ $data->name }}</option>

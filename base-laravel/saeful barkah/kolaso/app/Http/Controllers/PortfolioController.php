@@ -6,6 +6,7 @@ use App\Item;
 use Illuminate\Http\Request;
 use App\Portfolio;
 use File;
+use Illuminate\Support\Facades\Validator;
 
 class PortfolioController extends Controller
 {
@@ -30,11 +31,20 @@ class PortfolioController extends Controller
 
     public function portfolioPost(Request $request)
     {
-        $this->validate($request, [
+        $pesan = [
+            'required' => 'Form input tidak boleh kosong',
+            'mimes'    => 'Format gambar salah',
+        ];
+        $validator = Validator::make($request->all(), [
             'image' => 'mimes:png,jpg|required',
             'name' => 'required',
             'item_id' => 'required',
-        ]);
+        ], $pesan);
+
+        if ($validator->fails()) {
+            return back()->with('warning', $validator->messages()->all()[0])->withInput();
+        }
+
         $create = new Portfolio();
         $create->name = $request->name;
         $create->item_id = $request->item_id;
@@ -56,11 +66,20 @@ class PortfolioController extends Controller
 
     public function portfolioUpdate(Request $request, $id)
     {
-        $this->validate($request, [
-            'image' => 'mimes:png,jpg',
+        $pesan = [
+            'required' => 'Form input tidak boleh kosong',
+            'mimes'    => 'Format gambar salah',
+        ];
+        $validator = Validator::make($request->all(), [
+            'image' => 'mimes:png,jpg|required',
             'name' => 'required',
             'item_id' => 'required',
-        ]);
+        ], $pesan);
+
+        if ($validator->fails()) {
+            return back()->with('warning', $validator->messages()->all()[0])->withInput();
+        }
+
         $update = Portfolio::find($id);
         $update->name = $request->name;
         $update->item_id = $request->item_id;

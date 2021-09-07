@@ -35,7 +35,7 @@
                         <label for="basic-input" class="col-sm-3 col-form-label">Nama Item</label>
                         <div class="col-sm-9">
                             <input type="text" name="name" id="basic-input" class="form-control"
-                                value="{{ $portfolio->name }}" required>
+                                value="{{ $portfolio->name }}">
                         </div>
                     </div>
 
