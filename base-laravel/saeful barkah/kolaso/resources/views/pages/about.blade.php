@@ -1,6 +1,6 @@
 @extends('layouts.master')
 
-@section('title','Genetic | Beranda')
+@section('title','Genetic | Tentang')
 @section('content')
 <section id="page-title" class="page-title bg-overlay bg-overlay-dark2 bg-parallax">
     <div class="bg-section">

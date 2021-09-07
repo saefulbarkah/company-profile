@@ -1,5 +1,5 @@
 @extends('layouts.master')
-
+@section('title','Genetic | Portofolio')
 @section('content')
 
 <section id="page-title" class="page-title bg-overlay bg-overlay-dark2 bg-parallax">

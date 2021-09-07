@@ -36,7 +36,7 @@
 
     @stack('styles')
 
-    <title>kolaso</title>
+    <title>@yield('title')</title>
 </head>
 
 <body>
