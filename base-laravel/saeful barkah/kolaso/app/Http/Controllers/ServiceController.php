@@ -14,4 +14,9 @@ class ServiceController extends Controller
     {
         return view('pages.fulll-order');
     }
+
+    public function serviceMakloonSublim()
+    {
+        return view('pages.makloon-sublim');
+    }
 }
