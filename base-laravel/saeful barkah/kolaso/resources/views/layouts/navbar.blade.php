@@ -21,19 +21,19 @@
                         <a href="{{ url('/') }}" class="menu-item">Beranda</a>
                     </li>
 
-                    <li class="{{ Request::is('about') ? 'active' : '' }}">
-                        <a href="{{ url('about') }}" class="menu-item">Tentang kami</a>
+                    <li class="{{ Request::is('tentang') ? 'active' : '' }}">
+                        <a href="{{ url('tentang') }}" class="menu-item">Tentang kami</a>
                     </li>
 
-                    <li class="{{ Request::is('service') ? 'active' : '' }}">
-                        <a href="{{ url('service') }}" class="menu-item">Layanan</a>
+                    <li class="{{ Request::is('layanan') ? 'active' : '' }}">
+                        <a href="{{ url('layanan') }}" class="menu-item">Layanan</a>
                     </li>
 
-                    <li class="{{ Request::is('portfolio') ? 'active' : '' }}">
-                        <a href="{{ url('portfolio') }}" class="menu-item">Portofolio</a>
+                    <li class="{{ Request::is('portofolio') ? 'active' : '' }}">
+                        <a href="{{ url('portofolio') }}" class="menu-item">Portofolio</a>
                     </li>
                     <li class="{{ Request::is('kontak') ? 'active' : '' }}">
-                        <a href="{{ url('contact') }}" class="menu-item">Kontak</a>
+                        <a href="{{ url('kontak') }}" class="menu-item">Kontak</a>
                     </li>
                 </ul>
             </div>

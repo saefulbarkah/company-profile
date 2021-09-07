@@ -10,4 +10,8 @@ class ServiceController extends Controller
     {
         return view('pages.service');
     }
+    public function serviceFullOrder()
+    {
+        return view('pages.fulll-order');
+    }
 }
