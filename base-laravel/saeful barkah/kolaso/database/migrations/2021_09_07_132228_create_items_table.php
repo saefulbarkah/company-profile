@@ -4,7 +4,7 @@ use Illuminate\Database\Migrations\Migration;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Support\Facades\Schema;
 
-class CreatePortfolioTagsTable extends Migration
+class CreateItemsTable extends Migration
 {
     /**
      * Run the migrations.
@@ -13,7 +13,7 @@ class CreatePortfolioTagsTable extends Migration
      */
     public function up()
     {
-        Schema::create('portfolio_tags', function (Blueprint $table) {
+        Schema::create('items', function (Blueprint $table) {
             $table->id();
             $table->string('name');
             $table->timestamps();
@@ -27,6 +27,6 @@ class CreatePortfolioTagsTable extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('portfolio_tags');
+        Schema::dropIfExists('items');
     }
 }

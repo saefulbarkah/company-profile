@@ -30,7 +30,11 @@ Route::middleware(['auth'])->group(function () {
 
     // portfolio
     Route::get('admin/portofolio', 'PortfolioController@listPortfolio');
-    Route::post('admin/portfolio/post', 'PortfolioController@portfolioPost');
+    Route::get('admin/portofolio/tambah', 'PortfolioController@createPortfolio');
+    Route::get('admin/portofolio/edit={id}', 'PortfolioController@editPortfolio');
+    Route::post('admin/portofolio/post', 'PortfolioController@portfolioPost');
+    Route::post('admin/portofolio/update/{id}', 'PortfolioController@portfolioUpdate');
+    Route::get('admin/portofolio/hapus/{id}', 'PortfolioController@portfolioDestroy');
 
     // tag-portfolio
     Route::get('admin/list-tag-portfolio', 'PortfolioController@listTagPortfolio');

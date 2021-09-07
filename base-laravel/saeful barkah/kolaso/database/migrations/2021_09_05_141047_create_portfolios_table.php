@@ -17,7 +17,7 @@ class CreatePortfoliosTable extends Migration
             $table->id();
             $table->string('name');
             $table->string('image');
-            $table->integer('portfolio_tag_id');
+            $table->integer('item_id');
             $table->timestamps();
         });
     }
