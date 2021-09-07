@@ -22,17 +22,17 @@ Route::get('/layanan/makloon-sublim', 'ServiceController@serviceMakloonSublim');
 Route::get('/portofolio', 'PortfolioController@portfolio');
 Route::get('/kontak', 'ContactController@contact');
 
-// Auth::routes();
+Auth::routes();
 
 
-// Route::middleware(['auth'])->group(function () {
-//     Route::get('admin/dashboard', 'DashboardController@dashboard')->name('home');
+Route::middleware(['auth'])->group(function () {
+    Route::get('admin/dashboard', 'DashboardController@dashboard')->name('home');
 
-//     // portfolio
-//     Route::get('admin/list-portfolio', 'PortfolioController@listPortfolio');
-//     Route::post('admin/portfolio/post', 'PortfolioController@portfolioPost');
+    // portfolio
+    Route::get('admin/portofolio', 'PortfolioController@listPortfolio');
+    Route::post('admin/portfolio/post', 'PortfolioController@portfolioPost');
 
-//     // tag-portfolio
-//     Route::get('admin/list-tag-portfolio', 'PortfolioController@listTagPortfolio');
-//     Route::post('admin/tag-portfolio/post', 'PortfolioController@listTagPost');
-// });
+    // tag-portfolio
+    Route::get('admin/list-tag-portfolio', 'PortfolioController@listTagPortfolio');
+    Route::post('admin/tag-portfolio/post', 'PortfolioController@listTagPost');
+});

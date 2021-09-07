@@ -1,66 +1,49 @@
 @extends('layouts.app')
 
 @section('content')
-<div class="login-box">
-    <div class="login-logo">
-        <a href=""><b>Genetic</b> Wear</a>
-    </div>
-    <!-- /.login-logo -->
-    <div class="card">
-        <div class="card-body login-card-body">
-            <p class="login-box-msg">Sign in to start your session</p>
-
-            <form action="{{ route('login') }}" method="post">
+<div class="card border-primary border-top-sm border-bottom-sm card-authentication1 mx-auto my-5 animated bounceInDown">
+    <div class="card-body">
+        <div class="card-content p-2">
+            <div class="card-title text-uppercase text-center py-3">Login</div>
+            <form action="{{ route('login') }}" method="POST">
                 @csrf
-                <div class="input-group mb-3">
-                    <input type="email" name="email" class="form-control @error('email') is-invalid @enderror"
-                        placeholder="Email">
-                    <div class="input-group-append">
-                        <div class="input-group-text">
-                            <span class="fas fa-envelope"></span>
+                <div class="form-group">
+                    <div class="position-relative has-icon-right">
+                        <label for="exampleInputUsername" class="sr-only">Email</label>
+                        <input type="email" name="email" id="exampleInputUsername"
+                            class="form-control form-control-rounded" placeholder="Email" required>
+                        <div class="form-control-position">
+                            <i class="icon-user"></i>
                         </div>
                     </div>
-
-                    @error('email')
-                    <span class="invalid-feedback" role="alert">
-                        <strong>{{ $message }}</strong>
-                    </span>
-                    @enderror
                 </div>
-
-                <div class="input-group mb-3">
-                    <input type="password" name="password" class="form-control @error('password') is-invalid @enderror"
-                        placeholder=" Password">
-                    <div class="input-group-append">
-                        <div class="input-group-text">
-                            <span class="fas fa-lock"></span>
+                <div class="form-group">
+                    <div class="position-relative has-icon-right">
+                        <label for="exampleInputPassword" class="sr-only">Password</label>
+                        <input type="password" name="password" id="exampleInputPassword"
+                            class="form-control form-control-rounded" placeholder="Password">
+                        <div class="form-control-position">
+                            <i class="icon-lock"></i>
                         </div>
                     </div>
-                    @error('password')
-                    <span class="invalid-feedback" role="alert">
-                        <strong>{{ $message }}</strong>
-                    </span>
-                    @enderror
                 </div>
-
-                <div class="row">
-                    <div class="col-8">
+                <div class="form-row mr-0 ml-0">
+                    <div class="form-group col-6">
                         <div class="icheck-primary">
-                            <input type="checkbox" name="remember" id="remember">
-                            <label for="remember">
-                                Remember Me
-                            </label>
+                            <input type="checkbox" name="remember" id="user-checkbox" checked="" />
+                            <label for="user-checkbox">Remember me</label>
                         </div>
                     </div>
-                    <!-- /.col -->
-                    <div class="col-4">
-                        <button type="submit" class="btn btn-primary btn-block">Sign In</button>
-                    </div>
-                    <!-- /.col -->
                 </div>
+                <button type="submit"
+                    class="btn btn-primary shadow-primary btn-round btn-block waves-effect waves-light">Sign
+                    In</button>
             </form>
         </div>
-        <!-- /.login-card-body -->
     </div>
 </div>
+
+<!--Start Back To Top Button-->
+<a href="javaScript:void();" class="back-to-top"><i class="fa fa-angle-double-up"></i> </a>
+<!--End Back To Top Button-->
 @endsection
