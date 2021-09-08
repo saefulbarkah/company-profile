@@ -39,4 +39,8 @@ Route::middleware(['auth'])->group(function () {
     // tag-portfolio
     Route::get('admin/list-tag-portfolio', 'PortfolioController@listTagPortfolio');
     Route::post('admin/tag-portfolio/post', 'PortfolioController@listTagPost');
+
+
+    // Profiles
+    Route::get('admin/profile', 'ProfileController@profile');
 });
