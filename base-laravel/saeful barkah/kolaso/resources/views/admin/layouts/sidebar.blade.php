@@ -16,6 +16,12 @@
                 <span>Portofolio</span>
             </a>
         </li>
+        <li class="{{ Request::is('admin/profile') ? 'active' : ' '}}">
+            <a href="{{ url('admin/profile') }}" class="waves-effect">
+                <i class="icon-home"></i>
+                <span>Profile Website</span>
+            </a>
+        </li>
     </ul>
 
 </div>
