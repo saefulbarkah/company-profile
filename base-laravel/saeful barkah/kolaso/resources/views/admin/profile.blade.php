@@ -23,92 +23,63 @@
                         <div class="row">
                             <div class="col-md-6">
                                 <h6>Judul Website</h6>
-                                <p>
-                                </p>
-                                <h6>Alamat Perusahaan</h6>
-                                <p>
-                                </p>
-                                <h6>Email Perusahaan</h6>
-                                <p>
+                                <p class="ml-4">
+                                    {{ ($profile) == '' ? '' : $profile->title_web }}
                                 </p>
                                 <h6>No Telepon Perusahaan</h6>
-                                <p>
+                                <p class="ml-4">
+                                    {{ ($profile) == '' ? '' : $profile->phone_number }}
+                                </p>
+                                <h6>Email Perusahaan</h6>
+                                <p class="ml-4">
+                                    {{ ($profile) == '' ? '' : $profile->email }}
+                                </p>
+                                <h6>Alamat Perusahaan</h6>
+                                <p class="ml-4">
+                                    {{ ($profile) == '' ? '' : $profile->address }}
                                 </p>
                             </div>
                         </div>
                         <!--/row-->
                     </div>
                     <div class="tab-pane" id="edit">
-                        <form>
+                        <form action="{{ url('admin/profile/update',($profile) == '' ? '' : $profile->id) }}"
+                            method="POST">
+                            @csrf
+                            <input type="hidden" name="id" value="{{ ($profile) == '' ? '' : $profile->id }}">
                             <div class="form-group row">
-                                <label class="col-lg-3 col-form-label form-control-label">First name</label>
+                                <label class="col-lg-3 col-form-label form-control-label">Judul Website</label>
                                 <div class="col-lg-9">
-                                    <input class="form-control" type="text" value="Mark">
+                                    <input class="form-control" type="text" name="title_web"
+                                        value="{{ ($profile) == '' ? '' : $profile->title_web }}">
                                 </div>
                             </div>
                             <div class="form-group row">
-                                <label class="col-lg-3 col-form-label form-control-label">Last name</label>
+                                <label class="col-lg-3 col-form-label form-control-label">Email Perusahaan</label>
                                 <div class="col-lg-9">
-                                    <input class="form-control" type="text" value="Jhonsan">
+                                    <input class="form-control" type="email" name="email"
+                                        value="{{ ($profile) == '' ? '' : $profile->email }}">
                                 </div>
                             </div>
                             <div class="form-group row">
-                                <label class="col-lg-3 col-form-label form-control-label">Email</label>
+                                <label class="col-lg-3 col-form-label form-control-label">No Telepon Perusahaan</label>
                                 <div class="col-lg-9">
-                                    <input class="form-control" type="email" value="mark@example.com">
+                                    <input class="form-control" type="number" name="phone_number"
+                                        value="{{ ($profile) == '' ? '' : $profile->phone_number }}">
                                 </div>
                             </div>
                             <div class="form-group row">
-                                <label class="col-lg-3 col-form-label form-control-label">Change profile</label>
-                                <div class="col-lg-9">
-                                    <input class="form-control" type="file">
-                                </div>
-                            </div>
-                            <div class="form-group row">
-                                <label class="col-lg-3 col-form-label form-control-label">Website</label>
-                                <div class="col-lg-9">
-                                    <input class="form-control" type="url" value="">
-                                </div>
-                            </div>
-                            <div class="form-group row">
-                                <label class="col-lg-3 col-form-label form-control-label">Address</label>
-                                <div class="col-lg-9">
-                                    <input class="form-control" type="text" value="" placeholder="Street">
-                                </div>
-                            </div>
-                            <div class="form-group row">
-                                <label class="col-lg-3 col-form-label form-control-label"></label>
-                                <div class="col-lg-6">
-                                    <input class="form-control" type="text" value="" placeholder="City">
-                                </div>
-                                <div class="col-lg-3">
-                                    <input class="form-control" type="text" value="" placeholder="State">
-                                </div>
-                            </div>
-
-                            <div class="form-group row">
-                                <label class="col-lg-3 col-form-label form-control-label">Username</label>
-                                <div class="col-lg-9">
-                                    <input class="form-control" type="text" value="jhonsanmark">
-                                </div>
-                            </div>
-                            <div class="form-group row">
-                                <label class="col-lg-3 col-form-label form-control-label">Password</label>
-                                <div class="col-lg-9">
-                                    <input class="form-control" type="password" value="11111122333">
-                                </div>
-                            </div>
-                            <div class="form-group row">
-                                <label class="col-lg-3 col-form-label form-control-label">Confirm password</label>
-                                <div class="col-lg-9">
-                                    <input class="form-control" type="password" value="11111122333">
+                                <label for="basic-textarea" class="col-sm-3 col-form-label">Alamat Perusahaan</label>
+                                <div class="col-sm-9">
+                                    <textarea rows="4" class="form-control" id="basic-textarea"
+                                        name="address">{{ ($profile) == '' ? '' : $profile->address }}</textarea>
                                 </div>
                             </div>
                             <div class="form-group row">
                                 <label class="col-lg-3 col-form-label form-control-label"></label>
                                 <div class="col-lg-9">
-                                    <input type="reset" class="btn btn-secondary" value="Cancel">
-                                    <input type="button" class="btn btn-primary" value="Save Changes">
+                                    <input type="reset" class="btn btn-secondary" value="Batalkan">
+                                    <input type="submit" class="btn btn-primary" value="Upadate">
                                 </div>
                             </div>
                         </form>
