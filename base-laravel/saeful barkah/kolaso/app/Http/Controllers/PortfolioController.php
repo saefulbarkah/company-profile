@@ -50,9 +50,11 @@ class PortfolioController extends Controller
         $create->item_id = $request->item_id;
 
         // upload image
-        $imageName = $request->image->getClientOriginalName() . '-' . time() . '.' . $request->image->extension();
-        $request->image->move(public_path('images'), $imageName);
-        $create->image = $imageName;
+        $imageName = $request->file('image')->getClientOriginalName();
+        $file_name = pathinfo($imageName, PATHINFO_FILENAME);
+        $ext_file = $file_name . '-' . time() . '.' . $request->file('image')->extension();
+        $request->image->move(public_path('images'), $ext_file);
+        $create->image = $ext_file;
         $create->save();
         return redirect('admin/portofolio')->with('success', 'Data Berhasil di tambahkan');
     }
