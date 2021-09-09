@@ -137,7 +137,7 @@
                     <div class="timeline-dot"></div>
                     <div class="timeline-date">1</div>
                     <div class="timeline-content" data-aos="fade-right">
-                        <h3>Design Produk</h3>
+                        <h3>Desain Produk</h3>
                         <p>Diskusi tentang desain serta pembuatan mock-up desain produk yang akan di buat dan diksusi
                             tentang produk yang di inginkan beserta ukuran,warna dan lainya.</p>
                     </div>
@@ -172,7 +172,7 @@
                     <div class="timeline-date">5</div>
                     <div class="timeline-content" data-aos="fade-right">
                         <h3>Pelunasan Invoice</h3>
-                        <p>Setelah produk 100% selesai dan foto produk telah dikirim, Pelunasan dilakukan agar barnag
+                        <p>Setelah produk 100% selesai dan foto produk telah dikirim, Pelunasan dilakukan agar barang
                             bisa dikirim ke tempat tujuan.</p>
                     </div>
                 </div>

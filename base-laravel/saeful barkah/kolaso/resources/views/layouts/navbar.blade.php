@@ -33,7 +33,7 @@
                         <a href="{{ url('portofolio') }}" class="menu-item">Portofolio</a>
                     </li>
                     <li class="{{ Request::is('kontak') ? 'active' : '' }}">
-                        <a href="{{ url('kontak') }}" class="menu-item">Hubungi kami</a>
+                        <a href="{{ url('kontak') }}" class="menu-item">kontak</a>
                     </li>
                 </ul>
             </div>

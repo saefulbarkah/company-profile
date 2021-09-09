@@ -47,7 +47,7 @@
                             </div>
                             <div class="product--content">
                                 <div class="product--title">
-                                    <h3><a href="shop-single.html">Jersey Futsal</a></h3>
+                                    <h3><a href="">Jersey Futsal</a></h3>
                                 </div>
                             </div>
                         </div>
@@ -55,12 +55,12 @@
                     <div class="col-sm-6 col-md-4 col-lg-4">
                         <div class="product-item">
                             <div class="product--img">
-                                <img src="https://image.freepik.com/free-vector/texture-soccer-football-jersey_29096-1271.jpg"
+                                <img src="https://image.freepik.com/free-vector/esport-gaming-t-shirt-jersey-template-uniform-front-back-view_206253-151.jpg"
                                     alt="Product" />
                             </div>
                             <div class="product--content">
                                 <div class="product--title">
-                                    <h3><a href="shop-single.html">Jersey Gaming</a></h3>
+                                    <h3><a href="">Jersey Gaming</a></h3>
                                 </div>
                             </div>
                         </div>
@@ -73,7 +73,7 @@
                             </div>
                             <div class="product--content">
                                 <div class="product--title">
-                                    <h3><a href="shop-single.html">Jacket</a></h3>
+                                    <h3><a href="">Jacket</a></h3>
                                 </div>
                             </div>
                         </div>
@@ -86,7 +86,7 @@
                             </div>
                             <div class="product--content">
                                 <div class="product--title">
-                                    <h3><a href="shop-single.html">Kemeja</a></h3>
+                                    <h3><a href="">Kemeja</a></h3>
                                 </div>
                             </div>
                         </div>
@@ -99,7 +99,7 @@
                             </div>
                             <div class="product--content">
                                 <div class="product--title">
-                                    <h3><a href="shop-single.html">T-shirt</a></h3>
+                                    <h3><a href="">T-shirt</a></h3>
                                 </div>
                             </div>
                         </div>
