@@ -57,7 +57,7 @@
                         </div>
                         <div class="card-footer text-right">
                             <small class="text-muted">
-                                <a href="{{ url('layanan/maaklon-sublime') }}" class="btn-sm btn-primary">
+                                <a href="{{ url('layanan/makloon-sublime') }}" class="btn-sm btn-primary">
                                     <i class="fas fa-search"></i>
                                     Detail
                                 </a>
