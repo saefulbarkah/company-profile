@@ -138,8 +138,8 @@
                     <div class="timeline-date">1</div>
                     <div class="timeline-content" data-aos="fade-right">
                         <h3>Design Produk</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
-                            ut labore et dolore magna aliqua. </p>
+                        <p>Diskusi tentang desain serta pembuatan mock-up desain produk yang akan di buat dan diksusi
+                            tentang produk yang di inginkan beserta ukuran,warna dan lainya.</p>
                     </div>
                 </div>
                 <div class="timeline-item">
@@ -147,8 +147,7 @@
                     <div class="timeline-date">2</div>
                     <div class="timeline-content" data-aos="fade-left">
                         <h3>Negosiasi Produk</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
-                            ut labore et dolore magna aliqua. </p>
+                        <p>Diskusi kesepakatan harga dan waktu dari desain yang akan dibuat.</p>
                     </div>
                 </div>
                 <div class="timeline-item">
@@ -156,8 +155,7 @@
                     <div class="timeline-date">3</div>
                     <div class="timeline-content" data-aos="fade-right">
                         <h3>Down Payment (DP)</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
-                            ut labore et dolore magna aliqua. </p>
+                        <p>Pembayaran uang muka (down payment) untuk produksi sebesar minimal 50% dari total harga. </p>
                     </div>
                 </div>
                 <div class="timeline-item">
@@ -165,8 +163,8 @@
                     <div class="timeline-date">4</div>
                     <div class="timeline-content" data-aos="fade-left">
                         <h3>Produksi</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
-                            ut labore et dolore magna aliqua. </p>
+                        <p>Pembuatan produk sesuai dengan kesepakatan, dimana setiap prosesnya bisa di lihat secara
+                            transparan di Genetic Wear Integrated Sistem.</p>
                     </div>
                 </div>
                 <div class="timeline-item">
@@ -174,8 +172,8 @@
                     <div class="timeline-date">5</div>
                     <div class="timeline-content" data-aos="fade-right">
                         <h3>Pelunasan Invoice</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
-                            ut labore et dolore magna aliqua. </p>
+                        <p>Setelah produk 100% selesai dan foto produk telah dikirim, Pelunasan dilakukan agar barnag
+                            bisa dikirim ke tempat tujuan.</p>
                     </div>
                 </div>
             </div>
