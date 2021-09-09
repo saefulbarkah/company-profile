@@ -1,19 +1,10 @@
 @extends('layouts.master')
 
 @section('title','Genetic | Layanan')
-
-@push('styles')
-<style>
-    .fix-img {
-        float: left;
-        width: 100%;
-        height: 250px;
-        background-size: cover;
-    }
-</style>
-@endpush
-
 @section('content')
+@push('styles')
+<link rel="stylesheet" href="{{ asset('assets/plugins/aos/aos.css') }}" />
+@endpush
 <section id="page-title" class="page-title bg-overlay bg-overlay-dark2 bg-parallax">
     <div class="bg-section">
         <img src="assets/images/page-titles/5.jpg" alt="Background" />
@@ -39,44 +30,42 @@
 <section id="services1" class="services services-1 pt-130 pb-70">
     <div class="container">
         <div class="row justify-content-center">
-
-            <div class="col-sm-12 col-md-4 col-lg-4">
-                <div class="service-panel">
-                    <div class="service--img">
-                        <a href="{{ url('layanan/full-order') }}">
-                            <img src="https://jengsusan.com/wp-content/uploads/2020/09/Jenis-Konveksi-Baju-yang-Perlu-Kamu-Tahu.jpg"
-                                alt="feature" class="img-fluid fix-img">
-                        </a>
+            <div class="col-lg-9">
+                <div class="card-group">
+                    <div class="card mx-4 shadow" data-aos="fade-right">
+                        <img src="https://jengsusan.com/wp-content/uploads/2020/09/Jenis-Konveksi-Baju-yang-Perlu-Kamu-Tahu.jpg"
+                            class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Full Order</h5>
+                            <p class="card-text">Full order merupakan layanan produk berupa pembelian penuh dengan
+                                kelengkapan yang sesuai layanan</p>
+                        </div>
+                        <div class="card-footer text-right">
+                            <small class="text-muted">
+                                <a href="{{ url('layanan/full-order') }}" class="btn-sm btn-primary">
+                                    <i class="fas fa-search"></i>
+                                    Detail
+                                </a>
+                            </small>
+                        </div>
                     </div>
-                    <div class="service--content">
-                        <h4>Full Order</h4>
-                        <p>After all, as described in Web Design Trends 2015 & 2016, vision dominates a lot of our
-                            subconscious
-                            interpretation of the world around images create a user experience.</p>
-                    </div>
-                    <div class="service--footer">
-                        <a href="{{ url('layanan/full-order') }}" class="btn-sm btn-primary"><i
-                                class="fas fa-search"></i><span> Detail</span></a>
-                    </div>
-                </div>
-            </div>
-            <div class="col-sm-12 col-md-4 col-lg-4">
-                <div class="service-panel">
-                    <div class="service--img">
-                        <a href="{{ url('layanan/makloon-sublim') }}">
-                            <img src="{{ asset('assets/images/services/sublim-print.jpg') }}" alt="feature"
-                                class="img-fluid fix-img">
-                        </a>
-                    </div>
-                    <div class="service--content">
-                        <h4>Makloon Sublim</h4>
-                        <p>After all, as described in Web Design Trends 2015 & 2016, vision dominates a lot of our
-                            subconscious
-                            interpretation of the world around images create a user experience.</p>
-                    </div>
-                    <div class="service--footer">
-                        <a href="{{ url('layanan/makloon-sublim') }}" class="btn-sm btn-primary"><i
-                                class="fas fa-search"></i><span> Detail</span></a>
+                    <div class="card  mx-4 shadow" data-aos="fade-left">
+                        <img src="{{ asset('assets/images/services/sublim-print.jpg') }}" class="card-img-top"
+                            alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Makloon Sublime</h5>
+                            <p class="card-text mt-auto">Makloon sublime merupakan layanan jasa yang menyediakan layanan
+                                berupa
+                                printing & press</p>
+                        </div>
+                        <div class="card-footer text-right">
+                            <small class="text-muted">
+                                <a href="{{ url('layanan/maaklon-sublime') }}" class="btn-sm btn-primary">
+                                    <i class="fas fa-search"></i>
+                                    Detail
+                                </a>
+                            </small>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -84,4 +73,19 @@
         </div>
     </div>
 </section>
+
+@push('scripts')
+<script src="{{ asset('assets/plugins/aos/aos.js') }}"></script>
+<script>
+    AOS.init({
+        disable: window.innerWidth < 720,
+        disable: 'mobile',
+        disable: function () {
+        var maxWidth = 1024;
+        return window.innerWidth < maxWidth;
+  }
+    });
+
+</script>
+@endpush
 @endsection
