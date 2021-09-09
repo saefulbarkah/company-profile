@@ -187,6 +187,8 @@
 <script src="{{ asset('assets/plugins/aos/aos.js') }}"></script>
 <script>
     AOS.init({
+        duration: 1000, // values from 0 to 3000, with step 50ms
+        delay: 200,
         disable: window.innerWidth < 720,
         disable: 'mobile',
         disable: function () {
