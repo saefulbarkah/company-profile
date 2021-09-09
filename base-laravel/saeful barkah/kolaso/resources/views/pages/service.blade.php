@@ -2,9 +2,6 @@
 
 @section('title','Genetic | Layanan')
 @section('content')
-@push('styles')
-<link rel="stylesheet" href="{{ asset('assets/plugins/aos/aos.css') }}" />
-@endpush
 <section id="page-title" class="page-title bg-overlay bg-overlay-dark2 bg-parallax">
     <div class="bg-section">
         <img src="assets/images/page-titles/5.jpg" alt="Background" />
@@ -32,7 +29,7 @@
         <div class="row justify-content-center">
             <div class="col-lg-9">
                 <div class="card-group">
-                    <div class="card mx-4 shadow" data-aos="fade-right">
+                    <div class="card mx-4 shadow">
                         <img src="https://jengsusan.com/wp-content/uploads/2020/09/Jenis-Konveksi-Baju-yang-Perlu-Kamu-Tahu.jpg"
                             class="card-img-top" alt="...">
                         <div class="card-body">
@@ -49,7 +46,7 @@
                             </small>
                         </div>
                     </div>
-                    <div class="card  mx-4 shadow" data-aos="fade-left">
+                    <div class="card mx-4 shadow">
                         <img src="{{ asset('assets/images/services/sublim-print.jpg') }}" class="card-img-top"
                             alt="...">
                         <div class="card-body">
@@ -73,19 +70,4 @@
         </div>
     </div>
 </section>
-
-@push('scripts')
-<script src="{{ asset('assets/plugins/aos/aos.js') }}"></script>
-<script>
-    AOS.init({
-        disable: window.innerWidth < 720,
-        disable: 'mobile',
-        disable: function () {
-        var maxWidth = 1024;
-        return window.innerWidth < maxWidth;
-  }
-    });
-
-</script>
-@endpush
 @endsection
