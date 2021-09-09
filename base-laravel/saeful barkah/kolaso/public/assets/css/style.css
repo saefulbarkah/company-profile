@@ -2401,6 +2401,11 @@ ul.dot-list li:before {
   bottom: 40px;
   opacity: 0;
 }
+@media (max-width: 600px), (max-height 700px) {
+    .back-to-top {
+        display: none !important; /* !important is used to override the jQuery style */
+    }
+}
 
 .backtop {
   width: 50px;
@@ -2450,7 +2455,8 @@ ul.dot-list li:before {
 
 @media only screen and (max-width: 992px) {
   #back-to-top.show {
-    opacity: 0;
+    opacity: 1;
+    right: 10px;
   }
 }
 /*------------------------------------*\
