@@ -4,7 +4,7 @@
 @section('content')
 <section id="page-title" class="page-title bg-overlay bg-overlay-dark2 bg-parallax">
     <div class="bg-section">
-        <img src="assets/images/page-titles/6.jpg" alt="Background" />
+        <img src="{{ asset('assets/images/background/bg-home.jpg') }}" alt="Background" />
     </div>
     <div class="container">
         <div class="row">
@@ -15,8 +15,8 @@
                     </div>
                     <div class="clearfix"></div>
                     <ol class="breadcrumb d-flex justify-content-center">
-                        <li class="breadcrumb-item"><a href="index-3.html">Beranda</a></li>
-                        <li class="breadcrumb-item active" aria-current="page">tentang kami</li>
+                        <li class="breadcrumb-item"><a href="{{ url('/') }}">Beranda</a></li>
+                        <li class="breadcrumb-item active" aria-current="page">Contact</li>
                     </ol>
                 </div>
             </div>
@@ -63,7 +63,7 @@
             <div class="col-sm-12 col-md-4 col-lg-4">
                 <div class="member">
                     <div class="member-img">
-                        <img src="assets/images/team/grid/3col/1.jpg" alt="member">
+                        <img src="{{ asset('assets/images/team/hannif.jpg') }}" alt="member">
                         <div class="member-overlay">
                             <div class="member-social">
                                 <a href="#"><i class="fa fa-facebook"></i></a>
@@ -82,7 +82,7 @@
             <div class="col-sm-12 col-md-4 col-lg-4">
                 <div class="member">
                     <div class="member-img">
-                        <img src="assets/images/team/grid/3col/2.jpg" alt="member">
+                        <img src="{{ asset('assets/images/team/hannif.jpg') }}" alt="member">
                         <div class="member-overlay">
                             <div class="member-social">
                                 <a href="#"><i class="fa fa-facebook"></i></a>

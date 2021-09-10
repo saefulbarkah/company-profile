@@ -104,7 +104,7 @@
     <div class="container-fluid pr-0 pl-0">
         <div class="bg-overlay bg-overlay-dark2">
             <div class="bg-section">
-                <img src="{{ asset('assets/images/background/bg-website.jpg') }}" alt="Background" />
+                <img src="{{ asset('assets/images/background/bg-home.jpg') }}" alt="Background" />
             </div>
             <div class="row">
                 <div class="col-sm-12 col-md-12 col-lg-8 offset-lg-2 col-xl-8 offset-xl-2">
