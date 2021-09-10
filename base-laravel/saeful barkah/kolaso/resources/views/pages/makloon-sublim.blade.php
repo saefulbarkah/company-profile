@@ -42,7 +42,7 @@
                         <div class="blog-entry">
                             <div class="entry--meta-container">
                                 <div class="entry--title">
-                                    <h4><a href="#">Makloon sublime Print</a></h4>
+                                    <h4><a href="#">Sublime Printing</a></h4>
                                 </div>
                             </div>
                             <div class="entry--img">
@@ -53,7 +53,8 @@
                             </div>
                             <div class="entry--content">
                                 <div class="entry--bio">
-                                    <p>Sublim merupakan salah satu alternatif teknik mencetak yang menggunakan kertas
+                                    <p>Sublime Printing merupakan salah satu alternatif teknik mencetak yang menggunakan
+                                        kertas
                                         sebagai medium perantara tinta dan media cetak (seperti kaos dan jacket).
                                         Uniknya, sublim menggunakan proses perubahan wujud zat tinta dari padat ke gas
                                         atau sebaliknya tanpa perlu menjadi cairan seperti sablon. Genetic Wear dengan
@@ -69,7 +70,7 @@
                         <div class="blog-entry">
                             <div class="entry--meta-container">
                                 <div class="entry--title">
-                                    <h4><a href="#">Makloon sublime Press</a></h4>
+                                    <h4><a href="#">Sublime Press - Heat Transfer</a></h4>
                                 </div>
                             </div>
                             <div class="entry--img">
@@ -80,13 +81,9 @@
                             </div>
                             <div class="entry--content">
                                 <div class="entry--bio">
-                                    <p>Sublim merupakan salah satu alternatif teknik mencetak yang menggunakan kertas
-                                        sebagai medium perantara tinta dan media cetak (seperti kaos dan jacket).
-                                        Uniknya, sublim menggunakan proses perubahan wujud zat tinta dari padat ke gas
-                                        atau sebaliknya tanpa perlu menjadi cairan seperti sablon. Genetic Wear dengan
-                                        pengalaman cetak sublim selama bertahun-tahun, kami menjanjikan warna serta
-                                        gambar desain yang sesuai oleh
-                                        keinginan pelanggan.</p>
+                                    <p>Sublime Press Heat trasnfer merupakan mesin panas untuk memindahkan grafis dari
+                                        kertas transfer ke bahan tekstil dengan metode pemanasan dan penekanan
+                                        (pressing)</p>
                                 </div>
                             </div>
                         </div>
@@ -98,7 +95,7 @@
                     <div class="sidebar sidebar-blog">
                         <div class="widget widget-categories">
                             <div class="widget--title">
-                                <h5>Daftar Layanan Makloon sublim</h5>
+                                <h5>Daftar Layanan Makloon sublime</h5>
                             </div>
                             <div class="widget--content">
                                 <ul class="list-unstyled">
