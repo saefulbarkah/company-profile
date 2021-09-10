@@ -42,7 +42,7 @@
                     <div class="col-sm-6 col-md-4 col-lg-4">
                         <div class="product-item">
                             <div class="product--img">
-                                <img src="{{ asset('assets/images/services/jersey.jpg') }}" alt="Product" />
+                                <img src="{{ asset('assets/images/services/jersey-futsal.jpg') }}" alt="Product" />
                             </div>
                             <div class="product--content">
                                 <div class="product--title">
@@ -54,10 +54,9 @@
                     <div class="col-sm-6 col-md-4 col-lg-4">
                         <div class="product-item">
                             <div class="product--img">
-                                <img src="https://image.freepik.com/free-vector/esport-gaming-t-shirt-jersey-template-uniform-front-back-view_206253-151.jpg"
-                                    alt="Product" />
+                                <img src="{{ asset('assets/images/services/jersey-gaming.jpg') }}" alt="Product" />
                             </div>
-                            <div class="product--content">
+                            <div class="product--content mt-2">
                                 <div class="product--title">
                                     <h3><a href="">Jersey Gaming</a></h3>
                                 </div>
