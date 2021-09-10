@@ -111,7 +111,7 @@
                     <div class="slider-content">
                         <h1 class="slider--headline">Genetic Wear<br></h1>
                         <p class="slider--desc">konveksi & sablon</p>
-                        <a class="btn btn--white" href="{{ url('about') }}">Tentang kami</a>
+                        <a class="btn btn--white" href="{{ url('tentang') }}">Tentang kami</a>
                     </div>
                 </div>
             </div>
