@@ -138,8 +138,8 @@
                     <div class="timeline-date">1</div>
                     <div class="timeline-content" data-aos="fade-right">
                         <h3>Desain Produk</h3>
-                        <p>Diskusi tentang desain serta pembuatan mock-up desain produk yang akan di buat dan diksusi
-                            tentang produk yang di inginkan beserta ukuran,warna dan lainya.</p>
+                        <p>memilih jenis produk dan menentukan ukuran,warna,jumlah dan lainya, dan Diskusi tentang
+                            desain serta pembuatan mock-up desain produk yang akan di buat</p>
                     </div>
                 </div>
                 <div class="timeline-item">
