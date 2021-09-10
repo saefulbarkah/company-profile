@@ -42,8 +42,7 @@
                     <div class="col-sm-6 col-md-4 col-lg-4">
                         <div class="product-item">
                             <div class="product--img">
-                                <img src="https://image.freepik.com/free-vector/soccer-jersey-template-sport-t-shirt-design_29096-1299.jpg"
-                                    alt="Product" />
+                                <img src="{{ asset('assets/images/services/jersey.jpg') }}" alt="Product" />
                             </div>
                             <div class="product--content">
                                 <div class="product--title">
