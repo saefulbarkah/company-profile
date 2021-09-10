@@ -64,15 +64,15 @@
     }
 
     .timeline-content h3 {
-        font-size: 20px;
-        color: #ffffff;
+        font-size: 22px;
+        color: #f7f7f7;
         margin: 0 0 10px;
         text-transform: capitalize;
         font-weight: 500;
     }
 
     .timeline-content p {
-        color: #c8c8c8;
+        color: #e2e2e2;
         font-size: 16px;
         font-weight: 300;
         line-height: 22px;
