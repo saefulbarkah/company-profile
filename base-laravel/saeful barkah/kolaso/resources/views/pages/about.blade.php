@@ -16,7 +16,7 @@
                     <div class="clearfix"></div>
                     <ol class="breadcrumb d-flex justify-content-center">
                         <li class="breadcrumb-item"><a href="{{ url('/') }}">Beranda</a></li>
-                        <li class="breadcrumb-item active" aria-current="page">Contact</li>
+                        <li class="breadcrumb-item active" aria-current="page">Tentang Kami</li>
                     </ol>
                 </div>
             </div>
@@ -82,7 +82,7 @@
             <div class="col-sm-12 col-md-4 col-lg-4">
                 <div class="member">
                     <div class="member-img">
-                        <img src="{{ asset('assets/images/team/hannif.jpg') }}" alt="member">
+                        <img src="{{ asset('assets/images/team/angga.jpg') }}" alt="member">
                         <div class="member-overlay">
                             <div class="member-social">
                                 <a href="#"><i class="fa fa-facebook"></i></a>
