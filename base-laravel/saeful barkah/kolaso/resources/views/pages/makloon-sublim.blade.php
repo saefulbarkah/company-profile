@@ -46,7 +46,7 @@
                                 </div>
                             </div>
                             <div class="entry--img">
-                                <a href="#">
+                                <a href="{{ asset('assets/images/services/sublim-print.jpg') }}" data-fancybox>
                                     <img src="{{ asset('assets/images/services/sublim-print.jpg') }}"
                                         alt="entry image" />
                                 </a>
@@ -74,7 +74,7 @@
                                 </div>
                             </div>
                             <div class="entry--img">
-                                <a href="#">
+                                <a href="{{ asset('assets/images/services/sublime-press.jpg') }}" data-fancybox>
                                     <img src="{{ asset('assets/images/services/sublime-press.jpg') }}"
                                         alt="entry image" />
                                 </a>
