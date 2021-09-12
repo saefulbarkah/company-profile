@@ -15,7 +15,7 @@
                     <div class="clearfix"></div>
                     <ol class="breadcrumb d-flex justify-content-center">
                         <li class="breadcrumb-item"><a href="{{ url('/') }}">Beranda</a></li>
-                        <li class="breadcrumb-item active" aria-current="page">Contact</li>
+                        <li class="breadcrumb-item active" aria-current="page">Kontak</li>
                     </ol>
                 </div>
             </div>
