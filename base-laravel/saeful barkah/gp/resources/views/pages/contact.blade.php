@@ -1,6 +1,7 @@
 @extends('layouts.master')
 
 @section('title', 'Genetic Home')
+@section('p-title', 'Kontak')
 @section('content')
 
     <!-- ======= Contact Section ======= -->
