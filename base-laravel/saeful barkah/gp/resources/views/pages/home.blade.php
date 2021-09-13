@@ -23,10 +23,11 @@
                     <div class="timeline-panel">
                         <div class="fade-right" data-aos="fade-right">
                             <div class="timeline-heading">
-                                <h4 class="subheading">Our Humble Beginnings</h4>
+                                <h4 class="subheading">Desain Produk</h4>
                             </div>
                             <div class="timeline-body">
-                                <p class="">Bisa desain kostum dan mock up kostum</p>
+                                <p class="">memilih jenis produk dan menentukan ukuran,warna,jumlah dan lainya, dan Diskusi tentang
+                                    desain serta pembuatan mock-up desain produk yang akan di buat</p>
                             </div>
                         </div>
                     </div>
@@ -40,12 +41,10 @@
                     </div>
                     <div class="timeline-panel" data-aos="fade-left">
                         <div class="timeline-heading">
-                            <h4 class="subheading">An Agency is Born</h4>
+                            <h4 class="subheading">Negosiasi Produk</h4>
                         </div>
                         <div class="timeline-body">
-                            <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut
-                                voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero
-                                unde, sed, incidunt et ea quo dolore laudantium consectetur!</p>
+                            <p class="text-muted">Diskusi kesepakatan harga dan waktu dari desain yang akan dibuat.</p>
                         </div>
                     </div>
                 </li>
@@ -57,10 +56,10 @@
                     <div class="timeline-panel">
                         <div class="fade-right" data-aos="fade-right">
                             <div class="timeline-heading">
-                                <h4 class="subheading">Our Humble Beginnings</h4>
+                                <h4 class="subheading"> Down Payment</h4>
                             </div>
                             <div class="timeline-body">
-                                <p class="">Bisa desain kostum dan mock up kostum</p>
+                                <p class="">Pembayaran uang muka (down payment) untuk produksi sebesar minimal 50% dari total harga.</p>
                             </div>
                         </div>
                     </div>
@@ -72,24 +71,29 @@
                             src="{{  asset('assets/img/time-line/4.jpg') }}" alt="..." /></div>
                     <div class="timeline-panel" data-aos="fade-left">
                         <div class="timeline-heading">
-                            <h4 class="subheading">Phase Two Expansion</h4>
+                            <h4 class="subheading">Produksi</h4>
                         </div>
                         <div class="timeline-body">
-                            <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut
-                                voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero
-                                unde, sed, incidunt et ea quo dolore laudantium consectetur!</p>
+                            <p class="text-muted">Pembuatan produk sesuai dengan kesepakatan, dimana setiap prosesnya bisa di lihat secara
+                                transparan di Genetic Wear Integrated Sistem.</p>
                         </div>
                     </div>
                 </li>
-                <li class="timeline-inverted tml-5">
-                    <div class="timeline-image" data-aos="fade-top">
-                        <h4>
-                            Be Part
-                            <br />
-                            Of Our
-                            <br />
-                            Story!
-                        </h4>
+
+                {{-- 5 --}}
+                <li class="tml-3">
+                    <div class="timeline-image"><img class="rounded-circle img-fluid"
+                            src="{{  asset('assets/img/time-line/3.jpg') }}" alt="..." /></div>
+                    <div class="timeline-panel">
+                        <div class="fade-right" data-aos="fade-right">
+                            <div class="timeline-heading">
+                                <h4 class="subheading">Pelunasan invoice</h4>
+                            </div>
+                            <div class="timeline-body">
+                                <p class="">Setelah produk 100% selesai dan foto produk telah dikirim, Pelunasan dilakukan agar barnag
+                                    bisa dikirim ke tempat tujuan</p>
+                            </div>
+                        </div>
                     </div>
                 </li>
             </ul>
