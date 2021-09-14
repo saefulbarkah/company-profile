@@ -3,7 +3,7 @@
 <link rel="stylesheet" href="{{ asset('assets/custom/time-line.css') }}">
 @endpush
 
-@section('title', 'Genetic Home')
+@section('title', 'Genetic | Beranda')
 @section('p-title', 'Genetic Wear')
 @section('content')
 <!-- ======= Features Section ======= -->

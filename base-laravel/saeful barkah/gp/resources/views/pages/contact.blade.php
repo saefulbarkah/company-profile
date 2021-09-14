@@ -1,6 +1,6 @@
 @extends('layouts.master')
 
-@section('title', 'Genetic Home')
+@section('title', 'Genetic | Kontak')
 @section('p-title', 'Kontak')
 @section('content')
 

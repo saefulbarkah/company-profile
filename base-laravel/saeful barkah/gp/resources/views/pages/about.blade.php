@@ -1,6 +1,6 @@
 @extends('layouts.master')
 
-@section('title', 'Genetic About Us')
+@section('title', 'Genetic | Tentang Kami')
 @section('p-title', 'Tentang Kami')
 @section('content')
 <!-- ======= About Section ======= -->

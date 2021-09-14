@@ -1,6 +1,6 @@
 @extends('layouts.master')
 
-@section('title', 'Genetic Home')
+@section('title', 'Genetic | Portofolio')
 @section('p-title', 'Portofolio')
 @section('content')
 <!-- ======= Portfolio Section ======= -->
