@@ -15,4 +15,9 @@ class ServiceController extends Controller
     {
         return view('pages.full-order');
     }
+
+    public function makloonSublime()
+    {
+    return view('pages.makloon-sublime');
+    }
 }
