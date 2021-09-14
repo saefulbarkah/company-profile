@@ -4,7 +4,6 @@
 @endpush
 
 @section('title', 'Genetic | Beranda')
-@section('p-title', 'Genetic Wear')
 @section('content')
 <!-- ======= Features Section ======= -->
 <section class="Proses">
