@@ -18,3 +18,4 @@ Route::get('/about','AboutController@aboutUs');
 Route::get('/service','ServiceController@Services');
 Route::get('/portfolio','PortfolioController@portfolio');
 Route::get('/contact','ContactController@contact');
+Route::get('/service/full-order','ServiceController@fullOrder');
