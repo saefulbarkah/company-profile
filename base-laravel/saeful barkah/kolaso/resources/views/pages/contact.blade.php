@@ -27,7 +27,7 @@
     <div class="container">
         <div class="row">
 
-            <div class="col-sm-12 col-md-4 col-lg-6">
+            <div class="col-sm-12 col-md-6 col-lg-6">
                 <div class="contact--panel">
                     <div class="contact--icon">
                         <i class="kolaso-Globe"></i>
@@ -40,7 +40,7 @@
                 </div>
             </div>
 
-            <div class="col-sm-12 col-md-4 col-lg-6">
+            <div class="col-sm-12 col-md-6 col-lg-6">
                 <div class="contact--panel">
                     <div class="contact--icon">
                         <i class="kolaso-Mail"></i>
