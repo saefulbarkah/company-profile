@@ -2738,6 +2738,8 @@ body.modal-open .affix {
   -ms-transition: all 300ms ease-in-out;
   -o-transition: all 300ms ease-in-out;
   transition: all 300ms ease-in-out;
+  position: fixed;
+  top: 0;
 }
 .navbar.navbar-bordered {
   border-bottom: 1px solid rgba(255, 255, 255, 0.2);
@@ -2869,8 +2871,7 @@ ul.dropdown-menu > li.has-dropdown > a:before {
 @media only screen and (max-width: 991px) {
   .fixed-top,
 .navbar.affix {
-    position: relative;
-    background: transparent;
+    position: fixed;
     -moz-box-shadow: none;
     -webkit-box-shadow: none;
     box-shadow: none;
