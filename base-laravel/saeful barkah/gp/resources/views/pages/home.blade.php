@@ -17,15 +17,16 @@
 
                 {{-- 1 --}}
                 <li class="tml-1">
-                    <div class="timeline-image"><img class="rounded-circle img-fluid"
-                            src="{{  asset('assets/img/time-line/1.jpg') }}" alt="..." /></div>
+                    <div class="timeline-image"><img class="rounded-circle img-fluid" width="300px"
+                            src="{{  asset('assets/img/time-line/design.png') }}" alt="..." /></div>
                     <div class="timeline-panel">
                         <div class="fade-right" data-aos="fade-right">
                             <div class="timeline-heading">
                                 <h4 class="subheading">Desain Produk</h4>
                             </div>
                             <div class="timeline-body">
-                                <p class="">memilih jenis produk dan menentukan ukuran,warna,jumlah dan lainya, dan Diskusi tentang
+                                <p class="">memilih jenis produk dan menentukan ukuran,warna,jumlah dan lainya, dan
+                                    Diskusi tentang
                                     desain serta pembuatan mock-up desain produk yang akan di buat</p>
                             </div>
                         </div>
@@ -35,7 +36,7 @@
                 {{-- 2 --}}
                 <li class="timeline-inverted tml-2">
                     <div class="timeline-image">
-                        <img class="rounded-circle img-fluid" src="{{  asset('assets/img/time-line/2.jpg') }}"
+                        <img class="rounded-circle img-fluid" src="{{  asset('assets/img/time-line/negosiasi.png') }}"
                             alt="..." />
                     </div>
                     <div class="timeline-panel" data-aos="fade-left">
@@ -50,15 +51,16 @@
 
                 {{-- 3 --}}
                 <li class="tml-3">
-                    <div class="timeline-image"><img class="rounded-circle img-fluid"
-                            src="{{  asset('assets/img/time-line/3.jpg') }}" alt="..." /></div>
+                    <div class="timeline-image"><img class="rounded-circle img-fluid" width="500px"
+                            src="{{  asset('assets/img/time-line/50.jpg') }}" alt="..." /></div>
                     <div class="timeline-panel">
                         <div class="fade-right" data-aos="fade-right">
                             <div class="timeline-heading">
                                 <h4 class="subheading"> Down Payment</h4>
                             </div>
                             <div class="timeline-body">
-                                <p class="">Pembayaran uang muka (down payment) untuk produksi sebesar minimal 50% dari total harga.</p>
+                                <p class="">Pembayaran uang muka (down payment) untuk produksi sebesar minimal 50% dari
+                                    total harga.</p>
                             </div>
                         </div>
                     </div>
@@ -73,7 +75,8 @@
                             <h4 class="subheading">Produksi</h4>
                         </div>
                         <div class="timeline-body">
-                            <p class="text-muted">Pembuatan produk sesuai dengan kesepakatan, dimana setiap prosesnya bisa di lihat secara
+                            <p class="text-muted">Pembuatan produk sesuai dengan kesepakatan, dimana setiap prosesnya
+                                bisa di lihat secara
                                 transparan di Genetic Wear Integrated Sistem.</p>
                         </div>
                     </div>
@@ -82,14 +85,15 @@
                 {{-- 5 --}}
                 <li class="tml-3">
                     <div class="timeline-image"><img class="rounded-circle img-fluid"
-                            src="{{  asset('assets/img/time-line/3.jpg') }}" alt="..." /></div>
+                            src="{{  asset('assets/img/time-line/payment.png') }}" alt="..." /></div>
                     <div class="timeline-panel">
                         <div class="fade-right" data-aos="fade-right">
                             <div class="timeline-heading">
                                 <h4 class="subheading">Pelunasan invoice</h4>
                             </div>
                             <div class="timeline-body">
-                                <p class="">Setelah produk 100% selesai dan foto produk telah dikirim, Pelunasan dilakukan agar barnag
+                                <p class="">Setelah produk 100% selesai dan foto produk telah dikirim, Pelunasan
+                                    dilakukan agar barnag
                                     bisa dikirim ke tempat tujuan</p>
                             </div>
                         </div>
