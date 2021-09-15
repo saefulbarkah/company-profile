@@ -64,20 +64,20 @@
             <div class="col-lg-8">
                 <div class="card-group">
                     <div class="card text-center mx-3 shadow">
-                      <img src="{{ asset('assets/img/team/hannif.jpg') }}" class="card-img-top" alt="...">
-                      <div class="card-body">
-                        <h5 class="card-title">Hannif Kurniawan</h5>
-                        <p class="card-text">CEO</p>
-                      </div>
+                        <img src="{{ asset('assets/img/team/hannif.jpg') }}" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Hannif Kurniawan</h5>
+                            <p class="card-text">CEO</p>
+                        </div>
                     </div>
                     <div class="card text-center mx-3 shadow">
-                      <img src="{{ asset('assets/img/team/angga.jpg') }}" class="card-img-top" alt="...">
-                      <div class="card-body">
-                        <h5 class="card-title">Angga Pratama</h5>
-                        <p class="card-text">COO</p>
-                      </div>
+                        <img src="{{ asset('assets/img/team/angga.jpg') }}" class="card-img-top">
+                        <div class="card-body">
+                            <h5 class="card-title">Angga Pratama</h5>
+                            <p class="card-text">COO</p>
+                        </div>
                     </div>
-                  </div>
+                </div>
             </div>
         </div>
 
