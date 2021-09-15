@@ -24,10 +24,10 @@
     </div>
 </section>
 
-<section class="pt-130">
+<section class="about">
     <div class="container">
-        <div class="row">
-            <div class="col-sm-12 col-md-12 col-lg-12 mb-100">
+        <div class="row text-justify">
+            <div class="col-md-12">
                 <div class="heading heading-1">
                     <p class="heading--subtitle">Tentang Kami</p>
                     <h2 class="heading--title">Genetic Wear</h2>
@@ -40,16 +40,15 @@
                         T-shirt sablon, kemeja, dan juga makloon sublime printing.</p>
                 </div>
             </div>
-
         </div>
     </div>
 </section>
 
-<section id="team3" class="team team-2 pt-130">
+<section id="team3" class="team team-2">
     <div class="container">
         <div class="row">
             <div class="col-sm-12 col-md-12 col-lg-6 offset-lg-3">
-                <div class="heading heading-1 text--center mb-100">
+                <div class="heading heading-1 text--center">
                     <p class="heading--subtitle">Tim Kami</p>
                     <h2 class="heading--title">Tim Genetic Wear</h2>
                     <p class="heading--desc"></p>
