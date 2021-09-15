@@ -3,8 +3,37 @@
 @section('title','Genetic | Layanan')
 @push('styles')
 <style>
-    html {
-        scroll-behavior: smooth;
+    .card-img-top {
+        /*height: 11vw;*/
+        object-fit: cover;
+    }
+
+    /* Small devices (landscape phones, 576px and up) */
+    @media (min-width: 576px) {
+        .card-img-top {
+            height: 19vw;
+        }
+    }
+
+    /* Medium devices (tablets, 768px and up) */
+    @media (min-width: 768px) {
+        .card-img-top {
+            height: 30vw;
+        }
+    }
+
+    /* Large devices (desktops, 992px and up) */
+    @media (min-width: 992px) {
+        .card-img-top {
+            height: 11vw;
+        }
+    }
+
+    /* Extra large devices (large desktops, 1200px and up) */
+    @media (min-width: 992px) {
+        .card-img-top {
+            height: 18vw;
+        }
     }
 </style>
 @endpush
@@ -36,95 +65,81 @@
 <section id="shop" class="shop pb-90">
     <div class="container">
         <div class="row">
-            <div class="col-sm-12 col-md-12 col-lg-9">
-                <div class="row">
-
-                    <div class="col-sm-6 col-md-4 col-lg-4">
-                        <div class="product-item">
-                            <div class="product--img">
-                                <img src="{{ asset('assets/images/services/jersey-futsal.jpg') }}" alt="Product" />
-                            </div>
-                            <div class="product--content">
-                                <div class="product--title">
-                                    <h3><a href="">Jersey Futsal</a></h3>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-sm-6 col-md-4 col-lg-4">
-                        <div class="product-item">
-                            <div class="product--img">
-                                <img src="{{ asset('assets/images/services/jersey-gaming.jpg') }}" alt="Product" />
-                            </div>
-                            <div class="product--content mt-2">
-                                <div class="product--title">
-                                    <h3><a href="">Jersey Gaming</a></h3>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-sm-6 col-md-4 col-lg-4">
-                        <div class="product-item">
-                            <div class="product--img">
-                                <img src="https://image.freepik.com/free-vector/sport-jacket-gray-black-template-shirt-design-white-background_23979-156.jpg"
-                                    alt="Product" />
-                            </div>
-                            <div class="product--content">
-                                <div class="product--title">
-                                    <h3><a href="">Jacket</a></h3>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-sm-6 col-md-4 col-lg-4">
-                        <div class="product-item">
-                            <div class="product--img">
-                                <img src="https://image.freepik.com/free-psd/long-sleeve-dress-shirt-front-mockup_353595-15.jpg"
-                                    alt="Product" />
-                            </div>
-                            <div class="product--content">
-                                <div class="product--title">
-                                    <h3><a href="">Kemeja</a></h3>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-sm-6 col-md-4 col-lg-4">
-                        <div class="product-item">
-                            <div class="product--img">
-                                <img src="https://image.freepik.com/free-psd/tshirt-front-back-view-mockup_68185-516.jpg"
-                                    alt="Product" />
-                            </div>
-                            <div class="product--content">
-                                <div class="product--title">
-                                    <h3><a href="">T-shirt</a></h3>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+            <div class="col-sm-12 col-md-12 col-lg-6 offset-lg-3">
+                <div class="heading heading-1 text--center">
+                    <p class="heading--subtitle">Produk Layanan</p>
+                    <h2 class="heading--title">Daftar Produk</h2>
+                    <p class="heading--desc"></p>
                 </div>
             </div>
 
-            <div class="col-sm-12 col-md-12 col-lg-3">
-                <div class="sidebar sidebar-shop">
-                    <div class="widget widget-categories">
-                        <div class="widget--title mb-10">
-                            <h5>Menu Lainya</h5>
+        </div>
+        <div class="col-sm-12 col-md-12 col-lg-12">
+            <div class="row">
+                <div class="col-lg-4 col-md-6 col-sm-6 mt-5">
+                    <div class="card" style="width: auto;">
+                        <img src="{{ asset('assets/images/services/jersey-bola.jpg') }}" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title text-center"> Jersey Futsal</h5>
                         </div>
-                        <div class="widget-content">
-                            <ul class="list-unstyled">
-                                <li>
-                                    <a href="{{ url('layanan/full-order') }}">Full Order</a>
-                                </li>
-                                <li>
-                                    <a href="{{ url('layanan/makloon-sublime') }}">Makloon Sublime</a>
-                                </li>
-                            </ul>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-6 mt-5">
+                    <div class="card" style="width: auto;">
+                        <img src="https://id-live-05.slatic.net/p/55bf7d26f60dee854ab06761a10e7b85.jpg_720x720q80.jpg_.webp"
+                            class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title text-center">Jersey Gaming</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-6 mt-5">
+                    <div class="card" style="width: auto;">
+                        <img src="https://s4.bukalapak.com/img/90507174642/large/data.jpeg" class="card-img-top"
+                            alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title text-center">Jersey Mancing</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-6 mt-5">
+                    <div class="card" style="width: auto;">
+                        <img src="https://s3.bukalapak.com/img/80844100242/large/data.jpeg" class="card-img-top"
+                            alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title text-center">Jersey Sepeda</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-6 mt-5">
+                    <div class="card" style="width: auto;">
+                        <img src="https://1.bp.blogspot.com/-5bz7f7SDKr4/XFm9txpcWDI/AAAAAAAAC2k/hVqsvktILtoyiJZ1-7W2JsnEEo420YTlwCLcBGAs/w1200-h630-p-k-no-nu/mockup-jaket-hoodie.jpg"
+                            class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title text-center">Jacket</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-6 mt-5">
+                    <div class="card" style="width: auto;">
+                        <img src="https://lh6.googleusercontent.com/proxy/JK3EcFc8MMugtXf5rTGzb1BdDXnFcnjUO-zo1rszL5-4H8Eza2_mL5yqnfahDWsQLC_tyebeY7gdBHLQjerlLIQicBMhUG5k3YIntD_NyHm7=w1200-h630-p-k-no-nu"
+                            class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title text-center">Kemeja</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-6 mt-5">
+                    <div class="card" style="width: auto;">
+                        <img src="{{ asset('assets/images/services/tshirt.jpg') }}" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title text-center">Tshirt</h5>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
+    </div>
     </div>
 </section>
 
