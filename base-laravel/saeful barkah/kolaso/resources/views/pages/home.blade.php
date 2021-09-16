@@ -120,6 +120,59 @@
 
 </section>
 
+<section id="features4" class="features features-4 pt-130 bg-gray">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-12 col-md-12 col-lg-6">
+                <div class="mockup--img" data-aos="fade-right">
+                    <img src="{{ asset('assets/images/background/fitur.png') }}" alt="mockup" class="img-fluid">
+                </div>
+            </div>
+            <div class="col-sm-12 col-md-12 col-lg-6">
+                <div class="row" data-aos="fade-left">
+                    <div class="col-col-sm-12 col-md-12 col-lg-12">
+                        <div class="heading mb-60 mt-15">
+                            <p class="heading--subtitle">Layanan & Jasa</p>
+                            <h2 class="heading--title">Kami Juga menyediakan<br> Layanan Konveksi Pakaian (sablon &
+                                sublime)
+                            </h2>
+                            <p class="heading--desc">bagi Perorangan, Perusahaan, Organisasi, maupun Instansi.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="row" data-aos="fade-up">
+
+                    <div class="col-sm-12 col-md-6 col-lg-6">
+                        <div class="feature-panel">
+                            <div class="feature--icon">
+                                <i class="kolaso-Cart"></i>
+                            </div>
+                            <div class="feature--content">
+                                <h4>Full Order</h4>
+                                <p>Anda juga bisa melakukan pembelian berupa full order dengan kelengkapan yang sesuai
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-sm-12 col-md-6 col-lg-6">
+                        <div class="feature-panel">
+                            <div class="feature--icon">
+                                <i class="kolaso-Printer"></i>
+                            </div>
+                            <div class="feature--content">
+                                <h4>Makloon Sublime</h4>
+                                <p>Kami menyediakan Jasa Berupa makloon Sublime print & Sublime Press Heat - Transfer
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
 <section id="features1" class="features features-1 pt-130 pb-110">
     <div class="container">
         <div class="row">
@@ -180,6 +233,50 @@
         </div>
     </div>
 </section>
+
+<section id="faq" class="faq pt-0">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-sm-12 col-md-6 col-lg-7 bg-gray col-content">
+                <div class="heading heading-2 mb-50">
+                    <p class="heading--subtitle">Pertanyaan</p>
+                    <h2 class="heading--title">Beberapa Pertanyaan dari pelanggan kami</h2>
+                </div>
+                <div class="accordion accordion-1" id="accordion01">
+
+                    <div class="card">
+                        <div class="card-heading">
+                            <a class="card-link collapsed" data-toggle="collapse" data-parent="#accordion01"
+                                href="#collapse01-1">Bisakah Saya membuat desain secara bebas ?</a>
+                        </div>
+                        <div id="collapse01-1" class="collapse" data-parent="#accordion01">
+                            <div class="card-body">Tentu bisa, Karena kami menyediakan sebuah desain produk yang secara
+                                bebas, dan kita bisa melakukan diskusi tentang desain yang akan di buat</div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-heading">
+                            <a class="card-link" data-toggle="collapse" data-parent="#accordion01"
+                                href="#collapse01-3">Produk apa saja yang tersedia ?</a>
+                        </div>
+                        <div id="collapse01-3" class="collapse show" data-parent="#accordion01">
+                            <div class="card-body">Kami menyediakan layanan sablon Jersey, Kemaja, Jacket dan juga
+                                Tshirt</div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="col-sm-12 col-md-6 col-lg-5 pr-0 pl-0">
+                <div class="banner--img">
+                    <img src="{{ asset('assets/images/background/banners.png') }}" class="img-fluid" alt="banner">
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
 
 @push('scripts')
 <script src="{{ asset('assets/plugins/aos/aos.js') }}"></script>
