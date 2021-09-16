@@ -620,45 +620,6 @@ PAGE BANNER
     border-color: transparent;
 }
 
-/*-------------------
-  DROPDOWN MENU
-----------------------*/
-.dropdown-menu {
-    opacity: 0;
-}
-
-.dropdown-menu.show {
-    -webkit-animation: 0.2s forwards b;
-    animation: 0.2s forwards b;
-}
-
-@-webkit-keyframes b {
-    to {
-        opacity: 1;
-    }
-}
-
-@keyframes b {
-    to {
-        opacity: 1;
-    }
-}
-
-.dropdown-item {
-    font-size: 0.6875rem;
-    font-weight: 500;
-    padding-top: 0.5rem;
-    padding-bottom: 0.5rem;
-    transition: background-color 0.1s;
-    text-transform: uppercase;
-}
-
-.dropdown-item:hover {
-    color: #fff;
-    text-decoration: none;
-    background-color: #21c87a;
-}
-
 /*----------------------
  BANNER STYLE
 -----------------------*/
@@ -765,78 +726,24 @@ PAGE BANNER
     position: relative;
 }
 
-/*--------------------------------------------------------------
-# Sections General
---------------------------------------------------------------*/
-section {
-    padding: 60px 0;
-    overflow: hidden;
-}
-
-.section-title {
-    padding-bottom: 40px;
-}
-
-.section-title h2 {
-    font-size: 14px;
-    font-weight: 500;
-    padding: 0;
-    line-height: 1px;
-    margin: 0 0 5px 0;
-    letter-spacing: 2px;
-    text-transform: uppercase;
-    color: #aaaaaa;
-    font-family: "Poppins", sans-serif;
-}
-
-.section-title h2::after {
-    content: "";
-    width: 120px;
-    height: 1px;
-    display: inline-block;
-    background: #ffde9e;
-    margin: 4px 10px;
-}
-
-.section-title p {
-    margin: 0;
-    margin: 0;
-    font-size: 36px;
-    font-weight: 700;
-    text-transform: uppercase;
-    font-family: "Poppins", sans-serif;
-    color: #151515;
-}
-
-/*--------------------------------------------------------------
-  # About
-  --------------------------------------------------------------*/
-.about .content h3 {
-    font-weight: 700;
-    font-size: 28px;
-    font-family: "Poppins", sans-serif;
-}
-
-.about .content ul {
-    list-style: none;
-    padding: 0;
-}
-
-.about .content ul li {
-    padding: 0 0 8px 26px;
+/*--------------------------
+ABOUT-2
+---------------------------*/
+#about .img-block {
     position: relative;
+    box-shadow: 0 7px 22px rgba(0, 0, 0, 0.08);
 }
 
-.about .content ul i {
-    position: absolute;
-    font-size: 20px;
-    left: 0;
-    top: -3px;
-    color: #ffc451;
+#about .img-block img {
+    border: 5px solid #21c87a;
 }
 
-.about .content p:last-child {
-    margin-bottom: 0;
+.pt-6 {
+    padding-top: 4.5rem;
+}
+
+.img-icon i {
+    font-size: 60px;
 }
 
 /*----------------------

@@ -71,11 +71,11 @@
                 <div class="row">
                     <div class="col-lg-6">
                         <div class="section-heading">
-                            <h1>We are trying to deliver 100% quality product and success their business to achieve ultimate goal.</h1>
+                            <h1><br>Kami mencoba memberikan produk berkualitas 100% untuk kepuasan pelanggan.</h1>
                         </div>
                     </div>
                     <div class="col-lg-6">
-                        <p class="lead">We are providing best service since 1990 to present , committed to best service deliveryNullam metus enim, placerat in lacus vel, porttitor egestas libero. Etiam ex risus, feugiat eget accumsan eu, sagittis eu urna. In eget ultrices metus. Nunc accumsan </p>
+                        <p class="lead"><br>Kami memberikan layanan terbaik sejak tahun 2008 hingga sekarang, berkomitmen untuk memberikan layanan terbaik dan terpercaya. Dengan memenuhi keinginan pelanggan serta memenuhi harapan para pelanggan agar merasa puas. </p>
                     </div>
                 </div>
             </div>
@@ -115,9 +115,9 @@
                         </div>
                     </div>
 
-                    <div class="col-lg-3 col-md-6 p-0">
+                    <div class="col-lg-4 col-md-6 p-0">
                         <div class="work-block">
-                            <img src="{{ asset('assets/images/work/15.jpg')}}" alt="work-img" class="img-fluid">
+                            <img src="{{ asset('assets/images/work/13.jpg')}}" alt="work-img" class="img-fluid">
                             <div class="overlay-content-block">
                                 <h4>Probiz portfolio template</h4>
                                 <p>Web Development</p>
@@ -125,7 +125,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-3 col-md-6 p-0">
+                    <div class="col-lg-4 col-md-6 p-0">
                         <div class="work-block">
                             <img src="{{ asset('assets/images/work/14.jpg')}}" alt="work-img" class="img-fluid">
                             <div class="overlay-content-block">
@@ -135,9 +135,9 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-3 col-md-6 p-0">
+                    <div class="col-lg-4 col-md-6 p-0">
                         <div class="work-block">
-                            <img src="{{ asset('assets/images/work/11.jpg')}}" alt="work-img" class="img-fluid">
+                            <img src="{{ asset('assets/images/work/15.jpg')}}" alt="work-img" class="img-fluid">
                             <div class="overlay-content-block">
                                 <h4>Probiz portfolio template</h4>
                                 <p>Web Development</p>
@@ -145,16 +145,6 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-3 col-md-6 p-0">
-                            <div class="work-block">
-                                <img src="{{ asset('assets/images/work/10.jpg')}}" alt="work-img" class="img-fluid">
-                                <div class="overlay-content-block">
-                                    <h4>Probiz portfolio template</h4>
-                                    <p>Web Development</p>
-                                    <a href="single-project.html"><i class="fa fa-link"></i></a>
-                                </div>
-                            </div>
-                        </div>
                 </div>
             </div>
         </section>

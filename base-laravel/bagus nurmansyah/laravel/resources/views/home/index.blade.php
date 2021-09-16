@@ -135,12 +135,12 @@
                     <div class="main-banner">
                         <!-- Heading -->
                         <h1 class="display-4 mb-4 font-weight-normal">
-                            Konveksi dan sablon
+                            Konveksi & sablon
                         </h1>
 
                         <!-- Subheading -->
                         <p class="lead mb-4">
-                           Genetic merupakan jawaban bagi anda yang ingin membuat <br> T-shit sablon, jersey, kemeja, jaket dan celana.
+                           Genetic merupakan jawaban bagi anda yang ingin membuat <br> Baju sablon, jersey, kemeja, jaket dan celana.
                         </p>
 
                         <!-- Button -->
@@ -191,7 +191,7 @@
                             <i class="ti-wallet"></i>
                         </div>
                         <h4 class="mb-2">Harga yang murah</h4>
-                        <p>Kami hanya memberikan harga yang sesuai dengan keadaan dompet anda.</p>
+                        <p>Kami hanya memberikan harga yang sesuai dengan harga yang beredar di pasaran.</p>
                     </div>
                 </div>
 
@@ -232,24 +232,24 @@
                     <div class="process-block">
                         <img src="{{ asset('assets/images/process/process-1.jpg')}}" alt="" class="img-fluid">
 
-                        <h3>Negosiasi</h3>
-                        <p>kami akan melakukan negosiasi terlebih dahulu untuk mengetahui kebutuhan pihak pelanggan dan kesepakatan harga.</p>
+                        <h3>Memilih produk & Negosiasi Harga Produk</h3>
+                        <p>Pembeli memilih pruduk dan melakukan negosiasi harga produk terlebih dahulu untuk mengetahui kebutuhan pelanggan dan kesepakatan harga.</p>
                     </div>
                 </div>
                 <div class="col-lg-4 col-sm-6 col-md-6">
                     <div class="process-block">
                         <img src="{{ asset('assets/images/process/process-2.jpg')}}" alt="" class="img-fluid">
 
-                        <h3>kesepakatan</h3>
-                        <p>setelah mencapai kesepakatan dengan pihak pelanggan kami akan menghubungi pihak produksi.</p>
+                        <h3>down payment(DP) minimal 50% & produksi</h3>
+                        <p>Setelah mencapai kesepakatan pelanggan memberikan donw payment/DP sejumlah 50% lalu kami akan menghubungi pihak produksi.</p>
                     </div>
                 </div>
                 <div class="col-lg-4 col-sm-6 col-md-6">
                     <div class="process-block">
                         <img src="{{ asset('assets/images/process/process-3.jpg')}}" alt="" class="img-fluid">
 
-                        <h3>pembuatan dan pengiriman</h3>
-                        <p>pihak produksi akan mulai memproduksi sesuai dengan kesepakatan.</p>
+                        <h3>bayaran sisa invoice & pengambilan/pengiriman</h3>
+                        <p>Setelah barang selesai di produksi pembeli melakukan pembayaran sisa invoice dan barang akan di ambil atau di kirim oleh genetic.</p>
                     </div>
                 </div>
             </div>

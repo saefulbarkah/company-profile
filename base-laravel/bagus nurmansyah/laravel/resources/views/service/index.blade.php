@@ -73,7 +73,7 @@
             <div class="row justify-content-center mb-5">
                 <div class="col-lg-7 pl-4 text-center">
                     <div class="service-heading">
-                        <h1>Get a better deal and start saving money today</h1>
+                        <h1>Produk Dan Layanan</h1>
                     </div>
                 </div>
             </div>
@@ -82,10 +82,11 @@
                 <div class="col-lg-4 col-md-6">
                     <div class="service-block media">
                         <div class="service-icon">
-                            <i class="ti-reload"></i>
+                            <div class="icon"><img src="{{ asset('assets/icon/baju.png') }}" alt="" class="img-fluid"
+                                width="35px"></div>
                         </div>
                         <div class="service-inner-content media-body">
-                            <h4>Backup System</h4>
+                            <h4>Baju Sablon</h4>
                             <p>Our team are experts in matching you with the right provider.</p>
                         </div>
                     </div>
@@ -94,22 +95,11 @@
                 <div class="col-lg-4 mb-3 col-md-6">
                     <div class="service-block media">
                         <div class="service-icon">
-                            <i class="ti-cloud"></i>
+                            <div class="icon"><img src="{{ asset('assets/icon/hoodie.png') }}" alt="" class="img-fluid"
+                                width="35px"></div>
                         </div>
                         <div class="service-inner-content media-body">
-                            <h4>Cloud Hosting</h4>
-                            <p>Our team are experts in matching you with the right provider.</p>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-lg-4 mb-3 col-md-6">
-                    <div class="service-block media ">
-                        <div class="service-icon">
-                            <i class="ti-world"></i>
-                        </div>
-                        <div class="service-inner-content media-body">
-                            <h4>Web hosting</h4>
+                            <h4>Jersey</h4>
                             <p>Our team are experts in matching you with the right provider.</p>
                         </div>
                     </div>
@@ -118,10 +108,24 @@
                 <div class="col-lg-4 mb-3 col-md-6">
                     <div class="service-block media ">
                         <div class="service-icon">
-                            <i class="ti-server"></i>
+                            <div class="icon"><img src="{{ asset('assets/icon/kemeja.png') }}" alt="" class="img-fluid"
+                                width="35px"></div>
                         </div>
                         <div class="service-inner-content media-body">
-                            <h4>Office Cloud</h4>
+                            <h4>Kemeja</h4>
+                            <p>Our team are experts in matching you with the right provider.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 mb-3 col-md-6">
+                    <div class="service-block media ">
+                        <div class="service-icon">
+                            <div class="icon"><img src="{{ asset('assets/icon/jaket.png') }}" alt="" class="img-fluid"
+                                width="35px"></div>
+                        </div>
+                        <div class="service-inner-content media-body">
+                            <h4>Jaket</h4>
                             <p>Our team are experts in matching you with the right provider.</p>
                         </div>
                     </div>
@@ -130,10 +134,11 @@
                 <div class="col-lg-4 col-md-6">
                     <div class="service-block media">
                         <div class="service-icon">
-                            <i class="ti-world"></i>
+                            <div class="icon"><img src="{{ asset('assets/icon/print.png') }}" alt="" class="img-fluid"
+                                width="35px"></div>
                         </div>
                         <div class="service-inner-content media-body">
-                            <h4>Web hosting</h4>
+                            <h4>Sublime Print</h4>
                             <p>Our team are experts in matching you with the right provider.</p>
                         </div>
                     </div>
@@ -142,10 +147,11 @@
                 <div class="col-lg-4 col-md-6">
                     <div class="service-block media">
                         <div class="service-icon">
-                            <i class="ti-cloud"></i>
+                            <div class="icon"><img src="{{ asset('assets/icon/press.png') }}" alt="" class="img-fluid"
+                                width="35px"></div>
                         </div>
                         <div class="service-inner-content media-body">
-                            <h4>Office Cloud</h4>
+                            <h4>Sublime Press</h4>
                             <p>Our team are experts in matching you with the right provider.</p>
                         </div>
                     </div>
@@ -160,119 +166,6 @@
         </div>
     </section>
 
-<section class="section" id="services-2">
-        <div class="container">
-            <div class="row justify-content-center">
-                <div class="col-md-8 col-lg-6 text-center">
-                    <div class="section-heading">
-                        <!-- Heading -->
-                        <h2 class="section-title mb-2 text-white">
-                            Web Services
-                        </h2>
 
-                        <!-- Subheading -->
-                        <p class="mb-5 text-white">
-                            Rapoo can be used to create anything from a small marketing page to a sophisticated website.
-                        </p>
-                    </div>
-                </div>
-            </div> <!-- / .row -->
-
-            <div class="row">
-                <div class="col-lg-4 col-sm-6 col-md-6 mb-30">
-                    <div class="web-service-block">
-                        <i class="ti-light-bulb"></i>
-                        <h3>Creative Design</h3>
-                        <p>Afraid we praise lively he suffer family estate is. Ample order up in of in ready. Timed blind had .</p>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-sm-6 col-md-6 mb-30">
-                    <div class="web-service-block">
-                        <i class="ti-desktop"></i>
-                        <h3>Web Development</h3>
-                        <p>Afraid we praise lively he suffer family estate is. Ample order up in of in ready. Timed blind had .</p>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-sm-6 col-md-6 mb-30">
-                    <div class="web-service-block">
-                        <i class="ti-announcement"></i>
-                        <h3>Digital Marketing</h3>
-                        <p>Afraid we praise lively he suffer family estate is. Ample order up in of in ready. Timed blind had .</p>
-                    </div>
-                </div>
-
-                <div class="col-lg-4 col-sm-6 col-md-6 ">
-                    <div class="web-service-block">
-                        <i class="ti-layers-alt"></i>
-                        <h3>Graphic Design</h3>
-                        <p>Afraid we praise lively he suffer family estate is. Ample order up in of in ready. Timed blind had .</p>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-sm-6 col-md-6 ">
-                    <div class="web-service-block">
-                        <i class="ti-mobile"></i>
-                        <h3>App Development</h3>
-                        <p>Afraid we praise lively he suffer family estate is. Ample order up in of in ready. Timed blind had .</p>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-sm-6 col-md-6 ">
-                    <div class="web-service-block">
-                        <i class="ti-settings"></i>
-                        <h3>Wordpress Installation</h3>
-                        <p>Afraid we praise lively he suffer family estate is. Ample order up in of in ready. Timed blind had .</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-<section class="section" id="process">
-        <div class="container">
-            <div class="row justify-content-center">
-                <div class="col-md-8 col-lg-6 text-center">
-                    <div class="section-heading">
-                        <!-- Heading -->
-                        <h2 class="section-title">
-                            Our Working process
-                        </h2>
-
-                        <!-- Subheading -->
-                        <p>
-                            Rapoo can be used to create anything from a small marketing page to a sophisticated website.
-                        </p>
-
-                    </div>
-                </div>
-            </div> <!-- / .row -->
-
-            <div class="row justify-content-center">
-                <div class="col-lg-4 col-sm-6 col-md-6">
-                    <div class="process-block">
-                        <img src="{{ asset('assets/images/process/process-1.jpg')}}" alt="" class="img-fluid">
-
-                        <h3>Project Research</h3>
-                        <p>Nihil facere delectus eaque aut possimus nobis laudantium reprehenderit.</p>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-sm-6 col-md-6">
-                    <div class="process-block">
-                        <img src="{{ asset('assets/images/process/process-2.jpg')}}" alt="" class="img-fluid">
-
-                        <h3>Project demostration</h3>
-                        <p>Nihil facere delectus eaque aut possimus nobis laudantium reprehenderit.</p>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-sm-6 col-md-6">
-                    <div class="process-block">
-                        <img src="{{ asset('assets/images/process/process-3.jpg')}}" alt="" class="img-fluid">
-
-                        <h3>Development & delivery</h3>
-                        <p>Nihil facere delectus eaque aut possimus nobis laudantium reprehenderit.</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-</section>
 
 @endsection

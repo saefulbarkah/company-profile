@@ -5,7 +5,7 @@
         <div class="row">
             <div class="col-lg-12">
                 <nav class="navbar navbar-expand-lg navbar-light bg-light">
-                    <a class="navbar-brand" href="index.html">
+                    <a class="navbar-brand" href="{{ url('/') }}">
                         <img src="{{ url('assets/images/logo.png')}}" alt="logo">
                     </a>
                     <button class="navbar-toggler" type="button" data-toggle="collapse"
