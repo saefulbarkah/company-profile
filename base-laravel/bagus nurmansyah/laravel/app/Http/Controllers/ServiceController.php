@@ -10,4 +10,14 @@ class ServiceController extends Controller
     {
         return view('service.index');
     }
+
+    public function fullOrder()
+    {
+        return view('service.full-order');
+    }
+
+    public function makloonSublime()
+    {
+    return view('service.makloon-sublime');
+    }
 }

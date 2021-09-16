@@ -18,3 +18,5 @@ Route::get('/about','AboutController@about');
 Route::get('/service','ServiceController@service');
 Route::get('/portfolio','PortfolioController@portfolio');
 Route::get('/contact','ContactController@contact');
+Route::get('/service/full-order','ServiceController@fullOrder');
+Route::get('/service/makloon-sublime','ServiceController@makloonSublime');

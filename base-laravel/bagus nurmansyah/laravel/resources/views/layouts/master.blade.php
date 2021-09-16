@@ -11,6 +11,11 @@
   <meta name="author" content="themefisher.com">
 
   <title>@yield('title')</title>
+
+  {{-- timeline css --}}
+  @stack('proses-css')
+
+  @stack('styles')
   {{-- font awesome --}}
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
   integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
@@ -53,6 +58,11 @@ rel="stylesheet">
         {{-- end footer --}}
 
     </div>
+     <!--  Page Scroll to Top  -->
+
+     <a class="scroll-to-top js-scroll-trigger" href="#top-header">
+        <i class="fa fa-angle-up"></i>
+    </a>
 
     <!--Essential Scripts-->
 
