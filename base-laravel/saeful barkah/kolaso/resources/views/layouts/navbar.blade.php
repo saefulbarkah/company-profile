@@ -1,5 +1,5 @@
 <header id="navbar-spy" class="header header-1 header-transparent">
-    <nav id="primary-menu" class="navbar navbar-expand-lg navbar-light navbar-bordered fixed-top">
+    <nav id="primary-menu" class="navbar navbar-expand-lg navbar-light fixed-top">
         <div class="container">
             <a class="navbar-brand" href="index.html">
                 <div class="logo logo-light text-white bold">
@@ -21,19 +21,19 @@
                         <a href="{{ url('/') }}" class="menu-item">Beranda</a>
                     </li>
 
-                    <li class="{{ Request::is('about') ? 'active' : '' }}">
-                        <a href="{{ url('about') }}" class="menu-item">Tentang kami</a>
+                    <li class="{{ Request::is('tentang') ? 'active' : '' }}">
+                        <a href="{{ url('tentang') }}" class="menu-item">Tentang kami</a>
                     </li>
 
-                    <li class="{{ Request::is('service') ? 'active' : '' }}">
-                        <a href="{{ url('service') }}" class="menu-item">Layanan</a>
+                    <li class="{{ Request::is('layanan') ? 'active' : '' }}">
+                        <a href="{{ url('layanan') }}" class="menu-item">Layanan</a>
                     </li>
 
-                    <li class="{{ Request::is('portfolio') ? 'active' : '' }}">
-                        <a href="{{ url('portfolio') }}" class="menu-item">Portofolio</a>
+                    <li class="{{ Request::is('portofolio') ? 'active' : '' }}">
+                        <a href="{{ url('portofolio') }}" class="menu-item">Portofolio</a>
                     </li>
                     <li class="{{ Request::is('kontak') ? 'active' : '' }}">
-                        <a href="{{ url('contact') }}" class="menu-item">Kontak</a>
+                        <a href="{{ url('kontak') }}" class="menu-item">kontak</a>
                     </li>
                 </ul>
             </div>

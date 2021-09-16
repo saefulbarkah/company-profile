@@ -8,6 +8,16 @@ class ServiceController extends Controller
 {
     public function services()
     {
-        return view('service.index');
+        return view('pages.service');
+    }
+
+    public function fullOrder()
+    {
+        return view('pages.full-order');
+    }
+
+    public function makloonSublime()
+    {
+    return view('pages.makloon-sublime');
     }
 }

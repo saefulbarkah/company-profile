@@ -1,151 +1,108 @@
 @extends('admin.layouts.master')
 
-
-@section('pages-title','List Portfolio')
+@section('title-page','List Portfolio')
 @section('content')
-
 @push('styles')
-<!-- DataTables -->
-<link rel="stylesheet" href="{{ asset('assets2/plugins/datatables-bs4/css/dataTables.bootstrap4.min.css') }}">
-<link rel="stylesheet" href="{{ asset('assets2/plugins/datatables-responsive/css/responsive.bootstrap4.min.css') }}">
-<link rel="stylesheet" href="{{ asset('assets2/plugins/datatables-buttons/css/buttons.bootstrap4.min.css') }}">
+<!--Data Tables -->
+<link href="{{ asset('assets2/plugins/bootstrap-datatable/css/dataTables.bootstrap4.min.css') }}" rel="stylesheet"
+    type="text/css">
+<link href="{{ asset('assets2/plugins/bootstrap-datatable/css/buttons.bootstrap4.min.css') }}" rel="stylesheet"
+    type="text/css">
 @endpush
 
-
-{{-- content --}}
 <div class="row">
     <div class="col">
         <div class="card">
+            <div class="card-header">
+                <i class="icon-menu"></i>
+                Menu
+            </div>
             <div class="card-body">
-                <a href="{{ url('admin/list-tag-portfolio') }}" class="btn btn-warning">
-                    <i class="fa fa-tags"></i>
-                    Daftar tag
+                <a href="{{ url('admin/portofolio/tambah') }}" class="btn btn-primary">
+                    <i class="icon-camera"></i>
+                    Tambah Foto
                 </a>
-                <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#modal-default">
-                    <i class="fa fa-upload"></i>
-                    Upload
-                </button>
+                <a href="" class="btn btn-warning">
+                    <i class="icon-camera"></i>
+                    List item
+                </a>
+            </div>
+        </div>
+    </div>
+</div>
 
-                {{-- modal create --}}
-                <div class="modal fade" id="modal-default">
-                    <div class="modal-dialog">
-                        <div class="modal-content">
-                            <div class="modal-header">
-                                <h4 class="modal-title">Form upload</h4>
-                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                                    <span aria-hidden="true">&times;</span>
-                                </button>
-                            </div>
-                            <div class="modal-body">
-                                <form action="{{ url('admin/portfolio/post') }}" method="POST"
-                                    enctype="multipart/form-data">
-                                    @csrf
-                                    <div class="form-group">
-                                        <label>Nama</label>
-                                        <input type="text" name="name" class="form-control" required>
-                                    </div>
-
-                                    <div class="form-group">
-                                        <label for="exampleSelectRounded0">Tag</label>
-                                        <select class="custom-select rounded-0" name="portfolio_tag_id"
-                                            id="exampleSelectRounded0">
-                                            <option selected disabled>-- pilih tag --</option>
-                                            @foreach ($tag as $data)
-                                            <option value="{{ $data->id }}">{{ $data->name }}</option>
-                                            @endforeach
-                                        </select>
-                                    </div>
-
-                                    <div class="form-group">
-                                        <label for="exampleInputFile">Upload Gambar</label>
-                                        <div class="input-group">
-                                            <div class="custom-file">
-                                                <input type="file" onchange="previewFile(this);" name="image"
-                                                    class="custom-file-input" id="exampleInputFile">
-                                                <label class="custom-file-label" for="exampleInputFile">-- pilih
-                                                    gambar --</label>
-                                            </div>
-                                        </div>
-                                    </div>
-
-
-                                    <div class="img-preview">
-                                        <div class="col-lg-12">
-                                            <label for="">Gambar Preview</label>
-                                        </div>
-                                        <img id="previewImg" src="https://ti.unima.ac.id/assets_web/img/no_image.jpg"
-                                            alt="Placeholder" class="img-fluid" width="30%">
-                                    </div>
-                                    <div class="modal-footer">
-                                        <button type="button" class="btn btn-default"
-                                            data-dismiss="modal">Close</button>
-                                        <button type="submit" class="btn btn-primary">Submit</button>
-                                    </div>
-                                </form>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- /.modal-content -->
+<div class="row">
+    <div class="col-lg-12">
+        <div class="card">
+            <div class="card-header"><i class="fa fa-table"></i> Data Portofolio</div>
+            <div class="card-body">
+                <div class="table-responsive">
+                    <table id="default-datatable" class="table table-bordered">
+                        <thead>
+                            <tr>
+                                <th>No</th>
+                                <th>Nama</th>
+                                <th>Gambar </th>
+                                <th>Jenis Item</th>
+                                <th>Aksi</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            @foreach ($portfolio as $no => $data)
+                            <tr>
+                                <td>{{ $no+1 }}</td>
+                                <td>{{ $data->name }}</td>
+                                <td>
+                                    <img src="{{ asset('images/'.$data->image) }}" alt="" width="60px"
+                                        class="img-fluid">
+                                </td>
+                                <td>{{ $data->item }}</td>
+                                <td>
+                                    <a href="{{ url('admin/portofolio/edit='.$data->id) }}"
+                                        class="btn-sm btn-danger">Edit</a>
+                                    <a href="{{ url('admin/portofolio/hapus/'.$data->id) }}"
+                                        class="btn-sm btn-danger">Hapus</a>
+                                </td>
+                            </tr>
+                            @endforeach
+                        </tbody>
+                    </table>
                 </div>
             </div>
         </div>
     </div>
 </div>
-<div class="row">
-    <div class="col">
-        <div class="card">
-            <div class="card-body">
-                <table id="dataTable" class="table table-bordered table-striped">
-                    <thead>
-                        <tr>
-                            <th>No</th>
-                            <th>Gambar</th>
-                            <th>Nama</th>
-                            <th>Tag</th>
-                            <th>Aksi</th>
-                        </tr>
-                    </thead>
-                </table>
-            </div>
-        </div>
-    </div>
-</div>
-{{-- end --}}
-
+<!-- End Row-->
+@endsection
 @push('scripts')
-<script src="{{ asset('assets2/plugins/datatables/jquery.dataTables.min.js') }}"></script>
-<script src="{{ asset('assets2/plugins/datatables-bs4/js/dataTables.bootstrap4.min.js') }}"></script>
-<script src="{{ asset('assets2/plugins/datatables-responsive/js/dataTables.responsive.min.js') }}"></script>
-<script src="{{ asset('assets2/plugins/datatables-responsive/js/responsive.bootstrap4.min.js') }}"></script>
-<script src="{{ asset('assets2/plugins/datatables-buttons/js/dataTables.buttons.min.js') }}"></script>
-<script src="{{ asset('assets2/plugins/datatables-buttons/js/buttons.bootstrap4.min.js') }}"></script>
+<!--Data Tables js-->
+<script src="{{ asset('assets2/plugins/bootstrap-datatable/js/jquery.dataTables.min.js') }}">
+</script>
+<script src="{{ asset('assets2/plugins/bootstrap-datatable/js/dataTables.bootstrap4.min.js') }}"></script>
+<script src="{{ asset('assets2/plugins/bootstrap-datatable/js/dataTables.buttons.min.js') }}"></script>
+<script src="{{ asset('assets2/plugins/bootstrap-datatable/js/buttons.bootstrap4.min.js') }}"></script>
+<script src="{{ asset('assets2/plugins/bootstrap-datatable/js/jszip.min.js') }}"></script>
+<script src="{{ asset('assets2/plugins/bootstrap-datatable/js/pdfmake.min.js') }}"></script>
+<script src="{{ asset('assets2/plugins/bootstrap-datatable/js/vfs_fonts.js') }}"></script>
+<script src="{{ asset('assets2/plugins/bootstrap-datatable/js/buttons.html5.min.js') }}"></script>
+<script src="{{ asset('assets2/plugins/bootstrap-datatable/js/buttons.print.min.js') }}"></script>
+<script src="{{ asset('assets2/plugins/bootstrap-datatable/js/buttons.colVis.min.js') }}"></script>
+
 <script>
-    $('#dataTable').DataTable({
-        "paging": true,
-        "lengthChange": true,
-        "searching": true,
-        "ordering": true,
-        "info": true,
-        "autoWidth": false,
-        "responsive": true,
+    $(document).ready(function () {
+      //Default data table
+      $('#default-datatable').DataTable();
+
+
+      var table = $('#example').DataTable({
+        lengthChange: false,
+        buttons: ['copy', 'excel', 'pdf', 'print', 'colvis']
       });
 
-      function previewFile(input){
-        var file = $("input[type=file]").get(0).files[0];
+      table.buttons().container()
+        .appendTo('#example_wrapper .col-md-6:eq(0)');
 
-        if(file){
-            var reader = new FileReader();
-
-            reader.onload = function(){
-                $("#previewImg").attr("src", reader.result);
-            }
-
-            reader.readAsDataURL(file);
-        }
-    }
+    });
 
 </script>
-
 @endpush
-
-@endsection

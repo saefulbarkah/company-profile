@@ -4,7 +4,7 @@
 @section('content')
 <section id="page-title" class="page-title bg-overlay bg-overlay-dark2 bg-parallax">
     <div class="bg-section">
-        <img src="assets/images/page-titles/5.jpg" alt="Background" />
+        <img src="{{ asset('assets/images/background/bg-home.jpg') }}" alt="Background" />
     </div>
     <div class="container">
         <div class="row">
@@ -24,105 +24,49 @@
     </div>
 </section>
 
-<section id="features1" class="features features-1 pt-130 pb-110">
+<section id="services1" class="services services-1 pt-130 pb-70">
     <div class="container">
-        <div class="row">
-            <div class="col-sm-12 col-md-12 col-lg-6 offset-lg-3">
-                <div class="heading heading-1 text--center mb-60">
-                    <h2 class="heading--title">Layanan</h2>
+        <div class="row justify-content-center">
+            <div class="col-lg-9">
+                <div class="card-group">
+                    <div class="card mx-4 shadow">
+                        <img src="https://jengsusan.com/wp-content/uploads/2020/09/Jenis-Konveksi-Baju-yang-Perlu-Kamu-Tahu.jpg"
+                            class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Full Order</h5>
+                            <p class="card-text">Full order merupakan layanan produk berupa pembelian penuh dengan
+                                kelengkapan yang sesuai layanan</p>
+                        </div>
+                        <div class="card-footer text-right">
+                            <small class="text-muted">
+                                <a href="{{ url('layanan/full-order') }}" class="btn-sm btn-primary">
+                                    <i class="fas fa-search"></i>
+                                    Detail
+                                </a>
+                            </small>
+                        </div>
+                    </div>
+                    <div class="card mx-4 shadow">
+                        <img src="{{ asset('assets/images/services/sublim-print.jpg') }}" class="card-img-top"
+                            alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Makloon Sublime</h5>
+                            <p class="card-text mt-auto">Makloon sublime merupakan layanan jasa yang menyediakan layanan
+                                berupa
+                                printing & press</p>
+                        </div>
+                        <div class="card-footer text-right">
+                            <small class="text-muted">
+                                <a href="{{ url('layanan/makloon-sublime') }}" class="btn-sm btn-primary">
+                                    <i class="fas fa-search"></i>
+                                    Detail
+                                </a>
+                            </small>
+                        </div>
+                    </div>
                 </div>
             </div>
 
-        </div>
-
-        <div class="row justify-content-center text-center">
-
-            <div class="col-sm-12 col-md-4 col-lg-4">
-                <div class="feature-panel">
-                    <div class="feature--icon">
-                        <img src="{{ asset('assets/images/icon/order.png') }}" class="img-fluid" width="100px"></img>
-                    </div>
-                    <div class="feature--content">
-                        <h4>Full order</h4>
-                        <p></p>
-                    </div>
-                    {{-- <div class="feature--more">
-                        <a href="#"><i class="fa fa-long-arrow-right"></i><span>More</span></a>
-                    </div> --}}
-                </div>
-            </div>
-            <div class="col-sm-12 col-md-4 col-lg-4">
-                <div class="feature-panel">
-                    <div class="feature--icon">
-                        <img src="{{ asset('assets/images/icon/hoodie.png') }}" class="img-fluid" width="100px"></img>
-                    </div>
-                    <div class="feature--content">
-                        <h4>jacket</h4>
-                        <p></p>
-                    </div>
-                    {{-- <div class="feature--more">
-                        <a href="#"><i class="fa fa-long-arrow-right"></i><span>More</span></a>
-                    </div> --}}
-                </div>
-            </div>
-            <div class="col-sm-12 col-md-4 col-lg-4">
-                <div class="feature-panel">
-                    <div class="feature--icon">
-                        <img src="{{ asset('assets/images/icon/cloth.png') }}" class="img-fluid" width="100px"></img>
-                    </div>
-                    <div class="feature--content">
-                        <h4>kemeja</h4>
-                        <p></p>
-                    </div>
-                    {{-- <div class="feature--more">
-                        <a href="#"><i class="fa fa-long-arrow-right"></i><span>More</span></a>
-                    </div> --}}
-                </div>
-            </div>
-            <div class="col-sm-12 col-md-4 col-lg-4">
-                <div class="feature-panel">
-                    <div class="feature--icon">
-                        <img src="{{ asset('assets/images/icon/shirt.png') }}" class="img-fluid" width="100px"></img>
-                    </div>
-                    <div class="feature--content">
-                        <h4>Sablon Kaos</h4>
-                        <p></p>
-                    </div>
-                    {{-- <div class="feature--more">
-                        <a href="#"><i class="fa fa-long-arrow-right"></i><span>More</span></a>
-                    </div> --}}
-                </div>
-            </div>
-            <div class="col-sm-12 col-md-4 col-lg-4">
-                <div class="feature-panel">
-                    <div class="feature--icon">
-                        <img src="{{ asset('assets/images/icon/sublimation.png') }}" class="img-fluid"
-                            width="100px"></img>
-                    </div>
-                    <div class="feature--content">
-                        <h4>makloon Sublime Press</h4>
-                        <p></p>
-                    </div>
-                    {{-- <div class="feature--more">
-                        <a href="#"><i class="fa fa-long-arrow-right"></i><span>More</span></a>
-                    </div> --}}
-                </div>
-            </div>
-            <div class="col-sm-12 col-md-4 col-lg-4">
-                <div class="feature-panel">
-                    <div class="feature--icon">
-                        <img src="{{ asset('assets/images/icon/printing.png') }}" class="img-fluid"
-                            width="100px"></img>
-                    </div>
-                    <div class="feature--content">
-                        <h4>makloon Sublime Printing</h4>
-                        <p></p>
-                    </div>
-                    {{-- <div class="feature--more">
-                        <a href="#"><i class="fa fa-long-arrow-right"></i><span>More</span></a>
-                    </div> --}}
-                </div>
-            </div>
         </div>
     </div>
 </section>

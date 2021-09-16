@@ -1,10 +1,10 @@
 @extends('layouts.master')
-
+@section('title','Genetic | Portofolio')
 @section('content')
 
 <section id="page-title" class="page-title bg-overlay bg-overlay-dark2 bg-parallax">
     <div class="bg-section">
-        <img src="{{ asset('assets/images/page-titles/2.jpg') }}" alt="Background" />
+        <img src="{{ asset('assets/images/background/bg-home.jpg') }}" alt="Background" />
     </div>
     <div class="container">
         <div class="row">
@@ -36,36 +36,33 @@
             <div class="col-sm-12 col-md-12 col-md-12 work-filter">
                 <ul class="list-inline mb-0">
                     <li><a class="active-filter" href="#" data-filter="*">ALL</a></li>
-                    <li><a href="#" data-filter=".filter-merah">Merah</a></li>
-                    <li><a href="#" data-filter=".filter-green">Hijau</a></li>
-                    <li><a href="#" data-filter=".filter-orange">Orange</a></li>
+                    <li><a href="#" data-filter=".filter-jersey">Jersey</a></li>
                 </ul>
             </div>
 
         </div>
         <div id="work-all" class="row">
 
-            <div class="col-sm-6 col-md-6 col-lg-4 work-item filter-merah">
+            <div class="col-sm-6 col-md-6 col-lg-4 work-item filter-jersey">
                 <div class="work-item-container">
                     <div class="work--img">
-                        <img src="{{ asset('assets/images/portfolio/baju-merah-depan.jpg') }}" alt="work Item">
+                        <img src="{{ asset('assets/images/portfolio/baju-merah-depan.jpg') }}">
                         <div class="work--hover">
                             <div class="work--action">
                                 <div class="work--zoom">
                                     <a data-fancybox="galery"
                                         href="{{ asset('assets/images/portfolio/baju-merah-depan.jpg') }}"
                                         title="Work Item">
-                                        <i class="fas fa-search"></i>
                                     </a>
                                 </div>
-                                <div class="work--content">
+                                {{-- <div class="work--content">
                                     <div class="work--title">
                                         <h4><a href="work-single-small-images.html">Baby Tshirt Branding</a></h4>
                                     </div>
                                     <div class="work--cat">
                                         <a href="#">Packaging</a>
                                     </div>
-                                </div>
+                                </div> --}}
                             </div>
 
                         </div>
@@ -74,7 +71,7 @@
 
                 </div>
             </div>
-            <div class="col-sm-6 col-md-6 col-lg-4 work-item filter-merah">
+            <div class="col-sm-6 col-md-6 col-lg-4 work-item filter-jersey">
                 <div class="work-item-container">
                     <div class="work--img">
                         <img src="{{ asset('assets/images/portfolio/baju-merah-belakang.jpg') }}" alt="work Item">
@@ -87,14 +84,14 @@
                                         <i class="fas fa-search"></i>
                                     </a>
                                 </div>
-                                <div class="work--content">
+                                {{-- <div class="work--content">
                                     <div class="work--title">
                                         <h4><a href="work-single-small-images.html">Baby Tshirt Branding</a></h4>
                                     </div>
                                     <div class="work--cat">
                                         <a href="#">Packaging</a>
                                     </div>
-                                </div>
+                                </div> --}}
                             </div>
 
                         </div>
@@ -104,7 +101,7 @@
                 </div>
             </div>
 
-            <div class="col-sm-6 col-md-6 col-lg-4 work-item filter-green">
+            <div class="col-sm-6 col-md-6 col-lg-4 work-item filter-jersey">
                 <div class="work-item-container">
                     <div class="work--img">
                         <img src="{{ asset('assets/images/portfolio/baju-hijau-depan.jpg') }}" alt="work Item">
@@ -117,14 +114,14 @@
                                         <i class="fas fa-search"></i>
                                     </a>
                                 </div>
-                                <div class="work--content">
+                                {{-- <div class="work--content">
                                     <div class="work--title">
                                         <h4><a href="work-single-small-images.html">Baby Tshirt Branding</a></h4>
                                     </div>
                                     <div class="work--cat">
                                         <a href="#">Packaging</a>
                                     </div>
-                                </div>
+                                </div> --}}
                             </div>
 
                         </div>
@@ -133,7 +130,7 @@
 
                 </div>
             </div>
-            <div class="col-sm-6 col-md-6 col-lg-4 work-item filter-green">
+            <div class="col-sm-6 col-md-6 col-lg-4 work-item filter-jersey">
                 <div class="work-item-container">
                     <div class="work--img">
                         <img src="{{ asset('assets/images/portfolio/baju-hijau-belakang.jpg') }}" alt="work Item">
@@ -146,14 +143,14 @@
                                         <i class="fas fa-search"></i>
                                     </a>
                                 </div>
-                                <div class="work--content">
+                                {{-- <div class="work--content">
                                     <div class="work--title">
                                         <h4><a href="work-single-small-images.html">Baby Tshirt Branding</a></h4>
                                     </div>
                                     <div class="work--cat">
                                         <a href="#">Packaging</a>
                                     </div>
-                                </div>
+                                </div> --}}
                             </div>
 
                         </div>
@@ -163,7 +160,7 @@
                 </div>
             </div>
 
-            <div class="col-sm-6 col-md-6 col-lg-4 work-item filter-orange">
+            <div class="col-sm-6 col-md-6 col-lg-4 work-item filter-jersey">
                 <div class="work-item-container">
                     <div class="work--img">
                         <img src="{{ asset('assets/images/portfolio/baju-orange-depan.jpg') }}" alt="work Item">
@@ -176,14 +173,14 @@
                                         <i class="fas fa-search"></i>
                                     </a>
                                 </div>
-                                <div class="work--content">
+                                {{-- <div class="work--content">
                                     <div class="work--title">
                                         <h4><a href="work-single-small-images.html">Baby Tshirt Branding</a></h4>
                                     </div>
                                     <div class="work--cat">
                                         <a href="#">Packaging</a>
                                     </div>
-                                </div>
+                                </div> --}}
                             </div>
 
                         </div>
@@ -192,7 +189,7 @@
 
                 </div>
             </div>
-            <div class="col-sm-6 col-md-6 col-lg-4 work-item filter-orange">
+            <div class="col-sm-6 col-md-6 col-lg-4 work-item filter-jersey">
                 <div class="work-item-container">
                     <div class="work--img">
                         <img src="{{ asset('assets/images/portfolio/baju-orange-belakang.jpg') }}" alt="work Item">
@@ -205,14 +202,14 @@
                                         <i class="fas fa-search"></i>
                                     </a>
                                 </div>
-                                <div class="work--content">
+                                {{-- <div class="work--content">
                                     <div class="work--title">
                                         <h4><a href="work-single-small-images.html">Baby Tshirt Branding</a></h4>
                                     </div>
                                     <div class="work--cat">
                                         <a href="#">Packaging</a>
                                     </div>
-                                </div>
+                                </div> --}}
                             </div>
 
                         </div>

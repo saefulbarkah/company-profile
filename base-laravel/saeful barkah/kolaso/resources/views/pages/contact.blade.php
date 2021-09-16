@@ -1,20 +1,20 @@
 @extends('layouts.master')
-
+@section('title','Genetic | Kontak')
 @section('content')
 <section id="page-title" class="page-title bg-overlay bg-overlay-dark2 bg-parallax">
     <div class="bg-section">
-        <img src="assets/images/page-titles/8.jpg" alt="Background" />
+        <img src="{{ asset('assets/images/background/bg-home.jpg') }}" alt="Background" />
     </div>
     <div class="container">
         <div class="row">
             <div class="col-sm-12 col-md-12 col-lg-8 offset-lg-2">
                 <div class="title text-center">
                     <div class="title--heading">
-                        <h1>Kontak Kami</h1>
+                        <h1>Hubungi Kami</h1>
                     </div>
                     <div class="clearfix"></div>
                     <ol class="breadcrumb d-flex justify-content-center">
-                        <li class="breadcrumb-item"><a href="index-3.html">Beranda</a></li>
+                        <li class="breadcrumb-item"><a href="{{ url('/') }}">Beranda</a></li>
                         <li class="breadcrumb-item active" aria-current="page">Kontak</li>
                     </ol>
                 </div>
@@ -27,7 +27,7 @@
     <div class="container">
         <div class="row">
 
-            <div class="col-sm-12 col-md-4 col-lg-6">
+            <div class="col-sm-12 col-md-6 col-lg-6">
                 <div class="contact--panel">
                     <div class="contact--icon">
                         <i class="kolaso-Globe"></i>
@@ -40,7 +40,7 @@
                 </div>
             </div>
 
-            <div class="col-sm-12 col-md-4 col-lg-6">
+            <div class="col-sm-12 col-md-6 col-lg-6">
                 <div class="contact--panel">
                     <div class="contact--icon">
                         <i class="kolaso-Mail"></i>

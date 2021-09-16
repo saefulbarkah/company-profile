@@ -1,168 +1,100 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>AdminLTE 3 | Blank Page</title>
+<!-- Mirrored from codervent.com/rocker/color-version/pages-blank-page.html by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 15 Nov 2019 12:20:59 GMT -->
 
-    <!-- Google Font: Source Sans Pro -->
-    <link rel="stylesheet"
-        href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700&display=fallback">
-    <!-- Font Awesome -->
-    <link rel="stylesheet" href="{{ asset('assets2/plugins/fontawesome-free/css/all.min.css') }}">
-    <!-- Theme style -->
-    <link rel="stylesheet" href="{{ asset('assets2/dist/css/adminlte.min.css') }}">
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+    <title>Admin Panel Genetic Wear</title>
+    <!--favicon-->
+    <link rel="icon" href="{{ asset('assets2/images/favicon.ico')}}" type="image/x-icon">
+    <!-- simplebar CSS-->
+    <link href="{{ asset('assets2/plugins/simplebar/css/simplebar.css') }}" rel="stylesheet" />
+    <!-- Bootstrap core CSS-->
+    <link href="{{ asset('assets2/css/bootstrap.min.css') }}" rel="stylesheet" />
+    <!-- animate CSS-->
+    <link href="{{ asset('assets2/css/animate.css') }}" rel="stylesheet" type="text/css" />
+    <!-- Icons CSS-->
+    <link href="{{ asset('assets2/css/icons.css') }}" rel="stylesheet" type="text/css" />
+    <!-- Sidebar CSS-->
+    <link href="{{ asset('assets2/css/sidebar-menu.css') }}" rel="stylesheet" />
+    <!-- Custom Style-->
+    <link href="{{ asset('assets2/css/app-style.css') }}" rel="stylesheet" />
     @stack('styles')
-    @toastr_css
+
 </head>
 
-<body class="hold-transition sidebar-mini">
-    <!-- Site wrapper -->
-    <div class="wrapper">
-        <!-- Navbar -->
-        <nav class="main-header navbar navbar-expand navbar-white navbar-light">
-            <!-- Left navbar links -->
-            <ul class="navbar-nav">
-                <li class="nav-item">
-                    <a class="nav-link" data-widget="pushmenu" href="#" role="button"><i class="fas fa-bars"></i></a>
-                </li>
-                <li class="nav-item d-none d-sm-inline-block">
-                    <a href="{{ asset('assets2/index3.html') }}" class="nav-link">Home</a>
-                </li>
-                <li class="nav-item d-none d-sm-inline-block">
-                    <a href="#" class="nav-link">Contact</a>
-                </li>
-            </ul>
+<body>
 
-            <!-- Right navbar links -->
-            <ul class="navbar-nav ml-auto">
-                <li class="nav-item">
-                    <a class="nav-link" data-widget="fullscreen" href="#" role="button">
-                        <i class="fas fa-expand-arrows-alt"></i>
-                    </a>
-                </li>
-            </ul>
-        </nav>
-        <!-- /.navbar -->
+    <!-- Start wrapper-->
+    <div id="wrapper">
 
-        <!-- Main Sidebar Container -->
-        <aside class="main-sidebar sidebar-dark-primary elevation-4">
-            <!-- Brand Logo -->
-            <a href="{{ asset('assets2/index3.html') }}" class="brand-link text-center">
-                <span class="brand-text font-weight-light">Genetic wear</span>
-            </a>
+        <!--Start sidebar-wrapper-->
+        @include('admin.layouts.sidebar')
+        <!--End sidebar-wrapper-->
 
-            <!-- Sidebar -->
-            <div class="sidebar">
-                <!-- Sidebar Menu -->
-                <nav class="mt-2">
-                    <ul class="nav nav-pills nav-sidebar flex-column" data-widget="treeview" role="menu"
-                        data-accordion="false">
-                        <!-- Add icons to the links using the .nav-icon class
-               with font-awesome or any other icon font library -->
-                        <li class="nav-item">
-                            <a href="{{ url('admin/dashboard') }}" class="nav-link">
-                                <i class="fas fa-tachometer-alt nav-icon"></i>
-                                <p>Dashboard</p>
-                            </a>
-                        </li>
-                        <li class="nav-item">
-                            <a href="#" class="nav-link">
-                                <i class="nav-icon fas fa-tools"></i>
-                                <p>
-                                    Modules
-                                    <i class="right fas fa-angle-left"></i>
-                                </p>
-                            </a>
-                            <ul class="nav nav-treeview">
-                                <li class="nav-item">
-                                    <a href="{{ url('admin/list-portfolio') }}" class="nav-link">
-                                        <i class="fas fa-images nav-icon"></i>
-                                        <p>Portfolio</p>
-                                    </a>
-                                </li>
-                            </ul>
-                        </li>
-                        <li class="nav-item">
-                            <a href="{{ url('admin/dashboard') }}" class="nav-link" href="#"
-                                onclick="event.preventDefault();document.getElementById('logout-form').submit();">
-                                <i class="fas fa-tachometer-alt nav-icon"></i>
-                                <p>Logout</p>
+        <!--Start topbar header-->
+        @include('admin.layouts.navbar')
+        <!--End topbar header-->
 
-                                <form id="logout-form" action="{{ route('logout') }}" method="POST"
-                                    style="display: none;">
-                                    {{ csrf_field() }}
-                                </form>
-                            </a>
-                        </li>
-                    </ul>
-                </nav>
-                <!-- /.sidebar-menu -->
-            </div>
-            <!-- /.sidebar -->
-        </aside>
+        <div class="clearfix"></div>
 
-        <!-- Content Wrapper. Contains page content -->
         <div class="content-wrapper">
-            <!-- Content Header (Page header) -->
-            <section class="content-header">
-                <div class="container-fluid">
-                    <div class="row mb-2">
-                        <div class="col-sm-6">
-                            <h1>@yield('pages-title')</h1>
-                        </div>
-                        <div class="col-sm-6">
-                            <ol class="breadcrumb float-sm-right">
-                                {{-- <li class="breadcrumb-item"><a href="#">Home</a></li>
-                                <li class="breadcrumb-item active">Blank Page</li> --}}
-                            </ol>
-                        </div>
+            <div class="container-fluid">
+                <!-- Breadcrumb-->
+                <div class="row pt-2 pb-2">
+                    <div class="col-sm-9">
+                        <h4 class="page-title">@yield('title-page')</h4>
                     </div>
-                </div><!-- /.container-fluid -->
-            </section>
+                </div>
+                <!-- End Breadcrumb-->
 
-            <!-- Main content -->
-            <section class="content">
-
-                <!-- Default box -->
+                {{-- content --}}
                 @yield('content')
-                <!-- /.card -->
 
-            </section>
-            <!-- /.content -->
-        </div>
-        <!-- /.content-wrapper -->
-
-        <footer class="main-footer">
-            <div class="float-right d-none d-sm-block">
-                <b>Version</b> 3.1.0
             </div>
-            <strong>Copyright &copy; 2014-2021 <a href="https://adminlte.io">AdminLTE.io</a>.</strong> All rights
-            reserved.
-        </footer>
+            <!-- End container-fluid-->
 
-        <!-- Control Sidebar -->
-        <aside class="control-sidebar control-sidebar-dark">
-            <!-- Control sidebar content goes here -->
-        </aside>
-        <!-- /.control-sidebar -->
+        </div>
+        <!--End content-wrapper-->
+        <!--Start Back To Top Button-->
+
+        <!--Start footer-->
+        {{-- <footer class="footer fixed-bottom">
+            <div class="container">
+                <div class="text-center">
+                    Copyright © 2018 Rocker Admin
+                </div>
+            </div>
+        </footer> --}}
+        <!--End footer-->
+
     </div>
-    <!-- ./wrapper -->
+    <!--End wrapper-->
 
-    <!-- jQuery -->
-    <script src="{{ asset('assets2/plugins/jquery/jquery.min.js') }}"></script>
-    <!-- Bootstrap 4 -->
-    <script src="{{ asset('assets2/plugins/bootstrap/js/bootstrap.bundle.min.js') }}"></script>
-    <!-- AdminLTE App -->
-    <script src="{{ asset('assets2/dist/js/adminlte.min.js') }}"></script>
-    <!-- AdminLTE for demo purposes -->
-    <script src="{{ asset('assets2/dist/js/demo.js') }}"></script>
+    @include('sweetalert::alert')
+
+    <!-- Bootstrap core JavaScript-->
+    <script src="{{ asset('assets2/js/jquery.min.js') }}"></script>
+    <script src="{{ asset('assets2/js/popper.min.js') }}"></script>
+    <script src="{{ asset('assets2/js/bootstrap.min.js') }}"></script>
+
+    <!-- simplebar js -->
+    <script src="{{ asset('assets2/plugins/simplebar/js/simplebar.js') }}"></script>
+    <!-- waves effect js -->
+    <script src="{{ asset('assets2/js/waves.js') }}"></script>
+    <!-- sidebar-menu js -->
+    <script src="{{ asset('assets2/js/sidebar-menu.js') }}"></script>
+    <!-- Custom scripts -->
+    <script src="{{ asset('assets2/js/app-script.js') }}"></script>
 
     @stack('scripts')
-    @jquery
-    @toastr_js
-    @toastr_render
 </body>
+
+<!-- Mirrored from codervent.com/rocker/color-version/pages-blank-page.html by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 15 Nov 2019 12:20:59 GMT -->
 
 </html>

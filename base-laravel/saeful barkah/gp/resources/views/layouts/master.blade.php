@@ -21,6 +21,7 @@
     {{-- timeline css --}}
     @stack('proses-css')
 
+    @stack('styles')
     {{-- font awesome --}}
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
         integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
@@ -59,7 +60,9 @@
 
             <div class="row justify-content-center" data-aos="fade-up" data-aos-delay="150">
                 <div class="col-xl-6 col-lg-8">
-                    <h1>Konveksi<span> & </span>Sablon</h1>
+                    <h1>Genetic Wear</h1>
+                    <br>
+                    <h2>Konveksi <span>&</span> Sablon</h2>
                 </div>
             </div>
         </div>
