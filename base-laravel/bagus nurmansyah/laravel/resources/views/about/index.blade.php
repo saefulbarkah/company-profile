@@ -72,15 +72,13 @@
 <section id="about" class="about">
     <div class="container" data-aos="fade-up">
         <div class="section-title">
-            <h2>Tentang</h2>
-            <p>Tentang kami</p>
+            <p>Genetic Wear</p>
         </div>
         <div class="row">
             <div class="col-lg-6 order-1 order-lg-2" data-aos="fade-left" data-aos-delay="100">
-                <img src="assets/images/about.jpg" class="img-fluid" alt="">
+                <img src="{{ asset('assets/images/about.jpg')}}" class="img-fluid" alt="">
             </div>
             <div class="col-lg-6 pt-4 pt-lg-0 order-2 order-lg-1 content" data-aos="fade-right" data-aos-delay="100">
-                <h3>Genetic Wear</h3>
                 <p class="fst-italic">
                     Genetic Wear merupakan sebuah perusahaan konveksi yang memiliki layanan Design, pembuatan
                     (T-shirt,Jersey,kemeja,jaket) dan Makloon Sublime printing beserta Makloon Press Sublime. Genetic
@@ -92,16 +90,13 @@
                 </p>
                 <ul>
                     <li><i class="ri-check-double-line"></i>
-                        vandor jersey
+                        Sablon
                     </li>
                     <li><i class="ri-check-double-line"></i>
-                        T-shirt sablon
+                        Makloon Sublime Printing
                     </li>
                     <li><i class="ri-check-double-line"></i>
-                        kemeja</li>
-                    </li>
-                    <li><i class="ri-check-double-line"></i>
-                        makloon sublime printing
+                        Makloon Sublime Press
                     </li>
                 </ul>
             </div>
@@ -118,11 +113,11 @@
             <div class="row">
                 <div class="col-lg-6">
                     <div class="section-heading">
-                        <h1 class="text-white">We are trying to deliver 100% quality product and success their business to achieve ultimate goal.</h1>
+                        <h1 class="text-white">Kami mencoba memberikan produk berkualitas 100% untuk kepuasan pelanggan.</h1>
                     </div>
                 </div>
                 <div class="col-lg-6">
-                    <p class="lead text-white">We are providing best service since 1990 to present , committed to best service delivery.Nullam metus enim, placerat in lacus vel, porttitor egestas libero. Etiam ex risus, feugiat eget accumsan eu, sagittis eu urna. In eget ultrices metus. Nunc accumsan </p>
+                    <p class="lead text-white">Kami memberikan layanan terbaik sejak tahun 2008 hingga sekarang, berkomitmen untuk memberikan layanan terbaik dan terpercaya. Dengan memenuhi keinginan pelanggan serta memenuhi harapan para pelanggan agar merasa puas. </p>
                 </div>
             </div>
         </div>
@@ -135,8 +130,8 @@
                     <div class="single-project">
                         <img src="{{ asset('assets/images/projects/p-1.jpg')}}" alt="" class="img-fluid">
                         <div class="project-content">
-                            <h4>Project: onepage</h4>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate eligendi consequuntur veniam quod</p>
+                            <h4>layanan: Pembuatan produk</h4>
+                            <p>Layanan berupa pembuatan produk seperti baju sablon, jersey komunitas, kemeja, Jaket</p>
                         </div>
                     </div>
                 </div>
@@ -144,8 +139,8 @@
                     <div class="single-project">
                         <img src="{{ asset('assets/images/projects/p-4.jpg')}}" alt="" class="img-fluid">
                         <div class="project-content">
-                            <h4>Project: business</h4>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate eligendi consequuntur veniam quod</p>
+                            <h4>Layanan: Sublime Print</h4>
+                            <p>Layanan berupa jasa sublime print untuk memindahkan gambar anda yg telah di design ke sebuah kertas untuk di transfer/ dimasukan ke dalam produk yang berbahan kain</p>
                         </div>
                     </div>
                 </div>
@@ -153,8 +148,8 @@
                     <div class="single-project">
                         <img src="{{ asset('assets/images/projects/p-3.jpg')}}" alt="" class="img-fluid">
                         <div class="project-content">
-                            <h4>Project : Marketing</h4>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate eligendi consequuntur veniam quod</p>
+                            <h4>Layanan: Sublime Press</h4>
+                            <p>Layanan berupa jasa sumbile print untuk memindahkan kertas yang berisi gambar kedalam bahan berbahan kain dengan menggunakan tekhnologi heat transfer</p>
                         </div>
                     </div>
                 </div>
@@ -168,124 +163,9 @@
                 </div>
                 <div class="col-lg-4 col-md-12 col-sm-12 ">
                     <div class="project-content-block">
-                        <h4>Do you know who we are?</h4>
-                        <h2>More than just service your products...</h2>
-                        <p>Explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and we will give you a complete account of the system.</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-
-<section class="section" id="section-testimonial">
-        <div class="container">
-           <div class="row align-items-center">
-                <div class="col-lg-4 col-sm-12 col-md-12">
-                    <div class="section-heading testimonial-heading">
-                        <h1>What they say <br>about us</h1>
-                        <p>Numquam doloribus impedit at consectetur molestiae tempora ratione possimus in veniam aperiam, eum consequuntur, unde. Earum ullam molestiae suscipit saepe sunt recusandae.</p>
-                    </div>
-                </div>
-                <div class="col-lg-8 col-sm-12 col-md-12">
-                    <div class="row">
-                        <div class="col-lg-6">
-                            <div class="test-inner ">
-                               <div class="test-author-thumb d-flex">
-                                   <img src="{{ asset('assets/images/client/test-1.jpg')}}" alt="Testimonial author" class="img-fluid">
-                                   <div class="test-author-info">
-                                       <h4>Will Barrow</h4>
-                                       <h6>Sunrise Paradise Hotel</h6>
-                                   </div>
-                               </div>
-
-                                Quas ut distinctio tenetur animi nihil rem, amet dolorum totam. Ab repudiandae tempore qui fugiat amet ipsa id omnis ipsam, laudantium! Dolorem.
-
-                                <i class="fa fa-quote-right"></i>
-                            </div>
-                        </div>
-                        <div class="col-lg-6">
-                            <div class="test-inner ">
-                               <div class="test-author-thumb d-flex">
-                                   <img src="{{ asset('assets/images/client/test-2.jpg')}}" alt="Testimonial author" class="img-fluid">
-                                   <div class="test-author-info">
-                                       <h4>Will Barrow</h4>
-                                       <h6>Sunrise Paradise Hotel</h6>
-                                   </div>
-                               </div>
-
-                                Quas ut distinctio tenetur animi nihil rem, amet dolorum totam. Ab repudiandae tempore qui fugiat amet ipsa id omnis ipsam, laudantium! Dolorem.
-
-                                <i class="fa fa-quote-right"></i>
-                            </div>
-                        </div>
-                    </div>
-
-                     <div class="row">
-                        <div class="col-lg-6">
-                            <div class="test-inner ">
-                               <div class="test-author-thumb d-flex">
-                                   <img src="{{ asset('assets/images/client/test-3.jpg')}}" alt="Testimonial author" class="img-fluid">
-                                   <div class="test-author-info">
-                                       <h4>Will Barrow</h4>
-                                       <h6>Sunrise Paradise Hotel</h6>
-                                   </div>
-                               </div>
-
-                                Quas ut distinctio tenetur animi nihil rem, amet dolorum totam. Ab repudiandae tempore qui fugiat amet ipsa id omnis ipsam, laudantium! Dolorem.
-
-                                <i class="fa fa-quote-right"></i>
-                            </div>
-                        </div>
-                        <div class="col-lg-6">
-                            <div class="test-inner ">
-                               <div class="test-author-thumb d-flex">
-                                   <img src="{{ asset('assets/images/client/test-4.jpg')}}" alt="Testimonial author" class="img-fluid">
-                                   <div class="test-author-info">
-                                       <h4>Will Barrow</h4>
-                                       <h6>Sunrise Paradise Hotel</h6>
-                                   </div>
-                               </div>
-
-                                Quas ut distinctio tenetur animi nihil rem, amet dolorum totam. Ab repudiandae tempore qui fugiat amet ipsa id omnis ipsam, laudantium! Dolorem.
-
-                                <i class="fa fa-quote-right"></i>
-                            </div>
-                        </div>
-                    </div>
-
-                     <div class="row">
-                        <div class="col-lg-6">
-                            <div class="test-inner">
-                               <div class="test-author-thumb d-flex">
-                                   <img src="{{ asset('assets/images/client/test-5.jpg')}}" alt="Testimonial author" class="img-fluid">
-                                   <div class="test-author-info">
-                                       <h4>Will Barrow</h4>
-                                       <h6>Sunrise Paradise Hotel</h6>
-                                   </div>
-                               </div>
-
-                                Quas ut distinctio tenetur animi nihil rem, amet dolorum totam. Ab repudiandae tempore qui fugiat amet ipsa id omnis ipsam, laudantium! Dolorem.
-
-                                <i class="fa fa-quote-right"></i>
-                            </div>
-                        </div>
-
-                        <div class="col-lg-6">
-                            <div class="test-inner">
-                               <div class="test-author-thumb d-flex">
-                                   <img src="{{ asset('assets/images/client/test-6.jpg')}}" alt="Testimonial author" class="img-fluid">
-                                   <div class="test-author-info">
-                                       <h4>Will Barrow</h4>
-                                       <h6>Sunrise Paradise Hotel</h6>
-                                   </div>
-                               </div>
-
-                                Quas ut distinctio tenetur animi nihil rem, amet dolorum totam. Ab repudiandae tempore qui fugiat amet ipsa id omnis ipsam, laudantium! Dolorem.
-
-                                <i class="fa fa-quote-right"></i>
-                            </div>
-                        </div>
+                        <h4>Apakah Anda tahu siapa kita?</h4>
+                        <h2>Lebih dari sekedar membuat sebuah produk...</h2>
+                        <p>Tidak hanya bergerak di bidang pembuatan jersey dan sebagainya kami juga memiliki layanan berupa jasa untuk mencetak gambar anda dengan menggunakan sublime printing atau kami dapat menempelkan gambar yg sudah anda buat dengan menggunakan sublime press/heat transfer kedalam produk berbahan kain yang anda inginkan...</p>
                     </div>
                 </div>
             </div>
