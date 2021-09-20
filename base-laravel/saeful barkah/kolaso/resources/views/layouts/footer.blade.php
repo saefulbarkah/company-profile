@@ -22,10 +22,10 @@
                     </div>
                     <div class="widget--content">
                         <ul>
-                            <li><a href="{{ url('about') }}">Tentang kami</a></li>
-                            <li><a href="{{ url('service') }}">Layanan</a></li>
-                            <li><a href="{{ url('portfolio') }}">Portfolio</a></li>
-                            <li><a href="{{ url('contact') }}">Kontak</a></li>
+                            <li><a href="{{ url('tentang') }}">Tentang kami</a></li>
+                            <li><a href="{{ url('layanan') }}">Layanan</a></li>
+                            <li><a href="{{ url('portofolio') }}">Portfolio</a></li>
+                            <li><a href="{{ url('kontak') }}">Kontak</a></li>
                         </ul>
                     </div>
                 </div>
