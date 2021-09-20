@@ -236,7 +236,7 @@
 <section id="faq" class="faq pt-0">
     <div class="container-fluid">
         <div class="row">
-            <div class="col-sm-12 col-md-6 col-lg-7 bg-gray col-content">
+            <div class="col-sm-12 col-md-12 col-lg-12 bg-gray col-content">
                 <div class="heading heading-2 mb-50">
                     <p class="heading--subtitle">Pertanyaan</p>
                     <h2 class="heading--title">Yang Sering di tanyakan</h2>
@@ -277,13 +277,13 @@
 
             </div>
 
-            <div class="col-sm-12 col-md-6 col-lg-5 pr-0 pl-0">
+            {{-- <div class="col-sm-12 col-md-6 col-lg-5 pr-0 pl-0">
                 <div class="banner--img">
                     <img src="{{ asset('assets/images/background/banners.png') }}" class="img-fluid" width="500px"
-                        alt="banner">
-                </div>
-            </div>
+            alt="banner">
         </div>
+    </div> --}}
+    </div>
     </div>
 </section>
 
