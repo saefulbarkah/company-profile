@@ -133,7 +133,8 @@
                     <div class="col-col-sm-12 col-md-12 col-lg-12">
                         <div class="heading mb-60 mt-15">
                             <!-- <p class="heading--subtitle">Selamat Datang di</p> -->
-                            <h2 class="heading--title">Selamat Datang di<br>Genetic Wear, Kami menyediakan Sebuah layanan Berupa Konveksi & Sablon
+                            <h2 class="heading--title">Selamat Datang di<br>Genetic Wear, Kami menyediakan Sebuah
+                                layanan Berupa Konveksi & Sablon
                             </h2>
                         </div>
                     </div>
@@ -238,28 +239,38 @@
             <div class="col-sm-12 col-md-6 col-lg-7 bg-gray col-content">
                 <div class="heading heading-2 mb-50">
                     <p class="heading--subtitle">Pertanyaan</p>
-                    <h2 class="heading--title">Beberapa Pertanyaan dari pelanggan kami</h2>
+                    <h2 class="heading--title">Yang Sering di tanyakan</h2>
                 </div>
                 <div class="accordion accordion-1" id="accordion01">
 
                     <div class="card">
                         <div class="card-heading">
                             <a class="card-link collapsed" data-toggle="collapse" data-parent="#accordion01"
-                                href="#collapse01-1">Bisakah Saya membuat desain secara bebas ?</a>
+                                href="#collapse01-1">Apakah bisa dibuatkan desain produk ?</a>
                         </div>
                         <div id="collapse01-1" class="collapse" data-parent="#accordion01">
-                            <div class="card-body">Tentu bisa, Karena kami menyediakan sebuah desain produk yang secara
-                                bebas, dan kita bisa melakukan diskusi tentang desain yang akan di buat</div>
+                            <div class="card-body">Anda dapat meminta bantuan untuk pembuatan desain produk dengan
+                                memberikan referensi produk atau contoh produk, dan detail produk yang dibutuhkan
+                                termasuk logo, tulisan, dan font tulisan.</div>
                         </div>
                     </div>
                     <div class="card">
                         <div class="card-heading">
-                            <a class="card-link" data-toggle="collapse" data-parent="#accordion01"
-                                href="#collapse01-3">Produk apa saja yang tersedia ?</a>
+                            <a class="card-link collapsed" data-toggle="collapse" data-parent="#accordion01"
+                                href="#collapse01-2">Produk apa saja yang tersedia di genetic wear ?</a>
                         </div>
-                        <div id="collapse01-3" class="collapse show" data-parent="#accordion01">
-                            <div class="card-body">Kami menyediakan layanan sablon Jersey, Kemaja, Jacket dan juga
-                                Tshirt</div>
+                        <div id="collapse01-2" class="collapse" data-parent="#accordion01">
+                            <div class="card-body">Kami menyediakan pembuatan baju, jersey, kemeja dan jacket</div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-heading">
+                            <a class="card-link collapsed" data-toggle="collapse" data-parent="#accordion01"
+                                href="#collapse01-3">Genetic Wear lokasinya dimana ?</a>
+                        </div>
+                        <div id="collapse01-3" class="collapse" data-parent="#accordion01">
+                            <div class="card-body">Genetic Wear berlokasi di Bandung, untuk alamat Lengkapnya di Jl.
+                                Katapang Andir No.503, Sangkanhurip, Kec. Katapang, Bandung, Jawa Barat 40921</div>
                         </div>
                     </div>
                 </div>
@@ -268,7 +279,8 @@
 
             <div class="col-sm-12 col-md-6 col-lg-5 pr-0 pl-0">
                 <div class="banner--img">
-                    <img src="{{ asset('assets/images/background/banners.png') }}" class="img-fluid" alt="banner">
+                    <img src="{{ asset('assets/images/background/banners.png') }}" class="img-fluid" width="500px"
+                        alt="banner">
                 </div>
             </div>
         </div>
