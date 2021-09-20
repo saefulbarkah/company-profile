@@ -125,7 +125,7 @@
         <div class="row">
             <div class="col-sm-12 col-md-12 col-lg-6">
                 <div class="mockup--img" data-aos="fade-right">
-                    <img src="{{ asset('assets/images/background/fitur.png') }}" alt="mockup" class="img-fluid">
+                    <img src="{{ asset('assets/images/background/bg-welcome.png') }}" alt="mockup" class="img-fluid">
                 </div>
             </div>
             <div class="col-sm-12 col-md-12 col-lg-6">
@@ -251,7 +251,7 @@
                         <div id="collapse01-1" class="collapse" data-parent="#accordion01">
                             <div class="card-body">Anda dapat meminta bantuan untuk pembuatan desain produk dengan
                                 memberikan referensi produk atau contoh produk, dan detail produk yang dibutuhkan
-                                termasuk logo, tulisan, dan font tulisan.</div>
+                                termasuk <b>logo</b> , <b>tulisan</b> , dan <b>font tulisan</b>.</div>
                         </div>
                     </div>
                     <div class="card">
@@ -260,7 +260,8 @@
                                 href="#collapse01-2">Produk apa saja yang tersedia di genetic wear ?</a>
                         </div>
                         <div id="collapse01-2" class="collapse" data-parent="#accordion01">
-                            <div class="card-body">Kami menyediakan pembuatan baju, jersey, kemeja dan jacket</div>
+                            <div class="card-body">Kami menyediakan pembuatan <b>baju , jersey, kemeja dan jacket </b>
+                            </div>
                         </div>
                     </div>
                     <div class="card">
@@ -269,8 +270,22 @@
                                 href="#collapse01-3">Genetic Wear lokasinya dimana ?</a>
                         </div>
                         <div id="collapse01-3" class="collapse" data-parent="#accordion01">
-                            <div class="card-body">Genetic Wear berlokasi di Bandung, untuk alamat Lengkapnya di Jl.
-                                Katapang Andir No.503, Sangkanhurip, Kec. Katapang, Bandung, Jawa Barat 40921</div>
+                            <div class="card-body">Genetic Wear berlokasi di <b>Bandung</b> , untuk alamat Lengkapnya di
+                                <b>
+                                    Jl.
+                                    Katapang Andir No.503, Sangkanhurip, Kec. Katapang, Bandung, Jawa Barat 40921
+                                </b>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-heading">
+                            <a class="card-link collapsed" data-toggle="collapse" data-parent="#accordion01"
+                                href="#collapse01-4">Berapa Lama waktu pengerjaan ?</a>
+                        </div>
+                        <div id="collapse01-4" class="collapse" data-parent="#accordion01">
+                            <div class="card-body">Waktu pengerjaan produksi sekitar <b>1</b> sampai <b>2 minggu</b>
+                            </div>
                         </div>
                     </div>
                 </div>
