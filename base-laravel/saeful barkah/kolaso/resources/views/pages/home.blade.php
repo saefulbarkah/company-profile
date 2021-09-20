@@ -216,7 +216,7 @@
                     <div class="timeline-content" data-aos="fade-left">
                         <h3>Produksi</h3>
                         <p>Pembuatan produk sesuai dengan kesepakatan, dimana setiap prosesnya bisa di lihat secara
-                            transparan di Genetic Wear Integrated Sistem.</p>
+                            transparan di Genetic Wear Terintegrasi Sistem.</p>
                     </div>
                 </div>
                 <div class="timeline-item">
