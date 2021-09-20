@@ -132,11 +132,9 @@
                 <div class="row" data-aos="fade-left">
                     <div class="col-col-sm-12 col-md-12 col-lg-12">
                         <div class="heading mb-60 mt-15">
-                            <p class="heading--subtitle">Layanan & Jasa</p>
-                            <h2 class="heading--title">Kami Juga menyediakan<br> Layanan Konveksi Pakaian (sablon &
-                                sublime)
+                            <!-- <p class="heading--subtitle">Selamat Datang di</p> -->
+                            <h2 class="heading--title">Selamat Datang di<br>Genetic Wear, Kami menyediakan Sebuah layanan Berupa Konveksi & Sablon
                             </h2>
-                            <p class="heading--desc">bagi Perorangan, Perusahaan, Organisasi, maupun Instansi.</p>
                         </div>
                     </div>
                 </div>
