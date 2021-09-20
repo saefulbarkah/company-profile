@@ -34,10 +34,9 @@
         <div class="row">
             <div class="col-md-6 mb-5 mb-md-0">
                 <div class="block">
-                    <h2 class="subtitle wow fadeInDown" data-wow-duration="500ms" data-wow-delay=".3s">hubungi saya</h2>
+                    <h2 class="subtitle wow fadeInDown" data-wow-duration="500ms" data-wow-delay=".3s">hubungi Kami</h2>
                     <p class="subtitle-des wow fadeInDown" data-wow-duration="500ms" data-wow-delay=".5s">
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore, ea!
-                         consectetur adipisicing elit. Dolore, ea!
+                        Jika anda memiliki pertanyaan atau tertarik anda dapat mengirimi kami pesan
                     </p>
                     <div class="contact-form">
                         <form id="contact-form" method="#" action="#" role="form">
@@ -75,9 +74,9 @@
             </div>
             <div class="col-md-6">
                  <div class="map-area">
-                    <h2 class="subtitle  wow fadeInDown" data-wow-duration="500ms" data-wow-delay=".3s">Temukan kami</h2>
+                    <h2 class="subtitle  wow fadeInDown" data-wow-duration="500ms" data-wow-delay=".3s">Alamat Kami</h2>
                     <p class="subtitle-des wow fadeInDown" data-wow-duration="500ms" data-wow-delay=".5s">
-                        Si aute quis eu proident o cupidatat ne anim nescius, et est praesentibus, o quorum vidisse expetendis, nostrud eram quibusdam ad nam nostrud ubi.
+                        Anda dapat menggunakan google map di bawah untuk mengetahui alamat kami.
 
                     </p>
                     <div class="map">

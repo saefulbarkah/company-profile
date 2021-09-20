@@ -33,12 +33,14 @@
             </div>
             <div class="col-md-6">
                 <div class="block">
-                    <h3 class="subtitle wow fadeInUp" data-wow-delay=".3s" data-wow-duration="500ms">Mengapa Kita Berbeda</h3>
+                    <h3 class="subtitle wow fadeInUp" data-wow-delay=".3s" data-wow-duration="500ms">TENTANG KAMI</h3>
                     <p  class="wow fadeInUp" data-wow-delay=".5s" data-wow-duration="500ms">
-                        Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequun. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                    </p>
-                    <p  class="wow fadeInUp" data-wow-delay=".7s" data-wow-duration="500ms">
-                        Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae.
+                        Genetic Wear merupakan sebuah perusahaan konveksi yang memiliki layanan Design, pembuatan
+                        (T-shirt,Jersey,kemeja,jaket) dan Makloon Sublime printing beserta Makloon Press Sublime. Genetic
+                        Waer mulai di dirikan pada tahun 2008 dengan penyedia layanan konveksi seiring perkembangan waktu
+                        pada tahun 2010 perusahaan Genetic Wear mulai bergerak ke sebuah layanan baru yaitu sablon. Terus
+                        berlanjut Genetic Wear mulai mengadakan sebuah layanan baru dengan alat teknologi terbaru yaitu
+                        Sublime.
                     </p>
 
                 </div>
@@ -58,30 +60,30 @@
             <div class="col-lg-4 px-0">
                 <div class="block about-feature-1 wow fadeInDown" data-wow-duration="500ms" data-wow-delay=".3s">
                     <h2>
-                        Mengapa Memilih Kami
+                        Mengapa harus Memilih Kami
                     </h2>
                     <p>
-                        Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas.
+                        Seperti yang anda tau kami memiliki pengalaman sejak 2008 di bidang sablon yang membuat kami memiliki banyak jam terbang atau pengalaman yang membuat kami dapat memenuhi harapan anda.
                     </p>
                 </div>
             </div>
             <div class="col-lg-4 px-0">
                 <div class="block about-feature-2 wow fadeInDown" data-wow-duration="500ms" data-wow-delay=".5s">
                     <h2 class="item_title">
-                        Apa yang kau dapatkan
+                        Apa yang anda dapatkan
                     </h2>
                     <p>
-                        Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas.
+                        Anda dapat mempercayai kami untuk membuat produk yang anda ingin kan berupa jersey baju dan lain lain, atau anda dapat menggunakan layanan yang kami berikan berupa sublime print atau sublime press.
                     </p>
                 </div>
             </div>
             <div class="col-lg-4 px-0">
                 <div class="block about-feature-3 wow fadeInDown" data-wow-duration="500ms" data-wow-delay=".7s">
                     <h2 class="item_title">
-                    pilihan tepat
+                    pilihan yang tepat
                     </h2>
                     <p>
-                        Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas.
+                        Anda memilih pilihan yang tepat karena telah memilih kami untuk mengurus kebutuhan anda sehingga anda tak perlu cemas tentang proses nya, kami akan memberikan yang terbaik.
                     </p>
                 </div>
             </div>
@@ -105,8 +107,8 @@
                     <div class="team-img">
                         <img src="{{ asset('assets/images/team/team-1.jpg')}}" class="team-pic" alt="">
                     </div>
-                    <h3 class="team_name">Jonathon Andrew</h3>
-                    <p class="team_designation">CEO, Project Manager</p>
+                    <h3 class="team_name">Hanif Kurniawan</h3>
+                    <p class="team_designation">CEO, Pemilik Genetic</p>
                     <p class="team_text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore </p>
                     <p class="social-icons">
                         <a href="#" class="facebook" target="_blank"><i class="ion-social-facebook-outline"></i></a>
@@ -121,8 +123,8 @@
                     <div class="team-img">
                         <img src="{{ asset('assets/images/team/team-2.jpg')}}" class="team-pic" alt="">
                     </div>
-                    <h3 class="team_name">Jesmin Martina</h3>
-                    <p class="team_designation">CEO, Project Manager</p>
+                    <h3 class="team_name">Angga Pratama</h3>
+                    <p class="team_designation">COO, Project Manager</p>
                     <p class="team_text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore .</p>
                     <p class="social-icons">
                         <a href="#" class="facebook" target="_blank"><i class="ion-social-facebook-outline"></i></a>
@@ -137,8 +139,8 @@
                     <div class="team-img">
                         <img src="{{ asset('assets/images/team/team-3.jpg')}}" class="team-pic" alt="">
                     </div>
-                    <h3 class="team_name">Deu John</h3>
-                    <p class="team_designation">CEO, Project Manager</p>
+                    <h3 class="team_name">Fian</h3>
+                    <p class="team_designation">Ketua tim print</p>
                     <p class="team_text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore .</p>
                     <p class="social-icons">
                         <a href="#" class="facebook" target="_blank"><i class="ion-social-facebook-outline"></i></a>
@@ -153,8 +155,8 @@
                     <div class="team-img">
                         <img src="{{ asset('assets/images/team/team-4.jpg')}}" class="team-pic" alt="">
                     </div>
-                    <h3 class="team_name">Anderson Martin</h3>
-                    <p class="team_designation">CEO, Project Manager</p>
+                    <h3 class="team_name">Alby yahya</h3>
+                    <p class="team_designation">Ketua tim press</p>
                     <p class="team_text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore .</p>
                     <p class="social-icons">
                         <a href="#" class="facebook" target="_blank"><i class="ion-social-facebook-outline"></i></a>
@@ -168,33 +170,6 @@
     </div>
 </section>
 
-<!--
-        ==================================================
-            Clients Section Start
-        ================================================== -->
-<section id="clients">
-    <div class="container">
-        <div class="row">
-            <div class="col-md-12">
-                <h2 class="subtitle text-center wow fadeInUp animated" data-wow-duration="500ms" data-wow-delay=".3s">Klien Kami yang Bahagia</h2>
-                <p class="subtitle-des text-center wow fadeInUp animated" data-wow-duration="500ms" data-wow-delay=".5s">Lorem
-                    ipsum dolor sit amet, consectetur adipisicing elit. Labore, error.</p>
-                <div id="clients-logo" class="clients-logo-slider">
-                    <img class="img-fluid mx-2" src="{{ asset('assets/images/clients/logo-1.jpg')}}" alt="">
-                    <img class="img-fluid mx-2" src="{{ asset('assets/images/clients/logo-2.jpg')}}" alt="">
-                    <img class="img-fluid mx-2" src="{{ asset('assets/images/clients/logo-3.jpg')}}" alt="">
-                    <img class="img-fluid mx-2" src="{{ asset('assets/images/clients/logo-4.jpg')}}" alt="">
-                    <img class="img-fluid mx-2" src="{{ asset('assets/images/clients/logo-5.jpg')}}" alt="">
-                    <img class="img-fluid mx-2" src="{{ asset('assets/images/clients/logo-1.jpg')}}" alt="">
-                    <img class="img-fluid mx-2" src="{{ asset('assets/images/clients/logo-2.jpg')}}" alt="">
-                    <img class="img-fluid mx-2" src="{{ asset('assets/images/clients/logo-3.jpg')}}" alt="">
-                    <img class="img-fluid mx-2" src="{{ asset('assets/images/clients/logo-4.jpg')}}" alt="">
-                    <img class="img-fluid mx-2" src="{{ asset('assets/images/clients/logo-5.jpg')}}" alt="">
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
 </section>
 
 @endsection

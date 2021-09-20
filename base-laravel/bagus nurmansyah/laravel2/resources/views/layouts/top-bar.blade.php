@@ -28,7 +28,7 @@
                                 <a class="nav-link" href="{{ url('service') }}">layanan</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="{{ url('portfolio') }}">portofolio</a>
+                                <a class="nav-link" href="https://www.instagram.com/gntcwr/?hl=id">portofolio</a>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link" href="{{ url('contact') }}">kontak</a>

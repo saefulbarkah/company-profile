@@ -38,11 +38,8 @@
     <div class="container">
         <div class="row">
             <div class="col-lg-6">
-                <h2 class="subtitle wow fadeInUp animated" data-wow-delay=".3s" data-wow-duration="500ms">Apa yang Kami Suka Lakukan</h2>
-                <p class="subtitle-des wow fadeInUp animated" data-wow-delay=".5s" data-wow-duration="500ms">Lorem
-                    ipsum dolor sit amet, consectetur adipisicing elit. Perspiciatis porro recusandae non quibusdam
-                    iure adipisci.</p>
-            </div>
+                <h2 class="subtitle wow fadeInUp animated" data-wow-delay=".3s" data-wow-duration="500ms">Apa yang Dapat Kami Lakukan</h2>
+                <p class="subtitle-des wow fadeInUp animated" data-wow-delay=".5s" data-wow-duration="500ms">Kami dapat memberikan anda penawaran berupa beberapa produk dan layanan</p>
         </div>
         <div class="row">
             <div class="col-lg-6 order-2 order-lg-1">
@@ -51,33 +48,29 @@
                         <div class="col-md-6">
                             <div class="block wow fadeInUp animated" data-wow-duration="400ms" data-wow-delay="600ms">
                                 <i class="ion-ios-paper-outline"></i>
-                                <h4>DESIGN</h4>
-                                <p>Veritatis eligendi, dignissimos. Porta fermentum mus aute pulvinar earum minus
-                                    platea massa feugiat rutrum urna facilisi ipsameum.</p>
+                                <h4>Design</h4>
+                                <p>Kami dapat mendesignkan gambar sesuai keinginan anda atau anda dapat memberikan hasil design anda kepada kami.</p>
                             </div>
                         </div>
                         <div class="col-md-6">
                             <div class="block wow fadeInUp animated" data-wow-duration="400ms" data-wow-delay="800ms">
                                 <i class="ion-ios-paper-outline"></i>
-                                <h4>makloon Sublime Printing</h4>
-                                <p>Veritatis eligendi, dignissimos. Porta fermentum mus aute pulvinar earum minus
-                                    platea massa feugiat rutrum urna facilisi ipsameum.</p>
+                                <h4>Makloon Sublime Printing</h4>
+                                <p>Layanan sublime print berupa printing atau mentrasfer dari sebuah gambar di foto menjadi gambar di sebuah bahan kertas.</p>
                             </div>
                         </div>
                         <div class="col-md-6">
                             <div class="block wow fadeInUp animated" data-wow-duration="400ms" data-wow-delay="1s">
                                 <i class="ion-ios-paper-outline"></i>
-                                <h4>Makloon press sublime</h4>
-                                <p>Veritatis eligendi, dignissimos. Porta fermentum mus aute pulvinar earum minus
-                                    platea massa feugiat rutrum urna facilisi ipsameum.</p>
+                                <h4>Makloon sublime press</h4>
+                                <p>Layanan sublime press berupa heat transfer atau mentransfer gambar yang berada di kertas ke sebuah produk berbahan kain dengan menggunakan uap panas.</p>
                             </div>
                         </div>
                         <div class="col-md-6">
                             <div class="block wow fadeInUp animated" data-wow-duration="400ms" data-wow-delay="1.1s">
                                 <i class="ion-ios-paper-outline"></i>
                                 <h4>penjahitan</h4>
-                                <p>Veritatis eligendi, dignissimos. Porta fermentum mus aute pulvinar earum minus
-                                    platea massa feugiat rutrum urna facilisi ipsameum.</p>
+                                <p>Layanan berupa menjahit merupakan sebuah layanan untuk menjahit produk yang telah di pesan seperti bahan yang telah di sablon atau belum.</p>
                             </div>
                         </div>
                     </div>
@@ -100,11 +93,6 @@
 <section class="works service-page">
     <div class="container">
         <h2 class="subtitle wow fadeInUp animated" data-wow-delay=".3s" data-wow-duration="500ms">Beberapa hasil kerja kami</h2>
-        <p class="subtitle-des wow fadeInUp animated" data-wow-delay=".5s" data-wow-duration="500ms">
-            Aliquam lobortis. Maecenas vestibulum mollis diam. Pellentesque auctor neque nec urna. Nulla sit amet est.
-            Aenean posuere <br> tortor sed cursus feugiat, nunc augue blandit nunc, eu sollicitudin urna dolor sagittis
-            lacus.
-        </p>
         <div class="row">
             <div class="col-md-3 col-sm-6">
                 <figure class="wow fadeInLeft animated portfolio-item" data-wow-duration="500ms" data-wow-delay="0ms">
@@ -120,12 +108,9 @@
                     <figcaption>
                         <h4>
                             <a href="#">
-                                T-shirt sablon
+                                Baju sablon
                             </a>
                         </h4>
-                        <p>
-                            Lorem ipsum dolor sit.
-                        </p>
                     </figcaption>
                 </figure>
             </div>
@@ -144,12 +129,9 @@
                     <figcaption>
                         <h4>
                             <a href="#">
-                                T-shirt sablon
+                                Kemeja casual
                             </a>
                         </h4>
-                        <p>
-                            Lorem ipsum dolor sit.
-                        </p>
                     </figcaption>
                 </figure>
             </div>
@@ -168,12 +150,9 @@
                     <figcaption>
                         <h4>
                             <a href="#">
-                                T-shirt sablon
+                                Jersey Futsal
                             </a>
                         </h4>
-                        <p>
-                            Lorem ipsum dolor sit amet.
-                        </p>
                     </figcaption>
                 </figure>
             </div>
@@ -192,12 +171,9 @@
                     <figcaption>
                         <h4>
                             <a href="#">
-                                T-shirt sablon
+                                Kemeja Bola
                             </a>
                         </h4>
-                        <p>
-                            Lorem ipsum dolor.
-                        </p>
                     </figcaption>
                 </figure>
             </div>
@@ -205,32 +181,5 @@
     </div>
 </section>
 
-<!--
-        ==================================================
-            Clients Section Start
-        ================================================== -->
-<section id="clients">
-    <div class="container">
-        <div class="row">
-            <div class="col-md-12">
-                <h2 class="subtitle text-center wow fadeInUp animated" data-wow-duration="500ms" data-wow-delay=".3s">Klien Kami yang Bahagia</h2>
-                <p class="subtitle-des text-center wow fadeInUp animated" data-wow-duration="500ms" data-wow-delay=".5s">Lorem
-                    ipsum dolor sit amet, consectetur adipisicing elit. Labore, error.</p>
-                <div id="clients-logo" class="clients-logo-slider">
-                    <img class="img-fluid mx-2" src="{{ asset('assets/images/clients/logo-1.jpg')}}" alt="">
-                    <img class="img-fluid mx-2" src="{{ asset('assets/images/clients/logo-2.jpg')}}" alt="">
-                    <img class="img-fluid mx-2" src="{{ asset('assets/images/clients/logo-3.jpg')}}" alt="">
-                    <img class="img-fluid mx-2" src="{{ asset('assets/images/clients/logo-4.jpg')}}" alt="">
-                    <img class="img-fluid mx-2" src="{{ asset('assets/images/clients/logo-5.jpg')}}" alt="">
-                    <img class="img-fluid mx-2" src="{{ asset('assets/images/clients/logo-1.jpg')}}" alt="">
-                    <img class="img-fluid mx-2" src="{{ asset('assets/images/clients/logo-2.jpg')}}" alt="">
-                    <img class="img-fluid mx-2" src="{{ asset('assets/images/clients/logo-3.jpg')}}" alt="">
-                    <img class="img-fluid mx-2" src="{{ asset('assets/images/clients/logo-4.jpg')}}" alt="">
-                    <img class="img-fluid mx-2" src="{{ asset('assets/images/clients/logo-5.jpg')}}" alt="">
-                </div>
-            </div>
-        </div>
-    </div>
 </section>
-
 @endsection
