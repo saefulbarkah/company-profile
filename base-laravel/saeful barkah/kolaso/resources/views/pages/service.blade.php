@@ -4,7 +4,7 @@
 @section('content')
 <section id="page-title" class="page-title bg-overlay bg-overlay-dark2 bg-parallax">
     <div class="bg-section">
-        <img src="{{ asset('assets/images/background/editing.jpg') }}" alt="Background" width="400" height="500" />
+        <img src="{{ asset('assets/images/background/bg-layanan2.png') }}" alt="Background" width="400" height="500" />
     </div>
     <div class="container">
         <div class="row">
