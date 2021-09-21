@@ -48,9 +48,9 @@
                     <div class="contact--content">
                         <h4>Informasi Kontak</h4>
                         <p>
-                            Email: genetic.wear@gmail.com
+                            Email: <b>genetic.wear@gmail.com</b>
                             <br>
-                            Phone: +62 81221337876</p>
+                            Telp : <b>+62 81221337876</b></p>
                     </div>
                 </div>
             </div>
