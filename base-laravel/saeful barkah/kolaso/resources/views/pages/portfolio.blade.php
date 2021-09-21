@@ -42,74 +42,15 @@
 
         </div>
         <div id="work-all" class="row">
-
             <div class="col-sm-6 col-md-6 col-lg-4 work-item filter-jersey">
                 <div class="work-item-container">
                     <div class="work--img">
-                        <img src="{{ asset('assets/images/portfolio/baju-merah-depan.jpg') }}">
+                        <img src="{{ asset('assets/images/portfolio/futsal-1-depan.jpg') }}" alt="work Item">
                         <div class="work--hover">
                             <div class="work--action">
                                 <div class="work--zoom">
                                     <a data-fancybox="galery"
-                                        href="{{ asset('assets/images/portfolio/baju-merah-depan.jpg') }}"
-                                        title="Work Item">
-                                    </a>
-                                </div>
-                                {{-- <div class="work--content">
-                                    <div class="work--title">
-                                        <h4><a href="work-single-small-images.html">Baby Tshirt Branding</a></h4>
-                                    </div>
-                                    <div class="work--cat">
-                                        <a href="#">Packaging</a>
-                                    </div>
-                                </div> --}}
-                            </div>
-
-                        </div>
-
-                    </div>
-
-                </div>
-            </div>
-            <div class="col-sm-6 col-md-6 col-lg-4 work-item filter-jersey">
-                <div class="work-item-container">
-                    <div class="work--img">
-                        <img src="{{ asset('assets/images/portfolio/baju-merah-belakang.jpg') }}" alt="work Item">
-                        <div class="work--hover">
-                            <div class="work--action">
-                                <div class="work--zoom">
-                                    <a data-fancybox="galery"
-                                        href="{{ asset('assets/images/portfolio/baju-merah-belakang.jpg') }}"
-                                        title="Work Item">
-                                        <i class="fas fa-search"></i>
-                                    </a>
-                                </div>
-                                {{-- <div class="work--content">
-                                    <div class="work--title">
-                                        <h4><a href="work-single-small-images.html">Baby Tshirt Branding</a></h4>
-                                    </div>
-                                    <div class="work--cat">
-                                        <a href="#">Packaging</a>
-                                    </div>
-                                </div> --}}
-                            </div>
-
-                        </div>
-
-                    </div>
-
-                </div>
-            </div>
-
-            <div class="col-sm-6 col-md-6 col-lg-4 work-item filter-jersey">
-                <div class="work-item-container">
-                    <div class="work--img">
-                        <img src="{{ asset('assets/images/portfolio/baju-hijau-depan.jpg') }}" alt="work Item">
-                        <div class="work--hover">
-                            <div class="work--action">
-                                <div class="work--zoom">
-                                    <a data-fancybox="galery"
-                                        href="{{ asset('assets/images/portfolio/baju-hijau-depan.jpg') }}"
+                                        href="{{ asset('assets/images/portfolio/futsal-1-depan.jpg') }}"
                                         title="Work Item">
                                         <i class="fas fa-search"></i>
                                     </a>
@@ -133,12 +74,12 @@
             <div class="col-sm-6 col-md-6 col-lg-4 work-item filter-jersey">
                 <div class="work-item-container">
                     <div class="work--img">
-                        <img src="{{ asset('assets/images/portfolio/baju-hijau-belakang.jpg') }}" alt="work Item">
+                        <img src="{{ asset('assets/images/portfolio/futsal-1-belakang.jpg') }}" alt="work Item">
                         <div class="work--hover">
                             <div class="work--action">
                                 <div class="work--zoom">
                                     <a data-fancybox="galery"
-                                        href="{{ asset('assets/images/portfolio/baju-hijau-belakang.jpg') }}"
+                                        href="{{ asset('assets/images/portfolio/futsal-1-belakang.jpg') }}"
                                         title="Work Item">
                                         <i class="fas fa-search"></i>
                                     </a>
@@ -152,52 +93,19 @@
                                     </div>
                                 </div> --}}
                             </div>
-
                         </div>
-
                     </div>
-
-                </div>
-            </div>
-
-            <div class="col-sm-6 col-md-6 col-lg-4 work-item filter-jersey">
-                <div class="work-item-container">
-                    <div class="work--img">
-                        <img src="{{ asset('assets/images/portfolio/baju-orange-depan.jpg') }}" alt="work Item">
-                        <div class="work--hover">
-                            <div class="work--action">
-                                <div class="work--zoom">
-                                    <a data-fancybox="galery"
-                                        href="{{ asset('assets/images/portfolio/baju-orange-depan.jpg') }}"
-                                        title="Work Item">
-                                        <i class="fas fa-search"></i>
-                                    </a>
-                                </div>
-                                {{-- <div class="work--content">
-                                    <div class="work--title">
-                                        <h4><a href="work-single-small-images.html">Baby Tshirt Branding</a></h4>
-                                    </div>
-                                    <div class="work--cat">
-                                        <a href="#">Packaging</a>
-                                    </div>
-                                </div> --}}
-                            </div>
-
-                        </div>
-
-                    </div>
-
                 </div>
             </div>
             <div class="col-sm-6 col-md-6 col-lg-4 work-item filter-jersey">
                 <div class="work-item-container">
                     <div class="work--img">
-                        <img src="{{ asset('assets/images/portfolio/baju-orange-belakang.jpg') }}" alt="work Item">
+                        <img src="{{ asset('assets/images/portfolio/futsal-3-belakang.jpg') }}" alt="work Item">
                         <div class="work--hover">
                             <div class="work--action">
                                 <div class="work--zoom">
                                     <a data-fancybox="galery"
-                                        href="{{ asset('assets/images/portfolio/baju-orange-belakang.jpg') }}"
+                                        href="{{ asset('assets/images/portfolio/futsal-3-belakang.jpg') }}"
                                         title="Work Item">
                                         <i class="fas fa-search"></i>
                                     </a>
@@ -211,14 +119,36 @@
                                     </div>
                                 </div> --}}
                             </div>
-
                         </div>
-
                     </div>
-
                 </div>
             </div>
-
+            <div class="col-sm-6 col-md-6 col-lg-4 work-item filter-jersey">
+                <div class="work-item-container">
+                    <div class="work--img">
+                        <img src="{{ asset('assets/images/portfolio/futsal-3-depan.jpg') }}" alt="work Item">
+                        <div class="work--hover">
+                            <div class="work--action">
+                                <div class="work--zoom">
+                                    <a data-fancybox="galery"
+                                        href="{{ asset('assets/images/portfolio/futsal-3-depan.jpg') }}"
+                                        title="Work Item">
+                                        <i class="fas fa-search"></i>
+                                    </a>
+                                </div>
+                                {{-- <div class="work--content">
+                                    <div class="work--title">
+                                        <h4><a href="work-single-small-images.html">Baby Tshirt Branding</a></h4>
+                                    </div>
+                                    <div class="work--cat">
+                                        <a href="#">Packaging</a>
+                                    </div>
+                                </div> --}}
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
 

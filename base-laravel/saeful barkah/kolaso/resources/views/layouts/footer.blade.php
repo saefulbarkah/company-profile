@@ -22,20 +22,20 @@
                     </div>
                     <div class="widget--content">
                         <ul>
-                            <li><a href="{{ url('about') }}">Tentang kami</a></li>
-                            <li><a href="{{ url('service') }}">Layanan</a></li>
-                            <li><a href="{{ url('portfolio') }}">Portfolio</a></li>
-                            <li><a href="{{ url('contact') }}">Kontak</a></li>
+                            <li><a href="{{ url('tentang') }}">Tentang kami</a></li>
+                            <li><a href="{{ url('layanan') }}">Layanan</a></li>
+                            <li><a href="{{ url('portofolio') }}">Portfolio</a></li>
+                            <li><a href="{{ url('kontak') }}">Kontak</a></li>
                         </ul>
                     </div>
                 </div>
                 <div class="col-sm-12 col-md-6 col-lg-4 footer--widget widget--contact-info">
                     <div class="footer--widget-title">
-                        <h5>Contact Info</h5>
+                        <h5>Informasi Kontak</h5>
                     </div>
                     <div class="widget--content">
                         <ul>
-                            <li>Phone: +62 81221337876</li>
+                            <li>Telp: +62 81221337876</li>
                             <li>Email: genetic.wear@gmail.com</li>
                             <li>Alamat: Jl. Katapang Andir No.503, Sangkanhurip, Kec. Katapang, Bandung, Jawa Barat
                                 40921</li>
