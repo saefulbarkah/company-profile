@@ -238,7 +238,7 @@
         <div class="row">
             <div class="col-sm-12 col-md-12 col-lg-12 bg-gray col-content">
                 <div class="heading heading-2 mb-50">
-                    <p class="heading--subtitle">Pertanyaan</p>
+                    <p class="heading--subtitle">FAQ</p>
                     <h2 class="heading--title">Yang Sering di tanyakan</h2>
                 </div>
                 <div class="accordion accordion-1" id="accordion01">
