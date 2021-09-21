@@ -116,7 +116,7 @@
                         <img src="https://1.bp.blogspot.com/-5bz7f7SDKr4/XFm9txpcWDI/AAAAAAAAC2k/hVqsvktILtoyiJZ1-7W2JsnEEo420YTlwCLcBGAs/w1200-h630-p-k-no-nu/mockup-jaket-hoodie.jpg"
                             class="card-img-top" alt="...">
                         <div class="card-body">
-                            <h5 class="card-title text-center">Jacket</h5>
+                            <h5 class="card-title text-center">Jaket</h5>
                         </div>
                     </div>
                 </div>
