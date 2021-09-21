@@ -28,7 +28,7 @@
                                 <a class="nav-link" href="{{ url('service') }}">layanan</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="https://www.instagram.com/gntcwr/?hl=id">portofolio</a>
+                                <a class="nav-link" href="https://www.instagram.com/gntcwr/?hl=id" target="_blank">portofolio</a>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link" href="{{ url('contact') }}">kontak</a>
@@ -41,3 +41,5 @@
     </div>
 </section>
 {{-- end navbar section --}}
+
+{{-- {{ url('portfolio') }} --}}

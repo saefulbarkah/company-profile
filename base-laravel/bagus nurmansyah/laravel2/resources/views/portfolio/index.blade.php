@@ -8,7 +8,7 @@
         <div class="row">
             <div class="col-md-12">
                 <div class="block">
-                    <h2>Judul Besar untuk Proyek Portofolio</h2>
+                    <h2>Proyek Portofolio</h2>
                     <div class="portfolio-meta">
                         <span>Dec 11, 2020</span>|
                         <span> Kategori: konveksi</span>|
@@ -90,10 +90,6 @@
 <section class="works works-fit">
     <div class="container">
         <h2 class="subtitle">Beberapa hasil kerja kami</h2>
-        <p class="subtitle-des">
-            Aliquam lobortis. Maecenas vestibulum mollis diam. Pellentesque auctor neque nec urna. Nulla sit amet est. Aenean posuere
-            <br> tortor sed cursus feugiat, nunc augue blandit nunc, eu sollicitudin urna dolor sagittis lacus.
-        </p>
         <div class="row">
             <div class="col-md-3 col-sm-6">
                 <figure class="wow fadeInLeft animated portfolio-item animated" data-wow-duration="300ms" data-wow-delay="0ms" style="visibility: visible; animation-duration: 300ms; -webkit-animation-duration: 300ms; animation-delay: 0ms; -webkit-animation-delay: 0ms; animation-name: fadeInLeft; -webkit-animation-name: fadeInLeft;">
@@ -112,9 +108,6 @@
                                 T-shirt sablon
                             </a>
                         </h4>
-                        <p>
-                            Lorem ipsum dolor sit.
-                        </p>
                     </figcaption>
                 </figure>
             </div>
@@ -136,9 +129,6 @@
                                 T-shirt sablon
                             </a>
                         </h4>
-                        <p>
-                            Lorem ipsum dolor sit.
-                        </p>
                     </figcaption>
                 </figure>
             </div>
@@ -160,9 +150,6 @@
                                 T-shirt sablon
                             </a>
                         </h4>
-                        <p>
-                            Lorem ipsum dolor sit amet.
-                        </p>
                     </figcaption>
                 </figure>
             </div>
@@ -184,9 +171,6 @@
                                 T-shirt sablon
                             </a>
                         </h4>
-                        <p>
-                            Lorem ipsum dolor.
-                        </p>
                     </figcaption>
                 </figure>
             </div>
