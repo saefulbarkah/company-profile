@@ -32,7 +32,7 @@
                     <p class="heading--subtitle">Tentang Kami</p>
                     <h2 class="heading--title">Genetic Wear</h2>
                     <p class="heading--desc">Genetic Wear merupakan sebuah perusahaan konveksi yang memiliki layanan
-                        Design, pembuatan (T-shirt,Jersey,kemeja,jaket) dan Makloon Sublime printing beserta Makloon
+                        Design, pembuatan (T-shirt, Jersey, kemeja, jaket) dan Makloon Sublime printing beserta Makloon
                         Press Sublime. Genetic Wear mulai di dirikan pada tahun 2008 dengan penyedia layanan konveksi
                         seiring perkembangan waktu pada tahun 2010 perusahaan Genetic Wear mulai bergerak ke sebuah
                         layanan baru yaitu sablon. Terus berlanjut Genetic Wear mulai mengadakan sebuah layanan baru
