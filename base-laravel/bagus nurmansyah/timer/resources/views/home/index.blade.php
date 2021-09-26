@@ -19,7 +19,7 @@ Slider Section Start
                             <span>Genetic wear</span><br>
                             <span class="cd-words-wrapper">
                                 <b class="is-visible">jersey</b>
-                                <b>Baju sablon</b>
+                                <b>Baju</b>
                                 <b>kemeja</b>
                                 <b>jaket</b>
                             </span>
@@ -27,7 +27,7 @@ Slider Section Start
                     </section> <!-- cd-intro -->
                     <!-- /.slider -->
                     <h2 class="wow fadeInUp animated" data-wow-delay=".6s">
-                       Berpengalaman sejak tahun 2008 hingga sekarang, Kami berkomitmen untuk<br> memberikan layanan terbaik dan terpercaya.
+                       Berpengalaman sejak tahun 2008 hingga sekarang, kami berkomitmen untuk<br> memberikan layanan terbaik dan terpercaya.
                     </h2>
                 </div>
             </div>
@@ -49,7 +49,7 @@ About Section Start
                         Lebih dari sekedar membuat sebuah produk...
                     </h2>
                     <p>
-                        Tidak hanya bergerak di bidang pembuatan jersey dan sebagainya kami juga memiliki layanan berupa jasa untuk mencetak gambar anda dengan menggunakan sublime printing atau kami dapat menempelkan gambar yg sudah anda buat dengan menggunakan sublime press/heat transfer kedalam produk berbahan kain yang anda inginkan...
+                        Tidak hanya bergerak di bidang pembuatan jersey dan sebagainya kami juga memiliki layanan berupa jasa untuk mencetak gambar anda dengan menggunakan sublime printing atau kami dapat menempelkan hasil printing yg sudah anda buat dengan menggunakan sublime press/heat transfer kedalam produk berbahan kain yang anda inginkan...
                     </p>
                 </div>
 
@@ -79,8 +79,8 @@ About Section Start
                         </div>
                     </div>
                     <div class="media-body">
-                        <h4 class="media-heading">jersey</h4>
-                        <p>Jersey merupakan produk kami berupa jersey yang di sablon .</p>
+                        <h4 class="media-heading">Jersey</h4>
+                        <p>Jersey merupakan produk kami berupa jersey yang di sablon.</p>
                     </div>
                 </div>
             </div>
@@ -105,8 +105,8 @@ About Section Start
                             width="40px"></div>
                     </div>
                     <div class="media-body">
-                        <h4 class="media-heading">kemeja</h4>
-                        <p>kemeja meupakan produk kami berupa kemeja polos atau bermotif.</p>
+                        <h4 class="media-heading">Kemeja</h4>
+                        <p>Kemeja meupakan produk kami berupa kemeja polos atau bermotif.</p>
                     </div>
                 </div>
             </div>
@@ -118,8 +118,8 @@ About Section Start
                         </div>
                     </div>
                     <div class="media-body">
-                        <h4 class="media-heading">jaket</h4>
-                        <p>jaket meupakan produk kami berupa kemeja polos atau bermotif.</p>
+                        <h4 class="media-heading">Jaket</h4>
+                        <p>Jaket meupakan produk kami berupa kemeja polos atau bermotif.</p>
                     </div>
                 </div>
             </div>
@@ -131,7 +131,7 @@ About Section Start
                             alt="" class="img-fluid" width="35px"></div>
                     </div>
                     <div class="media-body">
-                        <h4 class="media-heading">makloon Sublime Print</h4>
+                        <h4 class="media-heading">Makloon Sublime Print</h4>
                         <p>Makloon sublime printing merupakan layanan kami berupa printing dari hasil design.</p>
                     </div>
                 </div>
@@ -143,7 +143,7 @@ About Section Start
                             width="35px"></div>
                     </div>
                     <div class="media-body">
-                        <h4 class="media-heading">makloon sublime press</h4>
+                        <h4 class="media-heading">Makloon sublime press</h4>
                         <p>Makloon sublime press merupakan layanan kami berupa heat transfer/press dari hasil printing.</p>
                     </div>
                 </div>

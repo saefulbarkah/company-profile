@@ -13,15 +13,15 @@
                 <div class="row">
                     <div class="col-md-12">
                         <div class="block">
-                            <h2>Service</h2>
+                            <h2>Layanan</h2>
                             <ol class="breadcrumb list-inline text-center">
                                 <li class="list-inline-item">
                                     <a href="{{ url('/') }}">
                                         <i class="ion-ios-home"></i>
-                                        beranda  &nbsp; &nbsp;/
+                                        Beranda  &nbsp; &nbsp;/
                                     </a>
                                 </li>
-                                <li class="active list-inline-item">layanan</li>
+                                <li class="active list-inline-item">Layanan</li>
                             </ol>
                         </div>
                     </div>

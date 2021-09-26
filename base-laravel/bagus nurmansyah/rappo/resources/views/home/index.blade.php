@@ -17,8 +17,8 @@
                     <ul class="d-flex list-unstyled header-socials float-lg-right">
                         <li><a href="#"> <i class="fab fa-facebook-f"></i></a></li>
                         <li><a href="#"> <i class="fab fa-twitter"></i></a></li>
-                        <li><a href="#"> <i class="fab fa-pinterest-p"></i></a></li>
-                        <li><a href="#"> <i class="fab fa-linkedin"></i></a></li>
+                        <li><a href="#"> <i class="fab fa-instagram"></i></a></li>
+                        <li><a href="#"> <i class="fab fa-whatsapp"></i></a></li>
                     </ul>
                 </div>
             </div>
@@ -161,7 +161,7 @@
         </div> <!-- / .container -->
     </section>
 
-
+{{-- section promosi --}}
  <section class="section bg-grey" id="feature">
         <div class="container">
             <div class="row justy-content-center">
@@ -208,27 +208,114 @@
         </div> <!-- / .container -->
     </section>
 
-<section class="section" id="process">
-        <div class="container">
-            <div class="row justify-content-center">
-                <div class="col-md-8 col-lg-6 text-center">
-                    <div class="section-heading">
-                        <!-- Heading -->
-                        <h2 class="section-title">
-                            Proses Kerja Kami
-                        </h2>
 
-                        <!-- Subheading -->
-                        <p>
-                            Proses kerja kami tergantung kesepakatan dengan pelanggan
-                        </p>
-
-                    </div>
-                </div>
-            </div> <!-- / .row -->
-
-            <div class="row justify-content-center">
-                <div class="col-lg-4 col-sm-6 col-md-6">
+{{-- <div class="">
+  <div class="container">
+    <h2 class="justify-content-center pb-3 pt-2 border-bottom mb-5">Proses kerja kami</h2>
+    <!--first section-->
+    <div class="row align-items-center how-it-works d-flex">
+      <div class="col-2 text-center bottom d-inline-flex justify-content-center align-items-center">
+        <div class="circle font-weight-bold">1</div>
+      </div>
+      <div class="col-6">
+        <h5>Fully Responsive</h5>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed porttitor gravida aliquam. Morbi orci urna, iaculis in ligula et, posuere interdum lectus.</p>
+      </div>
+    </div>
+    <!--path between 1-2-->
+    <div class="row timeline">
+      <div class="col-2">
+        <div class="corner top-right"></div>
+      </div>
+      <div class="col-8">
+        <hr/>
+      </div>
+      <div class="col-2">
+        <div class="corner left-bottom"></div>
+      </div>
+    </div>
+    <!--second section-->
+    <div class="row align-items-center justify-content-end how-it-works d-flex">
+      <div class="col-6 text-right">
+        <h5>Using Bootstrap</h5>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed porttitor gravida aliquam. Morbi orci urna, iaculis in ligula et, posuere interdum lectus.</p>
+      </div>
+      <div class="col-2 text-center full d-inline-flex justify-content-center align-items-center">
+        <div class="circle font-weight-bold">2</div>
+      </div>
+    </div>
+    <!--path between 2-3-->
+    <div class="row timeline">
+      <div class="col-2">
+        <div class="corner right-bottom"></div>
+      </div>
+      <div class="col-8">
+        <hr/>
+      </div>
+      <div class="col-2">
+        <div class="corner top-left"></div>
+      </div>
+    </div>
+    <!--third section-->
+    <div class="row align-items-center how-it-works d-flex">
+      <div class="col-2 text-center top d-inline-flex justify-content-center align-items-center">
+        <div class="circle font-weight-bold">3</div>
+      </div>
+      <div class="col-6">
+        <h5>Now with Pug and Sass</h5>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed porttitor gravida aliquam. Morbi orci urna, iaculis in ligula et, posuere interdum lectus.</p>
+      </div>
+    </div>
+  </div>
+</div>
+    <!--path between 3-4-->
+    <div class="row timeline">
+      <div class="col-2">
+        <div class="corner top-right"></div>
+      </div>
+      <div class="col-8">
+        <hr/>
+      </div>
+      <div class="col-2">
+        <div class="corner left-bottom"></div>
+      </div>
+    </div>
+    <!--four section-->
+    <div class="row align-items-center justify-content-end how-it-works d-flex">
+      <div class="col-6 text-right">
+        <h5>Using Bootstrap</h5>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed porttitor gravida aliquam. Morbi orci urna, iaculis in ligula et, posuere interdum lectus.</p>
+      </div>
+      <div class="col-2 text-center full d-inline-flex justify-content-center align-items-center">
+        <div class="circle font-weight-bold">4</div>
+      </div>
+    </div>
+    <!--path between 4-5-->
+    <div class="row timeline">
+      <div class="col-2">
+        <div class="corner right-bottom"></div>
+      </div>
+      <div class="col-8">
+        <hr/>
+      </div>
+      <div class="col-2">
+        <div class="corner top-left"></div>
+      </div>
+    </div>
+    <!--five section-->
+    <div class="row align-items-center how-it-works d-flex">
+      <div class="col-2 text-center top d-inline-flex justify-content-center align-items-center">
+        <div class="circle font-weight-bold">5</div>
+      </div>
+      <div class="col-6">
+        <h5>Now with Pug and Sass</h5>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed porttitor gravida aliquam. Morbi orci urna, iaculis in ligula et, posuere interdum lectus.</p>
+      </div>
+    </div>
+  </div>
+</div> --}}
+           {{-- <div class="row justify-content-center">
+                <div class="col-lg-3 col-sm-6 col-md-6">
                     <div class="process-block">
                         <img src="{{ asset('assets/images/process/process-1.jpg')}}" alt="" class="img-fluid">
 
@@ -236,7 +323,7 @@
                         <p>Pembeli memilih pruduk dan melakukan negosiasi harga produk terlebih dahulu untuk mengetahui kebutuhan pelanggan dan kesepakatan harga.</p>
                     </div>
                 </div>
-                <div class="col-lg-4 col-sm-6 col-md-6">
+                <div class="col-lg-3 col-sm-6 col-md-6">
                     <div class="process-block">
                         <img src="{{ asset('assets/images/process/process-2.jpg')}}" alt="" class="img-fluid">
 
@@ -244,7 +331,7 @@
                         <p>Setelah mencapai kesepakatan pelanggan memberikan donw payment/DP sejumlah 50% lalu kami akan menghubungi pihak produksi.</p>
                     </div>
                 </div>
-                <div class="col-lg-4 col-sm-6 col-md-6">
+                <div class="col-lg-3 col-sm-6 col-md-6">
                     <div class="process-block">
                         <img src="{{ asset('assets/images/process/process-3.jpg')}}" alt="" class="img-fluid">
 
@@ -255,5 +342,115 @@
             </div>
         </div>
     </section>
+                <div class="col-lg-3 col-sm-6 col-md-6">
+                    <div class="process-block">
+                        <img src="{{ asset('assets/images/process/process-3.jpg')}}" alt="" class="img-fluid">
+
+                        <h3>Bayaran sisa invoice & Pengambilan/pengiriman</h3>
+                        <p>Setelah barang selesai di produksi pembeli melakukan pembayaran sisa invoice dan barang akan di ambil atau di kirim oleh genetic.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+                <div class="col-lg-3 col-sm-6 col-md-6">
+                    <div class="process-block">
+                        <img src="{{ asset('assets/images/process/process-3.jpg')}}" alt="" class="img-fluid">
+
+                        <h3>Bayaran sisa invoice & Pengambilan/pengiriman</h3>
+                        <p>Setelah barang selesai di produksi pembeli melakukan pembayaran sisa invoice dan barang akan di ambil atau di kirim oleh genetic.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+                <div class="col-lg-3 col-sm-6 col-md-6">
+                    <div class="process-block">
+                        <img src="{{ asset('assets/images/process/process-3.jpg')}}" alt="" class="img-fluid">
+
+                        <h3>Bayaran sisa invoice & Pengambilan/pengiriman</h3>
+                        <p>Setelah barang selesai di produksi pembeli melakukan pembayaran sisa invoice dan barang akan di ambil atau di kirim oleh genetic.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section> --}}
+
+    {{-- timeline css --}}
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <h2 class="judul">PROSES KERJA KAMI</h2>
+                <div class="main-timeline">
+                    <div class="timeline">
+                        <a href="#" class="timeline-content">
+                            <div class="timeline-icon">
+                                <i class="fa fa-shopping-cart"></i>
+                            </div>
+                            <h3 class="title">Memilih produk</h3>
+                            <p class="description">
+                                Pembeli memilih pruduk dan menentukan jenis produk yang ingin di pesan beserta keterangan jumlah, ukuran, warna dan sebagainya.
+                            </p>
+                        </a>
+                    </div>
+                    <div class="timeline">
+                        <a href="#" class="timeline-content">
+                            <div class="timeline-icon">
+                                <i class="fa fa-shopping-cart"></i>
+                            </div>
+                            <h3 class="title">Negosiasi harga produk</h3>
+                            <p class="description">
+                                Melakukan negosiasi harga produk terlebih dahulu untuk mengetahui kebutuhan pembeli dan kesepakatan harga.
+                            </p>
+                        </a>
+                    </div>
+                    <div class="timeline">
+                        <a href="#" class="timeline-content">
+                            <div class="timeline-icon">
+                                <i class="fa fa-shopping-cart"></i>
+                            </div>
+                            <h3 class="title">Down payment(DP) minimal 50% </h3>
+                            <p class="description">
+                                Setelah pembeli telah menentukan jenis barang dan negosiasi harga produk kemudian memberikan down payment atau DP sebesar 50%.
+                            </p>
+                        </a>
+                    </div>
+                    <div class="timeline">
+                        <a href="#" class="timeline-content">
+                            <div class="timeline-icon">
+                                <i class="fa fa-shopping-cart"></i>
+                            </div>
+                            <h3 class="title">Produksi</h3>
+                            <p class="description">
+                                Pihak penjual akan mulai memproduksi produk sesuai kesepakatan.
+                            </p>
+                        </a>
+                    </div>
+                    <div class="timeline">
+                        <a href="#" class="timeline-content">
+                            <div class="timeline-icon">
+                                <i class="fa fa-shopping-cart"></i>
+                            </div>
+                            <h3 class="title">Pembayaran sisa invoice</h3>
+                            <p class="description">
+                                Setelah barang selesai di produksi pembeli melakukan pembayaran sisa invoice.
+                            </p>
+                        </a>
+                    </div>
+                    <div class="timeline">
+                        <a href="#" class="timeline-content">
+                            <div class="timeline-icon">
+                                <i class="fa fa-shopping-cart"></i>
+                            </div>
+                            <h3 class="title">Pengambilan/Pengiriman</h3>
+                            <p class="description">
+                                Setelah selesai melakukan pembayaran sisa invoice, barang dapat di ambil oleh pembeli atau dapat di kirim oleh pihak penjual.
+                            </p>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 
 @endsection
