@@ -35,7 +35,7 @@
 
             <div class="col-sm-12 col-md-12 col-md-12 work-filter">
                 <ul class="list-inline mb-0">
-                    <li><a class="active-filter" href="#" data-filter="*">ALL</a></li>
+                    <li><a class="active-filter" href="#" data-filter="*">Semua</a></li>
                     <li><a href="#" data-filter=".filter-jersey">Jersey</a></li>
                 </ul>
             </div>

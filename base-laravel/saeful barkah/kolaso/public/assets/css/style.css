@@ -1262,12 +1262,11 @@ blockquot {
   -ms-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  /*background-attachment: fixed;*/
+  background-attachment: fixed;
   background-repeat: no-repeat;
   background-position: center center;
   width: 100%;
-  height: 100%;
-  -webkit-transform: translate3d(0,0,0);
+  height: 100vh;
 }
 
 .bg-parallax {
@@ -2212,22 +2211,22 @@ ul.dot-list li:before {
   position: absolute;
   right: 0;
   top: 0;
-  content: "";
+  content: "";
   /* symbol for "opening" cards */
   font-family: fontawesome;
-  font-size: 10px;
+  font-size: 30px;
   color: #5156ea;
 }
 .accordion .card .card-heading .card-link.collapsed:after,
 .accordion .card:first-of-type .card-heading .card-link.collapsed:after,
 .accordion .card:not(:first-of-type):not(:last-of-type) .card-heading .card-link.collapsed:after {
-  content: "";
+  content: "";
   /* symbol for "collapsed" cards */
   background-color: transparent;
-  content: "";
+  content: "";
   color: #5156ea;
   border: none;
-  font-size: 10px;
+  font-size: 30px;
 }
 .accordion .card .card-body,
 .accordion .card:first-of-type .card-body,
@@ -2414,7 +2413,6 @@ ul.dot-list li:before {
   line-height: 50px;
   text-align: center;
   color: #ffffff;
-  cursor: pointer;
   border-radius: 50%;
   -webkit-transition: opacity 0.2s ease-out;
   -moz-transition: opacity 0.2s ease-out;
@@ -3968,7 +3966,7 @@ li.has-dropdown > ul.dropdown-menu > li.dropdown-submenu > ul.dropdown-menu {
 
 .page-title .title {
     margin-top: 30%;
-    margin-bottom: 20%;
+    margin-bottom: 30%;
 }
 
 .page-title .title--heading {
@@ -4560,7 +4558,7 @@ li.has-dropdown > ul.dropdown-menu > li.dropdown-submenu > ul.dropdown-menu {
 
 /* PAGE TITLE RESPONSIVE */
 /* Custom, iPhone Retina */
-@media only screen and (min-width: 300px) and (max-width: 360px) {
+/* @media only screen and (min-width: 300px) and (max-width: 360px) {
     .slider .slider-content {
         margin-top: 20%;
         margin-bottom: 30%;
@@ -4572,8 +4570,8 @@ li.has-dropdown > ul.dropdown-menu > li.dropdown-submenu > ul.dropdown-menu {
     .title .title--heading h1 {
         font-size: 45px;
     }
-}
-@media only screen and (min-width: 365px) and (max-width: 767px) {
+} */
+/* @media only screen and (min-width: 365px) and (max-width: 767px) {
     .slider .slider-content {
         margin-top: 20%;
         margin-bottom: 30%;
@@ -4585,9 +4583,9 @@ li.has-dropdown > ul.dropdown-menu > li.dropdown-submenu > ul.dropdown-menu {
     .title .title--heading h1 {
         font-size: 45px;
     }
-}
+} */
 /* Medium Devices, Tablets */
-@media only screen and (min-width: 768px) and (max-width: 991px) {
+/* @media only screen and (min-width: 768px) and (max-width: 991px) {
   .slider .slider-content {
       margin-top: 20%;
       margin-bottom: 30%;
@@ -4596,9 +4594,9 @@ li.has-dropdown > ul.dropdown-menu > li.dropdown-submenu > ul.dropdown-menu {
     margin-top: 50%;
     margin-bottom: 60%;
 }
-}
+} */
 /* tab */
-@media only screen and (min-width: 1024px) and (max-width: 1200px) {
+/* @media only screen and (min-width: 1024px) and (max-width: 1200px) {
   .slider .slider-content {
       margin-top: 50%;
       margin-bottom: 50%;
@@ -4607,7 +4605,7 @@ li.has-dropdown > ul.dropdown-menu > li.dropdown-submenu > ul.dropdown-menu {
         margin-top: 100%;
         margin-bottom: 100%;
     }
-}
+} */
 /* END */
 
 
@@ -4616,8 +4614,8 @@ li.has-dropdown > ul.dropdown-menu > li.dropdown-submenu > ul.dropdown-menu {
     #slider
 \*------------------------------------*/
 .slider .slider-content {
-    padding-top: 300px;
-    padding-bottom: 210px;
+    text-align: center;
+    margin-top: 40vh;
   }
 .slider {
   position: relative;
@@ -4755,21 +4753,6 @@ li.has-dropdown > ul.dropdown-menu > li.dropdown-submenu > ul.dropdown-menu {
 
 /* Custom, iPhone 5/SE */
 @media only screen and (min-width: 320px) and (max-width: 350px) {
-    .slider .slider-content {
-        margin-top: -10%;
-        margin-bottom: -10%;
-    }
-  .slider .slider--headline {
-    font-size: 35px;
-    line-height: 45px;
-    margin-top: 0;
-    margin-bottom: 15px;
-  }
-  .slider .slider--desc {
-    font-size: 14px;
-    line-height: 24px;
-    padding: 0 20px;
-  }
   .slider .carousel-navs .owl-nav [class*=owl-] {
     display: none;
   }
