@@ -13,10 +13,10 @@
                                 <li class="list-inline-item">
                                     <a href="{{ url('/') }}">
                                         <i class="ion-ios-home"></i>
-                                        beranda  &nbsp; &nbsp;/
+                                        Beranda  &nbsp; &nbsp;/
                                     </a>
                                 </li>
-                                <li class="active list-inline-item">kontak</li>
+                                <li class="active list-inline-item">Kontak</li>
                             </ol>
                         </div>
                     </div>
@@ -42,7 +42,7 @@
                         <form id="contact-form" method="#" action="#" role="form">
 
                             <div class="form-group wow fadeInDown" data-wow-duration="500ms" data-wow-delay=".6s">
-                                <input type="text" placeholder="nama" class="form-control" name="name" id="name">
+                                <input type="text" placeholder="Nama" class="form-control" name="name" id="name">
                             </div>
 
                             <div class="form-group wow fadeInDown" data-wow-duration="500ms" data-wow-delay=".8s">
@@ -54,11 +54,11 @@
                             </div>
 
                             <div class="form-group wow fadeInDown" data-wow-duration="500ms" data-wow-delay="1.2s">
-                                <textarea rows="6" placeholder="pesan" class="form-control" name="message" id="message"></textarea>
+                                <textarea rows="6" placeholder="Pesan" class="form-control" name="message" id="message"></textarea>
                             </div>
 
                             <div id="success" class="success">
-                                Terima kasih. the mailman sedang dalam perjalanan :)
+                                Terima kasih. kang pesan sedang dalam perjalanan :)
                             </div>
 
                             <div id="error" class="error">
@@ -95,20 +95,20 @@
             </div>
             <div class="col-lg-3 col-sm-6">
                 <div class="address wow fadeInLeft" data-wow-duration="500ms" data-wow-delay=".5s">
-                    <i class="ion-ios-location-outline"></i>
-                    <h5>Jl.Katapang Andir No.503,<br>kab. Bandung, 40921</h5>
+                    <i class="ion-ios-whatsapp-outline"></i>
+                    <h5>+62 81221337876 <br>+62 81221337876</h5>
                 </div>
             </div>
             <div class="col-lg-3 col-sm-6">
                 <div class="email wow fadeInLeft" data-wow-duration="500ms" data-wow-delay=".7s">
                     <i class="ion-ios-email-outline"></i>
-                    <p>genetic.wear@gmail.com</p>
+                    <h5>genetic.wear@gmail.com <br>genetic.wear@gmail.com</h5>
                 </div>
             </div>
-            <div class="col-lg-3 col-sm-6">
+            <div class="col-lg-3 col-sm-6s">
                 <div class="phone wow fadeInLeft" data-wow-duration="500ms" data-wow-delay=".9s">
                     <i class="ion-ios-telephone-outline"></i>
-                    <p>+62 81221337876</p>
+                    <h5>+62 81221337876 <br>+62 81221337876</h5>
                 </div>
             </div>
         </div>

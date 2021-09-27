@@ -17,7 +17,7 @@
                                     Beranda  &nbsp; &nbsp;/
                                 </a>
                             </li>
-                            <li class="active list-inline-item">tentang</li>
+                            <li class="active list-inline-item">Tentang</li>
                         </ol>
                     </div>
                 </div>
@@ -35,12 +35,7 @@
                 <div class="block">
                     <h3 class="subtitle wow fadeInUp" data-wow-delay=".3s" data-wow-duration="500ms">TENTANG KAMI</h3>
                     <p  class="wow fadeInUp" data-wow-delay=".5s" data-wow-duration="500ms">
-                        Genetic Wear merupakan sebuah perusahaan konveksi yang memiliki layanan Design, pembuatan
-                        (T-shirt,Jersey,kemeja,jaket) dan Makloon Sublime printing beserta Makloon Press Sublime. Genetic
-                        Waer mulai di dirikan pada tahun 2008 dengan penyedia layanan konveksi seiring perkembangan waktu
-                        pada tahun 2010 perusahaan Genetic Wear mulai bergerak ke sebuah layanan baru yaitu sablon. Terus
-                        berlanjut Genetic Wear mulai mengadakan sebuah layanan baru dengan alat teknologi terbaru yaitu
-                        Sublime.
+                        Genetic Wear merupakan sebuah perusahaan konveksi yang memiliki layanan design, makloon sublime printing beserta makloon Sublime Press dan pembuatan (Baju, Jersey, Kemeja, Jaket). Genetic Wear mulai di dirikan pada tahun 2008 dengan menyediakan layanan konveksi, seiring perkembangan waktu pada tahun 2010 perusahaan Genetic Wear mulai bergerak ke sebuah layanan baru yaitu sablon. Terus berlanjut Genetic Wear mulai mengadakan sebuah layanan baru dengan alat teknologi terbaru yaitu Sublime.
                     </p>
 
                 </div>
@@ -98,7 +93,7 @@
 ================================================== -->
 <section id="team">
     <div class="container">
-        <div class="row">
+        <div class="row justify-content-center">
             <div class="col-lg-12">
                 <h2 class="subtitle text-center">Tim kami</h2>
             </div>
@@ -109,12 +104,11 @@
                     </div>
                     <h3 class="team_name">Hanif Kurniawan</h3>
                     <p class="team_designation">CEO, Pemilik Genetic</p>
-                    <p class="team_text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore </p>
                     <p class="social-icons">
                         <a href="#" class="facebook" target="_blank"><i class="ion-social-facebook-outline"></i></a>
                         <a href="#" target="_blank"><i class="ion-social-twitter-outline"></i></a>
                         <a href="#" target="_blank"><i class="ion-social-linkedin-outline"></i></a>
-                        <a href="#" target="_blank"><i class="ion-social-googleplus-outline"></i></a>
+                        <a href="#" target="_blank"><i class="ion-social-instagram-outline"></i></a>
                     </p>
                 </div>
             </div>
@@ -125,16 +119,15 @@
                     </div>
                     <h3 class="team_name">Angga Pratama</h3>
                     <p class="team_designation">COO, Project Manager</p>
-                    <p class="team_text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore .</p>
                     <p class="social-icons">
                         <a href="#" class="facebook" target="_blank"><i class="ion-social-facebook-outline"></i></a>
                         <a href="#" target="_blank"><i class="ion-social-twitter-outline"></i></a>
                         <a href="#" target="_blank"><i class="ion-social-linkedin-outline"></i></a>
-                        <a href="#" target="_blank"><i class="ion-social-googleplus-outline"></i></a>
+                        <a href="#" target="_blank"><i class="ion-social-instagram-outline"></i></a>
                     </p>
                 </div>
             </div>
-            <div class="col-md-3 col-sm-6">
+            {{-- <div class="col-md-3 col-sm-6">
                 <div class="team-member wow fadeInLeft" data-wow-duration="500ms" data-wow-delay=".7s">
                     <div class="team-img">
                         <img src="{{ asset('assets/images/team/team-3.jpg')}}" class="team-pic" alt="">
@@ -165,7 +158,7 @@
                         <a href="#" target="_blank"><i class="ion-social-googleplus-outline"></i></a>
                     </p>
                 </div>
-            </div>
+            </div> --}}
         </div>
     </div>
 </section>
