@@ -1262,12 +1262,11 @@ blockquot {
   -ms-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  /*background-attachment: fixed;*/
+  background-attachment: fixed;
   background-repeat: no-repeat;
   background-position: center center;
   width: 100%;
-  height: 100%;
-  -webkit-transform: translate3d(0,0,0);
+  height: 100vh;
 }
 
 .bg-parallax {
@@ -4559,7 +4558,7 @@ li.has-dropdown > ul.dropdown-menu > li.dropdown-submenu > ul.dropdown-menu {
 
 /* PAGE TITLE RESPONSIVE */
 /* Custom, iPhone Retina */
-@media only screen and (min-width: 300px) and (max-width: 360px) {
+/* @media only screen and (min-width: 300px) and (max-width: 360px) {
     .slider .slider-content {
         margin-top: 20%;
         margin-bottom: 30%;
@@ -4571,8 +4570,8 @@ li.has-dropdown > ul.dropdown-menu > li.dropdown-submenu > ul.dropdown-menu {
     .title .title--heading h1 {
         font-size: 45px;
     }
-}
-@media only screen and (min-width: 365px) and (max-width: 767px) {
+} */
+/* @media only screen and (min-width: 365px) and (max-width: 767px) {
     .slider .slider-content {
         margin-top: 20%;
         margin-bottom: 30%;
@@ -4584,9 +4583,9 @@ li.has-dropdown > ul.dropdown-menu > li.dropdown-submenu > ul.dropdown-menu {
     .title .title--heading h1 {
         font-size: 45px;
     }
-}
+} */
 /* Medium Devices, Tablets */
-@media only screen and (min-width: 768px) and (max-width: 991px) {
+/* @media only screen and (min-width: 768px) and (max-width: 991px) {
   .slider .slider-content {
       margin-top: 20%;
       margin-bottom: 30%;
@@ -4595,9 +4594,9 @@ li.has-dropdown > ul.dropdown-menu > li.dropdown-submenu > ul.dropdown-menu {
     margin-top: 50%;
     margin-bottom: 60%;
 }
-}
+} */
 /* tab */
-@media only screen and (min-width: 1024px) and (max-width: 1200px) {
+/* @media only screen and (min-width: 1024px) and (max-width: 1200px) {
   .slider .slider-content {
       margin-top: 50%;
       margin-bottom: 50%;
@@ -4606,7 +4605,7 @@ li.has-dropdown > ul.dropdown-menu > li.dropdown-submenu > ul.dropdown-menu {
         margin-top: 100%;
         margin-bottom: 100%;
     }
-}
+} */
 /* END */
 
 
@@ -4615,8 +4614,8 @@ li.has-dropdown > ul.dropdown-menu > li.dropdown-submenu > ul.dropdown-menu {
     #slider
 \*------------------------------------*/
 .slider .slider-content {
-    padding-top: 300px;
-    padding-bottom: 210px;
+    text-align: center;
+    margin-top: 40vh;
   }
 .slider {
   position: relative;
@@ -4754,21 +4753,6 @@ li.has-dropdown > ul.dropdown-menu > li.dropdown-submenu > ul.dropdown-menu {
 
 /* Custom, iPhone 5/SE */
 @media only screen and (min-width: 320px) and (max-width: 350px) {
-    .slider .slider-content {
-        margin-top: -10%;
-        margin-bottom: -10%;
-    }
-  .slider .slider--headline {
-    font-size: 35px;
-    line-height: 45px;
-    margin-top: 0;
-    margin-bottom: 15px;
-  }
-  .slider .slider--desc {
-    font-size: 14px;
-    line-height: 24px;
-    padding: 0 20px;
-  }
   .slider .carousel-navs .owl-nav [class*=owl-] {
     display: none;
   }

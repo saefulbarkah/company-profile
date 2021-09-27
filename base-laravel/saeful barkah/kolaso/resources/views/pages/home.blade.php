@@ -100,7 +100,7 @@
     }
 </style>
 @endpush
-<section id="slider1" class="slider slider-1 text-center">
+<section id="slider1" class="slider slider-1 d-flex align-items-center justify-content-center">
     <div class="container-fluid pr-0 pl-0">
         <div class="bg-overlay bg-overlay-dark2">
             <div class="bg-section">
