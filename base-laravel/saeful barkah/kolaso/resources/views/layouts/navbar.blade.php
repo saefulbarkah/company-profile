@@ -1,7 +1,7 @@
 <header id="navbar-spy" class="header header-1 header-transparent">
     <nav id="primary-menu" class="navbar navbar-expand-lg navbar-light fixed-top">
         <div class="container">
-            <a class="navbar-brand" href="index.html">
+            <a class="navbar-brand" href="{{ url('')}}">
                 <div class="logo logo-light text-white bold">
                     Genetic Wear
                 </div>
