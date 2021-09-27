@@ -40,6 +40,8 @@
 </style>
 
 @endpush
+
+
 <!-- ======= About Section ======= -->
 <section id="about" class="about">
     <div class="container" data-aos="fade-up">
@@ -71,7 +73,7 @@
 <!-- End About Section -->
 
 <!-- ======= Features Section ======= -->
-<section id="about" class="about">
+<section id="about" class="section-makloon">
     <div class="container" data-aos="fade-up">
 
         <div class="row">

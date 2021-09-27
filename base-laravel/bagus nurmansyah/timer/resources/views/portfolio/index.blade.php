@@ -2,7 +2,111 @@
 @section('title', 'portofolio')
 @section('content')
 
-<section class="portfolio">
+<section class="global-page-header">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="block">
+                    <h2>Portofolio</h2>
+                    <ol class="breadcrumb list-inline text-center">
+                        <li class="list-inline-item">
+                            <a href="{{ url('/')}}">
+                                <i class="ion-ios-home"></i>
+                                Beranda  &nbsp; &nbsp;/
+                            </a>
+                        </li>
+                        <li class="active list-inline-item">Portofolio</li>
+                    </ol>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<!--=============================
+=            Gallery            =
+==============================-->
+<section id="gallery" class="gallery">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4 col-sm-6">
+                <figure class="wow fadeInLeft animated portfolio-item animated" data-wow-duration="500ms" data-wow-delay="0ms" style="visibility: visible; animation-duration: 300ms; -webkit-animation-duration: 300ms; animation-delay: 0ms; -webkit-animation-delay: 0ms; animation-name: fadeInLeft; -webkit-animation-name: fadeInLeft;">
+                    <div class="img-wrapper">
+                        <img src="{{ asset('assets/images/portfolio/item-1.jpg')}}" class="img-fluid" alt="this is a title">
+                        <div class="overlay">
+                            <div class="buttons">
+                                <a rel="gallery" class="fancybox" href="{{ asset('assets/images/portfolio/item-1.jpg')}}">Demo</a>
+                            </div>
+                        </div>
+                    </div>
+                </figure>
+            </div>
+            <div class="col-md-4 col-sm-6">
+                <figure class="wow fadeInLeft animated animated" data-wow-duration="500ms" data-wow-delay="300ms" style="visibility: visible; animation-duration: 300ms; -webkit-animation-duration: 300ms; animation-delay: 300ms; -webkit-animation-delay: 300ms; animation-name: fadeInLeft; -webkit-animation-name: fadeInLeft;">
+                    <div class="img-wrapper">
+                        <img src="{{ asset('assets/images/portfolio/item-2.jpg')}}" class="img-fluid" alt="this is a title">
+                        <div class="overlay">
+                            <div class="buttons">
+                                <a rel="gallery" class="fancybox" href="{{ asset('assets/mages/portfolio/item-2.jpg')}}i">Demo</a>
+                            </div>
+                        </div>
+                    </div>
+                </figure>
+            </div>
+            <div class="col-md-4 col-sm-6">
+                <figure class="wow fadeInLeft animated animated" data-wow-duration="500ms" data-wow-delay="500ms" style="visibility: visible; animation-duration: 300ms; -webkit-animation-duration: 300ms; animation-delay: 300ms; -webkit-animation-delay: 300ms; animation-name: fadeInLeft; -webkit-animation-name: fadeInLeft;">
+                    <div class="img-wrapper">
+                        <img src="{{ asset('assets/images/portfolio/item-3.jpg')}}" class="img-fluid" alt="">
+                        <div class="overlay">
+                            <div class="buttons">
+                                <a rel="gallery" class="fancybox" href="{{ asset('assets/images/portfolio/item-3.jpg')}}">Demo</a>
+                            </div>
+                        </div>
+                    </div>
+                </figure>
+            </div>
+            <div class="col-md-4 col-sm-6">
+                <figure class="wow fadeInLeft animated" data-wow-duration="500ms" data-wow-delay="700ms" style="visibility: hidden; animation-duration: 300ms; -webkit-animation-duration: 300ms; animation-delay: 600ms; -webkit-animation-delay: 600ms; animation-name: none; -webkit-animation-name: none;">
+                    <div class="img-wrapper">
+                        <img src="{{ asset('assets/images/portfolio/item-4.jpg')}}" class="img-fluid" alt="">
+                        <div class="overlay">
+                            <div class="buttons">
+                                <a rel="gallery" class="fancybox" href="{{ asset('assets/images/portfolio/item-4.jpg')}}">Demo</a>
+                            </div>
+                        </div>
+                    </div>
+                </figure>
+            </div>
+            <div class="col-md-4 col-sm-6">
+                <figure class="wow fadeInLeft animated" data-wow-duration="500ms" data-wow-delay="900ms" style="visibility: hidden; animation-duration: 300ms; -webkit-animation-duration: 300ms; animation-delay: 900ms; -webkit-animation-delay: 900ms; animation-name: none; -webkit-animation-name: none;">
+                    <div class="img-wrapper">
+                        <img src="{{ asset('assets/images/portfolio/item-5.jpg')}}" class="img-fluid" alt="">
+                        <div class="overlay">
+                            <div class="buttons">
+                                <a rel="gallery" class="fancybox" href="{{ asset('assets/images/portfolio/item-5.jpg')}}">Demo</a>
+                            </div>
+                        </div>
+                    </div>
+                </figure>
+            </div>
+            <div class="col-md-4 col-sm-6">
+                <figure class="wow fadeInLeft animated" data-wow-duration="500ms" data-wow-delay="1100ms" style="visibility: hidden; animation-duration: 300ms; -webkit-animation-duration: 300ms; animation-delay: 1200ms; -webkit-animation-delay: 1200ms; animation-name: none; -webkit-animation-name: none;">
+                    <div class="img-wrapper">
+                        <img src="{{ asset('assets/images/portfolio/item-6.jpg')}}" class="img-fluid" alt="">
+                        <div class="overlay">
+                            <div class="buttons">
+                                <a rel="gallery" class="fancybox" href="{{ asset('assets/images/portfolio/item-6.jpg')}}">Demo</a>
+                            </div>
+                        </div>
+                    </div>
+                </figure>
+            </div>
+        </div>
+    </div>
+</section>
+
+{{-- <section class="portfolio">
 <section class="global-page-header">
     <div class="container">
         <div class="row">
@@ -176,6 +280,6 @@
             </div>
         </div>
     </div>
-</section>
+</section> --}}
 
 @endsection

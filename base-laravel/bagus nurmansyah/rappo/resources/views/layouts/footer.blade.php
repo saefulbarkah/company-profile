@@ -3,47 +3,13 @@
     <!--Content -->
     <div class="container">
         <div class="row justify-content-start">
-            <div class="col-lg-4 col-sm-12">
+            <div class="col-lg-8 col-sm-12">
                 <div class="footer-widget">
                     <!-- Brand -->
                     <a href="#" class="footer-brand text-white">
                         Genetic Wear
                     </a>
-                    <p>Genetic merupakan penyedia layanan konveksi dan sablon yang berada di Jl.Katapang Andir No.503, kabupaten Bandung, Jawa Barat 40921</p>
-                </div>
-            </div>
-
-            <div class="col-lg-3 ml-lg-auto col-sm-12">
-                <div class="footer-widget">
-                    <h3>Account</h3>
-                    <!-- Links -->
-                    <ul class="footer-links ">
-                        <li>
-                            <a href="#">
-                                Terms and conditions
-                            </a>
-                        </li>
-                        <li>
-                            <a href="#">
-                                Privacy policy
-                            </a>
-                        </li>
-                        <li>
-                            <a href="#">
-                                Affiliate services
-                            </a>
-                        </li>
-                        <li>
-                            <a href="#">
-                                Help and support
-                            </a>
-                        </li>
-                        <li>
-                            <a href="#">
-                                Frequently Asked Question
-                            </a>
-                        </li>
-                    </ul>
+                    <p>Genetic merupakan penyedia layanan konveksi dan sablon yang berada di<br> Jl.Katapang Andir No.503, kabupaten Bandung, Jawa Barat 40921</p>
                 </div>
             </div>
 
@@ -86,9 +52,7 @@
                         <li>
                         <a href="#"><i class="fab fa-twitter"></i>Twitter
                         </a></li>
-                        <li><a href="#"><i class="fab fa-pinterest-p"></i>Pinterest
-                        </a></li>
-                        <li><a href="#"><i class="fab fa-linkedin"></i>linkedin
+                        <li><a href="#"><i class="fab fa-instagram"></i>Instagram
                         </a></li>
                         <li><a href="#"><i class="fab fa-youtube"></i>YouTube
                         </a></li>

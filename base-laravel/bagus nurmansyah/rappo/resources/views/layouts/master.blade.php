@@ -39,6 +39,7 @@ rel="stylesheet">
 
   <!-- Main Stylesheet -->
   <link rel="stylesheet" href="{{ asset('assets/css/style.css')}}">
+  <link rel="stylesheet" href="{{ asset('assets/css/timeline.css')}}">
 
 </head>
 
@@ -80,6 +81,10 @@ rel="stylesheet">
 
     <script src="{{ asset('assets/js/form/contact.js')}}"></script>
     <script src="{{ asset('assets/js/theme.js')}}"></script>
+    <link href="assets/css/timeline.css" rel="stylesheet" id="bootstrap-css">
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <!------ Include the above in your HEAD tag ---------->
 
 </body>
 
