@@ -86,19 +86,19 @@
                 </div>
             </div>
         </div>
-        <div class="row address-details">
+        <div class="row address-details justify-content-center">
             <div class="col-lg-3 col-sm-6">
                 <div class="address wow fadeInLeft" data-wow-duration="500ms" data-wow-delay=".3s">
                     <i class="ion-ios-location-outline"></i>
                     <h5>Jl.Katapang Andir No.503,<br>kab. Bandung, 40921</h5>
                 </div>
             </div>
-            <div class="col-lg-3 col-sm-6">
+            {{-- <div class="col-lg-3 col-sm-6">
                 <div class="address wow fadeInLeft" data-wow-duration="500ms" data-wow-delay=".5s">
                     <i class="ion-ios-whatsapp-outline"></i>
                     <h5>+62 81221337876 <br>+62 81221337876</h5>
                 </div>
-            </div>
+            </div> --}}
             <div class="col-lg-3 col-sm-6">
                 <div class="email wow fadeInLeft" data-wow-duration="500ms" data-wow-delay=".7s">
                     <i class="ion-ios-email-outline"></i>

@@ -79,7 +79,7 @@
                 <img src="{{ asset('assets/images/about.jpg')}}" class="img-fluid" alt="">
             </div>
             <div class="col-lg-6 pt-4 pt-lg-0 order-2 order-lg-1 content" data-aos="fade-right" data-aos-delay="100">
-                <p class="fst-italic">
+                <p class="fst-italic text-justify">
                     Genetic Wear merupakan sebuah perusahaan konveksi yang memiliki layanan Design, pembuatan
                     (T-shirt, Jersey, kemeja, jaket) dan Makloon Sublime printing beserta Makloon Press Sublime. Genetic
                     Wear mulai di dirikan pada tahun 2008 dengan penyedia layanan konveksi seiring perkembangan waktu
@@ -89,7 +89,7 @@
 
                 </p>
                 <ul>
-                    <li><i class="ri-check-double-line"></i>
+                    <li><i class="ri-check-double-line"></i></i>
                         Sablon
                     </li>
                     <li><i class="ri-check-double-line"></i>
@@ -101,7 +101,6 @@
                 </ul>
             </div>
         </div>
-
     </div>
 </section>
 <!-- End About Section -->

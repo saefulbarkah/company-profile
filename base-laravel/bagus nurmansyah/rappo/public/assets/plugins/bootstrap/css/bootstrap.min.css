@@ -91,7 +91,7 @@ h6 {
     margin-bottom: 0.5rem;
 }
 p {
-    margin-top: 10;
+    margin-top: 0;
     margin-bottom: 1rem;
     color: #343a40;
 }
@@ -437,6 +437,7 @@ mark {
 .img-fluid {
     max-width: 100%;
     height: auto;
+    margin-bottom: 20px;
 }
 .img-thumbnail {
     padding: 0.25rem;
@@ -498,6 +499,7 @@ pre code {
     margin-right: auto;
     margin-left: auto;
 }
+
 @media (min-width: 576px) {
     .container {
         max-width: 540px;
@@ -8378,6 +8380,7 @@ button.bg-dark:hover {
     .pt-lg-0,
     .py-lg-0 {
         padding-top: 0 !important;
+        margin-bottom: 50px;
     }
     .pr-lg-0,
     .px-lg-0 {

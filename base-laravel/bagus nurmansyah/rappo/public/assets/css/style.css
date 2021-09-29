@@ -45,7 +45,7 @@ body {
     text-align: left;
     background-color: #fff;
     font-weight: 400;
-    color: #6c757d;
+    color: #000000e5;
 }
 
 /*--------------------
@@ -65,7 +65,7 @@ h5,
 h6 {
     font-family: "Muli", sans-serif;
     font-weight: 700;
-    line-height: 1.35;
+    line-height: 1;
     margin-bottom: 0.5rem;
     color: #212529;
 }
@@ -313,11 +313,11 @@ a:focus {
  LOGO BAR
 -------------------*/
 .logo-bar {
-    padding: 30px 0px 60px;
+    padding: 10px 0px 60px;
 }
 
 .top-info-block {
-    margin-right: 30px;
+    margin-right: 20px;
 }
 
 .top-info-block h5,
@@ -344,7 +344,7 @@ a:focus {
 }
 
 .main-navigation {
-    margin-top: -40px;
+    margin-top: -50px;
 }
 
 /*-----------------------
@@ -784,7 +784,6 @@ h5.subtitle {
     background: #21c87a;
     text-align: center;
     border-radius: 50%;
-    padding-top: 5px;
 }
 
 .service-block {
@@ -1521,7 +1520,7 @@ CONTACT PAGE
         margin-bottom: 10px;
     }
     .main-navigation {
-        margin-top: 20px;
+        margin-top: 10px;
     }
     .main-nav .navbar-brand h4 {
         color: #fff;
@@ -2005,7 +2004,7 @@ CONTACT PAGE
 
 .section-title {
     margin-top: 50px;
-    padding-bottom: 40px;
+    padding-bottom: 10px;
 }
 
 .section-title h2 {
@@ -2025,7 +2024,7 @@ CONTACT PAGE
     width: 120px;
     height: 1px;
     display: inline-block;
-    background: #ffde9e;
+    background: #21c87a;
     margin: 4px 10px;
 }
 

@@ -38,6 +38,9 @@
     <link rel="stylesheet" href=" {{ asset('assets/plugins/hover/hover-min.css')}} ">
     <!-- template main css file -->
     <link rel="stylesheet" href=" {{ asset('assets/css/style.css')}} ">
+    <link rel="stylesheet" href=" {{ asset('assets/css/timeline.css')}} ">
+    {{-- portfolio & faq --}}
+    <link rel="stylesheet" href=" {{ asset('asset/css/style.css')}} ">
     </head>
     {{-- end head --}}
 
@@ -80,6 +83,8 @@
     <!-- template main js -->
     <script src="{{ asset('assets/js/main.js')}}"></script>
     {{-- end javascripts --}}
+    {{-- portfolio & faq --}}
+    <script src="{{ asset('asset/js/main.js')}}"></script>
 
 </body>
 

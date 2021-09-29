@@ -90,7 +90,7 @@
                             <div class="overlay-content-block">
                                 <h4>Baju Sablon</h4>
                                 <p>Baju Futsal</p>
-                                <a href="single-project.html"><i class="fa fa-link"></i></a>
+                                <a href="{{ url('project')}}"><i class="fa fa-link"></i></a>
                             </div>
                         </div>
                     </div>
@@ -100,7 +100,7 @@
                             <div class="overlay-content-block">
                                 <h4>Kemeja</h4>
                                 <p>Kemeja Bola</p>
-                                <a href="single-project.html"><i class="fa fa-link"></i></a>
+                                <a href="{{ url('project')}}"><i class="fa fa-link"></i></a>
                             </div>
                         </div>
                     </div>
@@ -110,7 +110,7 @@
                             <div class="overlay-content-block">
                                 <h4>Kemeja</h4>
                                 <p>Kemeja Casual</p>
-                                <a href="single-project.html"><i class="fa fa-link"></i></a>
+                                <a href="{{ url('project')}}"><i class="fa fa-link"></i></a>
                             </div>
                         </div>
                     </div>
@@ -121,7 +121,7 @@
                             <div class="overlay-content-block">
                                 <h4>Baju Sablon</h4>
                                 <p>Baju Bola</p>
-                                <a href="single-project.html"><i class="fa fa-link"></i></a>
+                                <a href="{{ url('project')}}"><i class="fa fa-link"></i></a>
                             </div>
                         </div>
                     </div>
@@ -131,7 +131,7 @@
                             <div class="overlay-content-block">
                                 <h4>Baju Sablon</h4>
                                 <p>Baju sablon biasa</p>
-                                <a href="single-project.html"><i class="fa fa-link"></i></a>
+                                <a href="{{ url('project')}}"><i class="fa fa-link"></i></a>
                             </div>
                         </div>
                     </div>
@@ -141,7 +141,7 @@
                             <div class="overlay-content-block">
                                 <h4>Baju Sablon</h4>
                                 <p>Baju Bola lengan panjang</p>
-                                <a href="single-project.html"><i class="fa fa-link"></i></a>
+                                <a href="{{ url('project')}}"><i class="fa fa-link"></i></a>
                             </div>
                         </div>
                     </div>
