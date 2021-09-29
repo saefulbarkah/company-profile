@@ -23,11 +23,29 @@
     </div>
 </section>
 
-
 <!--=============================
 =            Gallery            =
 ==============================-->
 <section id="gallery" class="gallery">
+    <div class="container" data-aos="fade-up">
+
+        <header class="section-header text-center" id="title-portfolio">
+          <h1 class="uppercase">Beberapa hasil kerja kami</h1>
+        </header>
+
+        <div class="portfolio">
+        <div class="row" data-aos="fade-up" data-aos-delay="100">
+          <div class="col-lg-12 d-flex justify-content-center">
+            <ul id="portfolio-flters">
+              <li data-filter="*" class="filter-active">All</li>
+              <li data-filter=".filter-app">Baju</li>
+              <li data-filter=".filter-card">Kemeja</li>
+              <li data-filter=".filter-web">Jaket</li>
+            </ul>
+          </div>
+        </div>
+    </div>
+
     <div class="container">
         <div class="row">
             <div class="col-md-4 col-sm-6">
@@ -35,7 +53,7 @@
                     <div class="img-wrapper">
                         <img src="{{ asset('assets/images/portfolio/item-1.jpg')}}" class="img-fluid" alt="this is a title">
                         <div class="overlay">
-                            <div class="buttons">
+                            <div class="buttons justify-content-center">
                                 <a rel="gallery" class="fancybox" href="{{ asset('assets/images/portfolio/item-1.jpg')}}">Demo</a>
                             </div>
                         </div>
@@ -47,8 +65,8 @@
                     <div class="img-wrapper">
                         <img src="{{ asset('assets/images/portfolio/item-2.jpg')}}" class="img-fluid" alt="this is a title">
                         <div class="overlay">
-                            <div class="buttons">
-                                <a rel="gallery" class="fancybox" href="{{ asset('assets/mages/portfolio/item-2.jpg')}}i">Demo</a>
+                            <div class="buttons justify-content-center">
+                                <a rel="gallery" class="fancybox" href="{{ asset('assets/images/portfolio/item-2.jpg')}}">Demo</a>
                             </div>
                         </div>
                     </div>
@@ -59,7 +77,7 @@
                     <div class="img-wrapper">
                         <img src="{{ asset('assets/images/portfolio/item-3.jpg')}}" class="img-fluid" alt="">
                         <div class="overlay">
-                            <div class="buttons">
+                            <div class="buttons justify-content-center">
                                 <a rel="gallery" class="fancybox" href="{{ asset('assets/images/portfolio/item-3.jpg')}}">Demo</a>
                             </div>
                         </div>
@@ -71,7 +89,7 @@
                     <div class="img-wrapper">
                         <img src="{{ asset('assets/images/portfolio/item-4.jpg')}}" class="img-fluid" alt="">
                         <div class="overlay">
-                            <div class="buttons">
+                            <div class="buttons justify-content-center">
                                 <a rel="gallery" class="fancybox" href="{{ asset('assets/images/portfolio/item-4.jpg')}}">Demo</a>
                             </div>
                         </div>
@@ -83,7 +101,7 @@
                     <div class="img-wrapper">
                         <img src="{{ asset('assets/images/portfolio/item-5.jpg')}}" class="img-fluid" alt="">
                         <div class="overlay">
-                            <div class="buttons">
+                            <div class="buttons justify-content-center">
                                 <a rel="gallery" class="fancybox" href="{{ asset('assets/images/portfolio/item-5.jpg')}}">Demo</a>
                             </div>
                         </div>
@@ -95,7 +113,7 @@
                     <div class="img-wrapper">
                         <img src="{{ asset('assets/images/portfolio/item-6.jpg')}}" class="img-fluid" alt="">
                         <div class="overlay">
-                            <div class="buttons">
+                            <div class="buttons justify-content-center">
                                 <a rel="gallery" class="fancybox" href="{{ asset('assets/images/portfolio/item-6.jpg')}}">Demo</a>
                             </div>
                         </div>
@@ -106,180 +124,159 @@
     </div>
 </section>
 
-{{-- <section class="portfolio">
-<section class="global-page-header">
-    <div class="container">
-        <div class="row">
-            <div class="col-md-12">
-                <div class="block">
-                    <h2>Proyek Portofolio</h2>
-                    <div class="portfolio-meta">
-                        <span>Dec 11, 2020</span>|
-                        <span> Kategori: konveksi</span>|
-                        <span> website:
-                            <a href="#">Genetic wear</a>
-                        </span>
-                    </div>
-                </div>
-            </div>
+{{-- <!-- ======= Portfolio Section ======= -->
+<section id="portfolio" class="portfolio">
+
+    <div class="container" data-aos="fade-up">
+
+      <header class="section-header text-center" id="title-portfolio">
+        <h2>Portfolio</h2>
+        <p>Check our latest work</p>
+      </header>
+
+      <div class="row" data-aos="fade-up" data-aos-delay="100">
+        <div class="col-lg-12 d-flex justify-content-center">
+          <ul id="portfolio-flters">
+            <li data-filter="*" class="filter-active">All</li>
+            <li data-filter=".filter-app">Baju</li>
+            <li data-filter=".filter-card">Kemeja</li>
+            <li data-filter=".filter-web">Jaket</li>
+          </ul>
         </div>
+      </div>
+
+      <div class="row gy-4 portfolio-container" data-aos="fade-up" data-aos-delay="200">
+
+        <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+          <div class="portfolio-wrap">
+            <img src="{{ asset('assets/img/portfolio/portfolio-1.jpg')}}" class="img-fluid" alt="">
+            <div class="portfolio-info">
+              <h4>App 1</h4>
+              <p>App</p>
+              <div class="portfolio-links">
+                <a href="{{ asset('assets/img/portfolio/portfolio-1.jpg')}}" data-gallery="portfolioGallery" class="portfokio-lightbox" title="App 1"><i class="bi bi-plus"></i></a>
+                <a href="portfolio-details.html" title="More Details"><i class="bi bi-link"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+          <div class="portfolio-wrap">
+            <img src="{{ asset('assets/img/portfolio/portfolio-2.jpg')}}" class="img-fluid" alt="">
+            <div class="portfolio-info">
+              <h4>Web 3</h4>
+              <p>Web</p>
+              <div class="portfolio-links">
+                <a href="{{ asset('assets/img/portfolio/portfolio-2.jpg')}}" data-gallery="portfolioGallery" class="portfokio-lightbox" title="Web 3"><i class="bi bi-plus"></i></a>
+                <a href="portfolio-details.html" title="More Details"><i class="bi bi-link"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+          <div class="portfolio-wrap">
+            <img src="{{ asset('assets/img/portfolio/portfolio-3.jpg')}}" class="img-fluid" alt="">
+            <div class="portfolio-info">
+              <h4>App 2</h4>
+              <p>App</p>
+              <div class="portfolio-links">
+                <a href="{{ asset('assets/img/portfolio/portfolio-3.jpg')}}" data-gallery="portfolioGallery" class="portfokio-lightbox" title="App 2"><i class="bi bi-plus"></i></a>
+                <a href="portfolio-details.html" title="More Details"><i class="bi bi-link"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6 portfolio-item filter-card">
+          <div class="portfolio-wrap">
+            <img src="{{ asset('assets/img/portfolio/portfolio-4.jpg')}}" class="img-fluid" alt="">
+            <div class="portfolio-info">
+              <h4>Card 2</h4>
+              <p>Card</p>
+              <div class="portfolio-links">
+                <a href="{{ asset('assets/img/portfolio/portfolio-4.jpg')}}" data-gallery="portfolioGallery" class="portfokio-lightbox" title="Card 2"><i class="bi bi-plus"></i></a>
+                <a href="portfolio-details.html" title="More Details"><i class="bi bi-link"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+          <div class="portfolio-wrap">
+            <img src="{{ asset('assets/img/portfolio/portfolio-5.jpg')}}" class="img-fluid" alt="">
+            <div class="portfolio-info">
+              <h4>Web 2</h4>
+              <p>Web</p>
+              <div class="portfolio-links">
+                <a href="{{ asset('assets/img/portfolio/portfolio-5.jpg')}}" data-gallery="portfolioGallery" class="portfokio-lightbox" title="Web 2"><i class="bi bi-plus"></i></a>
+                <a href="portfolio-details.html" title="More Details"><i class="bi bi-link"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+          <div class="portfolio-wrap">
+            <img src="{{ asset('assets/img/portfolio/portfolio-6.jpg')}}" class="img-fluid" alt="">
+            <div class="portfolio-info">
+              <h4>App 3</h4>
+              <p>App</p>
+              <div class="portfolio-links">
+                <a href="{{ asset('assets/img/portfolio/portfolio-6.jpg')}}" data-gallery="portfolioGallery" class="portfokio-lightbox" title="App 3"><i class="bi bi-plus"></i></a>
+                <a href="portfolio-details.html" title="More Details"><i class="bi bi-link"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6 portfolio-item filter-card">
+          <div class="portfolio-wrap">
+            <img src="{{ asset('assets/img/portfolio/portfolio-7.jpg')}}" class="img-fluid" alt="">
+            <div class="portfolio-info">
+              <h4>Card 1</h4>
+              <p>Card</p>
+              <div class="portfolio-links">
+                <a href="{{ asset('assets/img/portfolio/portfolio-7.jpg')}}" data-gallery="portfolioGallery" class="portfokio-lightbox" title="Card 1"><i class="bi bi-plus"></i></a>
+                <a href="portfolio-details.html" title="More Details"><i class="bi bi-link"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6 portfolio-item filter-card">
+          <div class="portfolio-wrap">
+            <img src="{{ asset('assets/img/portfolio/portfolio-8.jpg')}}" class="img-fluid" alt="">
+            <div class="portfolio-info">
+              <h4>Card 3</h4>
+              <p>Card</p>
+              <div class="portfolio-links">
+                <a href="{{ asset('assets/img/portfolio/portfolio-8.jpg')}}" data-gallery="portfolioGallery" class="portfokio-lightbox" title="Card 3"><i class="bi bi-plus"></i></a>
+                <a href="portfolio-details.html" title="More Details"><i class="bi bi-link"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+          <div class="portfolio-wrap">
+            <img src="{{ asset('assets/img/portfolio/portfolio-9.jpg')}}" class="img-fluid" alt="">
+            <div class="portfolio-info">
+              <h4>Web 3</h4>
+              <p>Web</p>
+              <div class="portfolio-links">
+                <a href="{{ asset('assets/img/portfolio/portfolio-9.jpg')}}" data-gallery="portfolioGallery" class="portfokio-lightbox" title="Web 3"><i class="bi bi-plus"></i></a>
+                <a href="portfolio-details.html" title="More Details"><i class="bi bi-link"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
     </div>
-</section>
-<!--/#Page header-->
 
-<!-- work details part start -->
-<section class="work-single">
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-12">
-                <div class="work-single-image">
-                    <!-- Work Single Image -->
-                    <img class="img-fluid w-100" src="{{ asset('assets/images/portfolio/post-1.jpg')}}" alt="work-single-image">
-                </div>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-lg-8">
-                <!-- work single Content -->
-                <div class="work-single-content">
-                    <h3>Consectur in Bibendum</h3>
-                    <p>Totam rem aperiam eaque ipsa quae illo inventore veritatis et quasi architebetea.vitae dicta sunt explicabo.
-                        nemo enim ipsam volup as tatem quia voluptassit aspernatur.aut odit aut fugit sed quia consequuntur
-                        magni dolores eo ratione voluptatem.sequi nesciunt neque porro quisquam est dolorem ipsum quia dolor
-                        amet consectetur adipisci velit. lorem ipsum dolor sit amet consectetur adipisicing elit sed do eiusmod
-                        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam quis nostrud exercitation
-                        ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-                    <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-                        Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim est
-                        laborum. Sed ut perspiciatis unde omnis iste natus. error sit voluptatem accusantium doloremque laudantium,
-                        totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta
-                        sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia
-                        consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui
-                        dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora
-                        incidunt ut labore et dolore magnam aliquam quaerat voluptatem.</p>
-                    <!-- Blockquote -->
-                    <blockquote>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt labore et
-                        dolore magna aliqua. ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
-                        ex ea commodo.</blockquote>
-                    <p>Consequuntur magni dolores ratione voluptatem.sequi nesciunt neque porro quisquam est dolorem ipsum quia
-                        dolor sit amet consectetur adipisci velit.lorem ipsum dolor sit amet consectetur adipisicing elit
-                        sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. ut enim ad minim veniam quis nostrud
-                        exercitation ullamco laboris nisi ut aliquip commodo consequat. </p>
-                    <p>Reprehenderit in voluptate velit esse cillum dolore fugiat nulla pariatur. Excepteur sint occaecat cupidatat
-                        non proident. sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis
-                        unde omnis iste natus.</p>
-                </div>
-            </div>
-            <div class="col-lg-4">
-                <!-- sidebar -->
-                <div class="work-single-sidebar">
-                    <h5>Clients</h5>
-                    <h6>Julia Robertson</h6>
-                    <h5>date</h5>
-                    <h6>November 20, 2017</h6>
-                    <h5>category</h5>
-                    <h6>Investment, Business</h6>
-                    <h5>locations</h5>
-                    <h6>1201 park street, Avenue, Dhaka</h6>
-                </div>
-            </div>
-            <div class="col-lg-12">
-                <a class="btn btn-dafault btn-work hvr-bounce-to-right" href="#">get this work</a>
-            </div>
-        </div>
-    </div>
-</section>
-<!-- work details part end -->
-
-<section class="works works-fit">
-    <div class="container">
-        <h2 class="subtitle">Beberapa hasil kerja kami</h2>
-        <div class="row">
-            <div class="col-md-3 col-sm-6">
-                <figure class="wow fadeInLeft animated portfolio-item animated" data-wow-duration="300ms" data-wow-delay="0ms" style="visibility: visible; animation-duration: 300ms; -webkit-animation-duration: 300ms; animation-delay: 0ms; -webkit-animation-delay: 0ms; animation-name: fadeInLeft; -webkit-animation-name: fadeInLeft;">
-                    <div class="img-wrapper">
-                        <img src="{{ asset('assets/images/portfolio/item-1.jpg')}}" class="img-fluid" alt="portfolio items">
-                        <div class="overlay">
-                            <div class="buttons">
-                                <a rel="gallery" title="Proin imperdiet augue et magna interdum hendrerit" class="fancybox" href="{{ asset('assets/images/portfolio/item-1.jpg')}}">Demo</a>
-                                <a target="_blank" href="{{ url('portfolio') }}">rincian</a>
-                            </div>
-                        </div>
-                    </div>
-                    <figcaption>
-                        <h4>
-                            <a href="#">
-                                T-shirt sablon
-                            </a>
-                        </h4>
-                    </figcaption>
-                </figure>
-            </div>
-
-            <div class="col-md-3 col-sm-6">
-                <figure class="wow fadeInLeft animated animated" data-wow-duration="300ms" data-wow-delay="300ms" style="visibility: visible; animation-duration: 300ms; -webkit-animation-duration: 300ms; animation-delay: 300ms; -webkit-animation-delay: 300ms; animation-name: fadeInLeft; -webkit-animation-name: fadeInLeft;">
-                    <div class="img-wrapper">
-                        <img src="{{ asset('assets/images/portfolio/item-2.jpg')}}" class="img-fluid" alt="portfolio items">
-                        <div class="overlay">
-                            <div class="buttons">
-                                <a rel="gallery" title="Proin imperdiet augue et magna interdum hendrerit" class="fancybox" href="{{ asset('assets/images/portfolio/item-2.jpg')}}">Demo</a>
-                                <a target="_blank"  href="{{ url('portfolio') }}">rincian</a>
-                            </div>
-                        </div>
-                    </div>
-                    <figcaption>
-                        <h4>
-                            <a href="#">
-                                T-shirt sablon
-                            </a>
-                        </h4>
-                    </figcaption>
-                </figure>
-            </div>
-
-            <div class="col-md-3 col-sm-6">
-                <figure class="wow fadeInLeft animated animated" data-wow-duration="300ms" data-wow-delay="300ms" style="visibility: visible; animation-duration: 300ms; -webkit-animation-duration: 300ms; animation-delay: 300ms; -webkit-animation-delay: 300ms; animation-name: fadeInLeft; -webkit-animation-name: fadeInLeft;">
-                    <div class="img-wrapper">
-                        <img src="{{ asset('assets/images/portfolio/item-3.jpg')}}" class="img-fluid" alt="">
-                        <div class="overlay">
-                            <div class="buttons">
-                                <a rel="gallery" title="Proin imperdiet augue et magna interdum hendrerit" class="fancybox" href="{{ asset('assets/images/portfolio/item-3.jpg')}}">Demo</a>
-                                <a target="_blank" href="{{ url('portfolio') }}">rincian</a>
-                            </div>
-                        </div>
-                    </div>
-                    <figcaption>
-                        <h4>
-                            <a href="#">
-                                T-shirt sablon
-                            </a>
-                        </h4>
-                    </figcaption>
-                </figure>
-            </div>
-
-            <div class="col-md-3 col-sm-6">
-                <figure class="wow fadeInLeft animated animated" data-wow-duration="300ms" data-wow-delay="600ms" style="visibility: visible; animation-duration: 300ms; -webkit-animation-duration: 300ms; animation-delay: 600ms; -webkit-animation-delay: 600ms; animation-name: fadeInLeft; -webkit-animation-name: fadeInLeft;">
-                    <div class="img-wrapper">
-                        <img src="{{ asset('assets/images/portfolio/item-4.jpg')}}" class="img-fluid" alt="">
-                        <div class="overlay">
-                            <div class="buttons">
-                                <a rel="gallery" title="Proin imperdiet augue et magna interdum hendrerit" class="fancybox" href="{{ asset('assets/images/portfolio/item-4.jpg')}}">Demo</a>
-                                <a target="_blank" href="{{ url('portfolio') }}">rincian</a>
-                            </div>
-                        </div>
-                    </div>
-                    <figcaption>
-                        <h4>
-                            <a href="#">
-                                T-shirt sablon
-                            </a>
-                        </h4>
-                    </figcaption>
-                </figure>
-            </div>
-        </div>
-    </div>
-</section> --}}
+  </section><!-- End Portfolio Section --> --}}
 
 @endsection

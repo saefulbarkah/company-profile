@@ -378,7 +378,7 @@
 
     {{-- timeline css --}}
     <div class="container">
-        <div class="row">
+        <div class="row justify-content-center">
             <div class="col-md-12">
                 <h2 class="judul">PROSES KERJA KAMI</h2>
                 <div class="main-timeline">
@@ -409,7 +409,7 @@
                             <div class="timeline-icon">
                                 <i class="fa fa-shopping-cart"></i>
                             </div>
-                            <h3 class="title">Down payment(DP) minimal 50% </h3>
+                            <h3 class="title">Down payment(DP) minimal 50%</h3>
                             <p class="description">
                                 Setelah pembeli telah menentukan jenis barang dan negosiasi harga produk kemudian memberikan down payment atau DP sebesar 50%.
                             </p>

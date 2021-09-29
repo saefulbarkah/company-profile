@@ -195,7 +195,7 @@
 
             <div class="row">
                 <div class="col-lg-12 text-center">
-                    <p class="pl-3"><br>Ingin tau lebih tentang kami? <a href="#">Hubungi kami</a></p>
+                    <p class="pl-3"><br>Ingin tau lebih tentang kami? <a href="{{ url('contact') }}">Hubungi kami</a></p>
                 </div>
             </div>
         </div>
