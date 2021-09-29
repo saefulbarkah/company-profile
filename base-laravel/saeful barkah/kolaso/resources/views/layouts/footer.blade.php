@@ -24,7 +24,7 @@
                         <ul>
                             <li><a href="{{ url('tentang') }}">Tentang kami</a></li>
                             <li><a href="{{ url('layanan') }}">Layanan</a></li>
-                            <li><a href="{{ url('portofolio') }}">Portfolio</a></li>
+                            <li><a href="{{ url('portofolio') }}">Portofolio</a></li>
                             <li><a href="{{ url('kontak') }}">Kontak</a></li>
                         </ul>
                     </div>
