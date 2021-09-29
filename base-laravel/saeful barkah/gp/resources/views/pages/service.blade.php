@@ -1,5 +1,7 @@
 @extends('layouts.master')
 
+@section('page-title', 'Genetic wear')
+@section('page-subtitle', 'layanan kami')
 @section('title', 'Genetic | Layanan')
 @section('content')
 
@@ -8,17 +10,20 @@
     <div class="container" data-aos="fade-up">
 
         <div class="section-title text-center">
-            <p>Layanan</p>
+            <p>Jasa & layanan</p>
         </div>
 
         <div class="row justify-content-center">
             <div class="col-lg-4 col-md-6 d-flex align-items-stretch" data-aos="zoom-in" data-aos-delay="100">
                 <div class="icon-box">
                     <div class="icon"><i class="fas fa-shopping-cart"></i></div>
-                    <h4><a href="{{ url('service/full-order') }}">Full Order</a></h4>
-                    <p>Full order merupakan layanan produk berupa pembelian penuh dengan kelengkapan yang sesuai layanan</p>
+                    <h4><a href="{{ url('layanan/full-order') }}">Full order</a></h4>
+                    <p>
+                        Full order merupakan layanan produk berupa pemesanan penuh dengan kelengkapan yang sesuai
+                        pemesanan
+                    </p>
                     <div class="mt-4">
-                        <a href="{{ url('service/full-order') }}" class="btn btn-dark text-warning">Selengkapnya</a>
+                        <a href="{{ url('layanan/full-order') }}" class="btn btn-dark text-warning">Selengkapnya</a>
                     </div>
                 </div>
             </div>
@@ -27,10 +32,12 @@
                 data-aos-delay="200">
                 <div class="icon-box">
                     <div class="icon"><i class="fas fa-print"></i></div>
-                    <h4><a href="{{ url('service/makloon-sublime') }}">Makloon Sublime</a></h4>
-                    <p>Makloon sublime merupakan layanan jasa yang menyediakan layanan berupa printing & press heat transfer</p>
+                    <h4><a href="{{ url('layanan/makloon-sublime') }}">Makloon sublime</a></h4>
+                    <p>Makloon sublime merupakan layanan jasa yang menyediakan layanan berupa printing & press heat
+                        transfer</p>
                     <div class="mt-4">
-                        <a href="{{ url('service/makloon-sublime') }}" class="btn btn-dark text-warning">Selengkapnya</a>
+                        <a href="{{ url('layanan/makloon-sublime') }}"
+                            class="btn btn-dark text-warning">Selengkapnya</a>
                     </div>
                 </div>
             </div>

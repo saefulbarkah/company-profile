@@ -173,6 +173,8 @@
 </style>
 @endpush
 
+@section('page-title', 'Genetic Wear')
+@section('page-subtitle', 'konveksi & sablon')
 @section('title', 'Genetic | Beranda')
 @section('content')
 
@@ -185,17 +187,17 @@
                 <img src="{{ asset('assets/img/background/bg-welcome.png') }}" class="img-fluid" alt="">
             </div>
             <div class="col-lg-6 pt-4 pt-lg-0 order-2 order-lg-1 content" data-aos="fade-right" data-aos-delay="100">
-                <h3>Selamat Datang di Genetic Wear</h3>
-                <p class="fst-italic">
-                    Kami menyediakan sebuah jasa atau layanan Konveksi dan Sablon. Kami menerima pembuatan :
+                <h3>Selamat datang di genetic wear</h3>
+                <p>
+                    kami menyediakan layanan Konveksi dan Sablon. Kami menerima pembuatan :
                 </p>
                 <ul>
-                    <li><i class="ri-check-double-line"></i> jersey</li>
-                    <li><i class="ri-check-double-line"></i> Baju</li>
+                    <li><i class="ri-check-double-line"></i> Jersey</li>
                     <li><i class="ri-check-double-line"></i> Kemeja</li>
-                    <li><i class="ri-check-double-line"></i> Jacket</li>
+                    <li><i class="ri-check-double-line"></i> Kaos</li>
+                    <li><i class="ri-check-double-line"></i> Jaket</li>
                     <p>
-                        Genetic Wear juga menyediakan sebuah jasa Makloon Sublime Berupa Printing dan Press heat -
+                        Genetic wear juga menyediakan sebuah jasa makloon sublime berupa printing dan press heat -
                         transfer
                     </p>
                 </ul>
@@ -211,7 +213,6 @@
 <section class="Proses">
     <div class="container" data-aos="fade-up">
         <div class="section-title">
-            <h2>Proses</h2>
             <p>Prosedur Pemesanan</p>
         </div>
         <div class="row mt-4">
@@ -224,7 +225,8 @@
                                     <span class="timeline-year">1</span>
                                     <h3 class="title">Desain Produk</h3>
                                     <p class="description">
-                                        memilih jenis produk dan menentukan ukuran,warna,jumlah dan lainya, dan Diskusi
+                                        memilih jenis produk dan menentukan ukuran, warna, jumlah dan lainya, dan
+                                        diskusi
                                         tentang desain serta pembuatan mock-up desain produk yang akan di buat
                                     </p>
                                 </a>
@@ -241,9 +243,9 @@
                             <div class="timeline">
                                 <a href="#" class="timeline-content">
                                     <span class="timeline-year">3</span>
-                                    <h3 class="title">Down Payment</h3>
+                                    <h3 class="title">Uang muka</h3>
                                     <p class="description">
-                                        Pembayaran uang muka (down payment) untuk produksi sebesar minimal 50% dari
+                                        Pembayaran uang muka untuk produksi sebesar minimal 50% dari
                                         total harga.
                                     </p>
                                 </a>
@@ -254,7 +256,7 @@
                                     <h3 class="title">Produksi</h3>
                                     <p class="description">
                                         Pembuatan produk sesuai dengan kesepakatan, dimana setiap prosesnya bisa di
-                                        lihat secara transparan di Genetic Wear Integrated Sistem.
+                                        lihat secara transparan di Genetic wear terintegrasi dengan sistem.
                                     </p>
                                 </a>
                             </div>
@@ -263,8 +265,8 @@
                                     <span class="timeline-year">5</span>
                                     <h3 class="title">Pelunasan pembayaran</h3>
                                     <p class="description">
-                                        Setelah produk 100% selesai dan foto produk telah dikirim, Pelunasan dilakukan
-                                        agar barnag bisa dikirim ke tempat tujuan
+                                        Setelah produk 100% selesai dan foto produk telah dikirim, pelunasan dilakukan
+                                        agar barang bisa dikirim ke tempat tujuan
                                     </p>
                                 </a>
                             </div>
@@ -285,73 +287,69 @@
             <p>Yang Sering Di Tanyakan</p>
         </div>
         <div class="row">
-            <div class="col-lg-6">
-                <div class="card">
-                    <div class="card-body">
-                        <div class="accordion accordion-flush" id="accordionFlushExample">
-                            <div class="accordion-item">
-                                <h2 class="accordion-header" id="flush-headingOne">
-                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                        data-bs-target="#flush-collapseOne" aria-expanded="false"
-                                        aria-controls="flush-collapseOne">
-                                        Apakah bisa di buatkan desain produk ?
-                                    </button>
-                                </h2>
-                                <div id="flush-collapseOne" class="accordion-collapse collapse"
-                                    aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
-                                    <div class="accordion-body">Anda dapat meminta bantuan untuk pembuatan desain produk
-                                        dengan
-                                        memberikan referensi produk atau contoh produk, dan detail produk yang
-                                        dibutuhkan
-                                        termasuk logo, tulisan, dan font tulisan
-                                    </div>
+            <div class="accordion" id="accordionExample">
+                <div class="col-lg-12-mt-4">
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingOne">
+                            <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                Apakah bisa dibuatkan desain produk ?
+                            </button>
+                        </h2>
+                        <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
+                            data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                Anda dapat meminta bantuan untuk pembuatan desain produk dengan memberikan referensi
+                                produk atau contoh produk dan detail produk yang dibutuhkan termasuk logo , tulisan ,
+                                dan font tulisan.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-12 mt-4">
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="headingTwo">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                    Produk apa saja yang tersedia di genetic wear ?
+                                </button>
+                            </h2>
+                            <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+                                data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    Kami menyediakan pembuatan baju diantaranya jersey, kemeja dan jaket
                                 </div>
                             </div>
                         </div>
                     </div>
-                </div>
-            </div>
-            <div class="col-lg-6">
-                <div class="card">
-                    <div class="card-body">
-                        <div class="accordion accordion-flush" id="accordionFlushExample">
-                            <div class="accordion-item">
-                                <h2 class="accordion-header" id="flush-headingTwo">
-                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                        data-bs-target="#flush-collapseTwo" aria-expanded="false"
-                                        aria-controls="flush-collapseTwo">
-                                        Genetic Wear Lokasi nya dimana ?
-                                    </button>
-                                </h2>
-                                <div id="flush-collapseTwo" class="accordion-collapse collapse"
-                                    aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
-                                    <div class="accordion-body">
-                                        Genetic Wear Berlokasi di Bandung, untuk alamat lengkapnya di Jl. Katapang Andir
-                                        No.503, Sangkanhurip, Kec. Katapang, Bandung, Jawa Barat 40921
-                                    </div>
+                    <div class="col-lg-12 mt-4">
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="headingThree">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                    Genetic wear lokasinya dimana ?
+                                </button>
+                            </h2>
+                            <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
+                                data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    Genetic wear berlokasi di Bandung, untuk alamat lengkapnya di Jl. Katapang Andir
+                                    No.503, Sangkanhurip, Kec. Katapang, Bandung, Jawa Barat 40921
                                 </div>
                             </div>
                         </div>
                     </div>
-                </div>
-            </div>
-            <div class="col-lg-6">
-                <div class="card">
-                    <div class="card-body">
-                        <div class="accordion accordion-flush" id="accordionFlushExample">
-                            <div class="accordion-item">
-                                <h2 class="accordion-header" id="flush-headingThree">
-                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                        data-bs-target="#flush-collapseThree" aria-expanded="false"
-                                        aria-controls="flush-collapseThree">
-                                        Produk apa saja yang tersedia ?
-                                    </button>
-                                </h2>
-                                <div id="flush-collapseThree" class="accordion-collapse collapse"
-                                    aria-labelledby="flush-headingThree">
-                                    <div class="accordion-body">
-                                        Genetic Wear menyediakan Produk untuk pembuatan baju, Jersey, Jacket dan kemeja
-                                    </div>
+                    <div class="col-lg-12 mt-4">
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="headingFour">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                                    Berapa lama waktu pengerjaanya ?
+                                </button>
+                            </h2>
+                            <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour"
+                                data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    Waktu pengerjaan produksi sekitar 1 sampai 2 minggu
                                 </div>
                             </div>
                         </div>

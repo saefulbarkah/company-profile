@@ -1,5 +1,7 @@
 @extends('layouts.master')
 
+@section('page-title', 'Genetic wear')
+@section('page-subtitle', 'tentang kami')
 @section('title', 'Genetic | Tentang Kami')
 @section('content')
 <!-- ======= About Section ======= -->
@@ -16,12 +18,12 @@
             <div class="col-lg-12 pt-4 pt-lg-0 order-2 order-lg-1 content" data-aos="fade-right" data-aos-delay="100">
                 <h3>Genetic Wear</h3>
                 <p>
-                    Genetic Wear merupakan sebuah perusahaan konveksi yang memiliki layanan Design, pembuatan
-                    (T-shirt,Jersey,kemeja,jaket) dan Makloon Sublime printing beserta Makloon Press Sublime. Genetic
-                    Waer mulai di dirikan pada tahun 2008 dengan penyedia layanan konveksi seiring perkembangan waktu
-                    pada tahun 2010 perusahaan Genetic Wear mulai bergerak ke sebuah layanan baru yaitu sablon. Terus
-                    berlanjut Genetic Wear mulai mengadakan sebuah layanan baru dengan alat teknologi terbaru yaitu
-                    Sublime. Genetic Wear juga menyediakan layanan :
+                    Genetic wear merupakan sebuah perusahaan konveksi yang memiliki layanan desain pembuatan (kaos,
+                    jersey, kemeja, jaket) dan makloon sublime printing beserta makloon sublime press heat transfer.
+                    Genetic wear mulai didirikan pada tahun 2008 dengan penyedia layanan konveksi seiring perkembangan
+                    waktu pada tahun 2010 perusahaan genetic wear mulai bergerak ke sebuah layanan baru yaitu sablon.
+                    Terus berlanjut genetic wear mulai mengadakan sebuah layanan baru dengan alat teknologi terbaru
+                    yaitu sublime. Genetic Wear juga menyediakan layanan :
 
                 </p>
                 <ul>
@@ -29,19 +31,19 @@
                         jersey
                     </li>
                     <li><i class="ri-check-double-line"></i>
-                        T-shirt
+                        Kaos
                     </li>
                     <li><i class="ri-check-double-line"></i>
-                        Jacket
+                        Jaket
                     </li>
                     <li><i class="ri-check-double-line"></i>
-                        kemeja</li>
+                        Kemeja</li>
                     </li>
                     <li><i class="ri-check-double-line"></i>
-                        makloon sublime printing
+                        Makloon sublime printing
                     </li>
                     <li><i class="ri-check-double-line"></i>
-                        makloon sublime press - heat transfer
+                        Makloon sublime press - heat transfer
                     </li>
                 </ul>
             </div>

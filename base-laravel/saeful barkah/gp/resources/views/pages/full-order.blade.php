@@ -1,5 +1,7 @@
 @extends('layouts.master')
 
+@section('page-title', 'Layanan')
+@section('page-subtitle', 'Full order')
 @section('title', 'Genetic | Layanan Full Order')
 @section('content')
 @push('styles')
@@ -20,7 +22,7 @@
     /* Medium devices (tablets, 768px and up) */
     @media (min-width: 768px) {
         .card-img-top {
-            height: 30vw;
+            height: 50vw;
         }
     }
 
@@ -34,7 +36,7 @@
     /* Extra large devices (large desktops, 1200px and up) */
     @media (min-width: 992px) {
         .card-img-top {
-            height: 18vw;
+            height: 20vw;
         }
     }
 </style>
@@ -44,66 +46,71 @@
     <div class="container" data-aos="fade-up">
 
         <div class="section-title text-center">
-            <p>Full Order</p>
+            <p>Daftar produk</p>
         </div>
 
-        <div class="row justify-content-center">
-            <div class="col-lg-4 col-md-6 col-sm-6 mt-5">
+        <div class="row">
+            <div class="col-lg-3 col-md-6 col-sm-6 mt-5">
                 <div class="card" style="width: auto;">
-                    <img src="{{ asset('assets/img/services/jersey-bola.jpg') }}" class="card-img-top" alt="...">
+                    <img src="{{ asset('assets/img/services/futsal.jpg') }}" class="card-img-top" alt="...">
                     <div class="card-body">
-                        <h5 class="card-title text-center"> Jersey Futsal</h5>
+                        <h5 class="card-title text-center"> Jersey futsal</h5>
                     </div>
                 </div>
             </div>
-            <div class="col-lg-4 col-md-6 col-sm-6 mt-5">
+            <div class="col-lg-3 col-md-6 col-sm-6 mt-5">
                 <div class="card" style="width: auto;">
-                    <img src="https://id-live-05.slatic.net/p/55bf7d26f60dee854ab06761a10e7b85.jpg_720x720q80.jpg_.webp"
-                        class="card-img-top" alt="...">
+                    <img src="{{ asset('assets/img/services/gaming.png') }}" class="card-img-top" alt="...">
                     <div class="card-body">
-                        <h5 class="card-title text-center">Jersey Gaming</h5>
+                        <h5 class="card-title text-center">Jersey gaming</h5>
                     </div>
                 </div>
             </div>
-            <div class="col-lg-4 col-md-6 col-sm-6 mt-5">
+            <div class="col-lg-3 col-md-6 col-sm-6 mt-5">
                 <div class="card" style="width: auto;">
-                    <img src="https://s4.bukalapak.com/img/90507174642/large/data.jpeg" class="card-img-top" alt="...">
+                    <img src="{{ asset('assets/img/services/mancing.jpg') }}" class="card-img-top" alt="...">
                     <div class="card-body">
-                        <h5 class="card-title text-center">Jersey Mancing</h5>
+                        <h5 class="card-title text-center">Jersey mancing</h5>
                     </div>
                 </div>
             </div>
-            <div class="col-lg-4 col-md-6 col-sm-6 mt-5">
+            <div class="col-lg-3 col-md-6 col-sm-6 mt-5">
                 <div class="card" style="width: auto;">
-                    <img src="https://s3.bukalapak.com/img/80844100242/large/data.jpeg" class="card-img-top" alt="...">
+                    <img src="{{ asset('assets/img/services/sepeda.png') }}" class="card-img-top" alt="...">
                     <div class="card-body">
-                        <h5 class="card-title text-center">Jersey Sepeda</h5>
+                        <h5 class="card-title text-center">Jersey sepeda</h5>
                     </div>
                 </div>
             </div>
-            <div class="col-lg-4 col-md-6 col-sm-6 mt-5">
+            <div class="col-lg-3 col-md-6 col-sm-6 mt-5">
                 <div class="card" style="width: auto;">
-                    <img src="https://1.bp.blogspot.com/-5bz7f7SDKr4/XFm9txpcWDI/AAAAAAAAC2k/hVqsvktILtoyiJZ1-7W2JsnEEo420YTlwCLcBGAs/w1200-h630-p-k-no-nu/mockup-jaket-hoodie.jpg"
-                        class="card-img-top" alt="...">
+                    <img src="{{ asset('assets/img/services/basket.png') }}" class="card-img-top" alt="...">
                     <div class="card-body">
-                        <h5 class="card-title text-center">Jacket</h5>
+                        <h5 class="card-title text-center">Jersey basket</h5>
                     </div>
                 </div>
             </div>
-            <div class="col-lg-4 col-md-6 col-sm-6 mt-5">
+            <div class="col-lg-3 col-md-6 col-sm-6 mt-5">
                 <div class="card" style="width: auto;">
-                    <img src="https://lh6.googleusercontent.com/proxy/JK3EcFc8MMugtXf5rTGzb1BdDXnFcnjUO-zo1rszL5-4H8Eza2_mL5yqnfahDWsQLC_tyebeY7gdBHLQjerlLIQicBMhUG5k3YIntD_NyHm7=w1200-h630-p-k-no-nu"
-                        class="card-img-top" alt="...">
+                    <img src="{{ asset('assets/img/services/jaket.jpg') }}" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title text-center">Jaket</h5>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-6 mt-5">
+                <div class="card" style="width: auto;">
+                    <img src="{{ asset('assets/img/services/kemeja.png') }}" class="card-img-top" alt="...">
                     <div class="card-body">
                         <h5 class="card-title text-center">Kemeja</h5>
                     </div>
                 </div>
             </div>
-            <div class="col-lg-4 col-md-6 col-sm-6 mt-5">
+            <div class="col-lg-3 col-md-6 col-sm-6 mt-5">
                 <div class="card" style="width: auto;">
-                    <img src="{{ asset('assets/img/services/tshirt.jpg') }}" class="card-img-top" alt="...">
+                    <img src="{{ asset('assets/img/services/kaos.png') }}" class="card-img-top" alt="...">
                     <div class="card-body">
-                        <h5 class="card-title text-center">Tshirt</h5>
+                        <h5 class="card-title text-center">Kaos</h5>
                     </div>
                 </div>
             </div>

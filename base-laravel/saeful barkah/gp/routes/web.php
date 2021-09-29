@@ -13,10 +13,10 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/','HomeController@home');
-Route::get('/about','AboutController@aboutUs');
-Route::get('/service','ServiceController@Services');
-Route::get('/portfolio','PortfolioController@portfolio');
-Route::get('/contact','ContactController@contact');
-Route::get('/service/full-order','ServiceController@fullOrder');
-Route::get('/service/makloon-sublime','ServiceController@makloonSublime');
+Route::get('/', 'HomeController@home');
+Route::get('/tentang', 'AboutController@aboutUs');
+Route::get('/layanan', 'ServiceController@Services');
+Route::get('/portofolio', 'PortfolioController@portfolio');
+Route::get('/kontak', 'ContactController@contact');
+Route::get('/layanan/full-order', 'ServiceController@fullOrder');
+Route::get('/layanan/makloon-sublime', 'ServiceController@makloonSublime');

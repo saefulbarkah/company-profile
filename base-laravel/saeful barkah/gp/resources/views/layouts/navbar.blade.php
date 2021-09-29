@@ -10,20 +10,20 @@
                         href="{{ url('/') }}">Beranda</a>
                 </li>
                 <li>
-                    <a class="nav-link scrollto {{ Request::is('about') ? 'active' : '' }}"
-                        href="{{ url('/about') }}">Tentang</a>
+                    <a class="nav-link scrollto {{ Request::is('tentang') ? 'active' : '' }}"
+                        href="{{ url('/tentang') }}">Tentang</a>
                 </li>
                 <li>
-                    <a class="nav-link scrollto {{ Request::is('service') ? 'active' : '' }}"
-                        href="{{ url('service') }}">Layanan</a>
+                    <a class="nav-link scrollto {{ Request::is('layanan') ? 'active' : '' }}"
+                        href="{{ url('layanan') }}">Layanan</a>
                 </li>
                 <li>
-                    <a class="nav-link scrollto {{ Request::is('portfolio') ? 'active' : '' }}"
-                        href="{{ url('portfolio') }}">Portofolio</a>
+                    <a class="nav-link scrollto {{ Request::is('portofolio') ? 'active' : '' }}"
+                        href="{{ url('portofolio') }}">Portofolio</a>
                 </li>
                 <li>
-                    <a class="nav-link scrollto {{ Request::is('contact') ? 'active' : '' }}"
-                        href="{{ url('contact') }}">kontak</a>
+                    <a class="nav-link scrollto {{ Request::is('kontak') ? 'active' : '' }}"
+                        href="{{ url('kontak') }}">kontak</a>
                 </li>
             </ul>
             <i class="bi bi-list mobile-nav-toggle"></i>

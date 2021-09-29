@@ -9,8 +9,6 @@
     <meta content="" name="description">
     <meta content="" name="keywords">
 
-    <!-- Favicons -->
-    <link href="{{ asset('assets/img/favicon.png') }}" rel="icon">
     <link href="{{ asset('assets/img/apple-touch-icon.png') }}" rel="apple-touch-icon">
 
     <!-- Google Fonts -->
@@ -60,9 +58,9 @@
 
             <div class="row justify-content-center" data-aos="fade-up" data-aos-delay="150">
                 <div class="col-xl-6 col-lg-8">
-                    <h1>Genetic Wear</h1>
+                    <h1>@yield('page-title')</h1>
                     <br>
-                    <h2>Konveksi <span>&</span> Sablon</h2>
+                    <h2>@yield('page-subtitle')</h2>
                 </div>
             </div>
         </div>
@@ -90,7 +88,7 @@
     <script src="{{ asset('assets/vendor/bootstrap/js/bootstrap.bundle.min.js') }}"></script>
     <script src="{{ asset('assets/vendor/glightbox/js/glightbox.min.js') }}"></script>
     <script src="{{ asset('assets/vendor/isotope-layout/isotope.pkgd.min.js') }}"></script>
-    <script src="{{ asset('assets/vendor/php-email-form/validate.js') }}"></script>
+    {{-- <script src="{{ asset('assets/vendor/php-email-form/validate.js') }}"></script> --}}
     <script src="{{ asset('assets/vendor/purecounter/purecounter.js') }}"></script>
     <script src="{{ asset('assets/vendor/swiper/swiper-bundle.min.js') }}"></script>
 
@@ -98,6 +96,7 @@
     <script src="{{ asset('assets/js/main.js') }}"></script>
     {{-- prosses js --}}
     @stack('proses-js')
+    @stack('scripts')
 </body>
 
 </html>

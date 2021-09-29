@@ -1,6 +1,9 @@
 @extends('layouts.master')
 
-@section('title', 'Genetic | Layanan Full Order')
+
+@section('page-title', 'Layanan')
+@section('page-subtitle', 'Makloon sublime')
+@section('title', 'Genetic | layanan makloon sublime')
 @section('content')
 @push('styles')
 <style>
@@ -52,12 +55,12 @@
                 <img src="{{ asset('assets/img/services/sublim-print.jpg') }}" class="img-fluid" alt="">
             </div>
             <div class="col-lg-6 pt-4 pt-lg-0 order-2 order-lg-1 content" data-aos="fade-right" data-aos-delay="100">
-                <h3>Sublime Printing</h3>
+                <h3>Sublime printing</h3>
                 <p>
-                    Sublime Printing merupakan salah satu alternatif teknik mencetak yang menggunakan
+                    Sublime printing merupakan salah satu alternatif teknik mencetak yang menggunakan
                     kertas
-                    sebagai medium perantara tinta dan media cetak (seperti kaos dan jacket).
-                    Uniknya, sublim menggunakan proses perubahan wujud zat tinta dari padat ke gas
+                    sebagai media perantara tinta dan media cetak (seperti kaos dan jacket).
+                    Uniknya, sublime printing menggunakan proses perubahan wujud zat tinta dari padat ke gas
                     atau sebaliknya tanpa perlu menjadi cairan seperti sablon. Genetic Wear dengan
                     pengalaman cetak sublim selama bertahun-tahun, kami menjanjikan warna serta
                     gambar desain yang sesuai oleh
@@ -79,8 +82,8 @@
                 <img src="{{ asset('assets/img/services/sublime-press.jpg') }}" class="img-fluid" alt="">
             </div>
             <div class="col-lg-6 pt-4 pt-lg-0 order-2 order-lg-1 content" data-aos="fade-right" data-aos-delay="100">
-                <h3>Sublime Press - Heat Transfer</h3>
-                <p>Sublime Press Heat trasnfer merupakan mesin panas untuk memindahkan grafis dari
+                <h3>Sublime press - heat transfer</h3>
+                <p>Sublime press heat trasnfer merupakan mesin panas untuk memindahkan grafis dari
                     kertas transfer ke bahan tekstil dengan metode pemanasan dan penekanan
                     (pressing)</p>
             </div>
