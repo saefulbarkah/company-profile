@@ -23,9 +23,16 @@
         </div>
     </div>
 </section>
-
 <section id="services1" class="services services-1 pt-130 pb-70">
     <div class="container">
+        <div class="row">
+            <div class="col-sm-12 col-md-12 col-lg-6 offset-lg-3">
+                <div class="heading heading-1 text--center mb-60">
+                    <p class="heading--subtitle"></p>
+                    <h2 class="heading--title">Layanan & Jasa</h2>
+                </div>
+            </div>
+        </div>
         <div class="row justify-content-center">
             <div class="col-lg-9">
                 <div class="card-group">
@@ -37,11 +44,11 @@
                             <p class="card-text">Full order merupakan layanan produk berupa pembelian penuh dengan
                                 kelengkapan yang sesuai layanan</p>
                         </div>
-                        <div class="card-footer text-right">
+                        <div class="card-footer text-center">
                             <small class="text-muted">
-                                <a href="{{ url('layanan/full-order') }}" class="btn-sm btn-primary">
+                                <a href="{{ url('layanan/full-order') }}" class="btn btn--primary">
                                     <i class="fas fa-search"></i>
-                                    Detail
+                                    Selengkapnya
                                 </a>
                             </small>
                         </div>
@@ -55,11 +62,11 @@
                                 berupa
                                 printing & press</p>
                         </div>
-                        <div class="card-footer text-right">
+                        <div class="card-footer text-center">
                             <small class="text-muted">
-                                <a href="{{ url('layanan/makloon-sublime') }}" class="btn-sm btn-primary">
+                                <a href="{{ url('layanan/makloon-sublime') }}" class="btn btn--primary">
                                     <i class="fas fa-search"></i>
-                                    Detail
+                                    Selengkapnya
                                 </a>
                             </small>
                         </div>
