@@ -22,7 +22,7 @@
                     </li>
 
                     <li class="{{ Request::is('tentang') ? 'active' : '' }}">
-                        <a href="{{ url('tentang') }}" class="menu-item">Tentang kami</a>
+                        <a href="{{ url('tentang') }}" class="menu-item">Tentang</a>
                     </li>
 
                     <li class="{{ Request::is('layanan') ? 'active' : '' }}">
