@@ -16,7 +16,7 @@
                     <div class="clearfix"></div>
                     <ol class="breadcrumb d-flex justify-content-center">
                         <li class="breadcrumb-item"><a href="{{ url('/') }}">Beranda</a></li>
-                        <li class="breadcrumb-item active" aria-current="page">Tentang Kami</li>
+                        <li class="breadcrumb-item active" aria-current="page">Tentang kami</li>
                     </ol>
                 </div>
             </div>
@@ -30,14 +30,15 @@
             <div class="col-md-12">
                 <div class="heading heading-1">
                     <p class="heading--subtitle">Tentang Kami</p>
-                    <h2 class="heading--title">Genetic Wear</h2>
-                    <p class="heading--desc">Genetic Wear merupakan sebuah perusahaan konveksi yang memiliki layanan
-                        Design, pembuatan (T-shirt, Jersey, kemeja, jaket) dan Makloon Sublime printing beserta Makloon
-                        Press Sublime. Genetic Wear mulai di dirikan pada tahun 2008 dengan penyedia layanan konveksi
-                        seiring perkembangan waktu pada tahun 2010 perusahaan Genetic Wear mulai bergerak ke sebuah
-                        layanan baru yaitu sablon. Terus berlanjut Genetic Wear mulai mengadakan sebuah layanan baru
-                        dengan alat teknologi terbaru yaitu Sublime. Genetic Wear juga bergerak di bidang vandor jersey,
-                        T-shirt sablon, kemeja, dan juga makloon sublime printing.</p>
+                    <h2 class="heading--title">Genetic wear</h2>
+                    <p class="heading--desc">Genetic wear merupakan sebuah perusahaan konveksi yang memiliki layanan
+                        desain, pembuatan (kaos, jersey, kemeja, jaket) dan makloon sublime printing beserta makloon
+                        sublime press heat transfer. Genetic Wear mulai di dirikan pada tahun 2008 dengan penyedia
+                        layanan konveksi
+                        seiring perkembangan waktu pada tahun 2010 perusahaan genetic wear mulai bergerak ke sebuah
+                        layanan baru yaitu sablon. terus berlanjut genetic wear mulai mengadakan sebuah layanan baru
+                        dengan alat teknologi terbaru yaitu sublime. Genetic wear juga bergerak di bidang vandor jersey,
+                        kaos sablon, kemeja, dan juga makloon sublime printing.</p>
                 </div>
             </div>
         </div>
@@ -49,8 +50,8 @@
         <div class="row">
             <div class="col-sm-12 col-md-12 col-lg-6 offset-lg-3">
                 <div class="heading heading-1 text--center">
-                    <p class="heading--subtitle">Tim Kami</p>
-                    <h2 class="heading--title">Tim Genetic Wear</h2>
+                    <p class="heading--subtitle">Tim kami</p>
+                    <h2 class="heading--title">Tim genetic wear</h2>
                     <p class="heading--desc"></p>
                 </div>
             </div>

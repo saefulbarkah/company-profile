@@ -29,9 +29,6 @@
         integrity="sha512-nNlU0WK2QfKsuEmdcTwkeh+lhGs6uyOxuUs+n+0oXSYDok5qy0EI0lt01ZynHq6+p/tbgpZ7P+yUb+r71wqdXg=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
 
-    <script src="{{ asset('assets/js/html5shiv.js') }}"></script>
-    <script src="{{ asset('assets/js/respond.min.js') }}"></script>
-
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
         integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
 

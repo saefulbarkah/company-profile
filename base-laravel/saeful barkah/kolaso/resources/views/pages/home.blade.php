@@ -109,7 +109,7 @@
             <div class="row">
                 <div class="col-sm-12 col-md-12 col-lg-8 offset-lg-2 col-xl-8 offset-xl-2">
                     <div class="slider-content">
-                        <h1 class="slider--headline">Genetic Wear<br></h1>
+                        <h1 class="slider--headline">Genetic wear<br></h1>
                         <p class="slider--desc">konveksi & sablon</p>
                     </div>
                 </div>
@@ -132,8 +132,8 @@
                     <div class="col-col-sm-12 col-md-12 col-lg-12">
                         <div class="heading mb-60 mt-15">
                             <!-- <p class="heading--subtitle">Selamat Datang di</p> -->
-                            <h2 class="heading--title">Selamat Datang di<br>Genetic Wear, Kami menyediakan Sebuah
-                                layanan Berupa Konveksi & Sablon
+                            <h2 class="heading--title">Selamat datang di<br>genetic wear, kami menyediakan
+                                layanan berupa konveksi & sablon
                             </h2>
                         </div>
                     </div>
@@ -146,8 +146,8 @@
                                 <i class="kolaso-Cart"></i>
                             </div>
                             <div class="feature--content">
-                                <h4>Full Order</h4>
-                                <p>Anda juga bisa melakukan pembelian berupa full order dengan kelengkapan yang sesuai
+                                <h4>Full order</h4>
+                                <p>anda juga bisa melakukan pemesanan secara penuh dengan kelengkapan yang sesuai
                                 </p>
                             </div>
                         </div>
@@ -159,8 +159,8 @@
                                 <i class="kolaso-Printer"></i>
                             </div>
                             <div class="feature--content">
-                                <h4>Makloon Sublime</h4>
-                                <p>Kami menyediakan Jasa Berupa makloon Sublime print & Sublime Press Heat - Transfer
+                                <h4>Makloon sublime</h4>
+                                <p>kami menyediakan jasa berupa makloon sublime print & sublime press heat - transfer
                                 </p>
                             </div>
                         </div>
@@ -188,8 +188,8 @@
                     <div class="timeline-dot"></div>
                     <div class="timeline-date">1</div>
                     <div class="timeline-content" data-aos="fade-right">
-                        <h3>Desain Produk</h3>
-                        <p>memilih jenis produk dan menentukan ukuran,warna,jumlah dan lainya, dan Diskusi tentang
+                        <h3 class="text-uppercase">Desain Produk</h3>
+                        <p>Memilih jenis produk dan menentukan ukuran, warna, jumlah dan lainya lalu Diskusi tentang
                             desain serta pembuatan mock-up desain produk yang akan di buat</p>
                     </div>
                 </div>
@@ -197,7 +197,7 @@
                     <div class="timeline-dot"></div>
                     <div class="timeline-date">2</div>
                     <div class="timeline-content" data-aos="fade-left">
-                        <h3>Negosiasi Produk</h3>
+                        <h3 class="text-uppercase">Negosiasi Produk</h3>
                         <p>Diskusi kesepakatan harga dan waktu dari desain yang akan dibuat.</p>
                     </div>
                 </div>
@@ -205,25 +205,25 @@
                     <div class="timeline-dot"></div>
                     <div class="timeline-date">3</div>
                     <div class="timeline-content" data-aos="fade-right">
-                        <h3>Down Payment (DP)</h3>
-                        <p>Pembayaran uang muka (down payment) untuk produksi sebesar minimal 50% dari total harga. </p>
+                        <h3 class="text-uppercase">uang muka</h3>
+                        <p>Pembayaran uang muka untuk produksi sebesar minimal 50% dari total harga. </p>
                     </div>
                 </div>
                 <div class="timeline-item">
                     <div class="timeline-dot"></div>
                     <div class="timeline-date">4</div>
                     <div class="timeline-content" data-aos="fade-left">
-                        <h3>Produksi</h3>
-                        <p>Pembuatan produk sesuai dengan kesepakatan, dimana setiap prosesnya bisa di lihat secara
-                            transparan di Genetic Wear Terintegrasi Sistem.</p>
+                        <h3 class="text-uppercase">Produksi</h3>
+                        <p>Pembuatan produk sesuai dengan kesepakatan yang dimana setiap prosesnya bisa di lihat secara
+                            transparan di Genetic wear terintegrasi dengan sistem.</p>
                     </div>
                 </div>
                 <div class="timeline-item">
                     <div class="timeline-dot"></div>
                     <div class="timeline-date">5</div>
                     <div class="timeline-content" data-aos="fade-right">
-                        <h3>Pelunasan Invoice</h3>
-                        <p>Setelah produk 100% selesai dan foto produk telah dikirim, Pelunasan dilakukan agar barang
+                        <h3 class="text-uppercase">Pelunasan pembayaran</h3>
+                        <p>Setelah produk 100% selesai dan foto produk telah dikirim, pelunasan dilakukan agar barang
                             bisa dikirim ke tempat tujuan.</p>
                     </div>
                 </div>
@@ -238,14 +238,15 @@
             <div class="col-sm-12 col-md-12 col-lg-12 bg-gray col-content">
                 <div class="heading heading-2 mb-50">
                     <p class="heading--subtitle">FAQ</p>
-                    <h2 class="heading--title">Yang Sering di tanyakan</h2>
+                    <h2 class="heading--title">Yang sering di tanyakan</h2>
                 </div>
                 <div class="accordion accordion-1" id="accordion01">
 
                     <div class="card">
                         <div class="card-heading">
-                            <a class="card-link collapsed" data-toggle="collapse" data-parent="#accordion01"
-                                href="#collapse01-1">Apakah bisa dibuatkan desain produk ?</a>
+                            <a class="card-link collapsed text-lowercase" data-toggle="collapse"
+                                data-parent="#accordion01" href="#collapse01-1">Apakah bisa dibuatkan desain produk
+                                ?</a>
                         </div>
                         <div id="collapse01-1" class="collapse" data-parent="#accordion01">
                             <div class="card-body">Anda dapat meminta bantuan untuk pembuatan desain produk dengan
@@ -255,8 +256,9 @@
                     </div>
                     <div class="card">
                         <div class="card-heading">
-                            <a class="card-link collapsed" data-toggle="collapse" data-parent="#accordion01"
-                                href="#collapse01-2">Produk apa saja yang tersedia di genetic wear ?</a>
+                            <a class="card-link collapsed text-lowercase" data-toggle="collapse"
+                                data-parent="#accordion01" href="#collapse01-2">Produk apa saja yang tersedia di genetic
+                                wear ?</a>
                         </div>
                         <div id="collapse01-2" class="collapse" data-parent="#accordion01">
                             <div class="card-body">Kami menyediakan pembuatan <b>baju , jersey, kemeja dan jacket </b>
@@ -265,8 +267,8 @@
                     </div>
                     <div class="card">
                         <div class="card-heading">
-                            <a class="card-link collapsed" data-toggle="collapse" data-parent="#accordion01"
-                                href="#collapse01-3">Genetic Wear lokasinya dimana ?</a>
+                            <a class="card-link collapsed text-lowercase" data-toggle="collapse"
+                                data-parent="#accordion01" href="#collapse01-3">Genetic Wear lokasinya dimana ?</a>
                         </div>
                         <div id="collapse01-3" class="collapse" data-parent="#accordion01">
                             <div class="card-body">Genetic Wear berlokasi di <b>Bandung</b> , untuk alamat Lengkapnya di
@@ -279,8 +281,8 @@
                     </div>
                     <div class="card">
                         <div class="card-heading">
-                            <a class="card-link collapsed" data-toggle="collapse" data-parent="#accordion01"
-                                href="#collapse01-4">Berapa Lama waktu pengerjaan ?</a>
+                            <a class="card-link collapsed text-lowercase" data-toggle="collapse"
+                                data-parent="#accordion01" href="#collapse01-4">Berapa Lama waktu pengerjaan ?</a>
                         </div>
                         <div id="collapse01-4" class="collapse" data-parent="#accordion01">
                             <div class="card-body">Waktu pengerjaan produksi sekitar <b>1</b> sampai <b>2 minggu</b>

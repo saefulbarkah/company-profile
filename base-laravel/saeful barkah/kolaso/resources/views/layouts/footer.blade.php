@@ -4,10 +4,10 @@
             <div class="row">
                 <div class="col-sm-12 col-md-6 col-lg-4 footer--widget widget-about">
                     <div class="widget--content">
-                        <h5 class="text-white">Genetic Wear</h5>
-                        <p>Genetic Wear merupakan sebuah perusahaan konveksi yang memiliki layanan Design,
-                            pembuatan (T-shirt,Jersey,kemeja,jaket) dan Makloon Sublime printing beserta Makloon
-                            Press Sublime. </p>
+                        <h5 class="text-white">Genetic wear</h5>
+                        <p>Genetic wear merupakan sebuah perusahaan konveksi yang memiliki layanan desain,
+                            pembuatan (kaos, Jersey, kemeja, jaket) dan makloon sublime printing beserta makloon
+                            press sublime. </p>
                         <div class="social--icons">
                             <a href="#" class="facebook"><i class="fa fa-facebook"></i></a>
                             <a href="#" class="twitter"><i class="fa fa-twitter"></i></a>
@@ -36,7 +36,9 @@
                     <div class="widget--content">
                         <ul>
                             <li>Telp: +62 81221337876</li>
-                            <li>Email: genetic.wear@gmail.com</li>
+                            <li>
+                                <p class="text-lowercase">Email: genetic.wear@gmail.com</p>
+                            </li>
                             <li>Alamat: Jl. Katapang Andir No.503, Sangkanhurip, Kec. Katapang, Bandung, Jawa Barat
                                 40921</li>
                         </ul>

@@ -29,7 +29,7 @@
             <div class="col-sm-12 col-md-12 col-lg-6 offset-lg-3">
                 <div class="heading heading-1 text--center mb-60">
                     <p class="heading--subtitle"></p>
-                    <h2 class="heading--title">Layanan & Jasa</h2>
+                    <h2 class="heading--title">Layanan & jasa</h2>
                 </div>
             </div>
         </div>
@@ -40,9 +40,9 @@
                         <img src="https://jengsusan.com/wp-content/uploads/2020/09/Jenis-Konveksi-Baju-yang-Perlu-Kamu-Tahu.jpg"
                             class="card-img-top" alt="...">
                         <div class="card-body">
-                            <h5 class="card-title">Full Order</h5>
-                            <p class="card-text">Full order merupakan layanan produk berupa pembelian penuh dengan
-                                kelengkapan yang sesuai layanan</p>
+                            <h5 class="card-title">Full order</h5>
+                            <p class="card-text">Full order merupakan layanan produk berupa pemesanan penuh dengan
+                                kelengkapan yang sesuai pemesanan</p>
                         </div>
                         <div class="card-footer text-center">
                             <small class="text-muted">
@@ -57,7 +57,7 @@
                         <img src="{{ asset('assets/images/services/sublim-print.jpg') }}" class="card-img-top"
                             alt="...">
                         <div class="card-body">
-                            <h5 class="card-title">Makloon Sublime</h5>
+                            <h5 class="card-title">Makloon sublime</h5>
                             <p class="card-text mt-auto">Makloon sublime merupakan layanan jasa yang menyediakan layanan
                                 berupa
                                 printing & press</p>

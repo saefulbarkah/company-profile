@@ -33,11 +33,11 @@
     <div class="container">
         <div class="row">
 
-            <div class="col-sm-12 col-md-12 col-md-12 work-filter">
-                <ul class="list-inline mb-0">
-                    <li><a class="active-filter" href="#" data-filter="*">Semua</a></li>
-                    <li><a href="#" data-filter=".filter-jersey">Jersey</a></li>
-                </ul>
+            <div class="col-sm-12 col-md-12 col-lg-6 offset-lg-3">
+                <div class="heading heading-1 text--center mb-60">
+                    <p class="heading--subtitle"></p>
+                    <h2 class="heading--title">Daftar portofolio</h2>
+                </div>
             </div>
 
         </div>

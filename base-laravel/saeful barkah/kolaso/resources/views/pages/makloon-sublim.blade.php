@@ -37,13 +37,13 @@
     <div class="container">
         <div class="row text-justify">
             <div class="col-md-6">
-                <h4 class="text-capitalize">Sublime Printing</h4>
-                <p>Sublime Printing merupakan salah satu alternatif teknik mencetak yang menggunakan
+                <h4 class="text-capitalize">Sublime printing</h4>
+                <p>Sublime printing merupakan salah satu alternatif teknik mencetak yang menggunakan
                     kertas
-                    sebagai medium perantara tinta dan media cetak (seperti kaos dan jacket).
-                    Uniknya, sublim menggunakan proses perubahan wujud zat tinta dari padat ke gas
-                    atau sebaliknya tanpa perlu menjadi cairan seperti sablon. Genetic Wear dengan
-                    pengalaman cetak sublim selama bertahun-tahun, kami menjanjikan warna serta
+                    sebagai media perantara tinta dan media cetak seperti (kaos dan jaket).
+                    uniknya, sublime menggunakan proses perubahan wujud zat tinta dari padat ke gas
+                    atau sebaliknya tanpa perlu menjadi cairan seperti sablon. Genetic wear dengan
+                    pengalaman cetak sublime selama bertahun-tahun, kami menjanjikan warna serta
                     gambar desain yang sesuai oleh
                     keinginan pelanggan.</p>
             </div>
@@ -68,8 +68,8 @@
                 </a>
             </div>
             <div class="col-md-6">
-                <h4 class="text-capitalize">Sublime Press - Heat Transfer</h4>
-                <p>Sublime Press Heat trasnfer merupakan mesin panas untuk memindahkan grafis dari
+                <h4 class="text-capitalize">Sublime press - heat transfer</h4>
+                <p>Sublime press heat trasnfer merupakan mesin panas untuk memindahkan grafis dari
                     kertas transfer ke bahan tekstil dengan metode pemanasan dan penekanan
                     (pressing)</p>
             </div>

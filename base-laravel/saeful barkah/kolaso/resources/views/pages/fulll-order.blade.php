@@ -74,67 +74,68 @@
             </div>
 
         </div>
-        <div class="col-sm-12 col-md-12 col-lg-12">
-            <div class="row">
-                <div class="col-lg-4 col-md-6 col-sm-6 mt-5">
-                    <div class="card" style="width: auto;">
-                        <img src="{{ asset('assets/images/services/jersey-bola.jpg') }}" class="card-img-top" alt="...">
-                        <div class="card-body">
-                            <h5 class="card-title text-center"> Jersey Futsal</h5>
-                        </div>
+        <div class="row">
+            <div class="col-lg-3 col-md-6 col-sm-6 mt-5">
+                <div class="card" style="width: auto;">
+                    <img src="{{ asset('assets/images/services/futsal.jpg') }}" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title text-center"> Jersey futsal</h5>
                     </div>
                 </div>
-                <div class="col-lg-4 col-md-6 col-sm-6 mt-5">
-                    <div class="card" style="width: auto;">
-                        <img src="https://id-live-05.slatic.net/p/55bf7d26f60dee854ab06761a10e7b85.jpg_720x720q80.jpg_.webp"
-                            class="card-img-top" alt="...">
-                        <div class="card-body">
-                            <h5 class="card-title text-center">Jersey Gaming</h5>
-                        </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-6 mt-5">
+                <div class="card" style="width: auto;">
+                    <img src="{{ asset('assets/images/services/gaming.png') }}" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title text-center">Jersey gaming</h5>
                     </div>
                 </div>
-                <div class="col-lg-4 col-md-6 col-sm-6 mt-5">
-                    <div class="card" style="width: auto;">
-                        <img src="https://s4.bukalapak.com/img/90507174642/large/data.jpeg" class="card-img-top"
-                            alt="...">
-                        <div class="card-body">
-                            <h5 class="card-title text-center">Jersey Mancing</h5>
-                        </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-6 mt-5">
+                <div class="card" style="width: auto;">
+                    <img src="{{ asset('assets/images/services/mancing.jpg') }}" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title text-center">Jersey mancing</h5>
                     </div>
                 </div>
-                <div class="col-lg-4 col-md-6 col-sm-6 mt-5">
-                    <div class="card" style="width: auto;">
-                        <img src="https://s3.bukalapak.com/img/80844100242/large/data.jpeg" class="card-img-top"
-                            alt="...">
-                        <div class="card-body">
-                            <h5 class="card-title text-center">Jersey Sepeda</h5>
-                        </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-6 mt-5">
+                <div class="card" style="width: auto;">
+                    <img src="{{ asset('assets/images/services/sepeda.png') }}" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title text-center">Jersey sepeda</h5>
                     </div>
                 </div>
-                <div class="col-lg-4 col-md-6 col-sm-6 mt-5">
-                    <div class="card" style="width: auto;">
-                        <img src="https://1.bp.blogspot.com/-5bz7f7SDKr4/XFm9txpcWDI/AAAAAAAAC2k/hVqsvktILtoyiJZ1-7W2JsnEEo420YTlwCLcBGAs/w1200-h630-p-k-no-nu/mockup-jaket-hoodie.jpg"
-                            class="card-img-top" alt="...">
-                        <div class="card-body">
-                            <h5 class="card-title text-center">Jaket</h5>
-                        </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-6 mt-5">
+                <div class="card" style="width: auto;">
+                    <img src="{{ asset('assets/images/services/basket.png') }}" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title text-center">Jersey basket</h5>
                     </div>
                 </div>
-                <div class="col-lg-4 col-md-6 col-sm-6 mt-5">
-                    <div class="card" style="width: auto;">
-                        <img src="https://lh6.googleusercontent.com/proxy/JK3EcFc8MMugtXf5rTGzb1BdDXnFcnjUO-zo1rszL5-4H8Eza2_mL5yqnfahDWsQLC_tyebeY7gdBHLQjerlLIQicBMhUG5k3YIntD_NyHm7=w1200-h630-p-k-no-nu"
-                            class="card-img-top" alt="...">
-                        <div class="card-body">
-                            <h5 class="card-title text-center">Kemeja</h5>
-                        </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-6 mt-5">
+                <div class="card" style="width: auto;">
+                    <img src="{{ asset('assets/images/services/jaket.jpg') }}" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title text-center">Jaket</h5>
                     </div>
                 </div>
-                <div class="col-lg-4 col-md-6 col-sm-6 mt-5">
-                    <div class="card" style="width: auto;">
-                        <img src="{{ asset('assets/images/services/tshirt.jpg') }}" class="card-img-top" alt="...">
-                        <div class="card-body">
-                            <h5 class="card-title text-center">Tshirt</h5>
-                        </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-6 mt-5">
+                <div class="card" style="width: auto;">
+                    <img src="{{ asset('assets/images/services/kemeja.png') }}" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title text-center">Kemeja</h5>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-6 mt-5">
+                <div class="card" style="width: auto;">
+                    <img src="{{ asset('assets/images/services/kaos.png') }}" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title text-center">Kaos</h5>
                     </div>
                 </div>
             </div>
@@ -187,7 +188,7 @@
                             </div>
                             <div class="entry--img">
                                 <a href="#" data-fancybox>
-                                    <img src="https://s4.bukalapak.com/img/4340539073/large/Jersey_gaming_versi_6.jpg"
+                                    <img src="https://s4.bukalapak.com/images/4340539073/large/Jersey_gaming_versi_6.jpg"
                                         alt="entry image" />
                                 </a>
                             </div>
