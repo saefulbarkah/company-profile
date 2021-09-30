@@ -1,54 +1,15 @@
 @extends('layouts.master')
+
 @section('title', 'portofolio')
+@push('styles')
+<link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.css"
+/>
+@endpush
 @section('content')
 
-<section id="portfolio" class="portfolio">
-        <!-- NAVBAR
-    ================================================= -->
-    <nav class="navbar navbar-expand-lg navbar-dark trans-navigation fixed-top navbar-togglable">
-        <div class="container">
-            <a class="navbar-brand" href="{{ url('/') }}">
-                <h3>Genetic Wear</h3>
-            </a>
-            <!-- Toggler -->
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="fa fa-bars"></span>
-            </button>
-
-            <!-- Collapse -->
-            <div class="collapse navbar-collapse" id="navbarCollapse">
-                <!-- Links -->
-                <ul class="navbar-nav ml-auto">
-                    <li class="nav-item ">
-                        <a href="{{ url('/') }}" class="nav-link js-scroll-trigger">
-                            Beranda
-                        </a>
-                    </li>
-                    <li class="nav-item ">
-                        <a href="{{ url('about') }}" class="nav-link js-scroll-trigger">
-                            Tentang
-                        </a>
-                    </li>
-                    <li class="nav-item ">
-                        <a href="{{ url('service') }}" class="nav-link js-scroll-trigger">
-                            Layanan
-                        </a>
-                    </li>
-                    <li class="nav-item ">
-                        <a href="{{ url('portfolio') }}" class="nav-link js-scroll-trigger">
-                            Portofolio
-                        </a>
-                    </li>
-                    <li class="nav-item ">
-                        <a href="{{ url('contact') }}" class="nav-link">
-                            Kontak
-                        </a>
-                    </li>
-                </ul>
-            </div> <!-- / .navbar-collapse -->
-        </div> <!-- / .container -->
-    </nav>
-
+@include('layouts.navbar')
 <!-- HERO
 ================================================== -->
 <section class="page-banner-area page-project">
@@ -90,7 +51,7 @@
                             <div class="overlay-content-block">
                                 <h4>Baju Sablon</h4>
                                 <p>Baju Futsal</p>
-                                <a href="{{ url('project')}}"><i class="fa fa-link"></i></a>
+                                <a href="{{ asset('assets/images/work/10.jpg')}}" data-fancybox><i class="fa fa-link"></i></a>
                             </div>
                         </div>
                     </div>
@@ -100,7 +61,7 @@
                             <div class="overlay-content-block">
                                 <h4>Kemeja</h4>
                                 <p>Kemeja Bola</p>
-                                <a href="{{ url('project')}}"><i class="fa fa-link"></i></a>
+                                <a href="{{ asset('assets/images/work/11.jpg')}}" data-fancybox><i class="fa fa-link"></i></a>
                             </div>
                         </div>
                     </div>
@@ -110,7 +71,7 @@
                             <div class="overlay-content-block">
                                 <h4>Kemeja</h4>
                                 <p>Kemeja Casual</p>
-                                <a href="{{ url('project')}}"><i class="fa fa-link"></i></a>
+                                <a href="{{ asset('assets/images/work/12.jpg')}}" data-fancybox><i class="fa fa-link"></i></a>
                             </div>
                         </div>
                     </div>
@@ -121,7 +82,7 @@
                             <div class="overlay-content-block">
                                 <h4>Baju Sablon</h4>
                                 <p>Baju Bola</p>
-                                <a href="{{ url('project')}}"><i class="fa fa-link"></i></a>
+                                <a href="{{ asset('assets/images/work/13.jpg')}}" data-fancybox><i class="fa fa-link"></i></a>
                             </div>
                         </div>
                     </div>
@@ -131,7 +92,7 @@
                             <div class="overlay-content-block">
                                 <h4>Baju Sablon</h4>
                                 <p>Baju sablon biasa</p>
-                                <a href="{{ url('project')}}"><i class="fa fa-link"></i></a>
+                                <a href="{{ asset('assets/images/work/14.jpg')}}" data-fancybox><i class="fa fa-link"></i></a>
                             </div>
                         </div>
                     </div>
@@ -141,7 +102,7 @@
                             <div class="overlay-content-block">
                                 <h4>Baju Sablon</h4>
                                 <p>Baju Bola lengan panjang</p>
-                                <a href="{{ url('project')}}"><i class="fa fa-link"></i></a>
+                                <a href="{{ asset('assets/images/work/15.jpg')}}" data-fancybox><i class="fa fa-link"></i></a>
                             </div>
                         </div>
                     </div>
@@ -149,5 +110,7 @@
             </div>
         </section>
     </section>
-
+    @push('scripts')
+    <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@4.0/dist/fancybox.umd.js"></script>
+    @endpush
 @endsection
