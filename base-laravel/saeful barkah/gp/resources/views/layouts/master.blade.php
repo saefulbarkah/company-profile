@@ -87,8 +87,6 @@
 
     <!-- Template Main JS File -->
     <script src="{{ asset('assets/js/main.js') }}"></script>
-    {{-- prosses js --}}
-    @stack('proses-js')
     @stack('scripts')
 </body>
 

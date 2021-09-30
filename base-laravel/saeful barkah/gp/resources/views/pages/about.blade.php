@@ -5,7 +5,7 @@
 @section('title', 'Genetic | Tentang Kami')
 @section('content')
 <!-- ======= About Section ======= -->
-<section id="about" class="about">
+<section class="about">
     <div class="container" data-aos="fade-up">
         <div class="section-title">
             <h2>Tentang</h2>
