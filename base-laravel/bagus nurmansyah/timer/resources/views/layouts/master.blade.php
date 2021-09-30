@@ -1,26 +1,27 @@
 <!DOCTYPE html>
 <html class="no-js">
 
-    <!-- Basic Page Needs
+<!-- Basic Page Needs
      ================================================== -->
-     <meta charset="utf-8">
-     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-     <link rel="icon" href="favicon.ico">
-     <title>@yield('title')</title>
-     <meta name="description" content="">
-     <meta name="keywords" content="">
-     <meta name="author" content="">
-     <!-- Mobile Specific Metas
+<meta charset="utf-8">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<link rel="icon" href="favicon.ico">
+<title>@yield('title')</title>
+<meta name="description" content="">
+<meta name="keywords" content="">
+<meta name="author" content="">
+<!-- Mobile Specific Metas
      ================================================== -->
-     <meta name="format-detection" content="telephone=no">
-     <meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="format-detection" content="telephone=no">
+<meta name="viewport" content="width=device-width, initial-scale=1">
 
-    {{-- head --}}
-    <head>
-        {{-- font awesome --}}
+{{-- head --}}
+
+<head>
+    {{-- font awesome --}}
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
-    integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
-        <!-- Template CSS Files
+        integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+    <!-- Template CSS Files
         ================================================== -->
     <!-- Twitter Bootstrs CSS -->
     <link rel="stylesheet" href=" {{ asset('assets/plugins/bootstrap/bootstrap.min.css')}} ">
@@ -39,10 +40,8 @@
     <!-- template main css file -->
     <link rel="stylesheet" href=" {{ asset('assets/css/style.css')}} ">
     <link rel="stylesheet" href=" {{ asset('assets/css/timeline.css')}} ">
-    {{-- portfolio & faq --}}
-    <link rel="stylesheet" href=" {{ asset('asset/css/style.css')}} ">
-    </head>
-    {{-- end head --}}
+</head>
+{{-- end head --}}
 
 <body>
 
@@ -80,11 +79,9 @@
     <script src="{{ asset('assets/plugins/slider/slider.js')}}"></script>
     <!-- Fancybox -->
     <script src="{{ asset('assets/plugins/facncybox/jquery.fancybox.js')}}"></script>
+    <script src="{{ asset('assets/vendor/glightbox/js/glightbox.js')}}"></script>
     <!-- template main js -->
     <script src="{{ asset('assets/js/main.js')}}"></script>
-    {{-- end javascripts --}}
-    {{-- portfolio & faq --}}
-    <script src="{{ asset('asset/js/main.js')}}"></script>
 
 </body>
 
