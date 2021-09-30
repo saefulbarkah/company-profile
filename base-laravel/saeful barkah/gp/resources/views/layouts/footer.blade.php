@@ -12,15 +12,16 @@
                             <strong>Email:</strong> genetic.wear@gmail.com<br>
                         </p>
                         <div class="social-links mt-3">
-                            <a href="https://www.instagram.com/gntcwr/" class="instagram"><i class="bx bxl-instagram"></i></a>
+                            <a href="https://www.instagram.com/gntcwr/" class="instagram"><i
+                                    class="bx bxl-instagram"></i></a>
                         </div>
                     </div>
                 </div>
                 <div class="col-lg-4 footer-links">
                     <h4>Layanan</h4>
                     <ul>
-                        <li><i class="bx bx-chevron-right"></i> <a href="{{ url('service/full-order') }}">Full order</a>
-                        <li><i class="bx bx-chevron-right"></i> <a href="{{ url('service/makloon-sublime') }}">Makloon
+                        <li><i class="bx bx-chevron-right"></i> <a href="{{ url('layanan/full-order') }}">Full order</a>
+                        <li><i class="bx bx-chevron-right"></i> <a href="{{ url('layanan/makloon-sublime') }}">Makloon
                                 sublime</a>
                         </li>
                     </ul>

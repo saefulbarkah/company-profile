@@ -1,5 +1,5 @@
 @extends('layouts.master')
-@push('proses-css')
+@push('styles')
 <link rel="stylesheet" href="{{ asset('assets/custom/time-line.css') }}">
 
 <style>
@@ -173,7 +173,7 @@
 </style>
 @endpush
 
-@section('page-title', 'Genetic Wear')
+@section('page-title', 'Genetic wear')
 @section('page-subtitle', 'konveksi & sablon')
 @section('title', 'Genetic | Beranda')
 @section('content')
@@ -189,7 +189,7 @@
             <div class="col-lg-6 pt-4 pt-lg-0 order-2 order-lg-1 content" data-aos="fade-right" data-aos-delay="100">
                 <h3>Selamat datang di genetic wear</h3>
                 <p>
-                    kami menyediakan layanan Konveksi dan Sablon. Kami menerima pembuatan :
+                    kami menyediakan layanan konveksi dan sablon. kami menerima pembuatan :
                 </p>
                 <ul>
                     <li><i class="ri-check-double-line"></i> Jersey</li>
@@ -197,7 +197,7 @@
                     <li><i class="ri-check-double-line"></i> Kaos</li>
                     <li><i class="ri-check-double-line"></i> Jaket</li>
                     <p>
-                        Genetic wear juga menyediakan sebuah jasa makloon sublime berupa printing dan press heat -
+                        Genetic wear juga menyediakan jasa makloon sublime berupa printing dan press heat -
                         transfer
                     </p>
                 </ul>
@@ -225,9 +225,9 @@
                                     <span class="timeline-year">1</span>
                                     <h3 class="title">Desain Produk</h3>
                                     <p class="description">
-                                        memilih jenis produk dan menentukan ukuran, warna, jumlah dan lainya, dan
+                                        memilih jenis produk dan menentukan ukuran, warna, jumlah dan lainya lalu
                                         diskusi
-                                        tentang desain serta pembuatan mock-up desain produk yang akan di buat
+                                        tentang desain pembuatan mock-up produk yang akan di buat
                                     </p>
                                 </a>
                             </div>
@@ -256,7 +256,7 @@
                                     <h3 class="title">Produksi</h3>
                                     <p class="description">
                                         Pembuatan produk sesuai dengan kesepakatan, dimana setiap prosesnya bisa di
-                                        lihat secara transparan di Genetic wear terintegrasi dengan sistem.
+                                        lihat secara transparan di genetic wear terintegrasi dengan sistem.
                                     </p>
                                 </a>
                             </div>

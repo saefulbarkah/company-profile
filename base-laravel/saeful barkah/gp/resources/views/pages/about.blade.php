@@ -12,18 +12,15 @@
             <p>Tentang kami</p>
         </div>
         <div class="row">
-            <div class="col-lg-6 order-1 order-lg-2" data-aos="fade-left" data-aos-delay="100">
-                <img src="assets/img/about.jpg" class="img-fluid" alt="">
-            </div>
             <div class="col-lg-12 pt-4 pt-lg-0 order-2 order-lg-1 content" data-aos="fade-right" data-aos-delay="100">
-                <h3>Genetic Wear</h3>
-                <p>
+                <h3>Genetic wear</h3>
+                <p style="text-align: justify">
                     Genetic wear merupakan sebuah perusahaan konveksi yang memiliki layanan desain pembuatan (kaos,
                     jersey, kemeja, jaket) dan makloon sublime printing beserta makloon sublime press heat transfer.
                     Genetic wear mulai didirikan pada tahun 2008 dengan penyedia layanan konveksi seiring perkembangan
                     waktu pada tahun 2010 perusahaan genetic wear mulai bergerak ke sebuah layanan baru yaitu sablon.
                     Terus berlanjut genetic wear mulai mengadakan sebuah layanan baru dengan alat teknologi terbaru
-                    yaitu sublime. Genetic Wear juga menyediakan layanan :
+                    yaitu sublime. Genetic Wear juga menyediakan layanan dan pembuatan :
 
                 </p>
                 <ul>
@@ -59,7 +56,7 @@
 
         <div class="section-title">
             <h2>Tim</h2>
-            <p>Tim Genetic Wear</p>
+            <p>Genetic wear</p>
         </div>
 
         <div class="row justify-content-center">

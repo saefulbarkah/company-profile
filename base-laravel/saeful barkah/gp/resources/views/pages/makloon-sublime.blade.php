@@ -62,7 +62,7 @@
                     sebagai media perantara tinta dan media cetak (seperti kaos dan jacket).
                     Uniknya, sublime printing menggunakan proses perubahan wujud zat tinta dari padat ke gas
                     atau sebaliknya tanpa perlu menjadi cairan seperti sablon. Genetic Wear dengan
-                    pengalaman cetak sublim selama bertahun-tahun, kami menjanjikan warna serta
+                    pengalaman cetak sublime selama bertahun-tahun, kami menjanjikan warna serta
                     gambar desain yang sesuai oleh
                     keinginan pelanggan.
                 </p>
