@@ -109,7 +109,7 @@
             <div class="row">
                 <div class="col-sm-12 col-md-12 col-lg-8 offset-lg-2 col-xl-8 offset-xl-2">
                     <div class="slider-content">
-                        <h1 class="slider--headline">Genetic wear<br></h1>
+                        <h1 class="slider--headline">Genetic <span class="text-lowercase">wear</span><br></h1>
                         <p class="slider--desc">konveksi & sablon</p>
                     </div>
                 </div>
@@ -237,8 +237,8 @@
         <div class="row">
             <div class="col-sm-12 col-md-12 col-lg-12 bg-gray col-content">
                 <div class="heading heading-2 mb-50">
-                    <p class="heading--subtitle">FAQ</p>
-                    <h2 class="heading--title">Yang sering di tanyakan</h2>
+                    <p class="heading--subtitle">Pertanyaan</p>
+                    <h2 class="heading--title">yang sering di tanyakan</h2>
                 </div>
                 <div class="accordion accordion-1" id="accordion01">
 

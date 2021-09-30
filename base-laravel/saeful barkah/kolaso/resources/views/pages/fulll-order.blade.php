@@ -9,30 +9,35 @@
     }
 
     /* Small devices (landscape phones, 576px and up) */
+    @media (min-width: 320px) (max-width: 350px) {
+        .card-img-top {
+            height: 50vw;
+        }
+    }
     @media (min-width: 576px) {
         .card-img-top {
-            height: 19vw;
+            height: 11vw;
         }
     }
 
     /* Medium devices (tablets, 768px and up) */
     @media (min-width: 768px) {
         .card-img-top {
-            height: 30vw;
+            height: 50vw;
         }
     }
 
     /* Large devices (desktops, 992px and up) */
     @media (min-width: 992px) {
         .card-img-top {
-            height: 11vw;
+            height: 30w;
         }
     }
 
     /* Extra large devices (large desktops, 1200px and up) */
     @media (min-width: 992px) {
         .card-img-top {
-            height: 18vw;
+            height: 20vw;
         }
     }
 </style>

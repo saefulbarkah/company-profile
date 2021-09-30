@@ -11,7 +11,7 @@
             <div class="col-sm-12 col-md-12 col-lg-8 offset-lg-2">
                 <div class="title text-center">
                     <div class="title--heading">
-                        <h1>Tentang kami</h1>
+                        <h1>Tentang <span class="text-lowercase">kami</span></h1>
                     </div>
                     <div class="clearfix"></div>
                     <ol class="breadcrumb d-flex justify-content-center">
@@ -50,7 +50,7 @@
         <div class="row">
             <div class="col-sm-12 col-md-12 col-lg-6 offset-lg-3">
                 <div class="heading heading-1 text--center">
-                    <p class="heading--subtitle">Tim kami</p>
+                    <p class="heading--subtitle">Tim <span class="text-lowercase">kami</span></p>
                     <h2 class="heading--title">Tim genetic wear</h2>
                     <p class="heading--desc"></p>
                 </div>

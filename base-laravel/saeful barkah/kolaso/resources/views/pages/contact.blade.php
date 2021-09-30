@@ -10,7 +10,7 @@
             <div class="col-sm-12 col-md-12 col-lg-8 offset-lg-2">
                 <div class="title text-center">
                     <div class="title--heading">
-                        <h1>Hubungi Kami</h1>
+                        <h1>Hubungi <span class="text-lowercase">kami</span></h1>
                     </div>
                     <div class="clearfix"></div>
                     <ol class="breadcrumb d-flex justify-content-center">
@@ -58,7 +58,7 @@
         <div class="row">
             <iframe
                 src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3960.071232505725!2d107.5719010142015!3d-7.000893970512589!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e68eead56b8f89f%3A0x3fc9157f74855daf!2sGenetic%20Wear%20Workshop!5e0!3m2!1sid!2sid!4v1630132691439!5m2!1sid!2sid"
-                width="100%" height="500" style="border:0;" allowfullscreen="" loading="lazy">
+                width="100%" height="500" style="border:0;" allowfullscreen="">
             </iframe>
         </div>
     </div>
