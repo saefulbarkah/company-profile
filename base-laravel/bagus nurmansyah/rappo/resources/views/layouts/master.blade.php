@@ -12,9 +12,6 @@
 
   <title>@yield('title')</title>
 
-  {{-- timeline css --}}
-  @stack('proses-css')
-
   @stack('styles')
   {{-- font awesome --}}
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
@@ -74,17 +71,11 @@ rel="stylesheet">
     <script src="{{ asset('assets/plugins/bootstrap/js/bootstrap.min.js')}}"></script>
     <!-- Slick Slider -->
     <script src="{{ asset('assets/plugins/slick-carousel/slick/slick.min.js')}}"></script>
-    <script src="{{ asset('assets/js/jquery.easing.1.3.js')}}"></script>
-    <!-- Map Js -->
-    <script src="{{ asset('assets/plugins/google-map/gmap3.min.js')}}"></script>
-    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDwIQh7LGryQdDDi-A603lR8NqiF3R_ycA"></script>
-
-    <script src="{{ asset('assets/js/form/contact.js')}}"></script>
     <script src="{{ asset('assets/js/theme.js')}}"></script>
-    <link href="assets/css/timeline.css" rel="stylesheet" id="bootstrap-css">
     <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
     <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <!------ Include the above in your HEAD tag ---------->
+    @stack('scripts')
 
 </body>
 
