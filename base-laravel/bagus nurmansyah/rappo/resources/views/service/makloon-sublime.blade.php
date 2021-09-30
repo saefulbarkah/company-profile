@@ -38,9 +38,25 @@
         }
     }
 </style>
-
 @endpush
 
+@include('layouts.navbar')
+   <!-- HERO
+    ================================================== -->
+    <section class="page-banner-area page-service">
+        <div class="overlay"></div>
+        <!-- Content -->
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-9 col-md-12 col-12 text-center">
+                    <div class="page-banner-content">
+                        <h1 class="display-4 font-weight-bold">Layanan full order</h1>
+                        <p>Kami ingin berbicara tentang bagaimana kami dapat membantu Anda.</p>
+                    </div>
+                </div>
+            </div> <!-- / .row -->
+        </div> <!-- / .container -->
+    </section>
 
 <!-- ======= About Section ======= -->
 <section id="about" class="about">
@@ -51,7 +67,7 @@
         </div>
         <div class="row">
             <div class="col-lg-6 order-1 order-lg-2" data-aos="fade-left" data-aos-delay="100">
-                <img src="{{ asset('assets/images/service/sublim-print.jpg') }}" class="img-fluid" alt="">
+                <img src="{{ asset('assets/images/services/sublim-print.jpg') }}" class="img-fluid" alt="">
             </div>
             <div class="col-lg-6 pt-4 pt-lg-0 order-2 order-lg-1 content" data-aos="fade-right" data-aos-delay="100">
                 <h3>Sublime Printing</h3>
@@ -78,7 +94,7 @@
 
         <div class="row">
             <div class="image col-lg-6" data-aos="fade-right">
-                <img src="{{ asset('assets/images/service/sublime-press.jpg') }}" class="img-fluid" alt="">
+                <img src="{{ asset('assets/images/services/sublime-press.jpg') }}" class="img-fluid" alt="">
             </div>
             <div class="col-lg-6 pt-4 pt-lg-0 order-2 order-lg-1 content" data-aos="fade-right" data-aos-delay="100">
                 <h3>Sublime Press - Heat Transfer</h3>

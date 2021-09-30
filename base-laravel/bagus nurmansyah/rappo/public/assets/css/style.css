@@ -467,6 +467,7 @@ PAGE BANNER
 .page-contact {
     position: relative;
     padding: 180px 0px;
+    height: 100vh;
     background: url("../images/banner/p-6.jpg") fixed 50% 50% no-repeat;
     background-size: cover;
 }
@@ -474,6 +475,7 @@ PAGE BANNER
 .page-service {
     position: relative;
     padding: 180px 0px;
+    height: 100vh;
     background: url("../images/banner/service.jpg") fixed 50% 50% no-repeat;
     background-size: cover;
 }
@@ -481,6 +483,7 @@ PAGE BANNER
 .page-about {
     position: relative;
     padding: 180px 0px;
+    height: 100vh;
     background: url("../images/banner/about.jpg") fixed 50% 50% no-repeat;
     background-size: cover;
 }
@@ -488,6 +491,7 @@ PAGE BANNER
 .page-pricing {
     position: relative;
     padding: 180px 0px;
+    height: 100vh;
     background: url("../images/banner/img2.jpg") fixed 50% 50% no-repeat;
     background-size: cover;
 }
@@ -495,11 +499,14 @@ PAGE BANNER
 .page-project {
     position: relative;
     padding: 180px 0px;
+    height: 100vh;
     background: url("../images/banner/p-4.jpg") fixed 50% 50% no-repeat;
     background-size: cover;
 }
 
 .page-banner-content h1 {
+    top: 0  ;
+    align-items: center;
     color: #fff;
 }
 
@@ -1601,6 +1608,7 @@ CONTACT PAGE
 -----------------------------------*/
 @media (max-width: 768px) {
     .display-4 {
+        margin-top: 45%;
         font-size: 2.5rem;
     }
     .top-info-block {
@@ -1701,6 +1709,10 @@ CONTACT PAGE
 
 /* Extra Small Devices, Phones */
 @media (max-width: 640px) {
+    .display-4 {
+        margin-top: 50%;
+        font-size: 2.5rem;
+    }
     .main-navigation {
         margin-top: 40px;
     }
@@ -1849,6 +1861,10 @@ CONTACT PAGE
 
 /* Custom, iPhone Retina */
 @media (max-width: 480px) {
+    .display-4 {
+        margin-top: 30%;
+        font-size: 2.5rem;
+    }
     .bg-light {
         background: transparent !important;
     }
@@ -1993,6 +2009,60 @@ CONTACT PAGE
         outline: none;
     }
 }
+
+
+
+/* responsive fix */
+
+/* // Extra small devices (portrait phones, less than 576px) */
+/* // No media query for `xs` since this is the default in Bootstrap */
+
+/* // Small devices (landscape phones, 576px and up) */
+@media (min-width: 320px) {
+    .display-4 {
+        margin-top: 30%;
+        font-size: 2.0rem;
+    }
+}
+
+@media (min-width: 375px) {
+    .display-4 {
+        font-size: 30px;
+        margin-top: 50%;
+        font-size: 2.0rem;
+    }
+}
+
+@media (min-width: 576px) {
+    .display-4 {
+        margin-top: 50%;
+        font-size: 2.5rem;
+    }
+}
+
+/* // Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+    .display-4 {
+        margin-top: 40%;
+        font-size: 3.0rem;
+    }
+ }
+
+/* // Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+    .display-4 {
+        margin-top: 30%;
+        font-size: 2.5rem;
+    }
+ }
+
+/* // Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+    .display-4 {
+        margin-top: 15%;
+        font-size: 3.5rem;
+    }
+ }
 
 /*--------------------------------------------------------------
 # Sections General epul

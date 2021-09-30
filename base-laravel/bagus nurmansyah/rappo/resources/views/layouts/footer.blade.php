@@ -9,7 +9,8 @@
                     <a href="#" class="footer-brand text-white">
                         Genetic Wear
                     </a>
-                    <p>Genetic merupakan penyedia layanan konveksi dan sablon yang berada di<br> Jl.Katapang Andir No.503, kabupaten Bandung, Jawa Barat 40921</p>
+                    <p>Genetic merupakan penyedia layanan konveksi dan sablon yang berada di<br> Jl.Katapang Andir
+                        No.503, kabupaten Bandung, Jawa Barat 40921</p>
                 </div>
             </div>
 
@@ -48,15 +49,18 @@
                     <h3>Social Media</h3>
                     <!-- Links -->
                     <ul class="list-unstyled footer-links">
-                        <li><a href="#"><i class="fab fa-facebook-f"></i>Facebook</a></li>
                         <li>
-                        <a href="#"><i class="fab fa-twitter"></i>Twitter
-                        </a></li>
-                        <li><a href="#"><i class="fab fa-instagram"></i>Instagram
-                        </a></li>
-                        <li><a href="#"><i class="fab fa-youtube"></i>YouTube
-                        </a></li>
-                    </ul>
+                            <a href="https://www.facebook.com/geneticwear/">
+                                <i class="fab fa-facebook-f">
+                                </i>Facebook
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.instagram.com/gntcwr/?hl=id" target="_blank">
+                                <i class="fab fa-instagram">
+                                </i>Instagram
+                            </a>
+                        </li>
                 </div>
             </div>
         </div> <!-- / .row -->
@@ -72,6 +76,3 @@
         </div> <!-- / .row -->
     </div> <!-- / .container -->
 </footer>
-
-
-
