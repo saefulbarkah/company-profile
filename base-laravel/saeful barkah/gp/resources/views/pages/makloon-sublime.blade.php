@@ -45,14 +45,14 @@
 @endpush
 <!-- ======= About Section ======= -->
 <section id="about" class="about">
-    <div class="container" data-aos="fade-up">
+    <div class="container">
         <div class="section-title">
             <h2>Jasa & Layanan</h2>
             <p>Makloon</p>
         </div>
         <div class="row">
-            <div class="col-lg-6 order-1 order-lg-2" data-aos="fade-left" data-aos-delay="100">
-                <img src="{{ asset('assets/img/services/sublim-print.jpg') }}" class="img-fluid" alt="">
+            <div class="col-lg-6 order-1 order-lg-2">
+                <img src="{{ asset('assets/img/services/sublime-print.jpg') }}" class="img-fluid" alt="">
             </div>
             <div class="col-lg-6 pt-4 pt-lg-0 order-2 order-lg-1 content" data-aos="fade-right" data-aos-delay="100">
                 <h3>Sublime printing</h3>
@@ -75,13 +75,13 @@
 
 <!-- ======= Features Section ======= -->
 <section id="about" class="about">
-    <div class="container" data-aos="fade-up">
+    <div class="container">
 
         <div class="row">
-            <div class="image col-lg-6" data-aos="fade-right">
+            <div class="image col-lg-6">
                 <img src="{{ asset('assets/img/services/sublime-press.jpg') }}" class="img-fluid" alt="">
             </div>
-            <div class="col-lg-6 pt-4 pt-lg-0 order-2 order-lg-1 content" data-aos="fade-right" data-aos-delay="100">
+            <div class="col-lg-6 pt-4 pt-lg-0 order-2 order-lg-1 content" data-aos="fade-left" data-aos-delay="100">
                 <h3>Sublime press - heat transfer</h3>
                 <p>Sublime press heat trasnfer merupakan mesin panas untuk memindahkan grafis dari
                     kertas transfer ke bahan tekstil dengan metode pemanasan dan penekanan

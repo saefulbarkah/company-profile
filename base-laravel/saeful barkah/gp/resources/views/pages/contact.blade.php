@@ -11,7 +11,7 @@
     <div class="container" data-aos="fade-up">
 
         <div class="section-title">
-            <h2>inforkmasi Kontak</h2>
+            <h2>informasi Kontak</h2>
             <p>Hubungi kami</p>
         </div>
         <div class="row mt-5">

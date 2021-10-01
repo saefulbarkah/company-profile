@@ -19,13 +19,12 @@
                     jersey, kemeja, jaket) dan makloon sublime printing beserta makloon sublime press heat transfer.
                     Genetic wear mulai didirikan pada tahun 2008 dengan penyedia layanan konveksi seiring perkembangan
                     waktu pada tahun 2010 perusahaan genetic wear mulai bergerak ke sebuah layanan baru yaitu sablon.
-                    Terus berlanjut genetic wear mulai mengadakan sebuah layanan baru dengan alat teknologi terbaru
-                    yaitu sublime. Genetic Wear juga menyediakan layanan dan pembuatan :
+                    Genetic Wear juga menyediakan layanan dan pembuatan di antaranya :
 
                 </p>
                 <ul>
                     <li><i class="ri-check-double-line"></i>
-                        jersey
+                        Jersey
                     </li>
                     <li><i class="ri-check-double-line"></i>
                         Kaos
@@ -65,14 +64,14 @@
                     <div class="card text-center mx-3 shadow">
                         <img src="{{ asset('assets/img/team/hannif.jpg') }}" class="card-img-top" alt="...">
                         <div class="card-body">
-                            <h5 class="card-title">Hannif Kurniawan</h5>
+                            <h5 class="card-title"><strong>Hannif Kurniawan</strong></h5>
                             <p class="card-text">CEO</p>
                         </div>
                     </div>
                     <div class="card text-center mx-3 shadow">
                         <img src="{{ asset('assets/img/team/angga.jpg') }}" class="card-img-top">
                         <div class="card-body">
-                            <h5 class="card-title">Angga Pratama</h5>
+                            <h5 class="card-title"><strong>Angga Pratama</strong></h5>
                             <p class="card-text">COO</p>
                         </div>
                     </div>

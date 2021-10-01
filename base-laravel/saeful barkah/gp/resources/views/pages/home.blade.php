@@ -169,6 +169,10 @@
         .main-timeline .title {
             font-size: 18px;
         }
+
+        .accordion {
+            background-color: transparent !important;
+        }
     }
 </style>
 @endpush
@@ -179,28 +183,22 @@
 @section('content')
 
 <!-- ======= About Section ======= -->
-<section id="about" class="about">
-    <div class="container" data-aos="fade-up">
+<section id="about mb-4" class="about">
+    <div class="container">
 
         <div class="row">
-            <div class="col-lg-6 order-1 order-lg-2" data-aos="fade-left" data-aos-delay="100">
-                <img src="{{ asset('assets/img/background/bg-welcome.png') }}" class="img-fluid" alt="">
+            <div class="col-lg-6 order-1 order-lg-2">
+                <img src="{{ asset('assets/img/background/bg-about.jpg') }}" class="img-fluid" alt="">
             </div>
-            <div class="col-lg-6 pt-4 pt-lg-0 order-2 order-lg-1 content" data-aos="fade-right" data-aos-delay="100">
-                <h3>Selamat datang di genetic wear</h3>
-                <p>
-                    kami menyediakan layanan berupa produk dan jasa. kami menerima pembuatan :
+            <div class="col-lg-6 pt-4 pt-lg-0 order-2 order-lg-1 content">
+                <h3>LEBIH DARI SEKEDAR MEMBUAT SEBUAH PRODUK...</h3>
+                <p style="text-align: justify">
+                    Tidak hanya bergerak di bidang pembuatan jersey dan sebagainya kami juga memiliki layanan berupa
+                    jasa untuk mencetak gambar anda dengan menggunakan sublime printing atau kami dapat menempelkan
+                    hasil printing yang sudah anda buat dengan menggunakan sublime press - heat transfer kedalam
+                    produk
+                    berbahan kain yang anda inginkan...
                 </p>
-                <ul>
-                    <li><i class="ri-check-double-line"></i> Jersey</li>
-                    <li><i class="ri-check-double-line"></i> Kemeja</li>
-                    <li><i class="ri-check-double-line"></i> Kaos</li>
-                    <li><i class="ri-check-double-line"></i> Jaket</li>
-                    <p>
-                        Genetic wear juga menyediakan jasa makloon sublime berupa printing dan press heat -
-                        transfer
-                    </p>
-                </ul>
             </div>
         </div>
 
@@ -210,10 +208,10 @@
 
 
 <!-- ======= Features Section ======= -->
-<section class="about mt-5" id="about">
+<section class="service mt-3" id="service">
     <div class="container" data-aos="fade-up">
         <div class="section-title text-center">
-            <p>Cara Pemesanan</p>
+            <p>Prosedur Pemesanan</p>
         </div>
         <div class="row mt-4">
             <div class="container">
@@ -301,7 +299,7 @@
                             <div class="accordion-body">
                                 Anda dapat meminta bantuan untuk pembuatan desain produk dengan memberikan referensi
                                 produk atau contoh produk dan detail produk yang dibutuhkan termasuk logo , tulisan ,
-                                dan font tulisan.
+                                dan huruf tulisan.
                             </div>
                         </div>
                     </div>
@@ -316,7 +314,7 @@
                             <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
                                 data-bs-parent="#accordionExample">
                                 <div class="accordion-body">
-                                    Kami menyediakan pembuatan baju diantaranya jersey, kemeja dan jaket
+                                    Kami menyediakan pembuatan baju diantaranya jersey, kemeja, kaos dan jaket
                                 </div>
                             </div>
                         </div>
