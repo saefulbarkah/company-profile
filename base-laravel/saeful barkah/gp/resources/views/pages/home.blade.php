@@ -189,7 +189,7 @@
             <div class="col-lg-6 pt-4 pt-lg-0 order-2 order-lg-1 content" data-aos="fade-right" data-aos-delay="100">
                 <h3>Selamat datang di genetic wear</h3>
                 <p>
-                    kami menyediakan layanan konveksi dan sablon. kami menerima pembuatan :
+                    kami menyediakan layanan berupa produk dan jasa. kami menerima pembuatan :
                 </p>
                 <ul>
                     <li><i class="ri-check-double-line"></i> Jersey</li>
@@ -210,10 +210,10 @@
 
 
 <!-- ======= Features Section ======= -->
-<section class="Proses">
+<section class="about mt-5" id="about">
     <div class="container" data-aos="fade-up">
-        <div class="section-title">
-            <p>Prosedur Pemesanan</p>
+        <div class="section-title text-center">
+            <p>Cara Pemesanan</p>
         </div>
         <div class="row mt-4">
             <div class="container">
@@ -221,7 +221,7 @@
                     <div class="col-md-12">
                         <div class="main-timeline">
                             <div class="timeline">
-                                <a href="#" class="timeline-content">
+                                <a class="timeline-content">
                                     <span class="timeline-year">1</span>
                                     <h3 class="title">Desain Produk</h3>
                                     <p class="description">
@@ -232,7 +232,7 @@
                                 </a>
                             </div>
                             <div class="timeline">
-                                <a href="#" class="timeline-content">
+                                <a class="timeline-content">
                                     <span class="timeline-year">2</span>
                                     <h3 class="title">Negosiasi Produk</h3>
                                     <p class="description">
@@ -241,7 +241,7 @@
                                 </a>
                             </div>
                             <div class="timeline">
-                                <a href="#" class="timeline-content">
+                                <a class="timeline-content">
                                     <span class="timeline-year">3</span>
                                     <h3 class="title">Uang muka</h3>
                                     <p class="description">
@@ -251,7 +251,7 @@
                                 </a>
                             </div>
                             <div class="timeline">
-                                <a href="#" class="timeline-content">
+                                <a class="timeline-content">
                                     <span class="timeline-year">4</span>
                                     <h3 class="title">Produksi</h3>
                                     <p class="description">
@@ -261,7 +261,7 @@
                                 </a>
                             </div>
                             <div class="timeline">
-                                <a href="#" class="timeline-content">
+                                <a class="timeline-content">
                                     <span class="timeline-year">5</span>
                                     <h3 class="title">Pelunasan pembayaran</h3>
                                     <p class="description">
@@ -280,7 +280,7 @@
 <!-- End Features Section -->
 
 <!-- ======= About Section ======= -->
-<section id="faq" class="about">
+<section id="faq" class="about mt-5">
     <div class="container" data-aos="fade-up">
         <div class="section-title">
             <h2>Pertanyaan</h2>
