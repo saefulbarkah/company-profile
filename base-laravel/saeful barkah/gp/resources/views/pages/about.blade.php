@@ -1,12 +1,18 @@
 @extends('layouts.master')
-
+@push('styles')
+<style>
+    .centering {
+        align-content: center !important;
+    }
+</style>
+@endpush
 @section('page-title', 'Genetic wear')
 @section('page-subtitle', 'tentang kami')
 @section('title', 'Genetic | Tentang Kami')
 @section('content')
 <!-- ======= About Section ======= -->
 <section class="about">
-    <div class="container" data-aos="fade-up">
+    <div class="container">
         <div class="section-title">
             <h2>Tentang</h2>
             <p>Tentang kami</p>
@@ -18,7 +24,7 @@
                     Genetic wear merupakan sebuah perusahaan konveksi yang memiliki layanan desain pembuatan (kaos,
                     jersey, kemeja, jaket) dan makloon sublime printing beserta makloon sublime press heat transfer.
                     Genetic wear mulai didirikan pada tahun 2008 dengan penyedia layanan konveksi seiring perkembangan
-                    waktu pada tahun 2010 perusahaan genetic wear mulai bergerak ke sebuah layanan baru yaitu sablon.
+                    waktu pada tahun 2010 perusahaan Genetic wear mulai bergerak ke sebuah layanan baru yaitu sablon.
                     Genetic Wear juga menyediakan layanan dan pembuatan di antaranya :
 
                 </p>
@@ -65,14 +71,14 @@
                         <img src="{{ asset('assets/img/team/hannif.jpg') }}" class="card-img-top" alt="...">
                         <div class="card-body">
                             <h5 class="card-title"><strong>Hannif Kurniawan</strong></h5>
-                            <p class="card-text">CEO</p>
+                            <p class="card-text" style="font-size: 14px;">CEO</p>
                         </div>
                     </div>
                     <div class="card text-center mx-3 shadow">
                         <img src="{{ asset('assets/img/team/angga.jpg') }}" class="card-img-top">
                         <div class="card-body">
                             <h5 class="card-title"><strong>Angga Pratama</strong></h5>
-                            <p class="card-text">COO</p>
+                            <p class="card-text" style="font-size: 14px;">COO</p>
                         </div>
                     </div>
                 </div>

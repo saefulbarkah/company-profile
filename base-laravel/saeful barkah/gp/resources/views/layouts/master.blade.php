@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8">
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
-
+    <meta https-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
     <title>@yield('title')</title>
     <!-- Google Fonts -->
     <link

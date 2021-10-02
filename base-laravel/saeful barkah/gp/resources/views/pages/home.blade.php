@@ -170,9 +170,25 @@
             font-size: 18px;
         }
 
-        .accordion {
-            background-color: transparent !important;
-        }
+    }
+
+    .accordion-button:not(.collapsed) {
+        background-color: #ffc451 !important;
+        color: black !important;
+        box-shadow: none !important;
+    }
+
+    .accordion-button:focus {
+        border-color: transparent !important;
+        box-shadow: none !important;
+    }
+
+    h2 .accordion-header {
+        font-weight: bold;
+    }
+
+    .accordion-body {
+        text-align: justify;
     }
 </style>
 @endpush
@@ -183,25 +199,32 @@
 @section('content')
 
 <!-- ======= About Section ======= -->
-<section id="about mb-4" class="about">
+<!-- ======= About Section ======= -->
+<section id="about" class="about">
     <div class="container">
 
         <div class="row">
-            <div class="col-lg-6 order-1 order-lg-2">
-                <img src="{{ asset('assets/img/background/bg-about.jpg') }}" class="img-fluid" alt="">
+            <div class="col-lg-6 order-1 order-lg-2" data-aos="fade-left" data-aos-delay="100">
+                <img src="{{ asset('assets/img/background/bg-welcome.png') }}" class="img-fluid" alt="">
             </div>
-            <div class="col-lg-6 pt-4 pt-lg-0 order-2 order-lg-1 content">
-                <h3>LEBIH DARI SEKEDAR MEMBUAT SEBUAH PRODUK...</h3>
-                <p style="text-align: justify">
-                    Tidak hanya bergerak di bidang pembuatan jersey dan sebagainya kami juga memiliki layanan berupa
-                    jasa untuk mencetak gambar anda dengan menggunakan sublime printing atau kami dapat menempelkan
-                    hasil printing yang sudah anda buat dengan menggunakan sublime press - heat transfer kedalam
-                    produk
-                    berbahan kain yang anda inginkan...
+            <div class="col-lg-6 pt-4 pt-lg-0 order-2 order-lg-1 content" data-aos="fade-right" data-aos-delay="100">
+                <h3>Selamat datang di Genetic wear</h3>
+                <p>
+                    Kami berpengalaman sejak tahun 2008 hingga sekarang, kami berkomitmen untuk
+                    memberikan layanan terbaik dan terpercaya. Kami menerima pembuatan produk diantaranya :
                 </p>
+                <ul>
+                    <li><i class="ri-check-double-line"></i> Jersey</li>
+                    <li><i class="ri-check-double-line"></i> Kemeja</li>
+                    <li><i class="ri-check-double-line"></i> Kaos</li>
+                    <li><i class="ri-check-double-line"></i> Jaket</li>
+                    <p>
+                        Kami juga memiliki jasa berupa makloon sublime printing dan sublime press heat transfer, tenang
+                        kualitas akan selalu terjaga oleh kami.
+                    </p>
+                </ul>
             </div>
         </div>
-
     </div>
 </section>
 <!-- End About Section -->
@@ -277,6 +300,20 @@
 </section>
 <!-- End Features Section -->
 
+<!-- ======= Cta Section ======= -->
+<section id="cta" class="cta">
+    <div class="container" data-aos="zoom-in">
+
+        <div class="text-center">
+            <h3>HUBUNGI KAMI BILA ANDA TERTARIK</h3>
+            <p style="text-align: center">Jika anda tertarik atau berminat memesan produk dan layanan kami anda dapat
+                menghubungi kami dengan menekan tombol di bawah. <br>Terima Kasih...</p>
+            <a class="cta-btn" href="{{ url('kontak') }}">Hubungi</a>
+        </div>
+
+    </div>
+</section><!-- End Cta Section -->
+
 <!-- ======= About Section ======= -->
 <section id="faq" class="about mt-5">
     <div class="container" data-aos="fade-up">
@@ -290,7 +327,7 @@
                     <div class="accordion-item">
                         <h2 class="accordion-header" id="headingOne">
                             <button class="accordion-button" type="button" data-bs-toggle="collapse"
-                                data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
                                 Apakah bisa dibuatkan desain produk ?
                             </button>
                         </h2>

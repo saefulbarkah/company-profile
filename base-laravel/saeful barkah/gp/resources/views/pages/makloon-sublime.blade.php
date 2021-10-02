@@ -59,7 +59,7 @@
                 <p>
                     Sublime printing merupakan salah satu alternatif teknik mencetak yang menggunakan
                     kertas
-                    sebagai media perantara tinta dan media cetak (seperti kaos dan jacket).
+                    sebagai media perantara tinta dan media cetak seperti (kaos dan jaket).
                     Uniknya, sublime printing menggunakan proses perubahan wujud zat tinta dari padat ke gas
                     atau sebaliknya tanpa perlu menjadi cairan seperti sablon. Genetic Wear dengan
                     pengalaman cetak sublime selama bertahun-tahun, kami menjanjikan warna serta
