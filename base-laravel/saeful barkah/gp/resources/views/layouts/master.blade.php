@@ -54,6 +54,7 @@
                     <h1>@yield('page-title')</h1>
                     <br>
                     <h2>@yield('page-subtitle')</h2>
+                    @yield('button')
                 </div>
             </div>
         </div>

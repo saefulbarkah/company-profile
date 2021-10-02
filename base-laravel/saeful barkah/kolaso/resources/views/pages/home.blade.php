@@ -132,7 +132,7 @@
                     <div class="col-col-sm-12 col-md-12 col-lg-12">
                         <div class="heading mb-60 mt-15">
                             <!-- <p class="heading--subtitle">Selamat Datang di</p> -->
-                            <h2 class="heading--title">Selamat datang di<br>genetic wear, kami menyediakan
+                            <h2 class="heading--title">Selamat datang di<br>Genetic wear, kami menyediakan
                                 layanan berupa konveksi & sablon
                             </h2>
                         </div>
